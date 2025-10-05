@@ -32,6 +32,7 @@ My research focuses on **Knowledge Representation & Reasoning**, with a spotligh
 I have published 5 papers with total google scholar citations  <a href='https://scholar.google.com/citations?user=hpVroWYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 # 🔥 News
+- *2025.10*:   🎉 Congratulations to **Xu Yuan**! Our co-authored paper has been accepted by **Eur. J. Artif. Intell.**!
 - *2025.07*: &nbsp; 🎉 A paper I contributed to has been accepted at **KR2025**!
 - *2025.02*: &nbsp; 🎉 I have been admitted as a **Research PhD Student** at Southeast University!
 
@@ -44,35 +45,38 @@ I have published 5 papers with total google scholar citations  <a href='https://
 
 # 📰 Publications
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> -->
 
+<div class='paper-box-text' markdown="1"> -->
 <!-- (__IF2024: 6.5__, <span style="color:red">CCF-A</span>) -->
  <!-- [[DOI](https://doi.org/10.1109/TSE.2024.3440503)]-->
 
-	
+
+1.  [[DOI](https://arxiv.org/abs/2507.19749)] **Can LLMs Solve ASP Problems? Insights from a Benchmarking Study**.  
+    Lin Ren, Guohui Xiao, Guilin Qi, <span style="color:blue">Yishuai Geng</span>, Haohan Xue.   
+    *In the 22nd International Conference on Principles of Knowledge Representation and Reasoning*, 2025. (<span style="color:red">CCF-B</span>)   
 1.  [[DOI](https://doi.org/10.1109/TETCI.2023.3300740)] **Self-Adaptive Deep Asymmetric Network for Imbalanced Recommendation**.  
-    Zhu, Yi, <span style="color:blue">Yishuai Geng</span>, Yun Li, Jipeng Qiang, Yunhao Yuan and Xindong Wu.   
+    Zhu Yi, <span style="color:blue">Yishuai Geng</span>, Yun Li, Jipeng Qiang, Yunhao Yuan and Xindong Wu.   
     In *IEEE Transactions on Emerging Topics in Computational Intelligence*, Jan 1, 2023. (<span style="color:red">SCI-Q2</span>)   
 
+3. [[DOI](https://doi.org/10.1007/s11704-023-2441-1)] **Representation Learning: Serial-Autoencoder for Personalized Recommendation**.  
+   Zhu Yi, <span style="color:blue">Yishuai Geng</span>, Yun Li, Jipeng Qiang and Xindong Wu.   
+   In *Frontiers of Computer Science*, Aug 1, 2024. (<span style="color:red">CCF-B, SCI-Q2</span>)   
 
-2.  [[DOI](https://doi.org/10.1007/s11704-023-2441-1)] **Representation Learning: Serial-Autoencoder for Personalized Recommendation**.  
-    Zhu, Yi, <span style="color:blue">Yishuai Geng</span>, Yun Li, Jipeng Qiang and Xindong Wu.   
-    In *Frontiers of Computer Science*, Aug 1, 2024. (<span style="color:red">CCF-B, SCI-Q2</span>)   
+4. [[DOI](https://doi.org/10.3389/fgene.2022.891265)] **Representation Learning Recommendation With Knowledge Graph via Triple-Autoencoder**.  
+   <span style="color:blue">Yishuai Geng</span>, Xiao Xiao, Xiaobing Sun and Yi Zhu.   
+   In *Frontiers in Genetics*, Jun 3, 2022.(<span style="color:red">SCI-Q3</span>)    
 
+5. [[DOI](https://doi.org/10.3390/app122312408)] **Multi-Feature Extension via Semi-Autoencoder for Personalized Recommendation**.  
+   <span style="color:blue">Yishuai Geng</span>, Yi Zhu, Yun Li, Xiaobing Sun and Bin Li.    
+   In *Applied Sciences-Basel*, Dec 1, 2022. (<span style="color:red">SCI-Q4</span>)      
 
-3.  [[DOI](https://doi.org/10.3389/fgene.2022.891265)] **Representation Learning Recommendation With Knowledge Graph via Triple-Autoencoder**.  
-    <span style="color:blue">Yishuai Geng</span>, Xiao Xiao, Xiaobing Sun and Yi Zhu.   
-    In *Frontiers in Genetics*, Jun 3, 2022.(<span style="color:red">SCI-Q3</span>)    
+6. [[DOI](https://doi.org/10.1177/30504554251388589)] **Soft Prompt-tuning for Personalized News Recommendation**.  
+   Xu Yuan, <span style="color:blue">Yishuai Geng</span>, Yi Zhu, Zhiyu Zhao, Runmei Zhang.   
+   In *The European Journal on Artificial Intelligence*, 2025. (<span style="color:red">SCI-Q4</span>)   
 
-
-4.  [[DOI](https://doi.org/10.3390/app122312408)] **Multi-Feature Extension via Semi-Autoencoder for Personalized Recommendation**.  
-    <span style="color:blue">Yishuai Geng</span>, Yi Zhu, Yun Li, Xiaobing Sun and Bin Li.    
-    In *Applied Sciences-Basel*, Dec 1, 2022. (<span style="color:red">SCI-Q4</span>)       
-
-
-5.  [[DOI](https://doi.org/10.19411/j.1007-824x.2022.06.011)] **Research Paper Recommendation Based on Pre-trained Language Model Feature Extension**.   
-    Zhang Xiaowei, <span style="color:blue">Geng Yishuai</span>, Li Bin.  
-    In *Journal of Yangzhou University (Natural Science Edition)*, Dec 22, 2022. (<span style="color:red">Peking University Core</span>)     
+7. [[DOI](https://doi.org/10.19411/j.1007-824x.2022.06.011)] **Research Paper Recommendation Based on Pre-trained Language Model Feature Extension**.   
+   Zhang Xiaowei, <span style="color:blue">Geng Yishuai</span>, Li Bin.  
+   In *Journal of Yangzhou University (Natural Science Edition)*, Dec 22, 2022. (<span style="color:red">Peking University Core</span>)     
 
 
 # 📝 Preprints
