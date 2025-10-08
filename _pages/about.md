@@ -32,13 +32,13 @@ My research focuses on **Knowledge Representation & Reasoning**, with a spotligh
 I have published 5 papers with total google scholar citations  <a href='https://scholar.google.com/citations?user=hpVroWYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 # 🔥 News
-- *2025.10*:   🎉 Congratulations to **Xu Yuan**! Our co-authored paper has been accepted by **Eur. J. Artif. Intell.**!
+- *2025.10*: &nbsp; 🎉 Congratulations to **Xu Yuan**! Our co-authored paper has been accepted by **Eur. J. Artif. Intell.**!
 - *2025.07*: &nbsp; 🎉 A paper I contributed to has been accepted at **KR2025**!
 - *2025.02*: &nbsp; 🎉 I have been admitted as a **Research PhD Student** at Southeast University!
 
 
 # 🎓 Education
-- *2025.02 - present*, Ph.D. in Computer Science and Technology, **Southeast University**, Nanjing, China.
+- *2025.03 - present*, Ph.D. in Computer Science and Technology, **Southeast University**, Nanjing, China.
 - *2021.09 - 2024.06*, M.E. in Computer Technology, **Yangzhou University**, Yangzhou, China.
 - *2017.09 - 2021.06*, B.E. in Computer Science and Technology, **Wuxi Taihu University**, Wuxi, China.
 
