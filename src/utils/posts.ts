@@ -1,6 +1,6 @@
 import type { CollectionEntry } from 'astro:content';
 
-type Post = CollectionEntry<'posts'>;
+type Post = CollectionEntry<'blogs'>;
 
 /**
  * Return one page of items without mutating the source array.

@@ -4,7 +4,7 @@ import type { APIContext } from 'astro';
 import { getCollection } from 'astro:content';
 
 export async function GET(context: APIContext) {
-  const posts = (await getCollection('posts'))
+  const posts = (await getCollection('blogs'))
     .filter((p) => !p.data.hidden && !p.data.draft)
     .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 

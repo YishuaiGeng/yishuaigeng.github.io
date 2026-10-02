@@ -39,7 +39,7 @@ yarn format         # Prettier
 ### Content Layer (Astro 6)
 
 - `src/content.config.ts` — collection schemas using `glob` loader + Zod
-- Collections: `posts`, `projects`, `people`, `teaching`, `announcements`, `books`
+- Collections: `blogs`, `projects`, `people`, `teaching`, `announcements`, `books`
 - Use `z.coerce.string()` for ISBN/OLID fields (YAML parses bare numbers as JS numbers)
 - Use `render(entry)` not `entry.render()` (Astro 6 API)
 - Posts support `draft: boolean` (excluded from listings and search index) and `lastmod: date` (shown in header, used in JSON-LD `dateModified`)
@@ -115,7 +115,7 @@ yarn format         # Prettier
 1. Add the feature flag to `site.ts` with a JSDoc comment
 2. Add any new content schema fields to `src/content.config.ts`
 3. Implement in the relevant component/page
-4. If it's a per-post CDN widget, add the frontmatter flag to `posts` schema and
+4. If it's a per-post CDN widget, add the frontmatter flag to `blogs` schema and
    inject the CDN script in `src/layouts/Post.astro` following the existing pattern
 5. Document in `CUSTOMIZE.md` under the appropriate section
 

@@ -45,7 +45,7 @@ function urlEntry({ url, lastmod, changefreq, priority }: UrlEntry): string {
 
 export async function GET(_ctx: APIContext): Promise<Response> {
   const [posts, projects] = await Promise.all([
-    getCollection('posts', (post) => !post.data.draft && !post.data.hidden),
+    getCollection('blogs', (post) => !post.data.draft && !post.data.hidden),
     getCollection('projects', (project) => !project.data.redirect),
   ]);
   const today = new Date().toISOString().split('T')[0];

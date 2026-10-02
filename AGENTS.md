@@ -10,7 +10,7 @@ Guidelines for AI agents (Claude Code, Codex, Copilot Workspace, etc.) contribut
 as-folio/
 ├── src/
 │   ├── config/site.ts        ← single config file (start here)
-│   ├── content/              ← collections: posts, projects, people, teaching, books, announcements
+│   ├── content/              ← collections: blogs, projects, people, teaching, books, announcements
 │   ├── data/
 │   │   ├── papers.bib        ← BibTeX bibliography
 │   │   ├── coauthors.yml     ← co-author profile links (LastName: { url, scholar, orcid })

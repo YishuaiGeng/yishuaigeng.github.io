@@ -3,7 +3,7 @@ import { site } from '@config/site';
 import Page from '@layouts/Page.astro';
 import { getCollection } from 'astro:content';
 
-const posts = await getCollection('posts', (p) => !p.data.hidden && !p.data.draft);
+const posts = await getCollection('blogs', (p) => !p.data.hidden && !p.data.draft);
 
 const tagCounts = new Map<string, number>();
 for (const post of posts) {

@@ -16,7 +16,7 @@ import { getCollection } from 'astro:content';
 import Base from './Base.astro';
 
 interface Props {
-  post: CollectionEntry<'posts'>;
+  post: CollectionEntry<'blogs'>;
   headings?: MarkdownHeading[];
 }
 
@@ -38,7 +38,7 @@ const lastmodFormatted = lastmod
 const rt = post.body ? calcReadingTime(post.body, site.blog.wordsPerMinute) : 1;
 
 // Related posts (if post has tags)
-const allPosts = await getCollection('posts');
+const allPosts = await getCollection('blogs');
 const related = post.data.relatedPosts ? relatedPosts(post, allPosts) : [];
 
 // JSON-LD BlogPosting schema

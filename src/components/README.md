@@ -44,7 +44,7 @@ Giscus comments, and per-post CDN widget injection.
 
 **Props:**
 
-- `post: CollectionEntry<'posts'>` — The post entry from the `posts` collection
+- `post: CollectionEntry<'blogs'>` — The post entry from the `blogs` collection
 - `headings?: MarkdownHeading[]` — Headings array (passed from MDX `getHeadings()` or
   Astro's `render()` result) used to build the TOC
 
@@ -57,7 +57,7 @@ publication format with side-notes and bibliography support.
 
 **Props:**
 
-- `post: CollectionEntry<'posts'>` — Post data (must have `distill: true` in frontmatter)
+- `post: CollectionEntry<'blogs'>` — Post data (must have `distill: true` in frontmatter)
 - `headings?: MarkdownHeading[]`
 
 ---
@@ -212,7 +212,7 @@ Card used in blog listing pages.
 
 **Props:**
 
-- `post: CollectionEntry<'posts'>`
+- `post: CollectionEntry<'blogs'>`
 
 ---
 
@@ -235,7 +235,7 @@ Date, tags, categories, and reading-time line shown below a post title.
 
 **Props:**
 
-- `posts: CollectionEntry<'posts'>[]`
+- `posts: CollectionEntry<'blogs'>[]`
 
 ---
 

@@ -180,7 +180,7 @@ function ogCard(title: string, description: string | undefined, type: string) {
 }
 
 export async function getStaticPaths(): Promise<GetStaticPathsResult> {
-  const posts = await getCollection('posts', (p) => !p.data.hidden && !p.data.draft);
+  const posts = await getCollection('blogs', (p) => !p.data.hidden && !p.data.draft);
   const projects = await getCollection('projects');
 
   return [

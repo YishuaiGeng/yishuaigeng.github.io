@@ -8,7 +8,7 @@ import { paginateItems } from '@utils/posts';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const localPosts = (await getCollection('posts'))
+  const localPosts = (await getCollection('blogs'))
     .filter((p) => !p.data.hidden && !p.data.draft)
     .sort((a, b) => {
       if (a.data.pinned !== b.data.pinned) return a.data.pinned ? -1 : 1;

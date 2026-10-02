@@ -170,7 +170,7 @@ socials: {
 Edit `src/pages/index.astro` to change the bio text. The About page auto-pulls from:
 
 - **Announcements**: up to `site.announcements.limit` items from `src/content/announcements/`
-- **Latest posts**: up to `site.latestPosts.limit` posts from `src/content/posts/`
+- **Latest posts**: up to `site.latestPosts.limit` posts from `src/content/blogs/`
 - **Selected papers**: entries with `selected = {true}` in `src/data/papers.bib`
 
 All three sections can be disabled in `site.ts`.
@@ -179,7 +179,14 @@ All three sections can be disabled in `site.ts`.
 
 ## 6. Blog posts
 
-Create `.md` or `.mdx` files in `src/content/posts/`:
+Create `.md` or `.mdx` files in `src/content/blogs/`. This directory is loaded as the `blogs`
+content collection and corresponds to **Blogs** in the navigation. Entries are published at
+`/blog/<filename>/`.
+
+For example, save a Jev study note as `src/content/blogs/learning-jev-basics.md`, with
+`categories: [Learning Notes]` and `tags: [Jev]` in its frontmatter.
+
+Example frontmatter and body:
 
 ```yaml
 ---

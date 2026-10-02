@@ -1,10 +1,10 @@
 import { glob } from 'astro/loaders';
 import { defineCollection, z } from 'astro:content';
 
-// ─── Posts ─────────────────────────────────────────────────────────────────
+// ─── Blogs ─────────────────────────────────────────────────────────────────
 
-const posts = defineCollection({
-  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/posts' }),
+const blogs = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/blogs' }),
   schema: z.object({
     title: z.string(),
     date: z.coerce.date(),
@@ -203,4 +203,4 @@ const books = defineCollection({
   }),
 });
 
-export const collections = { posts, projects, people, teaching, announcements, books };
+export const collections = { blogs, projects, people, teaching, announcements, books };
