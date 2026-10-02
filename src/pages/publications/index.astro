@@ -1,0 +1,146 @@
+---
+import BibSearch from '@components/publications/BibSearch.tsx';
+import { site } from '@config/site';
+import Page from '@layouts/Page.astro';
+import type { CoauthorMap } from '@utils/authors';
+import { withBase } from '@utils/base';
+import { getAuthors, getTitle, getVenue, parseBibtex } from '@utils/bibtex';
+import yaml from 'js-yaml';
+
+import citationsRaw from '../../data/citations.yml?raw';
+import coauthorsRaw from '../../data/coauthors.yml?raw';
+import bibRaw from '../../data/papers.bib?raw';
+
+const entries = parseBibtex(bibRaw).sort((a, b) => {
+  const yearA = parseInt(a.fields.year ?? '0', 10);
+  const yearB = parseInt(b.fields.year ?? '0', 10);
+  return yearB - yearA;
+});
+
+const coauthors = (yaml.load(coauthorsRaw) ?? {}) as CoauthorMap;
+const citations = (yaml.load(citationsRaw) ?? {}) as Record<string, number>;
+
+const showAltmetric = site.publications.badges.altmetric;
+const showDimensions = site.publications.badges.dimensions;
+const maxAuthorLimit = site.publications.maxAuthorLimit;
+const showThumbnails = site.publications.thumbnails;
+const authorLastName = site.publications.authorLastName ?? site.author.name.split(' ').pop() ?? '';
+const { labels } = site.publications;
+const previewDir = withBase(site.publications.previewDir);
+const pdfDir = withBase(site.publications.pdfDir);
+const scholarUserId = site.socials.scholar_userid ?? '';
+const badges = site.publications.badges;
+const citedPaperIds = new Set(
+  entries.map((entry) => entry.fields.google_scholar_id).filter((id): id is string => !!id),
+);
+const listedCitations = [...citedPaperIds].reduce((total, id) => total + (citations[id] ?? 0), 0);
+const totalCitations = citations.__profile_total ?? listedCitations;
+const scholarIcon = withBase('/assets/img/icons/google-scholar.svg');
+---
+
+<Page title="Publications" description={`Publications by ${site.author.name}`}>
+  <!-- Highwire Press citation meta tags — required for Google Scholar indexing -->
+  <Fragment slot="head">
+    {
+      entries.map((entry) => {
+        const authors = getAuthors(entry).split(', ');
+        return (
+          <>
+            <meta name="citation_title" content={getTitle(entry)} />
+            {authors.map((author) => (
+              <meta name="citation_author" content={author} />
+            ))}
+            {entry.fields.year && (
+              <meta name="citation_publication_date" content={entry.fields.year} />
+            )}
+            {getVenue(entry) && <meta name="citation_journal_title" content={getVenue(entry)} />}
+            {entry.fields.volume && <meta name="citation_volume" content={entry.fields.volume} />}
+            {entry.fields.pdf && (
+              <meta
+                name="citation_pdf_url"
+                content={
+                  entry.fields.pdf.startsWith('http')
+                    ? entry.fields.pdf
+                    : new URL(`${pdfDir}${entry.fields.pdf}`, site.url).toString()
+                }
+              />
+            )}
+            {entry.fields.doi && <meta name="citation_doi" content={entry.fields.doi} />}
+          </>
+        );
+      })
+    }
+  </Fragment>
+  <div class="post">
+    <header class="post-header">
+      <h1 class="post-title heading-with-icon">
+        <span class="heading-emoji" aria-hidden="true">📰</span>
+        <span>Publications</span>
+      </h1>
+    </header>
+
+    <article>
+      <BibSearch
+        client:load
+        entries={entries}
+        maxAuthorLimit={maxAuthorLimit}
+        showThumbnails={showThumbnails}
+        authorLastName={authorLastName}
+        previewDir={previewDir}
+        pdfDir={pdfDir}
+        labels={labels}
+        detailBase={site.base}
+        coauthors={coauthors}
+        citations={citations}
+        scholarUserId={scholarUserId}
+        totalCitations={totalCitations}
+        scholarIcon={scholarIcon}
+        badges={badges}
+      />
+    </article>
+  </div>
+</Page>
+
+{showAltmetric && <script is:inline src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" />}
+
+{showDimensions && <script is:inline async src="https://badge.dimensions.ai/badge.js" />}
+
+<style>
+  :global(.publication-count-row) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+    margin-top: 0.375rem;
+    font-size: 0.8125rem;
+    color: var(--global-text-color-light);
+  }
+
+  :global(.publication-count-row p) {
+    margin: 0;
+  }
+
+  :global(.citation-summary) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: var(--global-text-color-light);
+    text-decoration: none;
+  }
+
+  :global(.citation-summary:hover) {
+    color: var(--global-theme-color);
+  }
+
+  :global(.citation-summary strong) {
+    color: var(--global-text-color);
+    font-variant-numeric: tabular-nums;
+  }
+
+  :global(.citation-summary-icon) {
+    width: 0.95rem;
+    height: 0.95rem;
+    object-fit: contain;
+  }
+</style>

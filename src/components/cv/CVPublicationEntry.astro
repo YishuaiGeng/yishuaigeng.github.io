@@ -1,0 +1,121 @@
+---
+import { withBase } from '@utils/base';
+
+interface Props {
+  title: string;
+  authors?: string[];
+  venue?: string;
+  dates?: string;
+  url?: string;
+  authorLastName?: string;
+}
+
+const { title, authors = [], venue, dates, url, authorLastName = '' } = Astro.props;
+const normalizedLastName = authorLastName.toLowerCase();
+---
+
+<li class="list-group-item cv-publication-entry">
+  <div class="publication-date">
+    {dates && <span class="badge danger-color-dark">{dates}</span>}
+  </div>
+  <div class="publication-copy">
+    <h6 class="publication-title">
+      {
+        url ? (
+          <a href={withBase(url)} target="_blank" rel="noopener noreferrer">
+            {title}
+          </a>
+        ) : (
+          title
+        )
+      }
+    </h6>
+    {
+      authors.length > 0 && (
+        <p class="publication-authors">
+          {authors.map((author, index) => {
+            const lastName = author.split(/\s+/).pop()?.toLowerCase() ?? '';
+            return (
+              <>
+                {lastName === normalizedLastName ? (
+                  <strong class="self-author">{author}</strong>
+                ) : (
+                  author
+                )}
+                {index < authors.length - 1 ? ', ' : ''}
+              </>
+            );
+          })}
+        </p>
+      )
+    }
+    {venue && <p class="publication-venue">{venue}</p>}
+  </div>
+</li>
+
+<style>
+  .cv-publication-entry {
+    display: grid;
+    grid-template-columns: 5.25rem minmax(0, 1fr);
+    gap: 0.8rem;
+    align-items: start;
+  }
+
+  .publication-date {
+    padding-top: 0.1rem;
+    text-align: center;
+  }
+
+  .publication-date .badge {
+    min-width: 3.2rem;
+    font-weight: 600;
+  }
+
+  .publication-title {
+    margin: 0 0 0.18rem;
+    font-size: 0.92rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .publication-title a {
+    color: var(--global-text-color);
+    text-decoration: none;
+  }
+
+  .publication-title a:hover {
+    color: var(--global-theme-color);
+  }
+
+  .publication-authors,
+  .publication-venue {
+    margin: 0;
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+
+  .publication-authors {
+    color: var(--global-text-color);
+  }
+
+  .self-author {
+    border-bottom: 1px solid currentColor;
+    font-weight: 600;
+  }
+
+  .publication-venue {
+    color: var(--global-text-color-light);
+    font-style: italic;
+  }
+
+  @media (max-width: 480px) {
+    .cv-publication-entry {
+      grid-template-columns: 1fr;
+      gap: 0.35rem;
+    }
+
+    .publication-date {
+      text-align: left;
+    }
+  }
+</style>

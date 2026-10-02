@@ -1,0 +1,345 @@
+# RenderCV-compatible data used by the website CV page.
+cv:
+  name: Yishuai Geng
+  location: Nanjing, China
+  email: ysgeng@seu.edu.cn
+  date_of_birth: December 19, 1999
+  hometown: Yangzhou, Jiangsu, China
+  summary: PhD student at Southeast University studying knowledge representation and reasoning, logical reasoning with large language models, and recommender systems.
+  social_networks:
+    - network: GitHub
+      username: YishuaiGeng
+
+  sections:
+    education:
+      - institution: Southeast University
+        logo: /assets/img/institutions/southeast-university.png
+        area: Computer Science and Technology
+        degree: PhD
+        start_date: '2025-03'
+        end_date: present
+        location: Nanjing, China
+        highlights:
+          - 'Supervisor: Professor Guohui Xiao'
+
+      - institution: Yangzhou University
+        logo: /assets/img/institutions/yangzhou-university.png
+        area: Computer Technology
+        degree: M.E.
+        start_date: '2021-09'
+        end_date: '2024-06'
+        location: Yangzhou, China
+        highlights:
+          - 'Supervisor: Professor Yi Zhu'
+
+      - institution: Wuxi Taihu University
+        logo: /assets/img/institutions/wuxi-taihu-university.png
+        area: Computer Science and Technology
+        degree: B.E.
+        start_date: '2017-09'
+        end_date: '2021-06'
+        location: Wuxi, China
+
+    publications:
+      - title: 'Information-Needs-Guided Virtual Knowledge Graph Enrichment via Large Language Models'
+        authors:
+          [
+            Lin Ren,
+            Guohui Xiao,
+            Guilin Qi,
+            Wenjie Du,
+            Yishuai Geng,
+            Haohan Xue,
+            Zhiyan Yue,
+            Mingxuan Li,
+            Marco Di Panfilo,
+            Davide Lanti,
+            Kamal Hamaz,
+            Linfang Ding,
+          ]
+        date: '2026'
+        journal: Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence
+        doi: 10.24963/ijcai.2026/448
+
+      - title: 'NaVQA: Mitigating Silent Failures in Question Answering over Virtual Knowledge Graph'
+        authors:
+          [
+            Guohui Xiao,
+            Haohan Xue,
+            Lin Ren,
+            Yishuai Geng,
+            Guilin Qi,
+            Shenyu Zhang,
+            DeHao Guo,
+            Marco Di Panfilo,
+            Davide Lanti,
+            Linfang Ding,
+          ]
+        date: '2026'
+        journal: Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence
+        doi: 10.24963/ijcai.2026/455
+
+      - title: 'Can LLMs Solve ASP Problems? Insights from a Benchmarking Study'
+        authors: [Lin Ren, Guohui Xiao, Guilin Qi, Yishuai Geng, Haohan Xue]
+        date: '2025'
+        journal: 22nd International Conference on Principles of Knowledge Representation and Reasoning
+        url: https://arxiv.org/abs/2507.19749
+
+      - title: 'Soft Prompt-tuning for Personalized News Recommendation'
+        authors: [Xu Yuan, Yishuai Geng, Yi Zhu, Zhiyu Zhao, Runmei Zhang]
+        date: '2025'
+        journal: The European Journal on Artificial Intelligence
+        doi: 10.1177/30504554251388589
+
+      - title: 'Representation Learning: Serial-Autoencoder for Personalized Recommendation'
+        authors: [Yi Zhu, Yishuai Geng, Yun Li, Jipeng Qiang, Xindong Wu]
+        date: '2024'
+        journal: Frontiers of Computer Science
+        doi: 10.1007/s11704-023-2441-1
+
+      - title: 'Self-Adaptive Deep Asymmetric Network for Imbalanced Recommendation'
+        authors: [Yi Zhu, Yishuai Geng, Yun Li, Jipeng Qiang, Yunhao Yuan, Xindong Wu]
+        date: '2023'
+        journal: IEEE Transactions on Emerging Topics in Computational Intelligence
+        doi: 10.1109/TETCI.2023.3300740
+
+      - title: 'Representation Learning Recommendation With Knowledge Graph via Triple-Autoencoder'
+        authors: [Yishuai Geng, Xiao Xiao, Xiaobing Sun, Yi Zhu]
+        date: '2022'
+        journal: Frontiers in Genetics
+        doi: 10.3389/fgene.2022.891265
+
+      - title: 'Multi-Feature Extension via Semi-Autoencoder for Personalized Recommendation'
+        authors: [Yishuai Geng, Yi Zhu, Yun Li, Xiaobing Sun, Bin Li]
+        date: '2022'
+        journal: Applied Sciences
+        doi: 10.3390/app122312408
+
+      - title: 'Research Paper Recommendation Based on Pre-trained Language Model Feature Extension'
+        authors: [Xiaowei Zhang, Yishuai Geng, Bin Li]
+        date: '2022'
+        journal: Journal of Yangzhou University (Natural Science Edition)
+        doi: 10.19411/j.1007-824x.2022.06.011
+
+    patents:
+      - title: A multi-feature extension autoencoder recommendation algorithm based on PNN
+        date: '2023-08'
+        issuer: Patent No. CN202311018096.X; second inventor
+
+      - title: A recommendation algorithm based on serial autoencoder
+        date: '2022-10'
+        issuer: Patent No. CN202211260963.6; second inventor
+
+      - title: A movie recommendation method based on triple autoencoder combined with knowledge graph
+        date: '2022-04'
+        issuer: Patent No. CN202210381395.9; second inventor
+
+      - title: A fully automatic car washing device
+        date: '2021-05'
+        issuer: Patent No. CN202021608047.3; third inventor
+
+    conferences:
+      - title: Academic exchange, oral presentation, and Outstanding Student recognition
+        date: '2024-07'
+        issuer: East China University of Science and Technology
+        location: Shanghai, China
+        url: /assets/img/achievements/conferences/2024-outstanding-student.jpg
+
+      - title: Graduate academic exchange
+        date: '2024-03'
+        issuer: Kyushu Institute of Technology
+        location: Fukuoka, Japan
+        url: /assets/img/achievements/conferences/2024-kyutech-exchange.jpg
+
+      - title: Oral presentation at the 8th IEEE International Conference on Cyber Security and Data Science
+        date: '2023-08'
+        location: Hefei, China
+        url: /assets/img/achievements/conferences/2023-ieee-dsc.jpg
+
+    honors:
+      - name: Outstanding Student Cadre, 2025-2026 Academic Year
+        date: '2026-09'
+        institution: Southeast University
+
+      - name: Outstanding Communist Party Member
+        date: '2026-03'
+        institution: Southeast University
+
+      - name: Outstanding Graduate, Class of 2024
+        date: '2024-05'
+        institution: Yangzhou University
+        url: /assets/img/achievements/honors/2024-yangzhou-outstanding-graduate.jpg
+
+      - name: Three Good Student
+        date: '2023-11'
+        institution: Yangzhou University
+        url: /assets/img/achievements/honors/2023-yangzhou-three-good-student.jpg
+
+      - name: Outstanding Volunteer, Yangzhou Jianzhen Half Marathon and Grand Canal Marathon Series
+        date: '2023-04'
+        institution: Yangzhou University
+        url: /assets/img/achievements/honors/2023-marathon-outstanding-volunteer.jpg
+
+      - name: Three Good Student
+        date: '2022-11'
+        institution: Yangzhou University
+        issuer: School of Information Engineering (School of Artificial Intelligence)
+
+      - name: Outstanding Graduate, Class of 2021
+        date: '2021-06'
+        institution: Wuxi Taihu University
+        url: /assets/img/achievements/honors/2021-wuxi-taihu-outstanding-graduate.jpg
+
+      - name: Three Good Student Model
+        date: '2020-12'
+        institution: Wuxi Taihu University
+        url: /assets/img/achievements/honors/2020-three-good-student-model.jpg
+
+      - name: 'Jiangsu Province "Good Youth Around Us" - Diligent and Progressive Youth'
+        date: '2020-10'
+        institution: Wuxi Taihu University
+        highlights: ['Selected as one of three recipients from Wuxi']
+        url: 'https://mp.weixin.qq.com/s?__biz=MjM5NDgxMzcxMQ==&mid=2649990108&idx=1&sn=263ea035c552cd4a57a485afc5d7d7d2&chksm=be8501bc89f288aa15a7a406abbe281a497033c1fe7b4f5b3a7595f202935b57b13f3d813bf4'
+
+      - name: Jiangsu Province Outstanding Student Cadre
+        date: '2020-06'
+        institution: Wuxi Taihu University
+        url: /assets/img/achievements/honors/2020-jiangsu-outstanding-student-cadre.jpg
+
+      - name: 'Ninth Wuxi Taihu University "Taihu Star" - Research Star'
+        date: '2020-05'
+        institution: Wuxi Taihu University
+        url: 'https://baijiahao.baidu.com/s?id=1668006417178699913&wfr=spider&for=pc'
+
+      - name: 2019 Outstanding Communist Youth League Cadre
+        date: '2020-05'
+        institution: Wuxi Taihu University
+        url: /assets/img/achievements/honors/2020-outstanding-youth-league-cadre.jpg
+
+      - name: Three Good Student Model
+        date: '2019-12'
+        institution: Wuxi Taihu University
+        url: /assets/img/achievements/honors/2019-three-good-student-model.jpg
+
+      - name: Wuxi City Three Good Student
+        date: '2019-07'
+        institution: Wuxi Taihu University
+        url: /assets/img/achievements/honors/2019-wuxi-three-good-student.jpg
+
+      - name: 2018 Outstanding Communist Youth League Cadre
+        date: '2019-05'
+        institution: Wuxi Taihu University
+        url: /assets/img/achievements/honors/2019-outstanding-youth-league-cadre.jpg
+
+      - name: Three Good Student
+        date: '2018-12'
+        institution: Wuxi Taihu University
+        url: /assets/img/achievements/honors/2018-three-good-student.jpg
+
+    awards:
+      - name: National Scholarship for Graduate Students
+        date: '2023-10'
+        institution: Yangzhou University
+        issuer: Ministry of Education of China
+        url: /assets/img/achievements/awards/2023-national-scholarship.jpg
+
+      - name: First-class Academic Scholarship for Graduate Students
+        date: '2023-10'
+        institution: Yangzhou University
+        highlights: ['Ranked 1/78']
+        url: /assets/img/achievements/awards/2023-graduate-first-class-scholarship.png
+
+      - name: Xinxiang Technology Enterprise Scholarship
+        date: '2023-04'
+        institution: Yangzhou University
+
+      - name: First-class Academic Scholarship for Graduate Students
+        date: '2022-10'
+        institution: Yangzhou University
+        highlights: ['Ranked 4/78']
+        url: /assets/img/achievements/awards/2022-graduate-first-class-scholarship.jpg
+
+      - name: Outstanding Needy Graduate Student Grant
+        date: '2022-10'
+        institution: Yangzhou University
+
+      - name: First-class Scholarship
+        date: '2020-12'
+        institution: Wuxi Taihu University
+        highlights: ['Ranked 1/36']
+        url: /assets/img/achievements/awards/2020-first-class-scholarship.jpg
+
+      - name: National Encouragement Scholarship
+        date: '2020-11'
+        institution: Wuxi Taihu University
+        issuer: Ministry of Education of China
+        url: /assets/img/achievements/awards/2020-national-encouragement-scholarship.jpg
+
+      - name: National Encouragement Scholarship
+        date: '2019-11'
+        institution: Wuxi Taihu University
+        issuer: Ministry of Education of China
+        url: /assets/img/achievements/awards/2019-national-encouragement-scholarship.jpg
+
+      - name: First-class Scholarship
+        date: '2019-10'
+        institution: Wuxi Taihu University
+        highlights: ['Ranked 1/36']
+        url: /assets/img/achievements/awards/2019-first-class-scholarship.jpg
+
+      - name: First-class Scholarship
+        date: '2018-12'
+        institution: Wuxi Taihu University
+        highlights: ['Ranked 1/36']
+        url: /assets/img/achievements/awards/2018-first-class-scholarship.jpg
+
+    competitions:
+      - name: 18th Challenge Cup National College Students Extracurricular Academic Science and Technology Works Competition
+        level: National
+        prize: Third Prize
+        date: '2023-09'
+        url: /assets/img/achievements/competitions/2023-challenge-cup-third-prize.jpg
+
+      - name: 10th Jiangsu Province College Students Robot Competition
+        level: Provincial
+        prize: Third Prize
+        date: '2019-10'
+        url: /assets/img/achievements/competitions/2019-jiangsu-robot-third-prize.jpg
+
+      - name: National College Students Electronic Design Competition, Jiangsu Division
+        level: Provincial
+        prize: Second Prize
+        date: '2019-09'
+        url: /assets/img/achievements/competitions/2019-electronic-design-second-prize.jpg
+
+      - name: 14th National College Students NXP Cup Intelligent Car Competition
+        level: Provincial
+        prize: Second Prize
+        date: '2019-08'
+        url: /assets/img/achievements/competitions/2019-nxp-smart-car-second-prize.jpg
+
+      - name: China Engineering Robot Competition and International Open Competition
+        level: National
+        prize: First Prize
+        date: '2019-04'
+        url: /assets/img/achievements/competitions/2019-engineering-robot-first-prize.jpg
+
+      - name: 10th Blue Bridge Cup Jiangsu Division, C/C++ Programming University Group B
+        level: Provincial
+        prize: Third Prize
+        date: '2019-03'
+        url: /assets/img/achievements/competitions/2019-blue-bridge-cpp-third-prize.jpg
+
+      - name: 9th Jiangsu Province College Students Robot Competition
+        level: Provincial
+        prize: Third Prize
+        date: '2018-11'
+        url: /assets/img/achievements/competitions/2018-jiangsu-robot-third-prize.jpg
+
+    academic_service:
+      - name: Journal reviewer
+        highlights:
+          - Engineering Applications of Artificial Intelligence
+          - Intelligent Information Systems
+          - Knowledge and Information Systems
+          - Knowledge-Based Systems

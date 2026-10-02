@@ -1,0 +1,421 @@
+---
+import PostCard from '@components/blog/PostCard.astro';
+import EmptyState from '@components/EmptyState.astro';
+import Pagination from '@components/Pagination.astro';
+import { site } from '@config/site';
+import Page from '@layouts/Page.astro';
+import { fetchExternalPosts } from '@utils/external-posts';
+import { paginateItems } from '@utils/posts';
+import { readingTime } from '@utils/reading-time';
+import { getCollection } from 'astro:content';
+
+import IconBookOpen from '~icons/fa-solid/book-open';
+import IconCalendar from '~icons/fa-solid/calendar';
+import IconCode from '~icons/fa-solid/code';
+import IconGraduationCap from '~icons/fa-solid/graduation-cap';
+import IconHashtag from '~icons/fa-solid/hashtag';
+import IconPen from '~icons/fa-solid/pen';
+import IconTag from '~icons/fa-solid/tag';
+import IconTags from '~icons/fa-solid/tags';
+import IconThumbtack from '~icons/fa-solid/thumbtack';
+
+const localPosts = (await getCollection('posts'))
+  .filter((p) => !p.data.hidden && !p.data.draft)
+  .sort((a, b) => {
+    if (a.data.pinned !== b.data.pinned) return a.data.pinned ? -1 : 1;
+    return b.data.date.getTime() - a.data.date.getTime();
+  });
+
+const externalPosts = await fetchExternalPosts();
+
+type LocalPost = (typeof localPosts)[number];
+type ExternalPost = {
+  external: true;
+  id: string;
+  url: string;
+  data: {
+    title: string;
+    date: Date;
+    description?: string;
+    tags: string[];
+    categories: string[];
+    image?: string;
+  };
+  body?: undefined;
+};
+
+const allPosts: (LocalPost | ExternalPost)[] = [
+  ...localPosts,
+  ...externalPosts.map((ep) => ({
+    external: true as const,
+    id: ep.url,
+    url: ep.url,
+    body: undefined,
+    data: {
+      title: ep.title,
+      date: ep.publishedDate,
+      description: ep.description,
+      tags: ep.tags,
+      categories: ep.categories,
+      image: undefined,
+    },
+  })),
+].sort((a, b) => {
+  const aPin = 'pinned' in a.data ? (a.data as { pinned?: boolean }).pinned : false;
+  const bPin = 'pinned' in b.data ? (b.data as { pinned?: boolean }).pinned : false;
+  if (aPin !== bPin) return aPin ? -1 : 1;
+  return b.data.date.getTime() - a.data.date.getTime();
+});
+
+const perPage = site.blog.postsPerPage;
+const totalPages = Math.ceil(allPosts.length / perPage);
+const pagePosts = paginateItems(allPosts, 1, perPage);
+
+// Featured cards count toward the first page limit and are omitted from its list below.
+const pinnedPosts = localPosts.filter((post) => post.data.pinned).slice(0, perPage);
+const pinnedIds = new Set(pinnedPosts.map((post) => post.id));
+const listedPagePosts = pagePosts.filter((post) => !pinnedIds.has(post.id));
+
+const displayTags = site.blog.displayTags;
+const collections = site.blog.collections;
+
+const collectionIcons = {
+  book: IconBookOpen,
+  learning: IconGraduationCap,
+  code: IconCode,
+  pen: IconPen,
+};
+
+// Grid column count for featured cards
+const featuredCols = pinnedPosts.length >= 3 ? '3' : '2';
+
+// Group pagePosts by year for the list section
+const postsByYear = new Map<number, typeof listedPagePosts>();
+for (const post of listedPagePosts) {
+  const year = post.data.date.getFullYear();
+  if (!postsByYear.has(year)) postsByYear.set(year, []);
+  postsByYear.get(year)!.push(post);
+}
+const postYears = [...postsByYear.keys()].sort((a, b) => b - a);
+---
+
+<Page title={site.blog.name} description={site.blog.description}>
+  <header class="blog-header">
+    <h1 class="heading-with-icon">
+      <span class="heading-emoji" aria-hidden="true">📝</span>
+      <span>{site.blog.name}</span>
+    </h1>
+    <p>{site.blog.description}</p>
+  </header>
+
+  <section class="blog-directory" aria-labelledby="collections-heading">
+    <h2 id="collections-heading">{site.blog.labels.collections}</h2>
+    <div class="collection-grid">
+      {
+        collections.map((collection) => {
+          const CollectionIcon = collectionIcons[collection.icon];
+          const count = allPosts.filter((post) =>
+            post.data.categories.includes(collection.name),
+          ).length;
+          const countLabel =
+            count === 1 ? site.blog.labels.noteSingular : site.blog.labels.notePlural;
+
+          return (
+            <a class="collection-link" href={`${site.base}/blog/category/${collection.name}/`}>
+              <span class="collection-icon" aria-hidden="true">
+                <CollectionIcon />
+              </span>
+              <span class="collection-copy">
+                <span class="collection-title-row">
+                  <strong>{collection.name}</strong>
+                  <span class="collection-count">
+                    {count} {countLabel}
+                  </span>
+                </span>
+                <span class="collection-description">{collection.description}</span>
+              </span>
+            </a>
+          );
+        })
+      }
+    </div>
+  </section>
+
+  <section class="topic-directory" aria-labelledby="topics-heading">
+    <h2 id="topics-heading">{site.blog.labels.topics}</h2>
+    <div class="topic-links">
+      {
+        displayTags.map((tag) => (
+          <a href={`${site.base}/blog/tag/${tag}/`}>
+            <IconHashtag aria-hidden="true" />
+            <span>{tag}</span>
+          </a>
+        ))
+      }
+      <a class="all-tags-link" href={`${site.base}/blog/tags/`}>
+        <IconTags aria-hidden="true" />
+        <span>{site.blog.labels.allTags}</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Featured / Pinned posts card grid -->
+  {
+    pinnedPosts.length > 0 && (
+      <>
+        <br />
+        <div class="featured-posts container">
+          <div class={`row row-cols-${featuredCols}`}>
+            {pinnedPosts.map((post) => {
+              const mins = post.body ? readingTime(post.body, site.blog.wordsPerMinute) : 1;
+              const year = post.data.date.getFullYear();
+              return (
+                <div class="col mb-4">
+                  <a href={`${site.base}/blog/${post.id}/`}>
+                    <div class="card hoverable">
+                      <div class="row g-0">
+                        <div class="col-md-12">
+                          <div class="card-body">
+                            <div class="float-right">
+                              <IconThumbtack style="font-size:0.75rem;" />
+                            </div>
+                            <h3 class="card-title">{post.data.title}</h3>
+                            {post.data.description && (
+                              <p class="card-text">{post.data.description}</p>
+                            )}
+                            <p class="post-meta">
+                              {mins} min read &nbsp;&middot;&nbsp;
+                              <span>
+                                <IconCalendar style="font-size:0.75rem;" /> {year}
+                              </span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <hr style="margin-bottom: 2rem;" />
+      </>
+    )
+  }
+
+  <div class="notes-heading">
+    <IconTag aria-hidden="true" />
+    <h2>{site.blog.labels.allNotes}</h2>
+  </div>
+
+  <!-- Post list grouped by year -->
+  {
+    pagePosts.length === 0 ? (
+      <EmptyState title={site.blog.emptyTitle} description={site.blog.emptyMessage} />
+    ) : (
+      postYears.map((year) => (
+        <>
+          <h2 class="year">
+            <a
+              href={`${site.base}/blog/year/${year}/`}
+              style="color: inherit; text-decoration: none;"
+            >
+              {year}
+            </a>
+          </h2>
+          <ul class="post-list">
+            {postsByYear.get(year)!.map((post) => (
+              <li>
+                <PostCard post={post} />
+              </li>
+            ))}
+          </ul>
+        </>
+      ))
+    )
+  }
+
+  <Pagination
+    currentPage={1}
+    totalPages={totalPages}
+    prevUrl={undefined}
+    nextUrl={totalPages > 1 ? `${site.base}/blog/page/2/` : undefined}
+    basePath={`${site.base}/blog/`}
+  />
+</Page>
+
+<style>
+  .blog-header {
+    border-bottom: 1px solid var(--global-divider-color);
+    padding: 0.25rem 0 1.5rem;
+  }
+
+  .blog-header h1 {
+    color: var(--global-text-color);
+    font-family: var(--font-sans);
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 0.35rem;
+  }
+
+  .blog-header p {
+    color: var(--global-text-color-light);
+    font-size: 0.98rem;
+    line-height: 1.6;
+    margin: 0;
+    max-width: 46rem;
+  }
+
+  .blog-directory,
+  .topic-directory {
+    margin-top: 1.75rem;
+  }
+
+  .blog-directory > h2,
+  .topic-directory > h2,
+  .notes-heading h2 {
+    color: var(--global-text-color);
+    font-family: var(--font-sans);
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 0.8rem;
+  }
+
+  .collection-grid {
+    display: grid;
+    gap: 0.65rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .collection-link {
+    align-items: flex-start;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    color: var(--global-text-color);
+    display: flex;
+    gap: 0.8rem;
+    min-width: 0;
+    padding: 0.9rem;
+    text-decoration: none;
+    transition:
+      border-color 0.15s ease,
+      background-color 0.15s ease;
+  }
+
+  .collection-link:hover {
+    background-color: var(--global-card-bg-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-text-color);
+  }
+
+  .collection-icon {
+    align-items: center;
+    background-color: var(--global-theme-color);
+    border-radius: 5px;
+    color: var(--global-hover-text-color);
+    display: inline-flex;
+    flex: 0 0 2rem;
+    height: 2rem;
+    justify-content: center;
+  }
+
+  .collection-icon :global(svg) {
+    height: 0.95rem;
+    width: 0.95rem;
+  }
+
+  .collection-copy {
+    display: block;
+    min-width: 0;
+  }
+
+  .collection-title-row {
+    align-items: baseline;
+    display: flex;
+    gap: 0.65rem;
+    justify-content: space-between;
+  }
+
+  .collection-title-row strong {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+  }
+
+  .collection-count {
+    color: var(--global-text-color-light);
+    flex: 0 0 auto;
+    font-size: 0.72rem;
+  }
+
+  .collection-description {
+    color: var(--global-text-color-light);
+    display: block;
+    font-size: 0.82rem;
+    line-height: 1.45;
+    margin-top: 0.2rem;
+  }
+
+  .topic-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  .topic-links a {
+    align-items: center;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    color: var(--global-text-color-light);
+    display: inline-flex;
+    font-size: 0.78rem;
+    gap: 0.35rem;
+    min-height: 1.9rem;
+    padding: 0.25rem 0.55rem;
+    text-decoration: none;
+  }
+
+  .topic-links a:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+
+  .topic-links :global(svg),
+  .notes-heading :global(svg) {
+    flex: 0 0 auto;
+    height: 0.75rem;
+    width: 0.75rem;
+  }
+
+  .all-tags-link {
+    color: var(--global-theme-color) !important;
+  }
+
+  .notes-heading {
+    align-items: center;
+    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-theme-color);
+    display: flex;
+    gap: 0.45rem;
+    margin-top: 2.25rem;
+    padding-bottom: 0.6rem;
+  }
+
+  .notes-heading h2 {
+    margin: 0;
+  }
+
+  @media (max-width: 640px) {
+    .blog-header h1 {
+      font-size: 1.75rem;
+    }
+
+    .collection-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .collection-link {
+      padding: 0.8rem;
+    }
+  }
+</style>

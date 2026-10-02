@@ -1,0 +1,43 @@
+---
+interface Props {
+  title: string;
+  id?: string;
+  icon?: string;
+}
+
+const { title, id, icon } = Astro.props;
+---
+
+<a class="anchor" id={id}></a>
+<section class="card cv-section">
+  <h3 class="card-title font-weight-medium">
+    {
+      icon && (
+        <span class="cv-section-emoji" aria-hidden="true">
+          {icon}
+        </span>
+      )
+    }
+    <span>{title}</span>
+  </h3>
+  <div>
+    <slot />
+  </div>
+</section>
+
+<style>
+  .card-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .cv-section-emoji {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.25rem;
+    flex: 0 0 1.25rem;
+    line-height: 1;
+  }
+</style>

@@ -1,0 +1,50 @@
+---
+import IconClock from '~icons/fa-solid/clock';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<section class="empty-state" aria-label={title}>
+  <IconClock aria-hidden="true" />
+  <h2>{title}</h2>
+  <p>{description}</p>
+</section>
+
+<style>
+  .empty-state {
+    display: flex;
+    min-height: 12rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--global-text-color-light);
+  }
+
+  .empty-state :global(svg) {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--global-theme-color);
+  }
+
+  .empty-state h2 {
+    margin: 0 0 0.4rem;
+    color: var(--global-text-color);
+    font-family: var(--font-sans);
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+
+  .empty-state p {
+    max-width: 32rem;
+    margin: 0;
+    font-size: 0.92rem;
+  }
+</style>

@@ -1,0 +1,256 @@
+---
+import { withBase } from '@utils/base';
+
+interface Props {
+  /** Main title line (job title, degree, paper title). */
+  title: string;
+  /** Secondary line (institution, company, journal). */
+  subtitle?: string;
+  /** Render the secondary line as subdued metadata. */
+  subtitleMuted?: boolean;
+  /** Compact metadata displayed directly after the title. */
+  inlineMeta?: string;
+  /** Location string — shown below date badge. */
+  location?: string;
+  /** Date range or single date string (already formatted). */
+  dates?: string;
+  /** Bullet points. */
+  highlights?: string[];
+  /** URL to make the title a link. */
+  url?: string;
+  /** Optional institution logo shown beside the entry. */
+  logo?: string;
+  /** Compact metadata badges shown on a separate line below the title. */
+  badges?: Array<{ label: string; tone?: 'national' | 'provincial' | 'award' }>;
+}
+
+const {
+  title,
+  subtitle,
+  subtitleMuted = false,
+  inlineMeta,
+  location,
+  dates,
+  highlights = [],
+  url,
+  logo,
+  badges = [],
+} = Astro.props;
+---
+
+<li class="list-group-item">
+  <div class="row">
+    <div class="col-xs-2 col-sm-2 col-md-2 date-column text-center">
+      <table class="table-cv">
+        <tbody>
+          <tr>
+            <td>
+              {
+                dates && (
+                  <span
+                    class="badge font-weight-bold danger-color-dark align-middle"
+                    style="min-width: 75px;"
+                  >
+                    {dates}
+                  </span>
+                )
+              }
+            </td>
+          </tr>
+          {
+            location && (
+              <tr>
+                <td>
+                  <p class="location">{location}</p>
+                </td>
+              </tr>
+            )
+          }
+        </tbody>
+      </table>
+    </div>
+    <div class="col-xs-10 col-sm-10 col-md-10 mt-md-0 entry-main mt-2">
+      {
+        logo && (
+          <img
+            class="entry-logo"
+            src={withBase(logo)}
+            alt={`${subtitle ?? title} logo`}
+            loading="lazy"
+          />
+        )
+      }
+      <div class="entry-copy">
+        <h6 class="title ml-md-4 ml-1">
+          {
+            url ? (
+              <a href={withBase(url)} target="_blank" rel="noopener noreferrer">
+                {title}
+              </a>
+            ) : (
+              title
+            )
+          }
+          {inlineMeta && <span class="inline-meta"> ({inlineMeta})</span>}
+        </h6>
+        {
+          badges.length > 0 && (
+            <div class="entry-badges" aria-label="Competition result">
+              {badges.map((badge) => (
+                <span
+                  class:list={[
+                    'entry-badge',
+                    badge.tone === 'award'
+                      ? 'entry-badge-award'
+                      : badge.tone === 'provincial'
+                        ? 'entry-badge-provincial'
+                        : 'entry-badge-national',
+                  ]}
+                >
+                  {badge.label}
+                </span>
+              ))}
+            </div>
+          )
+        }
+        {
+          subtitle && (
+            <h6 class:list={['subtitle', 'ml-md-4', 'ml-1', { 'subtitle-muted': subtitleMuted }]}>
+              {subtitle}
+            </h6>
+          )
+        }
+        {
+          highlights.length > 0 && (
+            <ul class="items">
+              {highlights.map((h) => (
+                <li>
+                  <span class="item" set:html={h} />
+                </li>
+              ))}
+            </ul>
+          )
+        }
+      </div>
+    </div>
+  </div>
+</li>
+
+<style>
+  .entry-main {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.65rem;
+  }
+
+  .entry-copy {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .entry-logo {
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    object-fit: contain;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .subtitle-muted,
+  .inline-meta {
+    color: var(--global-text-color-light);
+    font-weight: 400;
+  }
+
+  .inline-meta {
+    font-size: 0.86rem;
+    white-space: nowrap;
+  }
+
+  .title {
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .entry-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0.3rem 0 0.4rem 1.5rem;
+  }
+
+  .entry-badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 1.35rem;
+    padding: 0.1rem 0.45rem;
+    border: 1px solid;
+    border-radius: 3px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .entry-badge-national {
+    border-color: #1d4f91;
+    background: rgba(29, 79, 145, 0.08);
+    color: #173f75;
+  }
+
+  .entry-badge-provincial {
+    border-color: #287a5a;
+    background: rgba(40, 122, 90, 0.09);
+    color: #1f6248;
+  }
+
+  .entry-badge-award {
+    border-color: #9a6700;
+    background: rgba(154, 103, 0, 0.09);
+    color: #7a5100;
+  }
+
+  :global(html[data-theme='dark']) .entry-badge-national {
+    border-color: #76a7e1;
+    background: rgba(118, 167, 225, 0.14);
+    color: #a8caef;
+  }
+
+  :global(html[data-theme='dark']) .entry-badge-provincial {
+    border-color: #68bd97;
+    background: rgba(104, 189, 151, 0.14);
+    color: #98dabd;
+  }
+
+  :global(html[data-theme='dark']) .entry-badge-award {
+    border-color: #d8ae56;
+    background: rgba(216, 174, 86, 0.14);
+    color: #f0cc7b;
+  }
+
+  @media (max-width: 480px) {
+    .date-column.text-center {
+      text-align: left !important;
+    }
+
+    .date-column table {
+      width: 100%;
+    }
+
+    .date-column tbody {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .date-column .location {
+      margin: 0;
+    }
+
+    .entry-main {
+      margin-top: 0.2rem;
+    }
+  }
+</style>

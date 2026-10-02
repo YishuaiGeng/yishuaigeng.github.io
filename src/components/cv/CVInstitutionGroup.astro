@@ -1,0 +1,59 @@
+---
+import { withBase } from '@utils/base';
+
+interface Props {
+  institution: string;
+  logo?: string;
+}
+
+const { institution, logo } = Astro.props;
+---
+
+<section class="cv-institution-group">
+  <header class="institution-heading">
+    {
+      logo && (
+        <img
+          class="institution-logo"
+          src={withBase(logo)}
+          alt={`${institution} logo`}
+          loading="lazy"
+        />
+      )
+    }
+    <h4 class="cv-institution-group-title">{institution}</h4>
+  </header>
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    <slot />
+  </ul>
+</section>
+
+<style>
+  .cv-institution-group + .cv-institution-group {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .institution-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin: 0.2rem 0.75rem 0.35rem;
+  }
+
+  .institution-logo {
+    width: 1.75rem;
+    height: 1.75rem;
+    flex: 0 0 1.75rem;
+    object-fit: contain;
+  }
+
+  .cv-institution-group-title {
+    margin: 0;
+    color: var(--global-text-color);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+</style>

@@ -1,0 +1,17 @@
+# Citation counts for the publications page.
+#
+# Per-paper keys are google_scholar_id values from papers.bib.
+# __profile_total is the total shown on the Google Scholar profile.
+# Google Scholar is the primary source; OpenAlex is used as a fallback.
+#
+# Last updated: 2026-10-02
+# To refresh: yarn citations:update
+2osOgNQ5qMEC: 0
+9yKSN-GCB0IC: 7
+IjCSPb-OGe4C: 0
+UeHWp8X0CEIC: 7
+W7OEmFMy1HYC: 9
+Y0pCki6q_DkC: 6
+__profile_total: 46
+qjMakFHDy7sC: 15
+zYLM7Y9cAGgC: 0

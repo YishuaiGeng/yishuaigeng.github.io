@@ -1,0 +1,12 @@
+github_users:
+  - YishuaiGeng
+
+github_repos:
+  - YishuaiGeng/seu-llm-logical-reasoning
+  - YishuaiGeng/Synvory
+  - YishuaiGeng/ai-paper-writing
+  - YishuaiGeng/ai-infra-console
+  - YishuaiGeng/CertMaster
+  - YishuaiGeng/gaokao-volunteer-skills
+
+repo_description_lines_max: 2
