@@ -4,7 +4,7 @@
 # __profile_total is the total shown on the Google Scholar profile.
 # Google Scholar is the primary source; OpenAlex is used as a fallback.
 #
-# Last updated: 2026-10-02
+# Last updated: 2026-10-03
 # To refresh: yarn citations:update
 2osOgNQ5qMEC: 0
 9yKSN-GCB0IC: 7
