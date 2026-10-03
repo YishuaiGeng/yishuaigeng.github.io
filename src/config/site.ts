@@ -324,6 +324,26 @@ export const site = {
     enabled: true,
   },
 
+  /** Public visitor map and view counter, displayed at the bottom of the homepage. */
+  visitors: {
+    /** Show the widget when an image URL and statistics URL are configured. */
+    enabled: true,
+    /** Live image generated for this site by Flag Counter; do not download or optimize it. */
+    imageUrl:
+      'https://s01.flagcounter.com/map/ngWe/size_m/txt_4B5563/border_FFFFFF/pageviews_1/viewers_0/flags_1/',
+    /** Public visitor details for the same counter. */
+    statisticsUrl: 'https://info.flagcounter.com/ngWe',
+    /** Native image dimensions reserve space while the map loads. */
+    width: 600,
+    height: 293,
+    labels: {
+      title: 'Visitors',
+      mapAlt: 'World map of visitor countries and homepage views, provided by Flag Counter',
+      details: 'Visitor statistics',
+      caption: 'Visitor countries and homepage views · Since October 2026',
+    },
+  },
+
   // ─── Features ─────────────────────────────────────────────────────────────
 
   features: {

@@ -901,3 +901,33 @@ the supplied edition against the live CCF website. It contains 282 memberships a
 279 distinct entities (158 journals and 121 conferences). Update the note's counts,
 provenance and change log when the source changes. Run `yarn build`, `yarn check`,
 and `yarn lint:ci` after changes.
+
+## Homepage visitor map
+
+`site.visitors` controls the Flag Counter widget at the bottom of the homepage:
+
+- `enabled` toggles the section. Empty `imageUrl` or `statisticsUrl` also hides it.
+- `imageUrl` is the live map URL generated at <https://flagcounter.com/> using
+  **Flag Map** and **Show Pageview Count**. `statisticsUrl` is its matching public
+  report URL. Each website needs its own counter ID; do not copy another site's ID.
+- `width` and `height` reserve the image's natural dimensions, and `labels` contains
+  all heading, alternative text, link and caption copy.
+
+The map marks visitor countries, shows the number of countries and image loads
+(homepage views), and links to visitor details. Views are not unique people:
+Flag Counter counts repeat visitors once per 24 hours by default, while each counter
+image load adds a view. Tracking starts when the counter is created, including setup
+checks; it cannot reconstruct earlier traffic. Only the homepage embeds the counter.
+
+The image is deliberately eager-loaded so visitors count even without scrolling to
+the bottom. Keep it as a live external image; Astro image optimization, downloading,
+or proxy caching would count the server instead of visitors. No tracking JavaScript
+is required. The same single image works in light and dark themes, avoiding extra
+counter requests on theme changes. Ad blockers and provider outages can prevent
+the image from loading or the visit from counting.
+
+This counter was created through Flag Counter's free **Skip registration** option;
+it has no account credentials or administrative dashboard. Keep the public URLs to
+retain access to the statistics and regenerate the embed. The provider's free tier
+may remove counters with no new visitor for over 30 days. Provider documentation:
+<https://flagcounter.com/faq.html>.

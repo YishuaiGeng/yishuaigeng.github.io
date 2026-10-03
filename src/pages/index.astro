@@ -1,5 +1,6 @@
 ---
 import ProfilePhoto from '@components/about/ProfilePhoto.astro';
+import VisitorMap from '@components/about/VisitorMap.astro';
 import SocialLinks from '@components/SocialLinks.astro';
 import { site } from '@config/site';
 import Base from '@layouts/Base.astro';
@@ -239,6 +240,7 @@ const renderedAnnouncements = await Promise.all(
           </section>
         )
       }
+      <VisitorMap />
     </article>
   </div>
 </Base>
