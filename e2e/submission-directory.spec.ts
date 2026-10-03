@@ -40,7 +40,7 @@ test('source PDF, blog entry and mobile layout are accessible', async ({ page, r
   await expect(page.locator(`a[href="${path}"]`).first()).toBeVisible();
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(path);
-  await expect(page.getByRole('heading', { level: 1 })).toContainText('论文投稿目录');
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('论文投稿期刊与会议汇总');
   await expect(page.locator('[data-venue-directory]')).toBeVisible();
   expect(
     await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1),
@@ -57,6 +57,6 @@ test('the complete directory remains readable without JavaScript', async ({ brow
   const page = await context.newPage();
   await page.goto(`http://localhost:4321${path}`);
   await expect(page.locator('[data-venue-row]')).toHaveCount(282);
-  await expect(page.getByText('启用 JavaScript 后可筛选', { exact: false })).toBeVisible();
+  await expect(page.locator('[data-venue-row]:visible')).toHaveCount(282);
   await context.close();
 });

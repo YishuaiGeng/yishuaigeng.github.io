@@ -84,8 +84,6 @@ const total = groups.reduce((sum, g) => sum + g.entries.length, 0);
         </label>
         <button type="reset">{labels.reset}</button>
       </form>
-      {partitionOptions.length === 0 && <p class="hint">{labels.partitionHint}</p>}
-      <p class="hint">{labels.noScript}</p>
       <p class="result-count" role="status" aria-live="polite">
         {labels.count.replace('{count}', String(total)).replace('{total}', String(total))}
       </p>
@@ -306,7 +304,6 @@ const total = groups.reduce((sum, g) => sum + g.entries.length, 0);
     color: var(--global-theme-color);
     cursor: pointer;
   }
-  .hint,
   .result-count {
     color: var(--global-text-color-light);
     font-size: 0.8rem;

@@ -487,7 +487,7 @@
       }
     ],
     "rankings": [],
-    "notes": "原文网址指向 /db/conf/par/，与期刊条目不符；暂不作为外链，投稿前核实期刊官网。"
+    "notes": "原文网址 /db/conf/par/ 与期刊条目不符，链接疑有误。"
   },
   {
     "id": "journal-transactions-of-the-association-for-computational-linguistics",
@@ -4804,7 +4804,7 @@
       }
     ],
     "rankings": [],
-    "notes": "原文列于 B 类期刊表，但全称写为 The Web Conference，疑似误植；链接指向 WWW 期刊。与 A 类 WWW 会议分别建档，名称待核实。"
+    "notes": "原文列于 B 类期刊表，链接指向 WWW 期刊，但全称写为 The Web Conference，疑有误；此条目与 A 类 WWW 会议不同。"
   },
   {
     "id": "journal-frontiers-of-computer-science",
@@ -5524,7 +5524,7 @@
       }
     ],
     "rankings": [],
-    "notes": "原文列于 C 类会议表，但全称及链接指向 SIGSPATIAL 相关出版物，疑似不一致；会议全称与官网待核实。"
+    "notes": "原文列于 C 类会议表，但全称及链接指向 SIGSPATIAL 相关出版物，信息疑有不一致。"
   },
   {
     "id": "conference-international-conference-on-intelligent-computing",

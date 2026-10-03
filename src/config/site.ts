@@ -188,7 +188,7 @@ export const site = {
       {
         name: '投稿目录',
         icon: 'book',
-        description: 'CCF 期刊与会议，以及逐步补充的期刊分区和投稿笔记。',
+        description: '期刊与会议的研究方向、CCF 等级及期刊分区。',
       },
       {
         name: 'Paper Reading',
@@ -286,7 +286,7 @@ export const site = {
       partition: '期刊分区',
       all: '全部',
       reset: '重置筛选',
-      pending: '分区待补充',
+      pending: '未标注分区',
       notApplicable: '期刊分区不适用',
       empty: '没有符合条件的条目，请调整筛选条件。',
       count: '显示 {count} / {total} 条目录记录（跨方向重复列出）',
@@ -298,9 +298,6 @@ export const site = {
       formerName: '旧称 / 别名',
       ccf: 'CCF',
       zoneSuffix: '区',
-      partitionHint:
-        '分区尚未补录。后续核实后，分区选项会按体系、年份和分区显示，可与 CCF 等级组合筛选。',
-      noScript: '启用 JavaScript 后可筛选；下方完整目录无需 JavaScript 即可阅读。',
     },
   },
 
