@@ -385,8 +385,8 @@ export const site = {
   // Follow setup at https://giscus.app/ then fill in the values below.
 
   giscus: {
-    /** Enable after GitHub Discussions and the giscus app are configured for this repository. */
-    enabled: false,
+    /** Show GitHub Discussions comments on blog posts. */
+    enabled: true,
     /**
      * When true, Giscus is hidden behind a "Load comments" button — the
      * giscus.app script is only fetched after the user opts in.
@@ -397,7 +397,7 @@ export const site = {
     repo: 'YishuaiGeng/yishuaigeng.github.io' as `${string}/${string}`,
     repoId: 'R_kgDONzkV-w',
     category: 'General',
-    categoryId: '',
+    categoryId: 'DIC_kwDONzkV-84DG91T',
     /** How to map discussions to pages. */
     mapping: 'title' as 'pathname' | 'url' | 'title' | 'og:title',
     strict: true,
@@ -406,6 +406,12 @@ export const site = {
     darkTheme: 'dark',
     lightTheme: 'light',
     lang: 'en',
+    labels: {
+      noticeBefore: 'Comments are powered by',
+      provider: 'Giscus',
+      noticeAfter: '(GitHub Discussions). Loading them fetches resources from GitHub.',
+      load: 'Load comments',
+    },
   },
 
   // ─── Analytics ────────────────────────────────────────────────────────────

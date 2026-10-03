@@ -696,6 +696,7 @@ Set either value to `'auto'` to keep the built-in default for that mode.
 ```typescript
 giscus: {
   enabled: true,
+  lazyLoad: true,
   repo: 'username/repo',
   repoId: 'R_...',
   category: 'Comments',
@@ -707,10 +708,18 @@ giscus: {
   darkTheme: 'dark',
   lightTheme: 'light',
   lang: 'en',
+  labels: {
+    noticeBefore: 'Comments are powered by',
+    provider: 'Giscus',
+    noticeAfter: '(GitHub Discussions). Loading them fetches resources from GitHub.',
+    load: 'Load comments',
+  },
 },
 ```
 
-Giscus appears on all blog posts. Enable per-project with `giscus_comments: true` in project frontmatter.
+Giscus appears on all blog posts. With `lazyLoad: true`, the external script loads only after
+the reader selects the configured load button. Enable per-project with `giscus_comments: true`
+in project frontmatter.
 
 ### Disqus
 

@@ -29,10 +29,13 @@ const attrs = {
     /* Consent opt-in: giscus.app is not loaded until the user clicks */
     <div id="giscus-consent">
       <p class="giscus-notice">
-        Comments are powered by <a href="https://giscus.app" target="_blank" rel="noopener noreferrer">Giscus</a>
-        (GitHub Discussions). Loading them fetches resources from GitHub.
+        {g.labels.noticeBefore}
+        <a href="https://giscus.app" target="_blank" rel="noopener noreferrer">
+          {g.labels.provider}
+        </a>
+        {g.labels.noticeAfter}
       </p>
-      <button id="giscus-load-btn" class="giscus-btn">Load comments</button>
+      <button id="giscus-load-btn" class="giscus-btn">{g.labels.load}</button>
     </div>
     <div class="giscus" id="giscus-container" hidden></div>
   ) : (
@@ -41,7 +44,7 @@ const attrs = {
 </section>
 
 {g.lazyLoad ? (
-  <script is:inline define:vars={{
+  <script is:inline data-astro-rerun define:vars={{
     giscusAttrs: attrs,
     darkTheme: g.darkTheme,
     lightTheme: g.lightTheme,
@@ -74,14 +77,21 @@ const attrs = {
       if (!iframe) return;
       iframe.contentWindow.postMessage({ giscus: { setConfig: { theme: theme } } }, 'https://giscus.app');
     }
-    new MutationObserver(function() {
-      var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-      sendGiscusTheme(isDark ? darkTheme : lightTheme);
-    }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+    if (!window.__giscusThemeObserver) {
+      window.__giscusThemeObserver = new MutationObserver(function() {
+        var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        sendGiscusTheme(isDark ? darkTheme : lightTheme);
+      });
+      window.__giscusThemeObserver.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['data-theme'],
+      });
+    }
   </script>
 ) : (
   <>
     <script
+      data-astro-rerun
       src="https://giscus.app/client.js"
       data-repo={g.repo}
       data-repo-id={g.repoId}
@@ -96,16 +106,22 @@ const attrs = {
       data-lang={g.lang}
       crossorigin="anonymous"
       async></script>
-    <script is:inline define:vars={{ darkTheme: g.darkTheme, lightTheme: g.lightTheme }}>
+    <script is:inline data-astro-rerun define:vars={{ darkTheme: g.darkTheme, lightTheme: g.lightTheme }}>
       function sendGiscusTheme(theme) {
         var iframe = document.querySelector('iframe.giscus-frame');
         if (!iframe) return;
         iframe.contentWindow.postMessage({ giscus: { setConfig: { theme: theme } } }, 'https://giscus.app');
       }
-      new MutationObserver(function() {
-        var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-        sendGiscusTheme(isDark ? darkTheme : lightTheme);
-      }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+      if (!window.__giscusThemeObserver) {
+        window.__giscusThemeObserver = new MutationObserver(function() {
+          var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+          sendGiscusTheme(isDark ? darkTheme : lightTheme);
+        });
+        window.__giscusThemeObserver.observe(document.documentElement, {
+          attributes: true,
+          attributeFilter: ['data-theme'],
+        });
+      }
     </script>
   </>
 )}
