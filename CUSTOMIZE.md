@@ -866,3 +866,38 @@ footer: {
 | `'hidden'` | Footer is not rendered at all                                                             |
 
 When `'sticky'`, the body automatically gains `padding-bottom` to prevent page content from being obscured by the footer. The back-to-top button is also repositioned to sit above it.
+
+## Submission venue directory
+
+The Chinese submission notebook is published at `/blog/submission-venue-directory/`.
+Set `site.submissionDirectory.enabled` to show or hide its embedded directory.
+All filter labels, subject names and source-PDF paths live in `src/config/site.ts`.
+
+Edit `src/data/submission-venues.json` to maintain the directory. The `venues`
+collection in `src/content.config.ts` validates it during the build:
+
+- Keep a stable `id` per journal or conference. Do not merge journals and conferences
+  just because their acronyms match. Keep former names in `aliases` and add
+  `issn`/`eissn` when verified.
+- `ccf` stores every subject membership, with `area` (`ai`, `theory`, `data`,
+  `cross`), `rank`, `year`, physical PDF `page`, and source row `order`.
+  DKE, IJIS and IPL each have multiple memberships but share their journal record.
+- `rankings` is empty until verified. Each entry must have `scheme` (`cas`,
+  `xinrui`, `jcr`), `year`, `zone` (`1`–`4`), `category`, `scope`, a `source` URL,
+  and `verifiedAt`. Describe major/minor subject scope explicitly. Do not translate
+  a JCR quartile into a CAS or Xinrui partition. Conference rankings must stay empty.
+- The ranking filter derives its options from verified data and combines them with
+  CCF, subject, type and text filters. Ranking badges show scheme, year, partition,
+  subject and scope, link to evidence, and expose the verification date on hover.
+- `sourceUrls` preserves PDF references, which are usually DBLP links, not submission
+  systems. `notes` records source anomalies. Entries with such notes link only to
+  the source PDF until their references are resolved.
+- The current view covers only the four CCF areas. Adding non-CCF journals later
+  also requires extending the view to include records without CCF memberships.
+
+Source: the user-supplied seventh-edition PDF, whose cover says 2026, archived as
+`public/assets/pdf/ccf-2026-v7.pdf`. This transcription does not independently certify
+the supplied edition against the live CCF website. It contains 282 memberships and
+279 distinct entities (158 journals and 121 conferences). Update the note's counts,
+provenance and change log when the source changes. Run `yarn build`, `yarn check`,
+and `yarn lint:ci` after changes.

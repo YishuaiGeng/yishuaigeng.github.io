@@ -186,6 +186,11 @@ export const site = {
     /** Stable notebook collections shown at the top of the blog page. */
     collections: [
       {
+        name: '投稿目录',
+        icon: 'book',
+        description: 'CCF 期刊与会议，以及逐步补充的期刊分区和投稿笔记。',
+      },
+      {
         name: 'Paper Reading',
         icon: 'book',
         description: 'Structured reviews, critiques, and connections across papers.',
@@ -224,6 +229,8 @@ export const site = {
      * Users can click them to filter posts by tag.
      */
     displayTags: [
+      'CCF',
+      '投稿选刊',
       'Knowledge Representation',
       'LLM Reasoning',
       'Recommender Systems',
@@ -233,6 +240,7 @@ export const site = {
     ] as string[],
     /** Categories shown as badges on the blog listing page header. */
     displayCategories: [
+      '投稿目录',
       'Paper Reading',
       'Learning Notes',
       'Technical Notes',
@@ -254,6 +262,46 @@ export const site = {
     /** Copy shown on the blog page while no posts exist. */
     emptyTitle: 'Posts Coming Soon',
     emptyMessage: 'Research notes and personal updates will be published here.',
+  },
+
+  /** Filterable venue directory embedded in submission notes. */
+  submissionDirectory: {
+    /** Render the directory; the surrounding note remains readable when disabled. */
+    enabled: true,
+    sourcePath: '/assets/pdf/ccf-2026-v7.pdf',
+    areas: [
+      { id: 'ai', label: '人工智能' },
+      { id: 'theory', label: '计算机科学理论' },
+      { id: 'data', label: '数据库/数据挖掘/内容检索' },
+      { id: 'cross', label: '交叉/综合/新兴' },
+    ],
+    kinds: { journal: '期刊', conference: '会议' },
+    schemes: { cas: '中科院分区', xinrui: '新锐分区', jcr: 'JCR' },
+    labels: {
+      search: '检索名称、简称、旧称或标签',
+      searchPlaceholder: '例如 KR、RecSys、Knowledge、CCF B',
+      area: '研究方向',
+      kind: '文献载体',
+      rank: 'CCF 等级',
+      partition: '期刊分区',
+      all: '全部',
+      reset: '重置筛选',
+      pending: '分区待补充',
+      notApplicable: '期刊分区不适用',
+      empty: '没有符合条件的条目，请调整筛选条件。',
+      count: '显示 {count} / {total} 条目录记录（跨方向重复列出）',
+      name: '名称与出版方',
+      tags: '分类与关联标签',
+      source: '来源',
+      sourcePage: '原文 p.',
+      sourceLink: '目录链接',
+      formerName: '旧称 / 别名',
+      ccf: 'CCF',
+      zoneSuffix: '区',
+      partitionHint:
+        '分区尚未补录。后续核实后，分区选项会按体系、年份和分区显示，可与 CCF 等级组合筛选。',
+      noScript: '启用 JavaScript 后可筛选；下方完整目录无需 JavaScript 即可阅读。',
+    },
   },
 
   // ─── About page sections ──────────────────────────────────────────────────

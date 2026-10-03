@@ -1,4 +1,4 @@
-import { glob } from 'astro/loaders';
+import { file, glob } from 'astro/loaders';
 import { defineCollection, z } from 'astro:content';
 
 // ─── Blogs ─────────────────────────────────────────────────────────────────
@@ -203,4 +203,51 @@ const books = defineCollection({
   }),
 });
 
-export const collections = { blogs, projects, people, teaching, announcements, books };
+const venues = defineCollection({
+  loader: file('./src/data/submission-venues.json'),
+  schema: z
+    .object({
+      kind: z.enum(['journal', 'conference']),
+      name: z.string(),
+      abbreviation: z.string().optional().default(''),
+      aliases: z.array(z.string()).optional().default([]),
+      publisher: z.string().optional().default(''),
+      sourceUrls: z.array(z.string().url()).optional().default([]),
+      notes: z.string().optional().default(''),
+      /** One entity can occur in several CCF subject areas. */
+      ccf: z
+        .array(
+          z.object({
+            area: z.enum(['ai', 'theory', 'data', 'cross']),
+            rank: z.enum(['A', 'B', 'C']),
+            year: z.coerce.string(),
+            page: z.number().int().positive(),
+            order: z.number().int().positive(),
+          }),
+        )
+        .optional()
+        .default([]),
+      /** Only add verified rankings; retain the scheme, year and subject. */
+      rankings: z
+        .array(
+          z.object({
+            scheme: z.enum(['cas', 'xinrui', 'jcr']),
+            year: z.coerce.string(),
+            zone: z.enum(['1', '2', '3', '4']),
+            category: z.string(),
+            scope: z.string(),
+            source: z.string().url(),
+            verifiedAt: z.coerce.date(),
+          }),
+        )
+        .optional()
+        .default([]),
+      issn: z.coerce.string().optional().default(''),
+      eissn: z.coerce.string().optional().default(''),
+    })
+    .refine((venue) => venue.kind === 'journal' || venue.rankings.length === 0, {
+      message: 'Journal partitions must not be assigned to conferences.',
+    }),
+});
+
+export const collections = { blogs, projects, people, teaching, announcements, books, venues };

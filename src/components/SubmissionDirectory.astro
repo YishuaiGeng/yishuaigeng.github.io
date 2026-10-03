@@ -1,0 +1,381 @@
+---
+import { site } from '@config/site';
+import { getCollection } from 'astro:content';
+
+const config = site.submissionDirectory;
+const { labels } = config;
+const venues = await getCollection('venues');
+const partitionLabel = (r: (typeof venues)[number]['data']['rankings'][number]) =>
+  `${config.schemes[r.scheme]} ${r.year} ${r.scheme === 'jcr' ? `Q${r.zone}` : `${r.zone}${labels.zoneSuffix}`}`;
+const partitionOptions = [
+  ...new Set(venues.flatMap((v) => v.data.rankings.map(partitionLabel))),
+].sort();
+const groups = config.areas.map((area) => ({
+  ...area,
+  entries: venues
+    .flatMap((v) =>
+      v.data.ccf.filter((c) => c.area === area.id).map((c) => ({ ...v, classification: c })),
+    )
+    .sort(
+      (a, b) =>
+        a.data.kind.localeCompare(b.data.kind) ||
+        a.classification.rank.localeCompare(b.classification.rank) ||
+        a.classification.order - b.classification.order,
+    ),
+}));
+const total = groups.reduce((sum, g) => sum + g.entries.length, 0);
+---
+
+{
+  config.enabled && (
+    <div class="venue-directory" data-venue-directory data-count-template={labels.count}>
+      <nav class="area-links" aria-label={labels.area}>
+        {groups.map((g) => (
+          <a href={`#venues-${g.id}`}>
+            {g.label}
+            <span>{g.entries.length}</span>
+          </a>
+        ))}
+      </nav>
+      <form class="filters" role="search" aria-label={labels.search}>
+        <label class="query">
+          {labels.search}
+          <input name="query" type="search" placeholder={labels.searchPlaceholder} />
+        </label>
+        <label>
+          {labels.area}
+          <select name="area" aria-label={labels.area}>
+            <option value="">{labels.all}</option>
+            {config.areas.map((a) => (
+              <option value={a.id}>{a.label}</option>
+            ))}
+          </select>
+        </label>
+        <label>
+          {labels.kind}
+          <select name="kind" aria-label={labels.kind}>
+            <option value="">{labels.all}</option>
+            {Object.entries(config.kinds).map(([id, label]) => (
+              <option value={id}>{label}</option>
+            ))}
+          </select>
+        </label>
+        <label>
+          {labels.rank}
+          <select name="rank" aria-label={labels.rank}>
+            <option value="">{labels.all}</option>
+            {['A', 'B', 'C'].map((r) => (
+              <option value={r}>
+                {labels.ccf} {r}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label>
+          {labels.partition}
+          <select name="partition" aria-label={labels.partition}>
+            <option value="">{labels.all}</option>
+            <option value="pending">{labels.pending}</option>
+            <option value="na">{labels.notApplicable}</option>
+            {partitionOptions.map((p) => (
+              <option value={p}>{p}</option>
+            ))}
+          </select>
+        </label>
+        <button type="reset">{labels.reset}</button>
+      </form>
+      {partitionOptions.length === 0 && <p class="hint">{labels.partitionHint}</p>}
+      <p class="hint">{labels.noScript}</p>
+      <p class="result-count" role="status" aria-live="polite">
+        {labels.count.replace('{count}', String(total)).replace('{total}', String(total))}
+      </p>
+      <p class="empty" hidden>
+        {labels.empty}
+      </p>
+      {groups.map((group) => (
+        <section class="venue-group" data-area={group.id}>
+          <h3 id={`venues-${group.id}`}>{group.label}</h3>
+          {(['journal', 'conference'] as const).map((kind) => (
+            <div class="venue-kind">
+              <h4>{config.kinds[kind]}</h4>
+              <div
+                class="table-scroll"
+                tabindex="0"
+                role="region"
+                aria-label={`${group.label} ${config.kinds[kind]}`}
+              >
+                <table>
+                  <thead>
+                    <tr>
+                      <th scope="col">{labels.name}</th>
+                      <th scope="col">{labels.tags}</th>
+                      <th scope="col">{labels.source}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {group.entries
+                      .filter((v) => v.data.kind === kind)
+                      .map(({ id, data: v, classification: c }) => (
+                        <tr
+                          id={`${group.id}-${id}`}
+                          data-venue-row
+                          data-area={group.id}
+                          data-kind={kind}
+                          data-rank={c.rank}
+                          data-partitions={JSON.stringify(
+                            kind === 'conference'
+                              ? ['na']
+                              : v.rankings.length
+                                ? v.rankings.map(partitionLabel)
+                                : ['pending'],
+                          )}
+                        >
+                          <td>
+                            <strong>{v.abbreviation || v.name}</strong>
+                            {v.abbreviation && <span class="full-name">{v.name}</span>}
+                            <small>{v.publisher}</small>
+                            {v.aliases.length > 0 && (
+                              <small>
+                                {labels.formerName}: {v.aliases.join(' / ')}
+                              </small>
+                            )}
+                            {v.notes && <p class="source-note">{v.notes}</p>}
+                          </td>
+                          <td>
+                            <span class="badge rank">{`${labels.ccf} ${c.rank} · ${c.year}`}</span>
+                            {v.ccf.map((tag) => (
+                              <span class="badge">
+                                {config.areas.find((a) => a.id === tag.area)?.label}
+                              </span>
+                            ))}
+                            {kind === 'conference' ? (
+                              <small>{labels.notApplicable}</small>
+                            ) : v.rankings.length === 0 ? (
+                              <small>{labels.pending}</small>
+                            ) : (
+                              v.rankings.map((r) => (
+                                <a
+                                  class="badge"
+                                  href={r.source}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  title={`${r.category} · ${r.scope} · ${r.verifiedAt.toISOString().slice(0, 10)}`}
+                                >
+                                  {partitionLabel(r)} · {r.category} · {r.scope}
+                                </a>
+                              ))
+                            )}
+                          </td>
+                          <td>
+                            <a
+                              href={`${site.base}${config.sourcePath}#page=${c.page}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {`${labels.sourcePage} ${c.page}`}
+                            </a>
+                            {!v.notes &&
+                              v.sourceUrls.map((url, i) => (
+                                <a href={url} target="_blank" rel="noopener noreferrer">
+                                  {labels.sourceLink}
+                                  {v.sourceUrls.length > 1 ? ` ${i + 1}` : ''}
+                                </a>
+                              ))}
+                          </td>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          ))}
+        </section>
+      ))}
+    </div>
+  )
+}
+
+<script>
+  function setupVenueDirectory() {
+    document.querySelectorAll<HTMLElement>('[data-venue-directory]').forEach((root) => {
+      if (root.dataset.ready) return;
+      root.dataset.ready = 'true';
+      const form = root.querySelector<HTMLFormElement>('form')!;
+      const rows = Array.from(root.querySelectorAll<HTMLElement>('[data-venue-row]'));
+      const searchText = new Map(
+        rows.map((row) => [row, row.textContent?.toLocaleLowerCase() ?? '']),
+      );
+      const status = root.querySelector<HTMLElement>('.result-count')!;
+      const empty = root.querySelector<HTMLElement>('.empty')!;
+      function update() {
+        const values = new FormData(form);
+        const tokens = String(values.get('query') ?? '')
+          .toLocaleLowerCase()
+          .trim()
+          .split(/\s+/)
+          .filter(Boolean);
+        let count = 0;
+        rows.forEach((row) => {
+          const partitions: string[] = JSON.parse(row.dataset.partitions ?? '[]');
+          const match =
+            ['area', 'kind', 'rank'].every(
+              (key) => !values.get(key) || row.dataset[key] === values.get(key),
+            ) &&
+            (!values.get('partition') || partitions.includes(String(values.get('partition')))) &&
+            tokens.every((token) => searchText.get(row)!.includes(token));
+          row.hidden = !match;
+          if (match) count++;
+        });
+        root.querySelectorAll<HTMLElement>('.venue-kind, .venue-group').forEach((group) => {
+          group.hidden = !group.querySelector('[data-venue-row]:not([hidden])');
+        });
+        status.textContent = (root.dataset.countTemplate ?? '')
+          .replace('{count}', String(count))
+          .replace('{total}', String(rows.length));
+        empty.hidden = count > 0;
+      }
+      form.addEventListener('input', update);
+      form.addEventListener('change', update);
+      form.addEventListener('submit', (event) => event.preventDefault());
+      form.addEventListener('reset', () => requestAnimationFrame(update));
+      update();
+    });
+  }
+  setupVenueDirectory();
+  document.addEventListener('astro:page-load', setupVenueDirectory);
+</script>
+
+<style>
+  .venue-directory {
+    margin: 1.5rem 0;
+  }
+  .area-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+  }
+  .area-links a {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    padding: 0.7rem;
+    text-decoration: none;
+    font-size: 0.85rem;
+  }
+  .area-links span {
+    color: var(--global-text-color-light);
+  }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    padding: 1rem;
+    background: var(--global-card-bg-color);
+    border-radius: 8px;
+  }
+  .filters label {
+    flex: 1 1 130px;
+    min-width: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .filters .query {
+    flex-basis: 100%;
+  }
+  input,
+  select {
+    display: block;
+    width: 100%;
+    margin-top: 0.3rem;
+    padding: 0.55rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    background: var(--global-bg-color);
+    color: var(--global-text-color);
+    font: inherit;
+  }
+  button {
+    align-self: end;
+    padding: 0.55rem 0.8rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    background: var(--global-bg-color);
+    color: var(--global-theme-color);
+    cursor: pointer;
+  }
+  .hint,
+  .result-count {
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+  }
+  h3 {
+    scroll-margin-top: 5rem;
+  }
+  .table-scroll {
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    min-width: 560px;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+  }
+  th,
+  td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.8rem 0.5rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  th {
+    background: var(--global-card-bg-color);
+  }
+  th:first-child {
+    width: 52%;
+  }
+  th:nth-child(2) {
+    width: 31%;
+  }
+  .full-name,
+  small {
+    display: block;
+    margin-top: 0.2rem;
+  }
+  small {
+    color: var(--global-text-color-light);
+    font-size: 0.75rem;
+  }
+  td:last-child a {
+    display: block;
+    white-space: nowrap;
+    margin-bottom: 0.4rem;
+  }
+  .badge {
+    display: inline-block;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    padding: 0.15rem 0.4rem;
+    margin: 0 0.2rem 0.3rem 0;
+    font-size: 0.72rem;
+  }
+  .rank {
+    color: var(--global-theme-color);
+    font-weight: 600;
+  }
+  .source-note {
+    font-size: 0.75rem;
+    color: var(--global-text-color-light);
+    margin: 0.4rem 0 0;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  @media (max-width: 540px) {
+    .area-links {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

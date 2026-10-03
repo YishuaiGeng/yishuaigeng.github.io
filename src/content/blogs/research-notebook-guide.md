@@ -13,15 +13,19 @@ can evolve with the research.
 
 ## Collections
 
-| Collection      | Use it for                                                                     |
-| --------------- | ------------------------------------------------------------------------------ |
-| Paper Reading   | Reviews, comparisons, critiques, and links between papers                      |
-| Learning Notes  | Structured study notes on RAG, reinforcement learning, and new methods         |
-| Technical Notes | Implementations, reproducibility details, debugging, and engineering decisions |
-| Daily Notes     | Weekly plans, short work logs, reflections, and ideas to revisit               |
+| Collection      | Use it for                                                                      |
+| --------------- | ------------------------------------------------------------------------------- |
+| 投稿目录        | Journal and conference directories, CCF grades, and verified journal partitions |
+| Paper Reading   | Reviews, comparisons, critiques, and links between papers                       |
+| Learning Notes  | Structured study notes on RAG, reinforcement learning, and new methods          |
+| Technical Notes | Implementations, reproducibility details, debugging, and engineering decisions  |
+| Daily Notes     | Weekly plans, short work logs, reflections, and ideas to revisit                |
 
 Each post should use one stable collection. Tags can connect a post to several topics, such as
 `RAG`, `LLM Reasoning`, or `Research Workflow`.
+
+The [submission venue directory](/blog/submission-venue-directory/) starts with four CCF subject
+areas and keeps journal partitions separate by scheme and year.
 
 ## File Naming
 

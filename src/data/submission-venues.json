@@ -1,0 +1,5609 @@
+[
+  {
+    "id": "journal-artificial-intelligence",
+    "kind": "journal",
+    "abbreviation": "AI",
+    "name": "Artificial Intelligence",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ai/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "A",
+        "year": "2026",
+        "page": 51,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-pattern-analysis-and-machine-intelligence",
+    "kind": "journal",
+    "abbreviation": "TPAMI",
+    "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/pami/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "A",
+        "year": "2026",
+        "page": 51,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-international-journal-of-computer-vision",
+    "kind": "journal",
+    "abbreviation": "IJCV",
+    "name": "International Journal of Computer Vision",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ijcv/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "A",
+        "year": "2026",
+        "page": 51,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-machine-learning-research",
+    "kind": "journal",
+    "abbreviation": "JMLR",
+    "name": "Journal of Machine Learning Research",
+    "aliases": [],
+    "publisher": "MIT Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jmlr/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "A",
+        "year": "2026",
+        "page": 51,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-applied-perception",
+    "kind": "journal",
+    "abbreviation": "TAP",
+    "name": "ACM Transactions on Applied Perception",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tap/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-autonomous-agents-and-multi-agent-systems",
+    "kind": "journal",
+    "abbreviation": "AAMAS",
+    "name": "Autonomous Agents and Multi-Agent Systems",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/aamas/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-computational-linguistics",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Computational Linguistics",
+    "aliases": [],
+    "publisher": "MIT Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/coling/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-computer-vision-and-image-understanding",
+    "kind": "journal",
+    "abbreviation": "CVIU",
+    "name": "Computer Vision and Image Understanding",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/cviu/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-data-knowledge-engineering",
+    "kind": "journal",
+    "abbreviation": "DKE",
+    "name": "Data & Knowledge Engineering",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": [
+      "http://dblp.uni-trier.de/db/journals/dke/index.html",
+      "http://dblp.uni-trier.de/db/journals/dke/"
+    ],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 5
+      },
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-evolutionary-computation",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Evolutionary Computation",
+    "aliases": [],
+    "publisher": "MIT Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ec/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-affective-computing",
+    "kind": "journal",
+    "abbreviation": "TAC",
+    "name": "IEEE Transactions on Affective Computing",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/taffco/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-audio-speech-and-language-processing",
+    "kind": "journal",
+    "abbreviation": "TASLP",
+    "name": "IEEE Transactions on Audio, Speech and Language Processing",
+    "aliases": ["IEEE/ACM Transactions on Audio, Speech and Language Processing"],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/taslp/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-cybernetics",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "IEEE Transactions on Cybernetics",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tcyb/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-evolutionary-computation",
+    "kind": "journal",
+    "abbreviation": "TEC",
+    "name": "IEEE Transactions on Evolutionary Computation",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tec/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-fuzzy-systems",
+    "kind": "journal",
+    "abbreviation": "TFS",
+    "name": "IEEE Transactions on Fuzzy Systems",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tfs/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-neural-networks-and-learning-systems",
+    "kind": "journal",
+    "abbreviation": "TNNLS",
+    "name": "IEEE Transactions on Neural Networks and learning systems",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tnn/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-international-journal-of-approximate-reasoning",
+    "kind": "journal",
+    "abbreviation": "IJAR",
+    "name": "International Journal of Approximate Reasoning",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ijar/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 52,
+        "order": 13
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-artificial-intelligence-research",
+    "kind": "journal",
+    "abbreviation": "JAIR",
+    "name": "Journal of Artificial Intelligence Research",
+    "aliases": [],
+    "publisher": "AAAI",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jair/index.html"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 53,
+        "order": 14
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-automated-reasoning",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Journal of Automated Reasoning",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jar/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 53,
+        "order": 15
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-speech-language-and-hearing-research",
+    "kind": "journal",
+    "abbreviation": "JSLHR",
+    "name": "Journal of Speech, Language, and Hearing Research",
+    "aliases": [],
+    "publisher": "American Speech- Language Hearing Association",
+    "sourceUrls": ["http://jslhr.pubs.asha.org/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 53,
+        "order": 16
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-machine-learning",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Machine Learning",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ml/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 53,
+        "order": 17
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-neural-computation",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Neural Computation",
+    "aliases": [],
+    "publisher": "MIT Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/neco/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 53,
+        "order": 18
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-neural-networks",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Neural Networks",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/nn/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 53,
+        "order": 19
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-pattern-recognition",
+    "kind": "journal",
+    "abbreviation": "PR",
+    "name": "Pattern Recognition",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/par/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 53,
+        "order": 20
+      }
+    ],
+    "rankings": [],
+    "notes": "原文网址指向 /db/conf/par/，与期刊条目不符；暂不作为外链，投稿前核实期刊官网。"
+  },
+  {
+    "id": "journal-transactions-of-the-association-for-computational-linguistics",
+    "kind": "journal",
+    "abbreviation": "TACL",
+    "name": "Transactions of the Association for Computational Linguistics",
+    "aliases": [],
+    "publisher": "The Association for Computational Linguistics",
+    "sourceUrls": ["https://dblp.org/db/journals/tacl/index.html"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 53,
+        "order": 21
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-asian-and-low-resource-language-information-processing",
+    "kind": "journal",
+    "abbreviation": "TALLIP",
+    "name": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/talip/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-applied-intelligence",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Applied Intelligence",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/apin/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-artificial-intelligence-in-medicine",
+    "kind": "journal",
+    "abbreviation": "AIM",
+    "name": "Artificial Intelligence in Medicine",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/artmed/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-artificial-life",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Artificial Life",
+    "aliases": [],
+    "publisher": "MIT Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/alife/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-computational-intelligence",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Computational Intelligence",
+    "aliases": [],
+    "publisher": "Wiley",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ci/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-computer-speech-language",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Computer Speech & Language",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/csl/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-connection-science",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Connection Science",
+    "aliases": [],
+    "publisher": "Taylor & Francis",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/connection/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-decision-support-systems",
+    "kind": "journal",
+    "abbreviation": "DSS",
+    "name": "Decision Support Systems",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/dss/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-engineering-applications-of-artificial-intelligence",
+    "kind": "journal",
+    "abbreviation": "EAAI",
+    "name": "Engineering Applications of Artificial Intelligence",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/eaai/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-expert-systems",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Expert Systems",
+    "aliases": [],
+    "publisher": "Blackwell/ Wiley",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/es/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-expert-systems-with-applications",
+    "kind": "journal",
+    "abbreviation": "ESWA",
+    "name": "Expert Systems with Applications",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/eswa/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-fuzzy-sets-and-systems",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Fuzzy Sets and Systems",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/fss/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-games",
+    "kind": "journal",
+    "abbreviation": "TG",
+    "name": "IEEE Transactions on Games",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tciaig/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 13
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-iet-computer-vision",
+    "kind": "journal",
+    "abbreviation": "IET-CVI",
+    "name": "IET Computer Vision",
+    "aliases": [],
+    "publisher": "IET",
+    "sourceUrls": ["https://dblp.org/db/journals/iet-cvi/index.html"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 14
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-iet-signal-processing",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "IET Signal Processing",
+    "aliases": [],
+    "publisher": "IET",
+    "sourceUrls": ["https://dblp.org/db/journals/iet-spr/index.html"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 54,
+        "order": 15
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-image-and-vision-computing",
+    "kind": "journal",
+    "abbreviation": "IVC",
+    "name": "Image and Vision Computing",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ivc/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 16
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-intelligent-data-analysis",
+    "kind": "journal",
+    "abbreviation": "IDA",
+    "name": "Intelligent Data Analysis",
+    "aliases": [],
+    "publisher": "IOS Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ida/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 17
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-international-journal-of-computational-intelligence-and-applications",
+    "kind": "journal",
+    "abbreviation": "IJCIA",
+    "name": "International Journal of Computational Intelligence and Applications",
+    "aliases": [],
+    "publisher": "World Scientific",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ijcia/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 18
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-international-journal-of-intelligent-systems",
+    "kind": "journal",
+    "abbreviation": "IJIS",
+    "name": "International Journal of Intelligent Systems",
+    "aliases": [],
+    "publisher": "Wiley",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ijis/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 19
+      },
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-international-journal-of-neural-systems",
+    "kind": "journal",
+    "abbreviation": "IJNS",
+    "name": "International Journal of Neural Systems",
+    "aliases": [],
+    "publisher": "World Scientific",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ijns/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 20
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-international-journal-of-pattern-recognition-and-artificial-intelligence",
+    "kind": "journal",
+    "abbreviation": "IJPRAI",
+    "name": "International Journal of Pattern Recognition and Artificial Intelligence",
+    "aliases": [],
+    "publisher": "World Scientific",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ijprai/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 21
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-international-journal-of-uncertainty-fuzziness-and-knowledge-based-systems",
+    "kind": "journal",
+    "abbreviation": "IJUFKS",
+    "name": "International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems",
+    "aliases": [],
+    "publisher": "World Scientific",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/journals/ijufks/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 22
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-international-journal-on-document-analysis-and-recognition",
+    "kind": "journal",
+    "abbreviation": "IJDAR",
+    "name": "International Journal on Document Analysis and Recognition",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ijdar/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 23
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-experimental-and-theoretical-artificial-intelligence",
+    "kind": "journal",
+    "abbreviation": "JETAI",
+    "name": "Journal of Experimental and Theoretical Artificial Intelligence",
+    "aliases": [],
+    "publisher": "Taylor & Francis",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jetai/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 24
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-knowledge-based-systems",
+    "kind": "journal",
+    "abbreviation": "KBS",
+    "name": "Knowledge-Based Systems",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/kbs/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 25
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-machine-translation",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Machine Translation",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/mt/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 26
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-machine-vision-and-applications",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Machine Vision and Applications",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/mva/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 27
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-natural-computing",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Natural Computing",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/nc/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 28
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-natural-language-engineering",
+    "kind": "journal",
+    "abbreviation": "NLE",
+    "name": "Natural Language Engineering",
+    "aliases": [],
+    "publisher": "Cambridge University Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/nle/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 29
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-neural-computing-and-applications",
+    "kind": "journal",
+    "abbreviation": "NCA",
+    "name": "Neural Computing and Applications",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/nca/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 55,
+        "order": 30
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-neural-processing-letters",
+    "kind": "journal",
+    "abbreviation": "NPL",
+    "name": "Neural Processing Letters",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/npl/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 56,
+        "order": 31
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-neurocomputing",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Neurocomputing",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ijon/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 56,
+        "order": 32
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-pattern-analysis-and-applications",
+    "kind": "journal",
+    "abbreviation": "PAA",
+    "name": "Pattern Analysis and Applications",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/paa/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 56,
+        "order": 33
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-pattern-recognition-letters",
+    "kind": "journal",
+    "abbreviation": "PRL",
+    "name": "Pattern Recognition Letters",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/prl/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 56,
+        "order": 34
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-soft-computing",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Soft Computing",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/soco/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 56,
+        "order": 35
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-web-intelligence",
+    "kind": "journal",
+    "abbreviation": "WI",
+    "name": "Web Intelligence",
+    "aliases": [],
+    "publisher": "IOS Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/wias/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 56,
+        "order": 36
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-interactive-intelligent-systems",
+    "kind": "journal",
+    "abbreviation": "TIIS",
+    "name": "ACM Transactions on Interactive Intelligent Systems",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["https://dblp.org/db/journals/tiis/index.html"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 56,
+        "order": 37
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-evolutionary-learning-and-optimization",
+    "kind": "journal",
+    "abbreviation": "TELO",
+    "name": "ACM Transactions on Evolutionary Learning and Optimization",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/journals/telo/index.html"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 56,
+        "order": 38
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-journal-on-autonomous-transportation-systems",
+    "kind": "journal",
+    "abbreviation": "JATS",
+    "name": "ACM Journal on Autonomous Transportation Systems",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": [],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 56,
+        "order": 39
+      }
+    ],
+    "rankings": [],
+    "notes": "原文未提供网址。"
+  },
+  {
+    "id": "conference-aaai-conference-on-artificial-intelligence",
+    "kind": "conference",
+    "abbreviation": "AAAI",
+    "name": "AAAI Conference on Artificial Intelligence",
+    "aliases": [],
+    "publisher": "AAAI",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/aaai/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "A",
+        "year": "2026",
+        "page": 57,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-conference-on-neural-information-processing-systems",
+    "kind": "conference",
+    "abbreviation": "NeurIPS",
+    "name": "Conference on Neural Information Processing Systems",
+    "aliases": [],
+    "publisher": "MIT Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/nips/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "A",
+        "year": "2026",
+        "page": 57,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-annual-meeting-of-the-association-for-computational-linguistics",
+    "kind": "conference",
+    "abbreviation": "ACL",
+    "name": "Annual Meeting of the Association for Computational Linguistics",
+    "aliases": [],
+    "publisher": "ACL",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/acl/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "A",
+        "year": "2026",
+        "page": 57,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-cvf-computer-vision-and-pattern-recognition-conference",
+    "kind": "conference",
+    "abbreviation": "CVPR",
+    "name": "IEEE/CVF Computer Vision and Pattern Recognition Conference",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/cvpr/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "A",
+        "year": "2026",
+        "page": 57,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-computer-vision",
+    "kind": "conference",
+    "abbreviation": "ICCV",
+    "name": "International Conference on Computer Vision",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/iccv/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "A",
+        "year": "2026",
+        "page": 57,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-machine-learning",
+    "kind": "conference",
+    "abbreviation": "ICML",
+    "name": "International Conference on Machine Learning",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/icml/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "A",
+        "year": "2026",
+        "page": 57,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-learning-representations",
+    "kind": "conference",
+    "abbreviation": "ICLR",
+    "name": "International Conference on Learning Representations",
+    "aliases": [],
+    "publisher": "OpenReview",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/iclr/index.html"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "A",
+        "year": "2026",
+        "page": 57,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-annual-conference-on-computational-learning-theory",
+    "kind": "conference",
+    "abbreviation": "COLT",
+    "name": "Annual Conference on Computational Learning Theory",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/colt/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-conference-on-empirical-methods-in-natural-language-processing",
+    "kind": "conference",
+    "abbreviation": "EMNLP",
+    "name": "Conference on Empirical Methods in Natural Language Processing",
+    "aliases": [],
+    "publisher": "ACL",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/emnlp/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-european-conference-on-artificial-intelligence",
+    "kind": "conference",
+    "abbreviation": "ECAI",
+    "name": "European Conference on Artificial Intelligence",
+    "aliases": [],
+    "publisher": "IOS Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/ecai/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-european-conference-on-computer-vision",
+    "kind": "conference",
+    "abbreviation": "ECCV",
+    "name": "European Conference on Computer Vision",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/eccv/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-international-conference-on-robotics-and-automation",
+    "kind": "conference",
+    "abbreviation": "ICRA",
+    "name": "IEEE International Conference on Robotics and Automation",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/icra/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-automated-planning-and-scheduling",
+    "kind": "conference",
+    "abbreviation": "ICAPS",
+    "name": "International Conference on Automated Planning and Scheduling",
+    "aliases": [],
+    "publisher": "AAAI",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/icaps/index.html"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-case-based-reasoning",
+    "kind": "conference",
+    "abbreviation": "ICCBR",
+    "name": "International Conference on Case-Based Reasoning",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/iccbr/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-computational-linguistics",
+    "kind": "conference",
+    "abbreviation": "COLING",
+    "name": "International Conference on Computational Linguistics",
+    "aliases": [],
+    "publisher": "International Committee on Computational Linguistics",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/coling/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-principles-of-knowledge-representation-and-reasoning",
+    "kind": "conference",
+    "abbreviation": "KR",
+    "name": "International Conference on Principles of Knowledge Representation and Reasoning",
+    "aliases": [],
+    "publisher": "Morgan Kaufmann",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/kr/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-conference-on-uncertainty-in-artificial-intelligence",
+    "kind": "conference",
+    "abbreviation": "UAI",
+    "name": "Conference on Uncertainty in Artificial Intelligence",
+    "aliases": [],
+    "publisher": "AUAI",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/uai/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-joint-conference-on-autonomous-agents-and-multi-agent-systems",
+    "kind": "conference",
+    "abbreviation": "AAMAS",
+    "name": "International Joint Conference on Autonomous Agents and Multi-agent Systems",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/ifaamas/index.html"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-parallel-problem-solving-from-nature",
+    "kind": "conference",
+    "abbreviation": "PPSN",
+    "name": "Parallel Problem Solving from Nature",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/ppsn/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-north-american-chapter-of-the-association-for-computational-linguistics",
+    "kind": "conference",
+    "abbreviation": "NAACL",
+    "name": "North American Chapter of the Association for Computational Linguistics",
+    "aliases": [],
+    "publisher": "Association for Computational Linguistics",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/naacl/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 13
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-joint-conference-on-artificial-intelligence",
+    "kind": "conference",
+    "abbreviation": "IJCAI",
+    "name": "International Joint Conference on Artificial Intelligence",
+    "aliases": [],
+    "publisher": "Morgan Kaufmann",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/ijcai/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "B",
+        "year": "2026",
+        "page": 58,
+        "order": 14
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-artificial-intelligence-and-statistics",
+    "kind": "conference",
+    "abbreviation": "AISTATS",
+    "name": "International Conference on Artificial Intelligence and Statistics",
+    "aliases": [],
+    "publisher": "JMLR",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/aistats/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 59,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-asian-conference-on-computer-vision",
+    "kind": "conference",
+    "abbreviation": "ACCV",
+    "name": "Asian Conference on Computer Vision",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/accv/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 59,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-asian-conference-on-machine-learning",
+    "kind": "conference",
+    "abbreviation": "ACML",
+    "name": "Asian Conference on Machine Learning",
+    "aliases": [],
+    "publisher": "JMLR",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/acml/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 59,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-british-machine-vision-conference",
+    "kind": "conference",
+    "abbreviation": "BMVC",
+    "name": "British Machine Vision Conference",
+    "aliases": [],
+    "publisher": "British Machine Vision Association",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/bmvc/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 59,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ccf-international-conference-on-natural-language-processing-and-chinese-computing",
+    "kind": "conference",
+    "abbreviation": "NLPCC",
+    "name": "CCF International Conference on Natural Language Processing and Chinese Computing",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/nlpcc/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 59,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-conference-on-computational-natural-language-learning",
+    "kind": "conference",
+    "abbreviation": "CoNLL",
+    "name": "Conference on Computational Natural Language Learning",
+    "aliases": [],
+    "publisher": "Association for Computational Linguistics",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/conll"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 59,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-genetic-and-evolutionary-computation-conference",
+    "kind": "conference",
+    "abbreviation": "GECCO",
+    "name": "Genetic and Evolutionary Computation Conference",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/gecco/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 59,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-international-conference-on-tools-with-artificial-intelligence",
+    "kind": "conference",
+    "abbreviation": "ICTAI",
+    "name": "IEEE International Conference on Tools with Artificial Intelligence",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/ictai/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 59,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-rsj-international-conference-on-intelligent-robots-and-systems",
+    "kind": "conference",
+    "abbreviation": "IROS",
+    "name": "IEEE\\RSJ International Conference on Intelligent Robots and Systems",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/iros/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 59,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-algorithmic-learning-theory",
+    "kind": "conference",
+    "abbreviation": "ALT",
+    "name": "International Conference on Algorithmic Learning Theory",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/alt/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 59,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-artificial-neural-networks",
+    "kind": "conference",
+    "abbreviation": "ICANN",
+    "name": "International Conference on Artificial Neural Networks",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/icann/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 59,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-international-conference-on-automatic-face-and-gesture-recognition",
+    "kind": "conference",
+    "abbreviation": "FG",
+    "name": "IEEE International Conference on Automatic Face and Gesture Recognition",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/fgr/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 59,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-document-analysis-and-recognition",
+    "kind": "conference",
+    "abbreviation": "ICDAR",
+    "name": "International Conference on Document Analysis and Recognition",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/icdar/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 60,
+        "order": 13
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-inductive-logic-programming",
+    "kind": "conference",
+    "abbreviation": "ILP",
+    "name": "International Conference on Inductive Logic Programming",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/ilp/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 60,
+        "order": 14
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-knowledge-science-engineering-and-management",
+    "kind": "conference",
+    "abbreviation": "KSEM",
+    "name": "International conference on Knowledge Science, Engineering and Management",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/ksem/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 60,
+        "order": 15
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-neural-information-processing",
+    "kind": "conference",
+    "abbreviation": "ICONIP",
+    "name": "International Conference on Neural Information Processing",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/iconip/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 60,
+        "order": 16
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-pattern-recognition",
+    "kind": "conference",
+    "abbreviation": "ICPR",
+    "name": "International Conference on Pattern Recognition",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/icpr/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 60,
+        "order": 17
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-joint-conference-on-biometrics",
+    "kind": "conference",
+    "abbreviation": "IJCB",
+    "name": "International Joint Conference on Biometrics",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/icb/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 60,
+        "order": 18
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-joint-conference-on-neural-networks",
+    "kind": "conference",
+    "abbreviation": "IJCNN",
+    "name": "International Joint Conference on Neural Networks",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/ijcnn/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 60,
+        "order": 19
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-pacific-rim-international-conference-on-artificial-intelligence",
+    "kind": "conference",
+    "abbreviation": "PRICAI",
+    "name": "Pacific Rim International Conference on Artificial Intelligence",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/pricai/"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 60,
+        "order": 20
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-congress-on-evolutionary-computation",
+    "kind": "conference",
+    "abbreviation": "IEEE CEC",
+    "name": "Congress on Evolutionary Computation",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/cec/index.html"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 60,
+        "order": 21
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-distributed-artificial-intelligence",
+    "kind": "conference",
+    "abbreviation": "DAI",
+    "name": "International Conference on Distributed Artificial Intelligence",
+    "aliases": [],
+    "publisher": "ACM/ Springer",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/dai2/index.html"],
+    "ccf": [
+      {
+        "area": "ai",
+        "rank": "C",
+        "year": "2026",
+        "page": 60,
+        "order": 22
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-information-theory",
+    "kind": "journal",
+    "abbreviation": "TIT",
+    "name": "IEEE Transactions on Information Theory",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tit/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "A",
+        "year": "2026",
+        "page": 38,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-information-and-computation",
+    "kind": "journal",
+    "abbreviation": "IANDC",
+    "name": "Information and Computation",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/iandc/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "A",
+        "year": "2026",
+        "page": 38,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-siam-journal-on-computing",
+    "kind": "journal",
+    "abbreviation": "SICOMP",
+    "name": "SIAM Journal on Computing",
+    "aliases": [],
+    "publisher": "SIAM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/siamcomp/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "A",
+        "year": "2026",
+        "page": 38,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-algorithms",
+    "kind": "journal",
+    "abbreviation": "TALG",
+    "name": "ACM Transactions on Algorithms",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/talg/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-computational-logic",
+    "kind": "journal",
+    "abbreviation": "TOCL",
+    "name": "ACM Transactions on Computational Logic",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tocl/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-mathematical-software",
+    "kind": "journal",
+    "abbreviation": "TOMS",
+    "name": "ACM Transactions on Mathematical Software",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/toms/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-algorithmica",
+    "kind": "journal",
+    "abbreviation": "Algorithmica",
+    "name": "Algorithmica",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/algorithmica/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-computational-complexity",
+    "kind": "journal",
+    "abbreviation": "CC",
+    "name": "Computational Complexity",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/cc/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-formal-aspects-of-computing",
+    "kind": "journal",
+    "abbreviation": "FAC",
+    "name": "Formal Aspects of Computing",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/fac/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-formal-methods-in-system-design",
+    "kind": "journal",
+    "abbreviation": "FMSD",
+    "name": "Formal Methods in System Design",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/fmsd/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-informs-journal-on-computing",
+    "kind": "journal",
+    "abbreviation": "INFORMS",
+    "name": "INFORMS Journal on Computing",
+    "aliases": [],
+    "publisher": "INFORMS",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/informs/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-computer-and-system-sciences",
+    "kind": "journal",
+    "abbreviation": "JCSS",
+    "name": "Journal of Computer and System Sciences",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jcss/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-global-optimization",
+    "kind": "journal",
+    "abbreviation": "JGO",
+    "name": "Journal of Global Optimization",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jgo/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-symbolic-computation",
+    "kind": "journal",
+    "abbreviation": "JSC",
+    "name": "Journal of Symbolic Computation",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jsc/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-mathematical-structures-in-computer-science",
+    "kind": "journal",
+    "abbreviation": "MSCS",
+    "name": "Mathematical Structures in Computer Science",
+    "aliases": [],
+    "publisher": "Cambridge University Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/mscs/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-theoretical-computer-science",
+    "kind": "journal",
+    "abbreviation": "TCS",
+    "name": "Theoretical Computer Science",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tcs/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 39,
+        "order": 13
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acta-informatica",
+    "kind": "journal",
+    "abbreviation": "ACTA",
+    "name": "Acta Informatica",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/acta/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 40,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-annals-of-pure-and-applied-logic",
+    "kind": "journal",
+    "abbreviation": "APAL",
+    "name": "Annals of Pure and Applied Logic",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/apal/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 40,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-discrete-applied-mathematics",
+    "kind": "journal",
+    "abbreviation": "DAM",
+    "name": "Discrete Applied Mathematics",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/dam/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 40,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-fundamenta-informaticae",
+    "kind": "journal",
+    "abbreviation": "FUIN",
+    "name": "Fundamenta Informaticae",
+    "aliases": [],
+    "publisher": "IOS Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/fuin/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 40,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-information-processing-letters",
+    "kind": "journal",
+    "abbreviation": "IPL",
+    "name": "Information Processing Letters",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ipl/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 40,
+        "order": 5
+      },
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-complexity",
+    "kind": "journal",
+    "abbreviation": "JCOMPLEXITY",
+    "name": "Journal of Complexity",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jc/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 40,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-logic-and-computation",
+    "kind": "journal",
+    "abbreviation": "LOGCOM",
+    "name": "Journal of Logic and Computation",
+    "aliases": [],
+    "publisher": "Oxford University Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/logcom/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 40,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-the-journal-of-symbolic-logic",
+    "kind": "journal",
+    "abbreviation": "JSL",
+    "name": "The Journal of Symbolic Logic",
+    "aliases": [],
+    "publisher": "Association for Symbolic Logic",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jsyml/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 40,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-logical-methods-in-computer-science",
+    "kind": "journal",
+    "abbreviation": "LMCS",
+    "name": "Logical Methods in Computer Science",
+    "aliases": [],
+    "publisher": "LMCS",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/lmcs/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 40,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-siam-journal-on-discrete-mathematics",
+    "kind": "journal",
+    "abbreviation": "SIDMA",
+    "name": "SIAM Journal on Discrete Mathematics",
+    "aliases": [],
+    "publisher": "SIAM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/siamdm/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 40,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-theory-of-computing-systems",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Theory of Computing Systems",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/mst/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 40,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-in-quantum-computing",
+    "kind": "journal",
+    "abbreviation": "TQC",
+    "name": "ACM Transactions in Quantum Computing",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["https://dblp.org/db/journals/tqc/index.html"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 40,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-acm-symposium-on-the-theory-of-computing",
+    "kind": "conference",
+    "abbreviation": "STOC",
+    "name": "ACM Symposium on the Theory of Computing",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/stoc/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "A",
+        "year": "2026",
+        "page": 41,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-acm-siam-symposium-on-discrete-algorithms",
+    "kind": "conference",
+    "abbreviation": "SODA",
+    "name": "ACM-SIAM Symposium on Discrete Algorithms",
+    "aliases": [],
+    "publisher": "SIAM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/soda/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "A",
+        "year": "2026",
+        "page": 41,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-computer-aided-verification",
+    "kind": "conference",
+    "abbreviation": "CAV",
+    "name": "International Conference on Computer Aided Verification",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/cav/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "A",
+        "year": "2026",
+        "page": 41,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-annual-symposium-on-foundations-of-computer-science",
+    "kind": "conference",
+    "abbreviation": "FOCS",
+    "name": "IEEE Annual Symposium on Foundations of Computer Science",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/focs/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "A",
+        "year": "2026",
+        "page": 41,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-acm-ieee-symposium-on-logic-in-computer-science",
+    "kind": "conference",
+    "abbreviation": "LICS",
+    "name": "ACM/IEEE Symposium on Logic in Computer Science",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/lics/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "A",
+        "year": "2026",
+        "page": 41,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-symposium-on-computational-geometry",
+    "kind": "conference",
+    "abbreviation": "SoCG",
+    "name": "International Symposium on Computational Geometry",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/compgeom/index.html"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 42,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-european-symposium-on-algorithms",
+    "kind": "conference",
+    "abbreviation": "ESA",
+    "name": "European Symposium on Algorithms",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/esa/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 42,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-conference-on-computational-complexity",
+    "kind": "conference",
+    "abbreviation": "CCC",
+    "name": "Conference on Computational Complexity",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/coco/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 42,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-colloquium-on-automata-languages-and-programming",
+    "kind": "conference",
+    "abbreviation": "ICALP",
+    "name": "International Colloquium on Automata, Languages and Programming",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/icalp/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 42,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-conference-on-automated-deduction",
+    "kind": "conference",
+    "abbreviation": "CADE",
+    "name": "Conference on Automated Deduction",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/cade/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 42,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-concurrency-theory",
+    "kind": "conference",
+    "abbreviation": "CONCUR",
+    "name": "International Conference on Concurrency Theory",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/concur/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 42,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-hybrid-systems-computation-and-control",
+    "kind": "conference",
+    "abbreviation": "HSCC",
+    "name": "International Conference on Hybrid Systems: Computation and Control",
+    "aliases": [],
+    "publisher": "Springer/ ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/hybrid/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 42,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-theory-and-applications-of-satisfiability-testing",
+    "kind": "conference",
+    "abbreviation": "SAT",
+    "name": "International Conference on Theory and Applications of Satisfiability Testing",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/sat/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 42,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-computing-and-combinatorics-conference",
+    "kind": "conference",
+    "abbreviation": "COCOON",
+    "name": "International Computing and Combinatorics Conference",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.org/db/conf/cocoon/index.html"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 42,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-formal-methods-in-computer-aided-design",
+    "kind": "conference",
+    "abbreviation": "FMCAD",
+    "name": "Formal Methods in Computer-Aided Design",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/fmcad/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "B",
+        "year": "2026",
+        "page": 42,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-computer-science-logic",
+    "kind": "conference",
+    "abbreviation": "CSL",
+    "name": "Computer Science Logic",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/csl/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 43,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-foundations-of-software-technology-and-theoretical-computer-science",
+    "kind": "conference",
+    "abbreviation": "FSTTCS",
+    "name": "Foundations of Software Technology and Theoretical Computer Science",
+    "aliases": [],
+    "publisher": "Indian Association for Research in Computing Science",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/fsttcs/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 43,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-international-conference-on-data-science-and-advanced-analytics",
+    "kind": "conference",
+    "abbreviation": "DSAA",
+    "name": "IEEE International Conference on Data Science and Advanced Analytics",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/dsaa/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 43,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-colloquium-on-theoretical-aspects-of-computing",
+    "kind": "conference",
+    "abbreviation": "ICTAC",
+    "name": "International Colloquium on Theoretical Aspects of Computing",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/ictac/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 43,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-integer-programming-and-combinatorial-optimization",
+    "kind": "conference",
+    "abbreviation": "IPCO",
+    "name": "International Conference on Integer Programming and Combinatorial Optimization",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/ipco/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 43,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-formal-structures-for-computation-and-deduction",
+    "kind": "conference",
+    "abbreviation": "FSCD",
+    "name": "International Conference on Formal Structures for Computation and Deduction",
+    "aliases": ["RTA"],
+    "publisher": "Dagstuhl Leibniz LIPIcs",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/rta/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 43,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-symposium-on-algorithms-and-computation",
+    "kind": "conference",
+    "abbreviation": "ISAAC",
+    "name": "International Symposium on Algorithms and Computation",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/isaac/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 43,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-mathematical-foundations-of-computer-science",
+    "kind": "conference",
+    "abbreviation": "MFCS",
+    "name": "International Conference on Mathematical Foundations of Computer Science",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/mfcs/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 43,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-symposium-on-theoretical-aspects-of-computer-science",
+    "kind": "conference",
+    "abbreviation": "STACS",
+    "name": "Symposium on Theoretical Aspects of Computer Science",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/stacs/"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 43,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-symposium-on-software-engineering-theories-tools-and-applications",
+    "kind": "conference",
+    "abbreviation": "SETTA",
+    "name": "International Symposium on Software Engineering: Theories, Tools, and Applications",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.org/db/conf/setta/index.html"],
+    "ccf": [
+      {
+        "area": "theory",
+        "rank": "C",
+        "year": "2026",
+        "page": 43,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-database-systems",
+    "kind": "journal",
+    "abbreviation": "TODS",
+    "name": "ACM Transactions on Database Systems",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tods/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "A",
+        "year": "2026",
+        "page": 32,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-information-systems",
+    "kind": "journal",
+    "abbreviation": "TOIS",
+    "name": "ACM Transactions on Information Systems",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tois/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "A",
+        "year": "2026",
+        "page": 32,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-knowledge-and-data-engineering",
+    "kind": "journal",
+    "abbreviation": "TKDE",
+    "name": "IEEE Transactions on Knowledge and Data Engineering",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tkde/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "A",
+        "year": "2026",
+        "page": 32,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-the-vldb-journal",
+    "kind": "journal",
+    "abbreviation": "VLDBJ",
+    "name": "The VLDB Journal",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/vldb/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "A",
+        "year": "2026",
+        "page": 32,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-knowledge-discovery-from-data",
+    "kind": "journal",
+    "abbreviation": "TKDD",
+    "name": "ACM Transactions on Knowledge Discovery from Data",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tkdd/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-the-web",
+    "kind": "journal",
+    "abbreviation": "TWEB",
+    "name": "ACM Transactions on the Web",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tweb/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-advanced-engineering-informatics",
+    "kind": "journal",
+    "abbreviation": "AEI",
+    "name": "Advanced Engineering Informatics",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/aei/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-data-mining-and-knowledge-discovery",
+    "kind": "journal",
+    "abbreviation": "DMKD",
+    "name": "Data Mining and Knowledge Discovery",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/datamine/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-european-journal-of-information-systems",
+    "kind": "journal",
+    "abbreviation": "EJIS",
+    "name": "European Journal of Information Systems",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ejis/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-geoinformatica",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "GeoInformatica",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/geoinformatica/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-information-processing-and-management",
+    "kind": "journal",
+    "abbreviation": "IPM",
+    "name": "Information Processing and Management",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ipm/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-information-sciences",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Information Sciences",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/isci/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-information-systems",
+    "kind": "journal",
+    "abbreviation": "IS",
+    "name": "Information Systems",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/is/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-the-association-for-information-science-and-technology",
+    "kind": "journal",
+    "abbreviation": "JASIST",
+    "name": "Journal of the Association for Information Science and Technology",
+    "aliases": [],
+    "publisher": "Wiley",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jasis/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-web-semantics",
+    "kind": "journal",
+    "abbreviation": "JWS",
+    "name": "Journal of Web Semantics",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ws/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-knowledge-and-information-systems",
+    "kind": "journal",
+    "abbreviation": "KAIS",
+    "name": "Knowledge and Information Systems",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/kais/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 13
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-data-science-and-engineering",
+    "kind": "journal",
+    "abbreviation": "DSE",
+    "name": "Data Science and Engineering",
+    "aliases": [],
+    "publisher": "CCF/ Springer Nature",
+    "sourceUrls": ["https://dblp.org/db/journals/dase/index.html"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 33,
+        "order": 14
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-distributed-and-parallel-databases",
+    "kind": "journal",
+    "abbreviation": "DPD",
+    "name": "Distributed and Parallel Databases",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/dpd/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-information-management",
+    "kind": "journal",
+    "abbreviation": "I&M",
+    "name": "Information & Management",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/iam/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-discover-computing",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Discover Computing",
+    "aliases": ["IR", "Information Retrieval Journal"],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ir/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-international-journal-of-cooperative-information-systems",
+    "kind": "journal",
+    "abbreviation": "IJCIS",
+    "name": "International Journal of Cooperative Information Systems",
+    "aliases": [],
+    "publisher": "World Scientific",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ijcis/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-international-journal-of-geographical-information-science",
+    "kind": "journal",
+    "abbreviation": "IJGIS",
+    "name": "International Journal of Geographical Information Science",
+    "aliases": [],
+    "publisher": "Taylor & Francis",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/gis/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-international-journal-of-knowledge-management",
+    "kind": "journal",
+    "abbreviation": "IJKM",
+    "name": "International Journal of Knowledge Management",
+    "aliases": [],
+    "publisher": "IGI",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ijkm/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-international-journal-on-semantic-web-and-information-systems",
+    "kind": "journal",
+    "abbreviation": "IJSWIS",
+    "name": "International Journal on Semantic Web and Information Systems",
+    "aliases": [],
+    "publisher": "IGI",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ijswis/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-computer-information-systems",
+    "kind": "journal",
+    "abbreviation": "JCIS",
+    "name": "Journal of Computer Information Systems",
+    "aliases": [],
+    "publisher": "IACIS",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jcis/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-database-management",
+    "kind": "journal",
+    "abbreviation": "JDM",
+    "name": "Journal of Database Management",
+    "aliases": [],
+    "publisher": "IGI-Global",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jdm/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-global-information-technology-management",
+    "kind": "journal",
+    "abbreviation": "JGITM",
+    "name": "Journal of Global Information Technology Management",
+    "aliases": [],
+    "publisher": "Ivy League Publishing",
+    "sourceUrls": ["https://dblp.org/db/journals/jgim/index.html"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-intelligent-information-systems",
+    "kind": "journal",
+    "abbreviation": "JIIS",
+    "name": "Journal of Intelligent Information Systems",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jiis/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 13
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-the-journal-of-strategic-information-systems",
+    "kind": "journal",
+    "abbreviation": "JSIS",
+    "name": "The Journal of Strategic Information Systems",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jsis/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 14
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-intelligent-systems-and-technology",
+    "kind": "journal",
+    "abbreviation": "TIST",
+    "name": "ACM Transactions on Intelligent Systems and Technology",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/journals/tist/index.html"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 15
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-recommender-systems",
+    "kind": "journal",
+    "abbreviation": "TORS",
+    "name": "ACM Transactions on Recommender Systems",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/journals/tors/index.html"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 34,
+        "order": 16
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-acm-sigmod-conference",
+    "kind": "conference",
+    "abbreviation": "SIGMOD",
+    "name": "ACM SIGMOD Conference",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/sigmod/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "A",
+        "year": "2026",
+        "page": 35,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-acm-sigkdd-conference-on-knowledge-discovery-and-data-mining",
+    "kind": "conference",
+    "abbreviation": "SIGKDD",
+    "name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/kdd/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "A",
+        "year": "2026",
+        "page": 35,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-international-conference-on-data-engineering",
+    "kind": "conference",
+    "abbreviation": "ICDE",
+    "name": "IEEE International Conference on Data Engineering",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/icde/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "A",
+        "year": "2026",
+        "page": 35,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-acm-sigir-conference-on-research-and-development-in-information-retrieval",
+    "kind": "conference",
+    "abbreviation": "SIGIR",
+    "name": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/sigir/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "A",
+        "year": "2026",
+        "page": 35,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-very-large-data-bases",
+    "kind": "conference",
+    "abbreviation": "VLDB",
+    "name": "International Conference on Very Large Data Bases",
+    "aliases": [],
+    "publisher": "Morgan Kaufmann/ ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/vldb/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "A",
+        "year": "2026",
+        "page": 35,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-acm-international-conference-on-information-and-knowledge-management",
+    "kind": "conference",
+    "abbreviation": "CIKM",
+    "name": "ACM International Conference on Information and Knowledge Management",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/cikm/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-acm-international-conference-on-web-search-and-data-mining",
+    "kind": "conference",
+    "abbreviation": "WSDM",
+    "name": "ACM International Conference on Web Search and Data Mining",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/wsdm/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-acm-sigmod-sigact-sigai-symposium-on-principles-of-database-systems",
+    "kind": "conference",
+    "abbreviation": "PODS",
+    "name": "ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/pods/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-database-systems-for-advanced-applications",
+    "kind": "conference",
+    "abbreviation": "DASFAA",
+    "name": "International Conference on Database Systems for Advanced Applications",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/dasfaa/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-european-conference-on-machine-learning-and-principles-and-practice-of-knowledge-discovery-in-databases",
+    "kind": "conference",
+    "abbreviation": "ECML-PKDD",
+    "name": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": [
+      "http://dblp.uni-trier.de/db/conf/ecml/",
+      "http://dblp.uni-trier.de/db/conf/pkdd/"
+    ],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-international-semantic-web-conference",
+    "kind": "conference",
+    "abbreviation": "ISWC",
+    "name": "IEEE International Semantic Web Conference",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/semweb/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-international-conference-on-data-mining",
+    "kind": "conference",
+    "abbreviation": "ICDM",
+    "name": "IEEE International Conference on Data Mining",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/icdm/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-database-theory",
+    "kind": "conference",
+    "abbreviation": "ICDT",
+    "name": "International Conference on Database Theory",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/icdt/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-extending-database-technology",
+    "kind": "conference",
+    "abbreviation": "EDBT",
+    "name": "International Conference on Extending Database Technology",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/edbt/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-conference-on-innovative-data-systems-research",
+    "kind": "conference",
+    "abbreviation": "CIDR",
+    "name": "Conference on Innovative Data Systems Research",
+    "aliases": [],
+    "publisher": "Online Proceeding",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/cidr/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-siam-international-conference-on-data-mining",
+    "kind": "conference",
+    "abbreviation": "SDM",
+    "name": "SIAM International Conference on Data Mining",
+    "aliases": [],
+    "publisher": "SIAM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/sdm/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-acm-conference-on-recommender-systems",
+    "kind": "conference",
+    "abbreviation": "RecSys",
+    "name": "ACM Conference on Recommender Systems",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["https://dblp.org/db/conf/recsys/index.html"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-web-information-systems-engineering-conference",
+    "kind": "conference",
+    "abbreviation": "WISE",
+    "name": "Web Information Systems Engineering Conference",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/wise/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "B",
+        "year": "2026",
+        "page": 36,
+        "order": 13
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-asia-pacific-web-conference",
+    "kind": "conference",
+    "abbreviation": "APWeb",
+    "name": "Asia Pacific Web Conference",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/apweb/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-database-and-expert-system-applications",
+    "kind": "conference",
+    "abbreviation": "DEXA",
+    "name": "International Conference on Database and Expert System Applications",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/dexa/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-european-conference-on-information-retrieval",
+    "kind": "conference",
+    "abbreviation": "ECIR",
+    "name": "European Conference on Information Retrieval",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/ecir/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-extended-semantic-web-conference",
+    "kind": "conference",
+    "abbreviation": "ESWC",
+    "name": "Extended Semantic Web Conference",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/esws/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-workshop-on-web-and-databases",
+    "kind": "conference",
+    "abbreviation": "WebDB",
+    "name": "International Workshop on Web and Databases",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/webdb/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-conceptual-modeling",
+    "kind": "conference",
+    "abbreviation": "ER",
+    "name": "International Conference on Conceptual Modeling",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/er/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-mobile-data-management",
+    "kind": "conference",
+    "abbreviation": "MDM",
+    "name": "International Conference on Mobile Data Management",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/mdm/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-scientific-and-statistical-database-management",
+    "kind": "conference",
+    "abbreviation": "SSDBM",
+    "name": "International Conference on Scientific and Statistical Database Management",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/ssdbm/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-web-age-information-management",
+    "kind": "conference",
+    "abbreviation": "WAIM",
+    "name": "International Conference on Web Age Information Management",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/waim/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-symposium-on-spatial-and-temporal-databases",
+    "kind": "conference",
+    "abbreviation": "SSTD",
+    "name": "International Symposium on Spatial and Temporal Databases",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/ssd/index.html"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-pacific-asia-conference-on-knowledge-discovery-and-data-mining",
+    "kind": "conference",
+    "abbreviation": "PAKDD",
+    "name": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/pakdd/"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-advanced-data-mining-and-applications",
+    "kind": "conference",
+    "abbreviation": "ADMA",
+    "name": "International Conference on Advanced Data Mining and Applications",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.org/db/conf/adma/index.html"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-web-information-systems-and-applications",
+    "kind": "conference",
+    "abbreviation": "WISA",
+    "name": "Web Information Systems and Applications",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/IEEEwisa/index.html"],
+    "ccf": [
+      {
+        "area": "data",
+        "rank": "C",
+        "year": "2026",
+        "page": 37,
+        "order": 13
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-the-acm",
+    "kind": "journal",
+    "abbreviation": "JACM",
+    "name": "Journal of the ACM",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jacm/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "A",
+        "year": "2026",
+        "page": 67,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-proceedings-of-the-ieee",
+    "kind": "journal",
+    "abbreviation": "Proc. IEEE",
+    "name": "Proceedings of the IEEE",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/pieee/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "A",
+        "year": "2026",
+        "page": 67,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-science-china-information-sciences",
+    "kind": "journal",
+    "abbreviation": "SCIS",
+    "name": "Science China Information Sciences",
+    "aliases": [],
+    "publisher": "Science in China Press/Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/chinaf/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "A",
+        "year": "2026",
+        "page": 67,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-bioinformatics",
+    "kind": "journal",
+    "abbreviation": "Bioinformatics",
+    "name": "Bioinformatics",
+    "aliases": [],
+    "publisher": "Oxford University Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/bioinformatics/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "A",
+        "year": "2026",
+        "page": 67,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-briefings-in-bioinformatics",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Briefings in Bioinformatics",
+    "aliases": [],
+    "publisher": "Oxford University Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/bib/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-cognition",
+    "kind": "journal",
+    "abbreviation": "Cognition",
+    "name": "Cognition",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://www.journals.elsevier.com/cognition/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-automation-science-and-engineering",
+    "kind": "journal",
+    "abbreviation": "TASAE",
+    "name": "IEEE Transactions on Automation Science and Engineering",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tase/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-geoscience-and-remote-sensing",
+    "kind": "journal",
+    "abbreviation": "TGARS",
+    "name": "IEEE Transactions on Geoscience and Remote Sensing",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tgrs/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-intelligent-transportation-systems",
+    "kind": "journal",
+    "abbreviation": "TITS",
+    "name": "IEEE Transactions on Intelligent Transportation Systems",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tits/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-medical-imaging",
+    "kind": "journal",
+    "abbreviation": "TMI",
+    "name": "IEEE Transactions on Medical Imaging",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tmi/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-robotics",
+    "kind": "journal",
+    "abbreviation": "TR",
+    "name": "IEEE Transactions on Robotics",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/trob/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-acm-transactions-on-computational-biology-and-bioinformatics",
+    "kind": "journal",
+    "abbreviation": "TCBB",
+    "name": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+    "aliases": [],
+    "publisher": "IEEE/ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/tcbb/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-computer-science-and-technology",
+    "kind": "journal",
+    "abbreviation": "JCST",
+    "name": "Journal of Computer Science and Technology",
+    "aliases": [],
+    "publisher": "SCIENCE PRESS/Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jcst/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-the-american-medical-informatics-association",
+    "kind": "journal",
+    "abbreviation": "JAMIA",
+    "name": "Journal of the American Medical Informatics Association",
+    "aliases": [],
+    "publisher": "BMJ Journals",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/jamia/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-plos-computational-biology",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "PLOS Computational Biology",
+    "aliases": [],
+    "publisher": "Public Library of Science",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/ploscb/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-the-computer-journal",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "The Computer Journal",
+    "aliases": [],
+    "publisher": "Oxford University Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/cj/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-the-web-conference",
+    "kind": "journal",
+    "abbreviation": "WWW",
+    "name": "The Web Conference",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.org/db/journals/www/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 13
+      }
+    ],
+    "rankings": [],
+    "notes": "原文列于 B 类期刊表，但全称写为 The Web Conference，疑似误植；链接指向 WWW 期刊。与 A 类 WWW 会议分别建档，名称待核实。"
+  },
+  {
+    "id": "journal-frontiers-of-computer-science",
+    "kind": "journal",
+    "abbreviation": "FCS",
+    "name": "Frontiers of Computer Science",
+    "aliases": [],
+    "publisher": "Higher Education Press",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/fcsc/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 14
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-blockchain-research-and-applications",
+    "kind": "journal",
+    "abbreviation": "BCRA",
+    "name": "Blockchain: Research and Applications",
+    "aliases": [],
+    "publisher": "浙江大学出版社 /Elsevier",
+    "sourceUrls": ["https://dblp.uni-trier.de/search?q=BCRA"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 68,
+        "order": 15
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-bmc-bioinformatics",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "BMC Bioinformatics",
+    "aliases": [],
+    "publisher": "BioMed Central",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/bmcbi/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-cybernetics-and-systems",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Cybernetics and Systems",
+    "aliases": [],
+    "publisher": "Taylor & Francis",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/cas/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-geoscience-and-remote-sensing-letters",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "IEEE Geoscience and Remote Sensing Letters",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/lgrs/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-journal-of-biomedical-and-health-informatics",
+    "kind": "journal",
+    "abbreviation": "JBHI",
+    "name": "IEEE Journal of Biomedical and Health Informatics",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/titb/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-big-data",
+    "kind": "journal",
+    "abbreviation": "TBD",
+    "name": "IEEE Transactions on Big Data",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/journals/tbd/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-iet-intelligent-transport-systems",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "IET Intelligent Transport Systems",
+    "aliases": [],
+    "publisher": "IET",
+    "sourceUrls": ["http://digital-library.theiet.org/content/journals/iet-its"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-journal-of-biomedical-informatics",
+    "kind": "journal",
+    "abbreviation": "JBI",
+    "name": "Journal of Biomedical Informatics",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/journals/jbi/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-medical-image-analysis",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "Medical Image Analysis",
+    "aliases": [],
+    "publisher": "Elsevier",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/journals/mia/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-industrial-informatics",
+    "kind": "journal",
+    "abbreviation": "TII",
+    "name": "IEEE Transactions on Industrial Informatics",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["https://dblp.org/db/journals/tii/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-cyber-physical-systems",
+    "kind": "journal",
+    "abbreviation": "TCPS",
+    "name": "ACM Transactions on Cyber-Physical Systems",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["https://dblp.org/db/journals/tcps/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-computing-education",
+    "kind": "journal",
+    "abbreviation": "TOCE",
+    "name": "ACM Transactions on Computing Education",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["https://dblp.org/db/journals/jeric/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-engineering-information-technology-electronic-engineering",
+    "kind": "journal",
+    "abbreviation": "EITEE",
+    "name": "ENGINEERING Information Technology & Electronic Engineering",
+    "aliases": ["FITEE", "Frontiers of Information Technology & Electronic Engineering"],
+    "publisher": "浙江大学出版社（原 Springer）",
+    "sourceUrls": ["https://www.academax.com/EITEE/home"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-computational-social-systems",
+    "kind": "journal",
+    "abbreviation": "TCSS",
+    "name": "IEEE Transactions on Computational Social Systems",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["https://dblp.org/db/journals/tcss/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 13
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-ieee-transactions-on-reliability",
+    "kind": "journal",
+    "abbreviation": "",
+    "name": "IEEE Transactions on Reliability",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["https://dblp.org/db/journals/tr/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 14
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-transactions-on-computing-for-healthcare",
+    "kind": "journal",
+    "abbreviation": "HEALTH",
+    "name": "ACM Transactions on Computing for Healthcare",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/journals/health/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 15
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "journal-acm-distributed-ledger-technologies-research-and-practice",
+    "kind": "journal",
+    "abbreviation": "ACM DLT",
+    "name": "ACM Distributed Ledger Technologies: Research and Practice",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/journals/distribledger/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 69,
+        "order": 16
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-the-web-conference",
+    "kind": "conference",
+    "abbreviation": "WWW",
+    "name": "The Web Conference",
+    "aliases": ["International World Wide Web Conference"],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/www/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "A",
+        "year": "2026",
+        "page": 70,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-real-time-systems-symposium",
+    "kind": "conference",
+    "abbreviation": "RTSS",
+    "name": "IEEE Real-Time Systems Symposium",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/rtss/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "A",
+        "year": "2026",
+        "page": 70,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-annual-meeting-of-the-cognitive-science-society",
+    "kind": "conference",
+    "abbreviation": "CogSci",
+    "name": "Annual Meeting of the Cognitive Science Society",
+    "aliases": [],
+    "publisher": "Psychology Press",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/cogsci/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 71,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-international-conference-on-bioinformatics-and-biomedicine",
+    "kind": "conference",
+    "abbreviation": "BIBM",
+    "name": "IEEE International Conference on Bioinformatics and Biomedicine",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/bibm/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 71,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-embedded-software",
+    "kind": "conference",
+    "abbreviation": "EMSOFT",
+    "name": "International Conference on Embedded Software",
+    "aliases": [],
+    "publisher": "IEEE/ACM /IFIP",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/emsoft/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 71,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-intelligent-systems-for-molecular-biology",
+    "kind": "conference",
+    "abbreviation": "ISMB",
+    "name": "International conference on Intelligent Systems for Molecular Biology",
+    "aliases": [],
+    "publisher": "Oxford Journals",
+    "sourceUrls": ["https://dblp.org/db/conf/ismb/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 71,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-annual-international-conference-on-research-in-computational-molecular-biology",
+    "kind": "conference",
+    "abbreviation": "RECOMB",
+    "name": "Annual International Conference on Research in Computational Molecular Biology",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/recomb/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 71,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-medical-image-computing-and-computer-assisted-intervention",
+    "kind": "conference",
+    "abbreviation": "MICCAI",
+    "name": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.org/db/conf/miccai/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 71,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-conference-on-web-and-internet-economics",
+    "kind": "conference",
+    "abbreviation": "WINE",
+    "name": "Conference on Web and Internet Economics",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.org/db/conf/wine/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "B",
+        "year": "2026",
+        "page": 71,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-american-medical-informatics-association-annual-symposium",
+    "kind": "conference",
+    "abbreviation": "AMIA",
+    "name": "American Medical Informatics Association Annual Symposium",
+    "aliases": [],
+    "publisher": "AMIA",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/amia/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 1
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-asia-pacific-bioinformatics-conference",
+    "kind": "conference",
+    "abbreviation": "APBC",
+    "name": "Asia Pacific Bioinformatics Conference",
+    "aliases": [],
+    "publisher": "BioMed Central",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/apbc/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 2
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-international-conference-on-big-data",
+    "kind": "conference",
+    "abbreviation": "IEEE BigData",
+    "name": "IEEE International Conference on Big Data",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/bigdataconf/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 3
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-international-conference-on-cloud-computing",
+    "kind": "conference",
+    "abbreviation": "IEEE CLOUD",
+    "name": "IEEE International Conference on Cloud Computing",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/IEEEcloud/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 4
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-ieee-international-conference-on-systems-man-and-cybernetics",
+    "kind": "conference",
+    "abbreviation": "SMC",
+    "name": "IEEE International Conference on Systems, Man, and Cybernetics",
+    "aliases": [],
+    "publisher": "IEEE",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/smc/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 5
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-spatial-information-theory",
+    "kind": "conference",
+    "abbreviation": "COSIT",
+    "name": "International Conference on Spatial Information Theory",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["http://dblp.uni-trier.de/db/conf/cosit/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 6
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-symposium-on-bioinformatics-research-and-applications",
+    "kind": "conference",
+    "abbreviation": "ISBRA",
+    "name": "International Symposium on Bioinformatics Research and Applications",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/isbra/"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 7
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-symposium-on-algorithmic-game-theory",
+    "kind": "conference",
+    "abbreviation": "SAGT",
+    "name": "International Symposium on Algorithmic Game Theory",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.org/db/conf/sagt/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 8
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-acm-special-interest-group-on-spatial-information",
+    "kind": "conference",
+    "abbreviation": "SIGSPATIAL",
+    "name": "ACM Special Interest Group on Spatial Information",
+    "aliases": [],
+    "publisher": "ACM",
+    "sourceUrls": ["https://dblp.org/db/journals/sigspatial/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 9
+      }
+    ],
+    "rankings": [],
+    "notes": "原文列于 C 类会议表，但全称及链接指向 SIGSPATIAL 相关出版物，疑似不一致；会议全称与官网待核实。"
+  },
+  {
+    "id": "conference-international-conference-on-intelligent-computing",
+    "kind": "conference",
+    "abbreviation": "ICIC",
+    "name": "International Conference on Intelligent Computing",
+    "aliases": [],
+    "publisher": "Springer-Nature",
+    "sourceUrls": ["https://dblp.org/db/conf/icic/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 10
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-conference-on-service-science",
+    "kind": "conference",
+    "abbreviation": "ICSS",
+    "name": "International Conference on Service Science",
+    "aliases": [],
+    "publisher": "CCF/Springer",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/service/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 11
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-advances-in-financial-technologies",
+    "kind": "conference",
+    "abbreviation": "AFT",
+    "name": "Advances in Financial Technologies",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/aft/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 12
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  },
+  {
+    "id": "conference-international-joint-conference-on-theoretical-computer-science-frontier-of-algorithmic-wisdom",
+    "kind": "conference",
+    "abbreviation": "IJTCS-FAW",
+    "name": "International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom",
+    "aliases": [],
+    "publisher": "Springer",
+    "sourceUrls": ["https://dblp.uni-trier.de/db/conf/faw/index.html"],
+    "ccf": [
+      {
+        "area": "cross",
+        "rank": "C",
+        "year": "2026",
+        "page": 72,
+        "order": 13
+      }
+    ],
+    "rankings": [],
+    "notes": ""
+  }
+]
