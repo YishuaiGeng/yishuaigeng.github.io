@@ -242,6 +242,10 @@ blog: {
   ],
   displayCategories: ['Paper Reading', 'Learning Notes'],
   displayTags: ['RAG', 'Reinforcement Learning', 'Research Workflow'],
+  labels: {
+    readingTime: 'min read',
+    pinned: 'Pinned',
+  },
   wordsPerMinute: 200,              // used to calculate estimated reading time
   emptyTitle: 'Posts Coming Soon',
   emptyMessage: 'Research notes and personal updates will be published here.',

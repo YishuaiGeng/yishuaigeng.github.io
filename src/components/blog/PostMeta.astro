@@ -1,6 +1,8 @@
 ---
 import { site } from '@config/site';
 
+import IconClock from '~icons/fa-solid/clock';
+
 interface Props {
   date: Date | string;
   tags?: string[];
@@ -11,7 +13,7 @@ interface Props {
 const { date, tags = [], categories = [], readingTime } = Astro.props;
 
 const d = date instanceof Date ? date : new Date(date);
-const formattedDate = d.toLocaleDateString('en-US', {
+const formattedDate = d.toLocaleDateString(site.lang, {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
@@ -29,7 +31,12 @@ const isoDate = d.toISOString();
     readingTime && (
       <>
         <span aria-hidden="true">·</span>
-        <span>{readingTime} min read</span>
+        <span class="reading-time">
+          <IconClock aria-hidden="true" />
+          <span>
+            {readingTime} {site.blog.labels.readingTime}
+          </span>
+        </span>
       </>
     )
   }
@@ -72,3 +79,16 @@ const isoDate = d.toISOString();
     )
   }
 </div>
+
+<style>
+  .reading-time {
+    align-items: center;
+    display: inline-flex;
+    gap: 0.3rem;
+  }
+
+  .reading-time :global(svg) {
+    height: 0.75rem;
+    width: 0.75rem;
+  }
+</style>

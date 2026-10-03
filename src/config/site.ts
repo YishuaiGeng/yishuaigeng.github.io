@@ -223,6 +223,8 @@ export const site = {
       allNotes: 'All Notes',
       noteSingular: 'note',
       notePlural: 'notes',
+      readingTime: 'min read',
+      pinned: 'Pinned',
     },
     /**
      * Tags shown as badges on the blog listing page header.
