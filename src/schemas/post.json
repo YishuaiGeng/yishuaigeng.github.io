@@ -74,8 +74,8 @@
     "citation_key": { "type": "string", "description": "Citation key for this post" },
     "mermaid": {
       "type": "boolean",
-      "default": false,
-      "description": "Load Mermaid diagram rendering"
+      "default": true,
+      "description": "Render Mermaid code fences when present"
     },
     "chart_js": { "type": "boolean", "default": false, "description": "Load Chart.js" },
     "echarts": { "type": "boolean", "default": false, "description": "Load Apache ECharts" },

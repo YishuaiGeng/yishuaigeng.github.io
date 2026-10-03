@@ -196,7 +196,7 @@ lastmod: 2024-09-01  # optional: last modified date — shown in header and JSON
 description: "Shown in listings and meta tags"
 tags: [physics, math]
 categories: [science]
-math: true           # enable KaTeX rendering
+math: true           # optional compatibility flag; KaTeX rendering is automatic
 toc: true            # sidebar table of contents (default: true)
 pinned: false        # pin to top of blog listing
 hidden: false        # hide from listing (accessible via URL)
@@ -213,6 +213,18 @@ $$
 \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
 $$
 ```
+
+KaTeX is configured globally for blog Markdown, so inline and display formulas are
+rendered during the build. Mermaid is enabled by default and its browser library is
+downloaded only when a post contains a `mermaid` code fence:
+
+````markdown
+```mermaid
+flowchart LR
+  A[Question] --> B[Experiment]
+  B --> C[Evidence]
+```
+````
 
 ### Blog listing options
 
@@ -268,7 +280,7 @@ Enable in frontmatter:
 
 | Flag                   | What it loads           |
 | ---------------------- | ----------------------- |
-| `mermaid: true`        | Mermaid diagrams        |
+| `mermaid: false`       | Disable Mermaid rendering for this post |
 | `chart_js: true`       | Chart.js                |
 | `echarts: true`        | Apache ECharts          |
 | `vega: true`           | Vega/Vega-Lite          |
@@ -914,7 +926,8 @@ and `yarn lint:ci` after changes.
 - `statisticsUrl` links to the matching public report, currently
   <https://mapmyvisitors.com/web/1c8mp>.
 - `maxWidth` limits the centered map width; smaller screens use the available width.
-  `labels` contains all heading, alternative text, link and caption copy.
+  `labels` contains the alternative text, link and caption copy. The map is shown
+  without a separate section heading.
 
 Installation code: <https://mapmyvisitors.com/profile/1c8mp/widget/code/map>.
 `VisitorMap.astro` places the external script with `id="mapmyvisitors"` inside the

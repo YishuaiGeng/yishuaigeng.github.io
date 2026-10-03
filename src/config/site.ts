@@ -339,7 +339,6 @@ export const site = {
     /** Maximum widget width in pixels; smaller screens use the available width. */
     maxWidth: 600,
     labels: {
-      title: 'Visitors',
       mapAlt: 'World map of visitor locations, provided by MapMyVisitors',
       details: 'Visitor statistics',
       caption: 'Visitor locations and statistics · MapMyVisitors',
@@ -386,7 +385,7 @@ export const site = {
   // Follow setup at https://giscus.app/ then fill in the values below.
 
   giscus: {
-    /** Set to true once you've configured the fields below. */
+    /** Enable after GitHub Discussions and the giscus app are configured for this repository. */
     enabled: false,
     /**
      * When true, Giscus is hidden behind a "Load comments" button — the
@@ -395,9 +394,9 @@ export const site = {
      * Default: true.
      */
     lazyLoad: true,
-    repo: '' as `${string}/${string}`,
-    repoId: '',
-    category: 'Comments',
+    repo: 'YishuaiGeng/yishuaigeng.github.io' as `${string}/${string}`,
+    repoId: 'R_kgDONzkV-w',
+    category: 'General',
     categoryId: '',
     /** How to map discussions to pages. */
     mapping: 'title' as 'pathname' | 'url' | 'title' | 'og:title',

@@ -47,8 +47,8 @@ const blogs = defineCollection({
     bibliography: z.string().optional(),
     /** Citation key for this post (used in bibliography). */
     citation_key: z.string().optional(),
-    /** Load Mermaid diagram rendering on this post. */
-    mermaid: z.boolean().optional().default(false),
+    /** Render Mermaid code fences; the browser library loads only when a diagram is present. */
+    mermaid: z.boolean().optional().default(true),
     /** Load Chart.js on this post. */
     chart_js: z.boolean().optional().default(false),
     /** Load Apache ECharts on this post. */

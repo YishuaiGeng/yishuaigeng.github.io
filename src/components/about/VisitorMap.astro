@@ -7,8 +7,7 @@ const visible = visitors.enabled && visitors.scriptUrl && visitors.statisticsUrl
 
 {
   visible && (
-    <section class="visitor-section" aria-labelledby="visitor-heading" data-pagefind-ignore>
-      <h2 id="visitor-heading">{visitors.labels.title}</h2>
+    <section class="visitor-section" aria-label={visitors.labels.details} data-pagefind-ignore>
       <div class="visitor-map" style={`max-width: ${visitors.maxWidth}px;`}>
         <script
           is:inline
@@ -40,13 +39,6 @@ const visible = visitors.enabled && visitors.scriptUrl && visitors.statisticsUrl
     padding-top: 1.5rem;
     border-top: 1px solid var(--global-divider-color);
     text-align: center;
-  }
-
-  h2 {
-    margin: 0 0 1rem;
-    color: var(--global-text-color);
-    font-size: 1rem;
-    font-weight: 600;
   }
 
   .visitor-map {

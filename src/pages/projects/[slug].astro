@@ -134,7 +134,11 @@ const relatedEntries =
       }
 
       <!-- Body content -->
-      <div class="prose" id="project-content">
+      <div
+        class="prose"
+        id="project-content"
+        data-medium-zoom={site.features.mediumZoom ? 'true' : 'false'}
+      >
         <Content />
       </div>
     </article>
@@ -190,6 +194,9 @@ const relatedEntries =
   function initZoom() {
     zoom?.detach();
     zoom = null;
+
+    const content = document.getElementById('project-content');
+    if (content?.dataset.mediumZoom !== 'true') return;
 
     const imgs = document.querySelectorAll<HTMLImageElement>('#project-content img:not(.no-zoom)');
     if (imgs.length === 0) return;
