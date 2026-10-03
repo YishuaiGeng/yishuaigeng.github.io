@@ -2,31 +2,33 @@
 import { site } from '@config/site';
 
 const { visitors } = site;
-const visible = visitors.enabled && visitors.imageUrl && visitors.statisticsUrl;
+const visible = visitors.enabled && visitors.scriptUrl && visitors.statisticsUrl;
 ---
 
 {
   visible && (
     <section class="visitor-section" aria-labelledby="visitor-heading" data-pagefind-ignore>
       <h2 id="visitor-heading">{visitors.labels.title}</h2>
-      <a
-        class="visitor-map"
-        href={visitors.statisticsUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label={visitors.labels.details}
-      >
-        <img
-          src={visitors.imageUrl}
-          alt={visitors.labels.mapAlt}
-          width={visitors.width}
-          height={visitors.height}
-          loading="eager"
-          decoding="async"
-          referrerpolicy="strict-origin-when-cross-origin"
+      <div class="visitor-map" style={`max-width: ${visitors.maxWidth}px;`}>
+        <script
+          is:inline
+          data-astro-rerun
+          type="text/javascript"
+          id="mapmyvisitors"
+          src={visitors.scriptUrl}
+          async
         />
-      </a>
-      <p class="visitor-caption">{visitors.labels.caption}</p>
+        <noscript>
+          <a href={visitors.statisticsUrl} title={visitors.labels.details}>
+            <img src={visitors.imageUrl} alt={visitors.labels.mapAlt} />
+          </a>
+        </noscript>
+      </div>
+      <p class="visitor-caption">
+        <a href={visitors.statisticsUrl} target="_blank" rel="noopener noreferrer">
+          {visitors.labels.caption}
+        </a>
+      </p>
     </section>
   )
 }
@@ -49,16 +51,16 @@ const visible = visitors.enabled && visitors.imageUrl && visitors.statisticsUrl;
 
   .visitor-map {
     display: block;
-    width: fit-content;
-    max-width: 100%;
+    width: 100%;
+    min-height: 180px;
     margin-inline: auto;
     overflow: hidden;
     border: 1px solid var(--global-divider-color);
     border-radius: 8px;
-    background: var(--color-white);
   }
 
-  .visitor-map:focus-visible {
+  a:focus-visible,
+  .visitor-map :global(a:focus-visible) {
     outline: 2px solid var(--global-theme-color);
     outline-offset: 4px;
   }
@@ -69,9 +71,23 @@ const visible = visitors.enabled && visitors.imageUrl && visitors.statisticsUrl;
     height: auto;
   }
 
+  .visitor-map :global(#mapmyvisitors-widget) {
+    max-width: 100%;
+  }
+
   .visitor-caption {
     margin: 0.75rem 0 0;
     color: var(--global-text-color-light);
     font-size: 0.75rem;
+  }
+
+  .visitor-caption a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .visitor-caption a:hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
   }
 </style>

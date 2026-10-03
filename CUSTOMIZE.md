@@ -904,30 +904,27 @@ and `yarn lint:ci` after changes.
 
 ## Homepage visitor map
 
-`site.visitors` controls the Flag Counter widget at the bottom of the homepage:
+`site.visitors` controls the MapMyVisitors widget at the bottom of the homepage:
 
-- `enabled` toggles the section. Empty `imageUrl` or `statisticsUrl` also hides it.
-- `imageUrl` is the live map URL generated at <https://flagcounter.com/> using
-  **Flag Map** and **Show Pageview Count**. `statisticsUrl` is its matching public
-  report URL. Each website needs its own counter ID; do not copy another site's ID.
-- `width` and `height` reserve the image's natural dimensions, and `labels` contains
-  all heading, alternative text, link and caption copy.
+- `enabled` toggles the section. Empty `scriptUrl` or `statisticsUrl` also hides it.
+- `scriptUrl` is the official JavaScript installation URL, using HTTPS and `w=a`
+  for automatic width. Keep the `d` value from your own installation code.
+- `imageUrl` is the official plain-image alternative for the same profile. It is
+  inside `noscript`, so JavaScript-enabled visits do not load both trackers.
+- `statisticsUrl` links to the matching public report, currently
+  <https://mapmyvisitors.com/web/1c8mp>.
+- `maxWidth` limits the centered map width; smaller screens use the available width.
+  `labels` contains all heading, alternative text, link and caption copy.
 
-The map marks visitor countries, shows the number of countries and image loads
-(homepage views), and links to visitor details. Views are not unique people:
-Flag Counter counts repeat visitors once per 24 hours by default, while each counter
-image load adds a view. Tracking starts when the counter is created, including setup
-checks; it cannot reconstruct earlier traffic. Only the homepage embeds the counter.
+Installation code: <https://mapmyvisitors.com/profile/1c8mp/widget/code/map>.
+`VisitorMap.astro` places the external script with `id="mapmyvisitors"` inside the
+page body, as required by the provider. `is:inline` preserves the external embed;
+`async` avoids blocking page parsing, and `data-astro-rerun` reloads the widget when
+Astro's client router returns to the homepage. This is a visible DOM widget, so it
+runs in the main page rather than the Partytown analytics worker.
 
-The image is deliberately eager-loaded so visitors count even without scrolling to
-the bottom. Keep it as a live external image; Astro image optimization, downloading,
-or proxy caching would count the server instead of visitors. No tracking JavaScript
-is required. The same single image works in light and dark themes, avoiding extra
-counter requests on theme changes. Ad blockers and provider outages can prevent
-the image from loading or the visit from counting.
-
-This counter was created through Flag Counter's free **Skip registration** option;
-it has no account credentials or administrative dashboard. Keep the public URLs to
-retain access to the statistics and regenerate the embed. The provider's free tier
-may remove counters with no new visitor for over 30 days. Provider documentation:
-<https://flagcounter.com/faq.html>.
+Only the homepage embeds the tracker. Locations and counts follow MapMyVisitors'
+definitions and update schedule; historical data belongs to the configured profile.
+Keep the provider resources live: downloading or proxy-caching the tracker would
+prevent normal visitor tracking. Ad blockers or provider outages can prevent the
+widget from loading; the public statistics link remains available below the map.
