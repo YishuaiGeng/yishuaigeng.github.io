@@ -1,0 +1,188 @@
+---
+import WhalePetArtwork from '@components/WhalePetArtwork.astro';
+import { site } from '@config/site';
+
+const { pet } = site;
+const pathname = Astro.url.pathname.slice(site.base.length) || '/';
+const readingPage = pet.reading.paths.some((path) => pathname.startsWith(path));
+const initialState = pet.reading.enabled && readingPage ? 'reading' : 'idle';
+const controller = {
+  sleepAfterMs: pet.sleepAfterMs,
+  blink: pet.blink,
+  happyDurationMs: pet.happyDurationMs,
+  fountain: pet.fountain,
+  reading: pet.reading,
+  thinking: pet.thinking,
+  labels: pet.labels,
+};
+---
+
+<whale-pet
+  id="navbar-whale-pet"
+  class="whale-pet"
+  data-state={initialState}
+  data-motion="paused"
+  data-fountain="idle"
+  data-reading-page={String(readingPage)}
+  data-settings={JSON.stringify(controller)}
+  data-pagefind-ignore
+  style={`--pet-size: ${pet.size.desktop}px; --pet-mobile-size: ${pet.size.mobile}px;`}
+>
+  <button
+    class="pet-activate"
+    type="button"
+    aria-label={`${pet.labels[initialState]}. ${pet.labels.activate}`}
+  >
+    <span class="pet-float">
+      <span class="pet-reaction">
+        <WhalePetArtwork assetPath={`${site.base}${pet.assetPath}`} prefix="navbar-whale" />
+      </span>
+    </span>
+  </button>
+  <span class="pet-announcement sr-only" role="status" aria-live="polite"></span>
+</whale-pet>
+
+<script>
+  import '../scripts/whale-pet';
+</script>
+
+<style>
+  .whale-pet {
+    position: relative;
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    width: max(44px, var(--pet-size));
+    height: 44px;
+    color: var(--global-text-color-light);
+  }
+  .pet-activate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    border-radius: 35%;
+    background: transparent;
+    cursor: pointer;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .pet-activate:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 1px;
+  }
+  .pet-float,
+  .pet-reaction {
+    display: block;
+    position: relative;
+    transform-origin: 50% 80%;
+  }
+  .pet-float {
+    width: var(--pet-size);
+  }
+  .whale-pet :global(.pet-artwork) {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    pointer-events: none;
+  }
+  .whale-pet :global(.pet-eye-closed),
+  .whale-pet :global(.pet-eye-happy),
+  .whale-pet :global(.pet-expression-happy),
+  .whale-pet :global(.pet-expression-reading),
+  .whale-pet :global(.pet-expression-thinking),
+  .whale-pet :global(.pet-expression-sleep) {
+    display: none;
+  }
+  .whale-pet[data-state='blink'] :global(.pet-eye-open),
+  .whale-pet[data-state='happy'] :global(.pet-eye-open),
+  .whale-pet[data-state='sleep'] :global(.pet-eye-open) {
+    display: none;
+  }
+  .whale-pet[data-state='blink'] :global(.pet-eye-closed),
+  .whale-pet[data-state='sleep'] :global(.pet-eye-closed),
+  .whale-pet[data-state='sleep'] :global(.pet-expression-sleep),
+  .whale-pet[data-state='happy'] :global(.pet-eye-happy),
+  .whale-pet[data-state='happy'] :global(.pet-expression-happy),
+  .whale-pet[data-state='reading'] :global(.pet-expression-reading),
+  .whale-pet[data-state='thinking'] :global(.pet-expression-thinking) {
+    display: inline;
+  }
+  .whale-pet :global(.pet-spout) {
+    transform-origin: 577px 400px;
+  }
+  .whale-pet :global(.pet-tail-idle) {
+    transform-origin: 919px 812px;
+  }
+  .whale-pet :global(.pet-droplet) {
+    opacity: 0;
+    transform-origin: 0 0;
+  }
+  .whale-pet[data-motion='active'][data-state='idle'] .pet-float,
+  .whale-pet[data-motion='active'][data-state='blink'] .pet-float {
+    animation: pet-float 4s ease-in-out infinite;
+  }
+  .whale-pet[data-motion='active'][data-state='idle'] :global(.pet-tail-idle) {
+    animation: pet-tail 5s ease-in-out infinite;
+  }
+  .whale-pet[data-motion='active'][data-state='sleep'] .pet-float {
+    animation: pet-breathe 5s ease-in-out infinite;
+  }
+  :global([data-theme='dark']) .whale-pet :global(.pet-eye-open),
+  :global([data-theme='dark']) .whale-pet :global(.pet-eye-closed),
+  :global([data-theme='dark']) .whale-pet :global(.pet-eye-happy) {
+    filter: drop-shadow(0 0 5px var(--color-cyan-light));
+  }
+  @media (max-width: 1023px) {
+    .whale-pet {
+      width: max(44px, var(--pet-mobile-size));
+    }
+    .pet-float {
+      width: var(--pet-mobile-size);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .whale-pet *,
+    .whale-pet :global(svg *) {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+  @media print {
+    .whale-pet {
+      display: none !important;
+    }
+  }
+  @keyframes pet-float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-0.8px);
+    }
+  }
+  @keyframes pet-breathe {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.015, 0.988);
+    }
+  }
+  @keyframes pet-tail {
+    0%,
+    100% {
+      transform: rotate(-0.6deg);
+    }
+    50% {
+      transform: rotate(0.6deg);
+    }
+  }
+</style>

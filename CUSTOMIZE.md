@@ -954,3 +954,46 @@ definitions and update schedule; historical data belongs to the configured profi
 Keep the provider resources live: downloading or proxy-caching the tracker would
 prevent normal visitor tracking. Ad blockers or provider outages can prevent the
 widget from loading; the public statistics link remains available below the map.
+
+## Navigation whale pet
+
+`site.pet.enabled` places the original 2D whale immediately before the name in
+`Navbar.astro`, on every page. The artwork is 44 px on desktop and 40 px below
+1024 px, with a 44 px button target. The whale and name link are separate controls:
+clicking the whale never navigates. There are no visible hints, tooltips or close
+buttons; accessible labels and click announcements remain available to screen readers.
+
+Click, Enter or Space produces a happy expression, a small bounce and fountain,
+then restores the current activity's expression. The original water shape remains
+on its head at rest. Motion stays within the navigation area.
+
+States follow these lightweight activity cues:
+
+- **Reading:** a configured reading route (blog, publications or CV by default),
+  scrolling at least 120 px and pausing for 900 ms, or selecting text in the main
+  content. Reading persists while the visitor stays there, even without mouse
+  movement. Returning to the top of a non-reading page restores idle.
+- **Thinking:** opening search or focusing a text field. Closing search or leaving
+  the field restores the reading/idle context.
+- **Idle:** occasional blinking and a subtle float. After 30 seconds without
+  activity outside reading/search contexts, the whale sleeps; activity wakes it.
+- **Happy:** explicit activation temporarily takes priority over the other states.
+
+Edit `site.pet` in `src/config/site.ts` to control:
+
+- `enabled`, `assetPath`, `size.desktop` and `size.mobile`.
+- `reading.enabled`, `reading.paths` (root-relative route prefixes without `site.base`),
+  `reading.scrollThreshold` and `reading.settleMs`.
+- `thinking.enabled`, `sleepAfterMs`, `blink` intervals and `happyDurationMs`.
+- `fountain.enabled` (click only) and all accessible `labels`.
+
+Reduced-motion preferences retain static expression changes and disable all
+movement and spraying. Hidden tabs pause animation and timers. The custom element
+releases listeners, timers and animations when Astro navigation removes it.
+No 3D runtime or model is loaded by the navigation pet.
+
+The artwork geometry is in `src/data/whale-pet-artwork.json`; the matching original
+textures are in `public/assets/img/whale-pet/layers/*.png`. `WhalePetArtwork.astro`
+combines these with SVG expressions and fountain droplets. Keep texture positions
+and contour coordinates aligned when editing the artwork. Reading and thinking
+use paper and question-mark motifs enlarged for the small navigation size.

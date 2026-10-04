@@ -31,4 +31,13 @@ describe('readingTime', () => {
   it('never returns less than 1 minute', () => {
     expect(readingTime('one two three', 10000)).toBe(1);
   });
+
+  it('estimates Chinese prose without requiring spaces between words', () => {
+    expect(readingTime('强化学习'.repeat(200))).toBe(2);
+  });
+
+  it('combines Chinese text and English words in mixed-language notes', () => {
+    const english = Array(100).fill('policy').join(' ');
+    expect(readingTime(`${english}。${'强化学习'.repeat(100)}`)).toBe(2);
+  });
 });

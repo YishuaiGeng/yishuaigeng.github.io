@@ -157,6 +157,44 @@ export const site = {
     position: 'normal' as 'sticky' | 'normal' | 'hidden',
   },
 
+  // ─── Navigation whale pet ─────────────────────────────────────────────────
+
+  pet: {
+    /** Show the small 2D whale before the name in the navigation bar on every page. */
+    enabled: true,
+    /** Root-relative directory containing the exported artwork textures. */
+    assetPath: '/assets/img/whale-pet',
+    /** Artwork size in CSS pixels. The button retains a 44px touch target. */
+    size: { desktop: 44, mobile: 40 },
+    /** Enable a reading expression on these routes, after scrolling, or when selecting main content. */
+    reading: {
+      enabled: true,
+      paths: ['/blog/', '/publications/', '/cv/'] as string[],
+      scrollThreshold: 120,
+      settleMs: 900,
+    },
+    /** Show the thinking expression while searching or editing a text field. */
+    thinking: { enabled: true },
+    /** Inactivity before sleep outside reading/search contexts; activity wakes the pet. */
+    sleepAfterMs: 30000,
+    /** Random blink interval and closed-eye duration, in milliseconds. */
+    blink: { minMs: 3000, maxMs: 6000, durationMs: 160 },
+    /** Duration of the happy face after activation, in milliseconds. */
+    happyDurationMs: 1300,
+    /** Enable a small fountain on click only. */
+    fountain: { enabled: true },
+    /** Accessible labels only; the navigation pet has no visible hints or tooltips. */
+    labels: {
+      activate: 'Say hello to the whale and make a splash',
+      idle: 'Whale companion',
+      happy: 'Happy whale',
+      reading: 'Reading whale',
+      thinking: 'Thinking whale',
+      sleep: 'Sleeping whale',
+      greeting: 'The whale says hello!',
+    },
+  },
+
   // ─── CV page ───────────────────────────────────────────────────────────────
 
   cv: {

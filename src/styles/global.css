@@ -1239,7 +1239,10 @@
   }
 
   .prose table {
+    display: block;
     width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
     border-collapse: collapse;
     font-size: 0.9rem;
   }
@@ -1257,9 +1260,17 @@
   }
 
   /* KaTeX display math */
-  .prose .math-display {
+  .prose .math-display,
+  .prose .katex-display {
+    max-width: 100%;
     overflow-x: auto;
+    overflow-y: hidden;
     padding: 0.5rem 0;
+  }
+
+  .prose .katex-display > .katex {
+    width: max-content;
+    min-width: 100%;
   }
 }
 

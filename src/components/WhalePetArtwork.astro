@@ -1,0 +1,200 @@
+---
+import artwork from '@data/whale-pet-artwork.json';
+
+interface Props {
+  assetPath: string;
+  prefix: string;
+}
+
+const { assetPath, prefix } = Astro.props;
+const id = (name: string) => `${prefix}-${name}`;
+const paint = (name: string) => `url(#${id(name)})`;
+const eye = artwork.layers.find((layer) => layer.name === 'eye')!;
+---
+
+<svg
+  class="pet-artwork"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox={artwork.viewBox}
+  width="512"
+  height="512"
+  aria-hidden="true"
+  focusable="false"
+>
+  <defs>
+    {
+      artwork.layers.map((layer) => (
+        <clipPath id={id(`${layer.name}-contour`)}>
+          <path d={layer.contour} clip-rule="evenodd" />
+        </clipPath>
+      ))
+    }
+    <filter
+      id={id('cast-shadow')}
+      x="-18%"
+      y="-18%"
+      width="140%"
+      height="150%"
+      color-interpolation-filters="sRGB"
+    >
+      <feDropShadow dx="8" dy="18" stdDeviation="12" flood-color="#101C35" flood-opacity=".30"
+      ></feDropShadow>
+    </filter>
+    <filter
+      id={id('eye-shadow')}
+      x="-50%"
+      y="-50%"
+      width="220%"
+      height="220%"
+      color-interpolation-filters="sRGB"
+    >
+      <feDropShadow dx="7" dy="13" stdDeviation="8" flood-color="#1A2234" flood-opacity=".32"
+      ></feDropShadow>
+    </filter>
+    <linearGradient id={id('eye-glass')} x1="0" y1="0" x2=".65" y2="1">
+      <stop stop-color="#5D6267"></stop>
+      <stop offset=".24" stop-color="#17191B"></stop>
+      <stop offset=".7" stop-color="#050607"></stop>
+      <stop offset="1" stop-color="#292D30"></stop>
+    </linearGradient>
+    <linearGradient id={id('aqua-glass')} x1="0" y1="0" x2=".6" y2="1">
+      <stop stop-color="#B2F7FF"></stop>
+      <stop offset=".3" stop-color="#16C5FF"></stop>
+      <stop offset="1" stop-color="#047DE2"></stop>
+    </linearGradient>
+    <linearGradient id={id('paper-glass')} x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF"></stop>
+      <stop offset="1" stop-color="#BEEBFA"></stop>
+    </linearGradient>
+  </defs>
+  <g filter={paint('cast-shadow')}>
+    {
+      artwork.layers
+        .filter((layer) => layer.name !== 'eye')
+        .map((layer) => (
+          <g class={`pet-${layer.name}`}>
+            <g class={`pet-${layer.name}-idle`}>
+              <g clip-path={paint(`${layer.name}-contour`)}>
+                <image
+                  href={`${assetPath}/${layer.texture}`}
+                  x={layer.x}
+                  y={layer.y}
+                  width={layer.width}
+                  height={layer.height}
+                />
+              </g>
+            </g>
+          </g>
+        ))
+    }
+  </g>
+  <g class="pet-eye-open" filter={paint('eye-shadow')}>
+    <g clip-path={paint('eye-contour')}>
+      <image
+        href={`${assetPath}/${eye.texture}`}
+        x={eye.x}
+        y={eye.y}
+        width={eye.width}
+        height={eye.height}
+      />
+    </g>
+  </g>
+  {
+    [
+      { className: 'pet-eye-closed', path: 'M 379 696 Q 410 714 443 695' },
+      { className: 'pet-eye-happy', path: 'M 378 704 Q 410 661 443 703' },
+    ].map((face) => (
+      <g class={face.className} filter={paint('eye-shadow')}>
+        <path
+          d={face.path}
+          fill="none"
+          stroke={paint('eye-glass')}
+          stroke-width="20"
+          stroke-linecap="round"
+        />
+        <path
+          d={face.path}
+          fill="none"
+          stroke="#A8B3BC"
+          stroke-opacity=".35"
+          stroke-width="3"
+          stroke-linecap="round"
+          transform="translate(-2 -4)"
+        />
+      </g>
+    ))
+  }
+  <g
+    class="pet-expression-happy"
+    transform="translate(930 365) scale(1.6) translate(-930 -365)"
+    filter={paint('eye-shadow')}
+    fill={paint('aqua-glass')}
+  >
+    <path d="M 911 330 Q 911 359 882 361 Q 911 361 912 393 Q 913 362 942 361 Q 913 360 911 330 Z"
+    ></path>
+    <circle cx="974" cy="306" r="12"></circle>
+  </g>
+  <g
+    class="pet-expression-sleep"
+    transform="translate(930 365) scale(1.6) translate(-930 -365)"
+    filter={paint('eye-shadow')}
+  >
+    <g
+      class="pet-sleep-drift"
+      fill="none"
+      stroke={paint('aqua-glass')}
+      stroke-width="12"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path d="M 881 370 H 926 L 881 417 H 926"></path>
+      <path d="M 958 302 H 991 L 958 336 H 991"></path>
+    </g>
+  </g>
+  {
+    Array.from({ length: 6 }, () => (
+      <g class="pet-droplet">
+        <path
+          d="M 0 -25 C -7 -12 -16 -3 -16 7 A 16 16 0 0 0 16 7 C 16 -3 7 -12 0 -25 Z"
+          fill={paint('aqua-glass')}
+        />
+        <ellipse cx="-5" cy="3" rx="3" ry="7" fill="#E7FCFF" opacity=".8" />
+      </g>
+    ))
+  }
+  <g
+    class="pet-expression-reading"
+    filter={paint('eye-shadow')}
+    transform="translate(653 717) scale(1.45) translate(-653 -717)"
+  >
+    <rect
+      x="597"
+      y="643"
+      width="112"
+      height="148"
+      rx="16"
+      fill={paint('paper-glass')}
+      stroke="#0A8CE8"
+      stroke-width="5"></rect>
+    <path d="M 613 654 H 692" stroke="#FFF" stroke-width="5" stroke-linecap="round"></path>
+    <path
+      d="M 619 678 H 684 M 619 704 H 680 M 619 730 H 661"
+      fill="none"
+      stroke="#1453C8"
+      stroke-width="9"
+      stroke-linecap="round"></path>
+  </g>
+  <g
+    class="pet-expression-thinking"
+    filter={paint('eye-shadow')}
+    transform="translate(930 365) scale(1.6) translate(-930 -365)"
+  >
+    <path
+      d="M 884 345 C 884 303 948 306 948 343 C 948 373 915 374 914 397"
+      fill="none"
+      stroke={paint('aqua-glass')}
+      stroke-width="18"
+      stroke-linecap="round"></path>
+    <circle cx="914" cy="427" r="10" fill={paint('aqua-glass')}></circle>
+  </g>
+</svg>

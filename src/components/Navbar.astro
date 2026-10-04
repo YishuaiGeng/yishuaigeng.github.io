@@ -4,6 +4,7 @@ import { site } from '@config/site';
 import { withBase } from '@utils/base';
 
 import ThemeToggle from './ThemeToggle.astro';
+import WhalePet from './WhalePet.astro';
 
 // ── Type helpers ───────────────────────────────────────────────────────────
 function isLeaf(item: NavItem): item is NavLeaf {
@@ -38,18 +39,21 @@ const items = site.navbar.items;
     style="max-width: 930px; margin: 0 auto; padding: 0 1rem;"
   >
     <!-- Brand -->
-    <a href={`${site.base}/`} class="navbar-brand" aria-label={`${site.author.name} home`}>
-      <img
-        class="navbar-wordmark"
-        src={withBase('/yishuai-geng-wordmark.svg')}
-        alt={site.author.name}
-        width="2061"
-        height="377"
-      />
-    </a>
+    <div class="navbar-identity">
+      {site.pet.enabled && <WhalePet />}
+      <a href={`${site.base}/`} class="navbar-brand" aria-label={`${site.author.name} home`}>
+        <img
+          class="navbar-wordmark"
+          src={withBase('/yishuai-geng-wordmark.svg')}
+          alt={site.author.name}
+          width="2061"
+          height="377"
+        />
+      </a>
+    </div>
 
     <!-- Desktop nav -->
-    <div class="hidden items-center gap-1 md:flex">
+    <div class="hidden items-center gap-1 lg:flex">
       {
         items.map((item) => {
           if (isLeaf(item)) {
@@ -155,7 +159,7 @@ const items = site.navbar.items;
     </div>
 
     <!-- Mobile controls (icon-only search + theme + hamburger) -->
-    <div class="flex items-center gap-2 md:hidden">
+    <div class="flex items-center gap-2 lg:hidden">
       <button
         id="search-toggle"
         aria-label="Search"
@@ -206,7 +210,7 @@ const items = site.navbar.items;
   <!-- Mobile nav collapse -->
   <div
     id="navbar-collapse"
-    class="hidden md:hidden"
+    class="hidden lg:hidden"
     style="background-color: var(--global-bg-color); border-top: 1px solid var(--global-divider-color); padding: 0.5rem 0;"
   >
     {
@@ -284,6 +288,12 @@ const items = site.navbar.items;
 </script>
 
 <style>
+  .navbar-identity {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    gap: 6px;
+  }
   .navbar-brand {
     display: inline-flex;
     flex: 0 0 auto;
@@ -301,7 +311,7 @@ const items = site.navbar.items;
     filter: brightness(1.65) saturate(1.05);
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 1023px) {
     .navbar-wordmark {
       height: 1.35rem;
     }
