@@ -226,6 +226,10 @@ flowchart LR
 ```
 ````
 
+Diagrams follow the site's light/dark theme, including changes made while reading.
+Wide diagrams scroll inside the article on small screens. Add Mermaid `accTitle`
+and `accDescr` fields to provide an accessible diagram title and description.
+
 ### Blog listing options
 
 Control the research-notebook directory, visible topic filters, reading-speed estimate, and the
@@ -282,20 +286,20 @@ import Tabs from '@components/Tabs.astro';
 
 Enable in frontmatter:
 
-| Flag                   | What it loads           |
-| ---------------------- | ----------------------- |
+| Flag                   | What it loads                           |
+| ---------------------- | --------------------------------------- |
 | `mermaid: false`       | Disable Mermaid rendering for this post |
-| `chart_js: true`       | Chart.js                |
-| `echarts: true`        | Apache ECharts          |
-| `vega: true`           | Vega/Vega-Lite          |
-| `plotly: true`         | Plotly.js               |
-| `pseudocode: true`     | pseudocode.js           |
-| `typograms: true`      | Typograms               |
-| `tikzjax: true`        | TikzJax                 |
-| `map: true`            | Leaflet maps            |
-| `img_comparison: true` | Image comparison slider |
-| `code_diff: true`      | Diff2Html               |
-| `gallery: true`        | PhotoSwipe gallery      |
+| `chart_js: true`       | Chart.js                                |
+| `echarts: true`        | Apache ECharts                          |
+| `vega: true`           | Vega/Vega-Lite                          |
+| `plotly: true`         | Plotly.js                               |
+| `pseudocode: true`     | pseudocode.js                           |
+| `typograms: true`      | Typograms                               |
+| `tikzjax: true`        | TikzJax                                 |
+| `map: true`            | Leaflet maps                            |
+| `img_comparison: true` | Image comparison slider                 |
+| `code_diff: true`      | Diff2Html                               |
+| `gallery: true`        | PhotoSwipe gallery                      |
 
 ---
 
