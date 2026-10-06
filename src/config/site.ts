@@ -261,7 +261,7 @@ export const site = {
       allNotes: 'All Notes',
       noteSingular: 'note',
       notePlural: 'notes',
-      readingTime: 'min read',
+      readingTime: 'min',
       pinned: 'Pinned',
     },
     /**
