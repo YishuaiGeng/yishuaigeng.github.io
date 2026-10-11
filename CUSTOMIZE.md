@@ -237,10 +237,6 @@ empty-state message:
 
 ```typescript
 blog: {
-  timeline: {
-    enabled: true,                // year-grouped timeline across all blog listings
-    showDescriptions: true,       // short excerpts beneath article titles
-  },
   collections: [
     {
       name: 'Paper Reading',
@@ -273,21 +269,20 @@ technical-<topic>.md
 daily-<date>.md
 ```
 
-The blog homepage presents pinned notes above a chronological timeline, with collections and
-topics in a compact sidebar. On small screens, collections move above the timeline and the
-**All Tags** link provides access to topics. The header includes note/collection counts and an RSS
-link. Pinned notes count toward the first page's limit and are not repeated in its timeline.
+Posts in the listing are grouped by year automatically.
 
-`blog.timeline.enabled` applies to the homepage, subsequent pages, categories, tags, and year
-archives. Years are derived from publication dates in UTC, with the newest notes first. Each
-year shows the number of notes displayed on the current page; a year jump navigation appears
-when that page spans multiple years. Date nodes, category links, reading times, and optional
-excerpts work without JavaScript. All styling follows the site's light/dark theme and respects
-reduced-motion preferences.
+### Archive timeline
 
-Set `blog.timeline.enabled` to `false` to use the classic post cards, or set
-`blog.timeline.showDescriptions` to `false` for a denser archive. Labels, including `notebook`,
-`timeline`, `newestFirst`, `browseByYear`, `rss`, and `externalLink`, live in `blog.labels`.
+The **Archives** link beside the blog heading opens `/blog/archives/`. This separate page shows
+all published notes in a compact timeline: year headings, dates, and article links. Pinned
+notes appear once, in date order; hidden and draft posts are excluded. External posts configured
+in `blog.externalSources` are included. Multi-year archives provide year jump links. The page
+works without JavaScript and follows the site's mobile and light/dark styles.
+
+Configure `blog.archive` in `src/config/site.ts`: `enabled` controls the entry point and page,
+while `title`, `description`, `emoji`, `backToBlog`, `browseByYear`, and `externalLink` provide
+its text. When disabled, the archive redirects to `/blog/`. The regular blog, category, tag,
+year, and paginated listings continue to use the existing post-card layout.
 
 ### MDX components available in posts
 

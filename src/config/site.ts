@@ -221,13 +221,17 @@ export const site = {
       'A working notebook for paper reading, focused study, technical practice, and daily learning.',
     /** Number of posts per page. */
     postsPerPage: 20,
-    /** Year-grouped timeline on blog, category, tag, and year listings. Disable for classic lists. */
-    timeline: {
+    /** Separate, compact archive timeline; disabling hides the link and redirects to the blog. */
+    archive: {
       enabled: true,
-      /** Show a short excerpt beneath each timeline title. */
-      showDescriptions: true,
+      title: 'Archives',
+      description: 'All notes, organized by year.',
+      emoji: '🗂️',
+      backToBlog: 'Back to Blogs',
+      browseByYear: 'Browse by year',
+      externalLink: 'Opens in a new tab',
     },
-    /** Stable notebook collections shown in the blog directory. */
+    /** Stable notebook collections shown at the top of the blog page. */
     collections: [
       {
         name: '投稿目录',
@@ -269,12 +273,6 @@ export const site = {
       notePlural: 'notes',
       readingTime: 'min',
       pinned: 'Pinned',
-      notebook: 'Research notebook',
-      timeline: 'Timeline',
-      newestFirst: 'Newest first',
-      browseByYear: 'Browse by year',
-      rss: 'RSS feed',
-      externalLink: 'Opens in a new tab',
     },
     /**
      * Tags shown as badges on the blog listing page header.

@@ -1,5 +1,5 @@
 ---
-import PostList from '@components/blog/PostList.astro';
+import PostCard from '@components/blog/PostCard.astro';
 import Pagination from '@components/Pagination.astro';
 import { site } from '@config/site';
 import Page from '@layouts/Page.astro';
@@ -9,11 +9,11 @@ import { getCollection } from 'astro:content';
 export async function getStaticPaths() {
   const allPosts = await getCollection('blogs', (p) => !p.data.hidden && !p.data.draft);
   const perPage = site.blog.postsPerPage;
-  const years = [...new Set(allPosts.map((p) => p.data.date.getUTCFullYear()))];
+  const years = [...new Set(allPosts.map((p) => p.data.date.getFullYear()))];
 
   return years.map((year) => {
     const yearPosts = allPosts
-      .filter((p) => p.data.date.getUTCFullYear() === year)
+      .filter((p) => p.data.date.getFullYear() === year)
       .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
     const totalPages = Math.max(1, Math.ceil(yearPosts.length / perPage));
     return {
@@ -40,7 +40,15 @@ const base = site.base;
         <a href={`${base}/blog/`} style="color: var(--global-theme-color);">← Back to Blogs</a>
       </p>
     </header>
-    <PostList posts={posts} />
+    <ul class="post-list">
+      {
+        posts.map((post) => (
+          <li>
+            <PostCard post={post} />
+          </li>
+        ))
+      }
+    </ul>
     <Pagination
       currentPage={currentPage}
       totalPages={totalPages}

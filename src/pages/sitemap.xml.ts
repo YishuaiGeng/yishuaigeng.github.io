@@ -111,6 +111,10 @@ export async function GET(_ctx: APIContext): Promise<Response> {
     },
   ];
 
+  if (site.blog.archive.enabled) {
+    staticUrls.push({ url: loc('/blog/archives/'), changefreq: 'weekly', priority: 0.6 });
+  }
+
   const publicationUrls: UrlEntry[] = parseBibtex(bibRaw).map((paper) => ({
     url: loc(`/publications/${paper.key}/`),
     changefreq: 'yearly',

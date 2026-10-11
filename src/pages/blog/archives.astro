@@ -1,0 +1,276 @@
+---
+import EmptyState from '@components/EmptyState.astro';
+import { site } from '@config/site';
+import Page from '@layouts/Page.astro';
+import { fetchExternalPosts } from '@utils/external-posts';
+import { getCollection } from 'astro:content';
+
+import IconExternalLink from '~icons/fa-solid/external-link-alt';
+
+const { archive, labels } = site.blog;
+if (!archive.enabled) return Astro.redirect(`${site.base}/blog/`);
+
+const localPosts = await getCollection('blogs', (post) => !post.data.hidden && !post.data.draft);
+const externalPosts = await fetchExternalPosts();
+const posts = [
+  ...localPosts.map((post) => ({
+    title: post.data.title,
+    date: post.data.date,
+    href: post.data.redirect || `${site.base}/blog/${post.id}/`,
+    external: Boolean(post.data.redirect),
+  })),
+  ...externalPosts.map((post) => ({
+    title: post.title,
+    date: post.publishedDate,
+    href: post.url,
+    external: true,
+  })),
+].sort((a, b) => b.date.getTime() - a.date.getTime());
+
+const postsByYear = new Map<number, typeof posts>();
+for (const post of posts) {
+  const year = post.date.getUTCFullYear();
+  if (!postsByYear.has(year)) postsByYear.set(year, []);
+  postsByYear.get(year)!.push(post);
+}
+const years = [...postsByYear.keys()];
+const dayFormat = new Intl.DateTimeFormat(site.lang, { day: '2-digit', timeZone: 'UTC' });
+const monthFormat = new Intl.DateTimeFormat(site.lang, { month: 'short', timeZone: 'UTC' });
+const dateFormat = new Intl.DateTimeFormat(site.lang, { dateStyle: 'long', timeZone: 'UTC' });
+---
+
+<Page title={`${site.blog.name} — ${archive.title}`} description={archive.description}>
+  <a class="back-link" href={`${site.base}/blog/`}>&larr; {archive.backToBlog}</a>
+  <header class="post-header">
+    <h1 class="post-title heading-with-icon">
+      <span class="heading-emoji" aria-hidden="true">{archive.emoji}</span>
+      <span>{archive.title}</span>
+    </h1>
+    <p class="archive-description">{archive.description}</p>
+  </header>
+
+  <div class="archive-summary">
+    <span>{posts.length} {posts.length === 1 ? labels.noteSingular : labels.notePlural}</span>
+    {
+      years.length > 1 && (
+        <nav class="year-navigation" aria-label={archive.browseByYear}>
+          {years.map((year) => (
+            <a href={`#archive-${year}`}>{year}</a>
+          ))}
+        </nav>
+      )
+    }
+  </div>
+
+  {
+    posts.length === 0 ? (
+      <EmptyState title={site.blog.emptyTitle} description={site.blog.emptyMessage} />
+    ) : (
+      <div class="archive-timeline">
+        {years.map((year) => (
+          <section class="archive-year" aria-labelledby={`archive-${year}`}>
+            <h2 id={`archive-${year}`}>
+              <time datetime={String(year)}>{year}</time>
+            </h2>
+            <ol class="archive-entries">
+              {postsByYear.get(year)!.map((post) => (
+                <li class="archive-entry">
+                  <time
+                    class="archive-date"
+                    datetime={post.date.toISOString()}
+                    aria-label={dateFormat.format(post.date)}
+                  >
+                    <span class="archive-day" aria-hidden="true">
+                      {dayFormat.format(post.date)}
+                    </span>
+                    <span class="archive-month" aria-hidden="true">
+                      {monthFormat.format(post.date)}
+                    </span>
+                  </time>
+                  <a
+                    class="archive-title"
+                    href={post.href}
+                    {...(post.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                  >
+                    {post.title}
+                    {post.external && <IconExternalLink aria-label={archive.externalLink} />}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </section>
+        ))}
+      </div>
+    )
+  }
+</Page>
+
+<style>
+  .back-link {
+    display: inline-block;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+
+  .archive-description {
+    color: var(--global-text-color-light);
+    margin: 0.35rem 0 0;
+  }
+
+  .archive-summary {
+    align-items: center;
+    border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-text-color-light);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    gap: 0.5rem 1rem;
+    justify-content: space-between;
+    padding-bottom: 0.6rem;
+  }
+
+  .year-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .year-navigation a {
+    padding: 0.25rem 0.5rem;
+  }
+
+  .archive-timeline {
+    --archive-date-width: 3.6rem;
+    --archive-axis: 4.5rem;
+    --archive-indent: 6rem;
+    --archive-line: color-mix(in srgb, var(--global-text-color) 22%, var(--global-bg-color));
+    margin-top: 0.5rem;
+  }
+
+  .archive-year {
+    position: relative;
+  }
+
+  .archive-year::before {
+    background: var(--archive-line);
+    bottom: 0;
+    content: '';
+    left: var(--archive-axis);
+    position: absolute;
+    top: 0;
+    width: 2px;
+  }
+
+  .archive-year:first-child::before {
+    top: 1.75rem;
+  }
+
+  .archive-year:last-child::before {
+    bottom: 1.2rem;
+  }
+
+  .archive-year h2 {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0.75rem 0 0.5rem var(--archive-indent);
+    position: relative;
+  }
+
+  .archive-year h2::before {
+    background: var(--global-bg-color);
+    border: 3px solid var(--global-theme-color);
+    border-radius: 50%;
+    content: '';
+    height: 12px;
+    left: calc(var(--archive-axis) - 5px);
+    position: absolute;
+    top: 1.4rem;
+    width: 12px;
+  }
+
+  .archive-entries {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .archive-entry {
+    align-items: baseline;
+    border-radius: 3px;
+    column-gap: calc(var(--archive-indent) - var(--archive-date-width));
+    display: grid;
+    grid-template-columns: var(--archive-date-width) minmax(0, 1fr);
+    line-height: 1.6;
+    min-height: 2.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    position: relative;
+  }
+
+  .archive-entry:nth-child(odd) {
+    background: color-mix(in srgb, var(--global-text-color) 3%, transparent);
+  }
+
+  .archive-entry::before {
+    background: var(--archive-line);
+    border-radius: 50%;
+    content: '';
+    height: 8px;
+    left: calc(var(--archive-axis) - 3px);
+    position: absolute;
+    top: 1.05rem;
+    width: 8px;
+  }
+
+  .archive-entry:hover::before,
+  .archive-entry:focus-within::before {
+    background: var(--global-theme-color);
+  }
+
+  .archive-date {
+    display: flex;
+    font-size: 0.8rem;
+    font-variant-numeric: tabular-nums;
+    gap: 0.4rem;
+    justify-content: flex-end;
+    white-space: nowrap;
+  }
+
+  .archive-month {
+    color: var(--global-text-color-light);
+  }
+
+  .archive-title {
+    font-size: 0.95rem;
+    overflow-wrap: anywhere;
+  }
+
+  .archive-title:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .archive-title :global(svg) {
+    display: inline;
+    height: 0.7em;
+    margin-left: 0.4em;
+    width: 0.7em;
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 3px;
+  }
+
+  @media (max-width: 540px) {
+    .archive-timeline {
+      --archive-date-width: 3.1rem;
+      --archive-axis: 3.8rem;
+      --archive-indent: 4.8rem;
+    }
+
+    .archive-title {
+      font-size: 0.9rem;
+    }
+  }
+</style>

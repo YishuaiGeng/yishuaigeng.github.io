@@ -324,10 +324,11 @@ test('blog provides a structured research notebook with starter posts', async ({
   await expect(page.getByText('Research Updates', { exact: true })).toHaveCount(0);
   await expect(page.getByRole('link', { name: /Research Progress Log/ })).toHaveCount(0);
 
-  const visibleNotes = page.locator('.timeline-entries > li');
-  const totalNotes = Number(await page.locator('.blog-stats strong').first().textContent());
-  const pinnedCount = await page.locator('.pinned-note').count();
-  await expect(visibleNotes).toHaveCount(Math.min(totalNotes, 20) - pinnedCount);
+  await expect(page.locator('.blog-header .heading-emoji')).toHaveText('📝');
+  await expect(page.locator('.archive-link')).toHaveAttribute('href', '/blog/archives/');
+  const visibleNotes = page.locator('.post-list > li');
+  expect(await visibleNotes.count()).toBeGreaterThan(0);
+  expect(await visibleNotes.count()).toBeLessThanOrEqual(20);
 
   await page.getByRole('link', { name: 'Paper Reading Notes: A Reusable Review Template' }).click();
   await expect(page.getByRole('heading', { level: 2, name: 'Bibliographic Record' })).toBeVisible();

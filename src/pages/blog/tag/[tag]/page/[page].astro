@@ -1,5 +1,5 @@
 ---
-import PostList from '@components/blog/PostList.astro';
+import PostCard from '@components/blog/PostCard.astro';
 import Pagination from '@components/Pagination.astro';
 import { site } from '@config/site';
 import PageLayout from '@layouts/Page.astro';
@@ -71,7 +71,15 @@ const base = site.base;
     </span>
   </h1>
 
-  <PostList posts={posts} />
+  <ul class="post-list">
+    {
+      posts.map((post) => (
+        <li>
+          <PostCard post={post} />
+        </li>
+      ))
+    }
+  </ul>
 
   <Pagination
     currentPage={currentPage}
