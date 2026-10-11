@@ -237,6 +237,10 @@ empty-state message:
 
 ```typescript
 blog: {
+  timeline: {
+    enabled: true,                // year-grouped timeline across all blog listings
+    showDescriptions: true,       // short excerpts beneath article titles
+  },
   collections: [
     {
       name: 'Paper Reading',
@@ -269,7 +273,21 @@ technical-<topic>.md
 daily-<date>.md
 ```
 
-Posts in the listing are grouped by year automatically.
+The blog homepage presents pinned notes above a chronological timeline, with collections and
+topics in a compact sidebar. On small screens, collections move above the timeline and the
+**All Tags** link provides access to topics. The header includes note/collection counts and an RSS
+link. Pinned notes count toward the first page's limit and are not repeated in its timeline.
+
+`blog.timeline.enabled` applies to the homepage, subsequent pages, categories, tags, and year
+archives. Years are derived from publication dates in UTC, with the newest notes first. Each
+year shows the number of notes displayed on the current page; a year jump navigation appears
+when that page spans multiple years. Date nodes, category links, reading times, and optional
+excerpts work without JavaScript. All styling follows the site's light/dark theme and respects
+reduced-motion preferences.
+
+Set `blog.timeline.enabled` to `false` to use the classic post cards, or set
+`blog.timeline.showDescriptions` to `false` for a denser archive. Labels, including `notebook`,
+`timeline`, `newestFirst`, `browseByYear`, `rss`, and `externalLink`, live in `blog.labels`.
 
 ### MDX components available in posts
 

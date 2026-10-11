@@ -1,5 +1,5 @@
 ---
-import PostCard from '@components/blog/PostCard.astro';
+import PostList from '@components/blog/PostList.astro';
 import Pagination from '@components/Pagination.astro';
 import { site } from '@config/site';
 import Page from '@layouts/Page.astro';
@@ -61,13 +61,7 @@ const base = site.base;
     posts.length === 0 ? (
       <p style="color: var(--global-text-color-light);">No posts found for this category.</p>
     ) : (
-      <ul class="post-list">
-        {posts.map((post) => (
-          <li>
-            <PostCard post={post} />
-          </li>
-        ))}
-      </ul>
+      <PostList posts={posts} />
     )
   }
 

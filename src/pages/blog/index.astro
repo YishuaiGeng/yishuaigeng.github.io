@@ -1,5 +1,5 @@
 ---
-import PostCard from '@components/blog/PostCard.astro';
+import PostList from '@components/blog/PostList.astro';
 import EmptyState from '@components/EmptyState.astro';
 import Pagination from '@components/Pagination.astro';
 import { site } from '@config/site';
@@ -9,13 +9,14 @@ import { paginateItems } from '@utils/posts';
 import { readingTime } from '@utils/reading-time';
 import { getCollection } from 'astro:content';
 
+import IconArrowRight from '~icons/fa-solid/arrow-right';
 import IconBookOpen from '~icons/fa-solid/book-open';
 import IconClock from '~icons/fa-solid/clock';
 import IconCode from '~icons/fa-solid/code';
 import IconGraduationCap from '~icons/fa-solid/graduation-cap';
 import IconHashtag from '~icons/fa-solid/hashtag';
 import IconPen from '~icons/fa-solid/pen';
-import IconTag from '~icons/fa-solid/tag';
+import IconRss from '~icons/fa-solid/rss';
 import IconTags from '~icons/fa-solid/tags';
 import IconThumbtack from '~icons/fa-solid/thumbtack';
 
@@ -86,284 +87,309 @@ const collectionIcons = {
   pen: IconPen,
 };
 
-// Grid column count for featured cards
-const featuredCols = pinnedPosts.length >= 3 ? '3' : '2';
-
-// Group pagePosts by year for the list section
-const postsByYear = new Map<number, typeof listedPagePosts>();
-for (const post of listedPagePosts) {
-  const year = post.data.date.getFullYear();
-  if (!postsByYear.has(year)) postsByYear.set(year, []);
-  postsByYear.get(year)!.push(post);
-}
-const postYears = [...postsByYear.keys()].sort((a, b) => b - a);
+const { labels } = site.blog;
+const dateFormat = new Intl.DateTimeFormat(site.lang, { dateStyle: 'medium', timeZone: 'UTC' });
 ---
 
 <Page title={site.blog.name} description={site.blog.description}>
   <header class="blog-header">
-    <h1 class="heading-with-icon">
-      <span class="heading-emoji" aria-hidden="true">📝</span>
-      <span>{site.blog.name}</span>
-    </h1>
-    <p>{site.blog.description}</p>
+    <p class="blog-eyebrow">{labels.notebook}</p>
+    <div class="blog-title-row">
+      <h1>{site.blog.name}<span class="title-dot" aria-hidden="true">.</span></h1>
+      <a class="rss-link" href={`${site.base}/rss.xml`}
+        ><IconRss aria-hidden="true" />{labels.rss}</a
+      >
+    </div>
+    <p class="blog-description">{site.blog.description}</p>
+    <div class="blog-stats">
+      <span
+        ><strong>{allPosts.length}</strong>
+        {allPosts.length === 1 ? labels.noteSingular : labels.notePlural}</span
+      >
+      <span class="stats-divider" aria-hidden="true"></span>
+      <span
+        ><strong>{collections.length}</strong>
+        {labels.collections.toLocaleLowerCase(site.lang)}</span
+      >
+    </div>
   </header>
 
-  <section class="blog-directory" aria-labelledby="collections-heading">
-    <h2 id="collections-heading">{site.blog.labels.collections}</h2>
-    <div class="collection-grid">
-      {
-        collections.map((collection) => {
-          const CollectionIcon = collectionIcons[collection.icon];
-          const count = allPosts.filter((post) =>
-            post.data.categories.includes(collection.name),
-          ).length;
-          const countLabel =
-            count === 1 ? site.blog.labels.noteSingular : site.blog.labels.notePlural;
-
-          return (
-            <a class="collection-link" href={`${site.base}/blog/category/${collection.name}/`}>
-              <span class="collection-icon" aria-hidden="true">
-                <CollectionIcon />
-              </span>
-              <span class="collection-copy">
-                <span class="collection-title-row">
-                  <strong>{collection.name}</strong>
-                  <span class="collection-count">
-                    {count} {countLabel}
-                  </span>
-                </span>
-                <span class="collection-description">{collection.description}</span>
-              </span>
-            </a>
-          );
-        })
-      }
-    </div>
-  </section>
-
-  <section class="topic-directory" aria-labelledby="topics-heading">
-    <h2 id="topics-heading">{site.blog.labels.topics}</h2>
-    <div class="topic-links">
-      {
-        displayTags.map((tag) => (
-          <a href={`${site.base}/blog/tag/${tag}/`}>
-            <IconHashtag aria-hidden="true" />
-            <span>{tag}</span>
-          </a>
-        ))
-      }
-      <a class="all-tags-link" href={`${site.base}/blog/tags/`}>
-        <IconTags aria-hidden="true" />
-        <span>{site.blog.labels.allTags}</span>
-      </a>
-    </div>
-  </section>
-
-  <!-- Featured / Pinned posts card grid -->
-  {
-    pinnedPosts.length > 0 && (
-      <>
-        <br />
-        <div class="featured-posts container">
-          <div class={`row row-cols-${featuredCols}`}>
-            {pinnedPosts.map((post) => {
-              const mins = post.body ? readingTime(post.body, site.blog.wordsPerMinute) : 1;
-              const formattedDate = post.data.date.toLocaleDateString(site.lang, {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-              });
+  <div class="blog-layout">
+    <aside class="blog-directory">
+      <section aria-labelledby="collections-heading">
+        <h2 id="collections-heading">{labels.collections}</h2>
+        <nav class="collection-list" aria-labelledby="collections-heading">
+          {
+            collections.map((collection) => {
+              const CollectionIcon = collectionIcons[collection.icon];
+              const count = allPosts.filter((post) =>
+                post.data.categories.includes(collection.name),
+              ).length;
               return (
-                <div class="col mb-4">
-                  <a href={`${site.base}/blog/${post.id}/`}>
-                    <div class="card hoverable">
-                      <div class="row g-0">
-                        <div class="col-md-12">
-                          <div class="card-body">
-                            <div class="featured-title-row">
-                              <h3 class="card-title">{post.data.title}</h3>
-                              <div class="featured-title-meta">
-                                <time datetime={post.data.date.toISOString()}>{formattedDate}</time>
-                                <span class="featured-reading-time">
-                                  <IconClock aria-hidden="true" />
-                                  <span>
-                                    {mins} {site.blog.labels.readingTime}
-                                  </span>
-                                </span>
-                                <IconThumbtack
-                                  class="pin-icon"
-                                  aria-label={site.blog.labels.pinned}
-                                />
-                              </div>
-                            </div>
-                            {post.data.description && (
-                              <p class="card-text">{post.data.description}</p>
-                            )}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
+                <a
+                  class="collection-link"
+                  href={`${site.base}/blog/category/${encodeURIComponent(collection.name)}/`}
+                  title={collection.description}
+                >
+                  <CollectionIcon aria-hidden="true" />
+                  <span class="collection-name">{collection.name}</span>
+                  <span
+                    class="collection-count"
+                    aria-label={`${count} ${count === 1 ? labels.noteSingular : labels.notePlural}`}
+                  >
+                    {count}
+                  </span>
+                </a>
               );
-            })}
-          </div>
+            })
+          }
+        </nav>
+      </section>
+      <section class="topic-directory" aria-labelledby="topics-heading">
+        <h2 id="topics-heading">{labels.topics}</h2>
+        <div class="topic-links">
+          {
+            displayTags.map((tag) => (
+              <a href={`${site.base}/blog/tag/${encodeURIComponent(tag)}/`}>
+                <>
+                  <IconHashtag aria-hidden="true" />
+                  <span>{tag}</span>
+                </>
+              </a>
+            ))
+          }
         </div>
-        <hr style="margin-bottom: 2rem;" />
-      </>
-    )
-  }
+        <a class="all-tags-link" href={`${site.base}/blog/tags/`}
+          ><IconTags aria-hidden="true" />{labels.allTags}<IconArrowRight aria-hidden="true" /></a
+        >
+      </section>
+    </aside>
 
-  <div class="notes-heading">
-    <IconTag aria-hidden="true" />
-    <h2>{site.blog.labels.allNotes}</h2>
-  </div>
+    <div class="blog-main">
+      {
+        pinnedPosts.length > 0 && (
+          <section class="featured-posts" aria-labelledby="pinned-heading">
+            <h2 id="pinned-heading">
+              <IconThumbtack aria-hidden="true" />
+              {labels.pinned}
+            </h2>
+            <div class="pinned-list">
+              {pinnedPosts.map((post) => (
+                <a class="pinned-note" href={post.data.redirect || `${site.base}/blog/${post.id}/`}>
+                  <div class="pinned-copy">
+                    <h3>{post.data.title}</h3>
+                    {post.data.description && <p>{post.data.description}</p>}
+                    <span class="pinned-meta">
+                      <time datetime={post.data.date.toISOString()}>
+                        {dateFormat.format(post.data.date)}
+                      </time>
+                      {post.body && (
+                        <span class="pinned-reading-time">
+                          <IconClock aria-hidden="true" />
+                          {readingTime(post.body, site.blog.wordsPerMinute)} {labels.readingTime}
+                        </span>
+                      )}
+                    </span>
+                  </div>
+                  <IconArrowRight class="pinned-arrow" aria-hidden="true" />
+                </a>
+              ))}
+            </div>
+          </section>
+        )
+      }
 
-  <!-- Post list grouped by year -->
-  {
-    pagePosts.length === 0 ? (
-      <EmptyState title={site.blog.emptyTitle} description={site.blog.emptyMessage} />
-    ) : (
-      postYears.map((year) => (
-        <>
-          <h2 class="year">
-            <a
-              href={`${site.base}/blog/year/${year}/`}
-              style="color: inherit; text-decoration: none;"
-            >
-              {year}
-            </a>
+      <section
+        aria-labelledby="notes-heading"
+        hidden={pagePosts.length > 0 && listedPagePosts.length === 0}
+      >
+        <div class="notes-heading">
+          <h2 id="notes-heading">
+            {site.blog.timeline.enabled ? labels.timeline : labels.allNotes}
           </h2>
-          <ul class="post-list">
-            {postsByYear.get(year)!.map((post) => (
-              <li>
-                <PostCard post={post} />
-              </li>
-            ))}
-          </ul>
-        </>
-      ))
-    )
-  }
+          <span>{labels.newestFirst}</span>
+        </div>
+        {
+          pagePosts.length === 0 ? (
+            <EmptyState title={site.blog.emptyTitle} description={site.blog.emptyMessage} />
+          ) : (
+            <PostList posts={listedPagePosts} />
+          )
+        }
+      </section>
 
-  <Pagination
-    currentPage={1}
-    totalPages={totalPages}
-    prevUrl={undefined}
-    nextUrl={totalPages > 1 ? `${site.base}/blog/page/2/` : undefined}
-    basePath={`${site.base}/blog/`}
-  />
+      <Pagination
+        currentPage={1}
+        totalPages={totalPages}
+        prevUrl={undefined}
+        nextUrl={totalPages > 1 ? `${site.base}/blog/page/2/` : undefined}
+        basePath={`${site.base}/blog/`}
+      />
+    </div>
+  </div>
 </Page>
 
 <style>
   .blog-header {
     border-bottom: 1px solid var(--global-divider-color);
-    padding: 0.25rem 0 1.5rem;
+    padding: 0.75rem 0 1.75rem;
+    margin-bottom: 2rem;
   }
 
-  .blog-header h1 {
-    color: var(--global-text-color);
-    font-family: var(--font-sans);
-    font-size: 2rem;
-    font-weight: 700;
+  .blog-eyebrow {
+    color: var(--global-theme-color);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
     margin: 0 0 0.35rem;
+    text-transform: uppercase;
   }
 
-  .blog-header p {
-    color: var(--global-text-color-light);
-    font-size: 0.98rem;
-    line-height: 1.6;
-    margin: 0;
-    max-width: 46rem;
-  }
-
-  .blog-directory,
-  .topic-directory {
-    margin-top: 1.75rem;
-  }
-
-  .blog-directory > h2,
-  .topic-directory > h2,
-  .notes-heading h2 {
-    color: var(--global-text-color);
-    font-family: var(--font-sans);
-    font-size: 1.1rem;
-    font-weight: 700;
-    margin: 0 0 0.8rem;
-  }
-
-  .collection-grid {
-    display: grid;
-    gap: 0.65rem;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .collection-link {
-    align-items: flex-start;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 6px;
-    color: var(--global-text-color);
-    display: flex;
-    gap: 0.8rem;
-    min-width: 0;
-    padding: 0.9rem;
-    text-decoration: none;
-    transition:
-      border-color 0.15s ease,
-      background-color 0.15s ease;
-  }
-
-  .collection-link:hover {
-    background-color: var(--global-card-bg-color);
-    border-color: var(--global-theme-color);
-    color: var(--global-text-color);
-  }
-
-  .collection-icon {
+  .blog-title-row {
     align-items: center;
-    background-color: var(--global-theme-color);
-    border-radius: 5px;
-    color: var(--global-hover-text-color);
-    display: inline-flex;
-    flex: 0 0 2rem;
-    height: 2rem;
-    justify-content: center;
-  }
-
-  .collection-icon :global(svg) {
-    height: 0.95rem;
-    width: 0.95rem;
-  }
-
-  .collection-copy {
-    display: block;
-    min-width: 0;
-  }
-
-  .collection-title-row {
-    align-items: baseline;
     display: flex;
-    gap: 0.65rem;
+    gap: 1rem;
     justify-content: space-between;
   }
 
-  .collection-title-row strong {
-    font-family: var(--font-sans);
+  .blog-title-row h1 {
+    font-size: clamp(2.25rem, 5vw, 2.85rem);
+    letter-spacing: -0.05em;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  .title-dot {
+    color: var(--global-theme-color);
+  }
+
+  .rss-link {
+    align-items: center;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 2rem;
+    color: var(--global-text-color-light);
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: 0.75rem;
+    gap: 0.5rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .rss-link:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+
+  .rss-link :global(svg) {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+
+  .blog-description {
+    color: var(--global-text-color-light);
     font-size: 0.95rem;
+    line-height: 1.8;
+    margin: 0.8rem 0 0;
+    max-width: 39rem;
+  }
+
+  .blog-stats {
+    align-items: center;
+    color: var(--global-text-color-light);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+    gap: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .blog-stats strong {
+    color: var(--global-text-color);
+    font-weight: 500;
+  }
+
+  .stats-divider {
+    background: var(--global-divider-color);
+    height: 0.85rem;
+    width: 1px;
+  }
+
+  .blog-layout {
+    align-items: start;
+    column-gap: 2.5rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 13rem;
+  }
+
+  .blog-main {
+    grid-column: 1;
+    grid-row: 1;
+    min-width: 0;
+  }
+
+  .blog-directory {
+    border-left: 1px solid var(--global-divider-color);
+    grid-column: 2;
+    grid-row: 1;
+    min-width: 0;
+    padding-left: 1.5rem;
+    position: sticky;
+    top: calc(var(--navbar-height) + 2rem);
+  }
+
+  .blog-directory h2 {
+    color: var(--global-text-color-light);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin: 0 0 0.8rem;
+    text-transform: uppercase;
+  }
+
+  .collection-list {
+    display: grid;
+    gap: 0.3rem;
+  }
+
+  .collection-link {
+    align-items: center;
+    border-radius: 6px;
+    color: var(--global-text-color);
+    display: flex;
+    gap: 0.6rem;
+    min-height: 2.75rem;
+    padding: 0.5rem 0.4rem;
+    transition: background-color 160ms ease;
+  }
+
+  .collection-link:hover {
+    background: var(--global-card-bg-color);
+    color: var(--global-theme-color);
+  }
+
+  .collection-link :global(svg) {
+    color: var(--global-text-color-light);
+    flex: 0 0 auto;
+    height: 0.85rem;
+    width: 0.85rem;
+  }
+
+  .collection-name {
+    flex: 1;
+    font-size: 0.8rem;
+    overflow-wrap: anywhere;
   }
 
   .collection-count {
     color: var(--global-text-color-light);
-    flex: 0 0 auto;
-    font-size: 0.72rem;
+    font-size: 0.7rem;
+    font-variant-numeric: tabular-nums;
   }
 
-  .collection-description {
-    color: var(--global-text-color-light);
-    display: block;
-    font-size: 0.82rem;
-    line-height: 1.45;
-    margin-top: 0.2rem;
+  .topic-directory {
+    border-top: 1px solid var(--global-divider-color);
+    margin-top: 1.3rem;
+    padding-top: 1.4rem;
   }
 
   .topic-links {
@@ -373,16 +399,19 @@ const postYears = [...postsByYear.keys()].sort((a, b) => b - a);
   }
 
   .topic-links a {
-    align-items: center;
+    align-items: baseline;
     border: 1px solid var(--global-divider-color);
-    border-radius: 4px;
+    border-radius: 5px;
     color: var(--global-text-color-light);
     display: inline-flex;
-    font-size: 0.78rem;
-    gap: 0.35rem;
-    min-height: 1.9rem;
-    padding: 0.25rem 0.55rem;
-    text-decoration: none;
+    font-size: 0.68rem;
+    gap: 0.25rem;
+    max-width: 100%;
+    padding: 0.3rem 0.45rem;
+  }
+
+  .topic-links a span {
+    overflow-wrap: anywhere;
   }
 
   .topic-links a:hover {
@@ -390,85 +419,204 @@ const postYears = [...postsByYear.keys()].sort((a, b) => b - a);
     color: var(--global-theme-color);
   }
 
-  .topic-links :global(svg),
-  .notes-heading :global(svg) {
+  .topic-links :global(svg) {
     flex: 0 0 auto;
-    height: 0.75rem;
-    width: 0.75rem;
+    height: 0.55rem;
+    width: 0.55rem;
   }
 
   .all-tags-link {
-    color: var(--global-theme-color) !important;
-  }
-
-  .notes-heading {
     align-items: center;
-    border-bottom: 1px solid var(--global-divider-color);
-    color: var(--global-theme-color);
-    display: flex;
-    gap: 0.45rem;
-    margin-top: 2.25rem;
-    padding-bottom: 0.6rem;
+    display: inline-flex;
+    font-size: 0.75rem;
+    gap: 0.5rem;
+    margin-top: 0.8rem;
+    min-height: 2rem;
   }
 
-  .notes-heading h2 {
+  .all-tags-link :global(svg) {
+    height: 0.7rem;
+    width: 0.7rem;
+  }
+
+  .featured-posts {
+    margin-bottom: 2rem;
+  }
+
+  .featured-posts > h2 {
+    align-items: center;
+    color: var(--global-text-color-light);
+    display: flex;
+    font-size: 0.7rem;
+    font-weight: 500;
+    gap: 0.4rem;
+    margin: 0 0 0.7rem;
+  }
+
+  .featured-posts > h2 :global(svg) {
+    height: 0.65rem;
+    width: 0.65rem;
+  }
+
+  .pinned-list {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .pinned-note {
+    align-items: center;
+    background: color-mix(in srgb, var(--global-theme-color) 4%, var(--global-bg-color));
+    border: 1px solid color-mix(in srgb, var(--global-theme-color) 20%, var(--global-divider-color));
+    border-radius: 8px;
+    color: var(--global-text-color);
+    display: flex;
+    gap: 1rem;
+    padding: 1.1rem 1.25rem;
+    transition: border-color 160ms ease;
+  }
+
+  .pinned-note:hover {
+    border-color: var(--global-theme-color);
+  }
+
+  .pinned-copy {
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .pinned-copy h3 {
+    font-size: 0.95rem;
+    line-height: 1.6;
     margin: 0;
   }
 
-  .featured-title-row {
-    align-items: baseline;
-    column-gap: 0.75rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 0.25rem;
+  .pinned-copy p {
+    color: var(--global-text-color-light);
+    font-size: 0.8rem;
+    line-height: 1.75;
+    margin: 0.4rem 0 0;
   }
 
-  .featured-title-row .card-title {
-    flex: 1 1 16rem;
-    margin-bottom: 0;
-    min-width: 0;
-  }
-
-  .featured-title-meta,
-  .featured-reading-time {
+  .pinned-meta,
+  .pinned-reading-time {
     align-items: center;
     display: inline-flex;
-  }
-
-  .featured-title-meta {
-    color: var(--global-text-color-light);
-    flex: 0 0 auto;
     flex-wrap: wrap;
-    font-size: 0.75rem;
-    gap: 0.65rem;
+    gap: 0.75rem;
   }
 
-  .featured-reading-time {
+  .pinned-meta {
+    color: var(--global-text-color-light);
+    font-size: 0.7rem;
+    margin-top: 0.6rem;
+  }
+
+  .pinned-reading-time {
     gap: 0.3rem;
-    white-space: nowrap;
   }
 
-  .featured-title-meta :global(svg) {
-    height: 0.75rem;
-    width: 0.75rem;
+  .pinned-reading-time :global(svg) {
+    height: 0.7rem;
+    width: 0.7rem;
   }
 
-  .pin-icon {
+  .pinned-note :global(.pinned-arrow) {
     color: var(--global-theme-color);
+    flex: 0 0 auto;
+    height: 0.85rem;
+    width: 0.85rem;
   }
 
-  @media (max-width: 640px) {
-    .blog-header h1 {
-      font-size: 1.75rem;
+  .notes-heading {
+    align-items: baseline;
+    border-bottom: 1px solid var(--global-divider-color);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-between;
+    padding-bottom: 0.65rem;
+  }
+
+  .notes-heading h2 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .notes-heading > span {
+    color: var(--global-text-color-light);
+    font-size: 0.7rem;
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 4px;
+  }
+
+  @media (max-width: 760px) {
+    .blog-header {
+      margin-bottom: 1.5rem;
     }
 
-    .collection-grid {
-      grid-template-columns: 1fr;
+    .blog-layout {
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+    }
+
+    .blog-directory {
+      border: 0;
+      padding: 0;
+      position: static;
+      width: 100%;
+    }
+
+    .collection-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
     }
 
     .collection-link {
-      padding: 0.8rem;
+      border: 1px solid var(--global-divider-color);
+      gap: 0.5rem;
+      min-height: 2.5rem;
+      padding: 0.45rem 0.65rem;
+    }
+
+    .collection-name {
+      font-size: 0.75rem;
+    }
+
+    .topic-directory {
+      border: 0;
+      margin-top: 1rem;
+      padding: 0;
+    }
+
+    .topic-directory h2,
+    .topic-links {
+      display: none;
+    }
+
+    .all-tags-link {
+      margin: 0;
+    }
+
+    .blog-main {
+      width: 100%;
+    }
+
+    .pinned-note {
+      padding: 0.9rem 1rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .collection-link,
+    .pinned-note {
+      transition: none;
     }
   }
 </style>
