@@ -1,0 +1,26 @@
+{
+  "crossref.json": {
+    "sha256": "558cb9b6b22808572253e0a81ae28a27493fb2e1434b6371a26b82864f789435",
+    "bytes": 1353523
+  },
+  "crossref-transactions.json": {
+    "sha256": "ad2b8af8fdb13437b190982909a48e7cd5b2262e206858412e69d137aada175a",
+    "bytes": 44308
+  },
+  "crossref-tors.json": {
+    "sha256": "da02f4987444c296a6ce022fb415623dfbb18c620172459dbd6ed401cdbca987",
+    "bytes": 3746
+  },
+  "iel-2023.xlsx": {
+    "sha256": "fd302f0359f3d094725d2e3f8df67a2346b67f2328573a3c453f6fd8e76472fb",
+    "bytes": 65356
+  },
+  "JCR2025-UTF8.csv": {
+    "sha256": "e9a0402f505264a796615bcec697f843af08dbce023ce67164c0f6f4709207c4",
+    "bytes": 2735506
+  },
+  "XR2026-UTF8.csv": {
+    "sha256": "8bffe4bdcae8f710c756e0138d93219bb53555eae23827c20287bc9200a027e6",
+    "bytes": 6071512
+  }
+}

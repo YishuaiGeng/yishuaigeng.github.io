@@ -1,0 +1,194 @@
+{
+  "migratedOn": "2026-10-04",
+  "version": "0.2",
+  "allListedFilesMatchOriginals": true,
+  "copiedFiles": [
+    {
+      "path": "v02-glossy/body-source-texture.png",
+      "bytes": 264632,
+      "sha256": "3efcdf4a5dd71b9ee212835b63e00313da2628e99377f208831027547688c26b"
+    },
+    {
+      "path": "v02-glossy/comparison-detail.png",
+      "bytes": 123627,
+      "sha256": "6de2ef338e40e51cb8411e1aa3f0281f9f393307084d841de413e9f5b48d924a"
+    },
+    {
+      "path": "v02-glossy/comparison.html",
+      "bytes": 4800751,
+      "sha256": "29c8c4645ad34768a64fa8e15b9e28d37977ce70cbbce2aa73a2bf16e3a35c05"
+    },
+    {
+      "path": "v02-glossy/comparison.png",
+      "bytes": 233715,
+      "sha256": "3c81160607248df5c7849f532f3fc28e9809147260064e87f6e8eb2fce8b85e2"
+    },
+    {
+      "path": "v02-glossy/contour-measurements.json",
+      "bytes": 445,
+      "sha256": "18910a72eac14b74fface302411c46f06b1a6903a11ba042cd32390e93e73d67"
+    },
+    {
+      "path": "v02-glossy/eye-source-texture.png",
+      "bytes": 12170,
+      "sha256": "25a75bc76e1576e2629a8ce38b4161198a5fc0ed505a74e3ea438f97f5af1d51"
+    },
+    {
+      "path": "v02-glossy/larger-expression-icons.png",
+      "bytes": 69657,
+      "sha256": "58de35abfc3dd03899236f2b95ead25aa4a01f2a581328fa72d55a9dff2773fc"
+    },
+    {
+      "path": "v02-glossy/README.md",
+      "bytes": 2836,
+      "sha256": "c02e06526efe7d4c4dc93027c4415552ce42927c0e01c3d80f06fdaf86d7d5ee"
+    },
+    {
+      "path": "v02-glossy/reference-blue-mask.png",
+      "bytes": 9135,
+      "sha256": "2e33f85b5ae1387e894089d4213c001b8d2184e30a7b7ea33298c9a6697a3d17"
+    },
+    {
+      "path": "v02-glossy/reference-eye-mask.png",
+      "bytes": 2138,
+      "sha256": "c38f0584765538cc85cdd8071b8643751a9569dcb9fca72312776ef1f0960674"
+    },
+    {
+      "path": "v02-glossy/spout-source-texture.png",
+      "bytes": 80090,
+      "sha256": "886d2a487ab1c947eca63c8bce5deaa4d23b61f11a327e6dbf42e8bc41b8cc3a"
+    },
+    {
+      "path": "v02-glossy/svg-states.json",
+      "bytes": 3548743,
+      "sha256": "71eb1cba0cd48170b56ee077f3bd138b2582f9982161c29f7270834299bef107"
+    },
+    {
+      "path": "v02-glossy/tail-source-texture.png",
+      "bytes": 57295,
+      "sha256": "fe045163efb190e6ab44b22cf0a876ef7807d9ede4ca0db9d72dcbdf30f2b126"
+    },
+    {
+      "path": "v02-glossy/traced-contours-1254.png",
+      "bytes": 42287,
+      "sha256": "64f762fb99eba0c04789254fb55fa1ab8b4728f51d73840535110e7b24af8b77"
+    },
+    {
+      "path": "v02-glossy/validation.json",
+      "bytes": 123,
+      "sha256": "8a10c50a77ac1848bb39fdf61c616992b69ac253362e13b930c0d162da6871c0"
+    },
+    {
+      "path": "v02-glossy/whale-pet-blink.png",
+      "bytes": 113025,
+      "sha256": "66b0cb5aac8c61133da909bac0ad52bc070105f34d96c57ec1f5605403f7e1f5"
+    },
+    {
+      "path": "v02-glossy/whale-pet-blink.svg",
+      "bytes": 582944,
+      "sha256": "b3821c4152e0cb0d1534eefe445c5c9b367c87e212e9b8c89d33d72548016a36"
+    },
+    {
+      "path": "v02-glossy/whale-pet-character-sheet.png",
+      "bytes": 185131,
+      "sha256": "7a9696fca5b8ed871823145541d7fd2fcb7e141a3cbd8fb71f6b290e4982ae4f"
+    },
+    {
+      "path": "v02-glossy/whale-pet-character-sheet.svg",
+      "bytes": 3551228,
+      "sha256": "ca0471ead1a7fb2cbbc036a106f0234acec8a3b942f0e205334161d920e2f008"
+    },
+    {
+      "path": "v02-glossy/whale-pet-editable-contours.svg",
+      "bytes": 44764,
+      "sha256": "7e3ed1952792903163329d9316c4daa31dbafab974584dd11ae9db8af5fcc617"
+    },
+    {
+      "path": "v02-glossy/whale-pet-glossy-v02.zip",
+      "bytes": 10005237,
+      "sha256": "7bf7d73d0776ecd541f76442d25b517f27d28c3f66218b89636b262d024948a1"
+    },
+    {
+      "path": "v02-glossy/whale-pet-happy.png",
+      "bytes": 119098,
+      "sha256": "59e2a3563dcc1961d1a6823fbcae140b146d9ffe5300007c9aca094ccfddf70f"
+    },
+    {
+      "path": "v02-glossy/whale-pet-happy.svg",
+      "bytes": 583246,
+      "sha256": "bfbbb71a15db801618f9e364240f129eb52ab3dcdee44285f13c8b33075c5e17"
+    },
+    {
+      "path": "v02-glossy/whale-pet-idle.png",
+      "bytes": 116401,
+      "sha256": "94440b3cff05eb9cd6171f99e14fb17cb06acf08b4adfad5497cfd3f164fc7ca"
+    },
+    {
+      "path": "v02-glossy/whale-pet-idle.svg",
+      "bytes": 598989,
+      "sha256": "b54a66b1c3ce1962886bf8a85303b451a6364464be6be4756c155e239b91d423"
+    },
+    {
+      "path": "v02-glossy/whale-pet-reading.png",
+      "bytes": 120519,
+      "sha256": "b5697348d93b7dbe0ce46c96fbb9376914f66f6a1c94da097c6a1ba3b55974e4"
+    },
+    {
+      "path": "v02-glossy/whale-pet-reading.svg",
+      "bytes": 599418,
+      "sha256": "20ebff294e9525dca90f8b7b53181b50aa63214a39bc1ce9a8d99c7265d132da"
+    },
+    {
+      "path": "v02-glossy/whale-pet-sleep.png",
+      "bytes": 123023,
+      "sha256": "718a81731fb37b6e8fffae1664424e6e9b1f68e8dc663d28843149e4bd1c32c1"
+    },
+    {
+      "path": "v02-glossy/whale-pet-sleep.svg",
+      "bytes": 583283,
+      "sha256": "64cdcc6039b94579246f9021d9d146b5e9bfb9695cc4847d3ffc986483620043"
+    },
+    {
+      "path": "v02-glossy/whale-pet-thinking.png",
+      "bytes": 126172,
+      "sha256": "7a1a582f9076cf49ba1a26c2a2a7cca348a88efa89ac75fca639a6ad5a6add9e"
+    },
+    {
+      "path": "v02-glossy/whale-pet-thinking.svg",
+      "bytes": 599365,
+      "sha256": "621f2a5bc038025152c9138c8472e7d2311f7d71dc9d8e480e6050a702912acb"
+    }
+  ],
+  "relocatedAndAdaptedScripts": [
+    "../../scripts/whale-pet/build-preview.cjs",
+    "../../scripts/whale-pet/refine-contours.py"
+  ],
+  "archiveIntegrityVerified": true,
+  "archiveEntries": 20,
+  "referenceCopies": [
+    {
+      "path": "reference/whale-original.png",
+      "bytes": 484827,
+      "sha256": "82900d741863e2b00defbe9ba7c436d6cdc43f94faefa32498a52e066a682c89"
+    },
+    {
+      "path": "reference/whale-pet-v01-flat.svg",
+      "bytes": 1083,
+      "sha256": "04497fe341386ec3b3829f99327af6159230ff975088a6b9e700bb366e1e785e"
+    },
+    {
+      "path": "reference/original-brief.txt",
+      "bytes": 14563,
+      "sha256": "3f97a19f5020bc9c098d4cc29bd3e7476332d55b21973522bacb1b0407070735"
+    }
+  ],
+  "verification": {
+    "portableScriptsRegeneratedIdenticalFiles": 26,
+    "archiveContainsLatestSvgStates": 6,
+    "builtRuntimeFilesMatch": 13,
+    "designArchiveExcludedFromBuild": true,
+    "yarnBuildExitCode": 0,
+    "yarnLintCiExitCode": 0,
+    "citationRefresh": "Network unavailable; site build used stored counts."
+  }
+}

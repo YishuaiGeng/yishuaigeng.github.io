@@ -1,0 +1,16 @@
+# Generated output and installed dependencies
+node_modules/
+dist/
+.astro/
+coverage/
+test-results/
+playwright-report/
+
+# Preserve downloaded source snapshots and original design deliverables.
+# Website source and published journal data remain subject to formatting.
+files/
+design/
+
+# Third-party distributions retain their upstream formatting.
+public/assets/js/whale-pet/vendor/
+scripts/whale-pet/3d/vendor/

@@ -1,0 +1,30 @@
+{
+  "body": {
+    "x": 164,
+    "y": 398,
+    "width": 802,
+    "height": 660,
+    "maskArea": 179794
+  },
+  "tail": {
+    "x": 878,
+    "y": 579,
+    "width": 257,
+    "height": 241,
+    "maskArea": 45275
+  },
+  "spout": {
+    "x": 361,
+    "y": 119,
+    "width": 432,
+    "height": 286,
+    "maskArea": 51850
+  },
+  "eye": {
+    "x": 363,
+    "y": 642,
+    "width": 94,
+    "height": 97,
+    "maskArea": 7199
+  }
+}

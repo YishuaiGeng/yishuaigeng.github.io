@@ -1,0 +1,116 @@
+[
+  {
+    "name": "lp-name-1",
+    "url": "https://www.letpub.com.cn/journalappAjaxXS.php?querytype=autojournal&term=IEEE%20Transactions%20on%20Quantum%20Engineering",
+    "bytes": 137,
+    "file": "lp-name-1.html",
+    "text": "[{\"id\":\"30159\",\"issn\":\"2689-1808\",\"label\":\"IEEE Transactions on Quantum Engineering\",\"value\":\"IEEE Transactions on Quantum Engineering\"}]"
+  },
+  {
+    "name": "lp-name-4",
+    "url": "https://www.letpub.com.cn/journalappAjaxXS.php?querytype=autojournal&term=IEEE%20Transactions%20on%20Medical%20Robotics%20and%20Bionics",
+    "bytes": 155,
+    "file": "lp-name-4.html",
+    "text": "[{\"id\":\"39840\",\"issn\":\"2576-3202\",\"label\":\"IEEE Transactions on Medical Robotics and Bionics\",\"value\":\"IEEE Transactions on Medical Robotics and Bionics\"}]"
+  },
+  {
+    "name": "lp-name-3",
+    "url": "https://www.letpub.com.cn/journalappAjaxXS.php?querytype=autojournal&term=IEEE%20Transactions%20on%20Technology%20and%20Society",
+    "bytes": 2,
+    "file": "lp-name-3.html",
+    "text": "[]"
+  },
+  {
+    "name": "lp-name-2",
+    "url": "https://www.letpub.com.cn/journalappAjaxXS.php?querytype=autojournal&term=IEEE%20Transactions%20on%20Radar%20Systems",
+    "bytes": 2,
+    "file": "lp-name-2.html",
+    "text": "[]"
+  },
+  {
+    "name": "lp-name-0",
+    "url": "https://www.letpub.com.cn/journalappAjaxXS.php?querytype=autojournal&term=IEEE%20Transactions%20on%20Artificial%20Intelligence",
+    "bytes": 2,
+    "file": "lp-name-0.html",
+    "text": "[]"
+  },
+  {
+    "name": "lp-name-5",
+    "url": "https://www.letpub.com.cn/journalappAjaxXS.php?querytype=autojournal&term=IEEE%20Transactions%20on%20Industrial%20Cyber",
+    "bytes": 2,
+    "file": "lp-name-5.html",
+    "text": "[]"
+  },
+  {
+    "name": "lp-name-6",
+    "url": "https://www.letpub.com.cn/journalappAjaxXS.php?querytype=autojournal&term=IEEE%20Transactions%20on%20Radiation%20and%20Plasma",
+    "bytes": 173,
+    "file": "lp-name-6.html",
+    "text": "[{\"id\":\"13782\",\"issn\":\"2469-7311\",\"label\":\"IEEE Transactions on Radiation and Plasma Medical Sciences\",\"value\":\"IEEE Transactions on Radiation and Plasma Medical Sciences\"}]"
+  },
+  {
+    "name": "lp-name-9",
+    "url": "https://www.letpub.com.cn/journalappAjaxXS.php?querytype=autojournal&term=IEEE%20Transactions%20on%20Molecular",
+    "bytes": 405,
+    "file": "lp-name-9.html",
+    "text": "[{\"id\":\"39539\",\"issn\":\"2332-7804\",\"label\":\"IEEE Transactions on Molecular Biological and Multi-Scale Communications\",\"value\":\"IEEE Transactions on Molecular Biological and Multi-Scale Communications\"},{\"id\":\"27113\",\"issn\":\"2332-7804\",\"label\":\"IEEE Transactions on Molecular, Biological, and Multi-Scale Communications\",\"value\":\"IEEE Transactions on Molecular, Biological, and Multi-Scale Communications\"}]"
+  },
+  {
+    "name": "lp-name-8",
+    "url": "https://www.letpub.com.cn/journalappAjaxXS.php?querytype=autojournal&term=IEEE%20Transactions%20on%20Energy%20Markets",
+    "bytes": 2,
+    "file": "lp-name-8.html",
+    "text": "[]"
+  },
+  {
+    "name": "lp-name-7",
+    "url": "https://www.letpub.com.cn/journalappAjaxXS.php?querytype=autojournal&term=IEEE%20Transactions%20on%20Biometrics",
+    "bytes": 2,
+    "file": "lp-name-7.html",
+    "text": "[]"
+  },
+  {
+    "name": "lp-name-10",
+    "url": "https://www.letpub.com.cn/journalappAjaxXS.php?querytype=autojournal&term=IEEE%20Transactions%20on%20Machine%20Learning",
+    "bytes": 2,
+    "file": "lp-name-10.html",
+    "text": "[]"
+  },
+  {
+    "name": "lp-name-11",
+    "url": "https://www.letpub.com.cn/journalappAjaxXS.php?querytype=autojournal&term=ACM%20Transactions%20on%20Recommender",
+    "bytes": 2,
+    "file": "lp-name-11.html",
+    "text": "[]"
+  },
+  {
+    "name": "ras-soft",
+    "url": "https://www.ieee-ras.org/publications/transactions-on-soft-robotics",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "ras-learning",
+    "url": "https://www.ieee-ras.org/publications/transactions-on-robot-learning",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "eds-materials",
+    "url": "https://eds.ieee.org/publications/ieee-transactions-on-materials-for-electron-devices",
+    "error": "HTTP Error 418: Unknown Code"
+  },
+  {
+    "name": "privacy",
+    "url": "https://signalprocessingsociety.org/publications-resources/ieee-transactions-privacy",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "uffc",
+    "url": "https://ieee-uffc.org/publications/transactions-on-ultrasonics",
+    "error": "The read operation timed out"
+  },
+  {
+    "name": "cas-ai",
+    "url": "https://ieee-cas.org/publication/TCASAI",
+    "error": "The read operation timed out"
+  }
+]

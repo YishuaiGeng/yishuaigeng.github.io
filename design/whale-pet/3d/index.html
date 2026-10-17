@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Whale · 立体形态研究</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="../../../scripts/whale-pet/3d/viewer.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "../../../scripts/whale-pet/3d/vendor/three.module.js",
+          "/scripts/whale-pet/3d/utils/BufferGeometryUtils.js": "../../../scripts/whale-pet/3d/vendor/BufferGeometryUtils.js",
+          "/scripts/whale-pet/3d/utils/SkeletonUtils.js": "../../../scripts/whale-pet/3d/vendor/SkeletonUtils.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="../README.md">WHALE<span>FORM STUDY / 001</span></a
+      ><span class="prototype">可旋转的 3D 初版</span>
+    </header>
+    <main>
+      <section class="stage" aria-label="三维鲸鱼查看器">
+        <div id="canvas-host"></div>
+        <div class="stage-heading">
+          <span class="eyebrow">从轮廓到体积</span>
+          <h1>小鲸鱼，有了另一面。</h1>
+        </div>
+        <div class="view-buttons" aria-label="观察角度">
+          <button data-view="front">正面</button
+          ><button data-view="angle" aria-pressed="true">三分之四</button
+          ><button data-view="side">侧面</button><button data-view="back">背面</button>
+        </div>
+        <p class="stage-help">拖动旋转 · 滚轮缩放 · 触屏双指缩放</p>
+        <p id="status" role="status" aria-live="polite">正在构建模型…</p>
+      </section>
+      <aside>
+        <div class="intro">
+          <span class="eyebrow">01 / 形体</span>
+          <h2>先保留你的辨识度</h2>
+          <p>保留原来的蓝色轮廓、圆润尾巴和顶部水花。点击喷水时，水花从头顶重新涌出。</p>
+        </div>
+        <fieldset>
+          <legend>腹部形态</legend>
+          <div class="choices">
+            <button data-belly="false" aria-pressed="true">中空标志</button
+            ><button data-belly="true" aria-pressed="false">浅色腹部</button>
+          </div>
+        </fieldset>
+        <label class="slider-label" for="depth"
+          >身体厚度 <output id="depth-value">1.0×</output></label
+        ><input id="depth" type="range" min="0.55" max="1.8" step="0.05" value="1" />
+        <label class="slider-label" for="roughness"
+          >表面粗糙度 <output id="roughness-value">0.22</output></label
+        ><input id="roughness" type="range" min="0.12" max="0.65" step="0.01" value="0.22" />
+        <fieldset>
+          <legend>观察光照</legend>
+          <div class="choices">
+            <button data-light="studio" aria-pressed="true">柔光棚</button
+            ><button data-light="rim" aria-pressed="false">侧逆光</button>
+          </div>
+        </fieldset>
+        <div class="divider"></div>
+        <span class="eyebrow">02 / 动作</span>
+        <div class="actions">
+          <button id="swim" aria-pressed="false">摆尾游动</button>
+          <button id="splash">喷水</button>
+        </div>
+        <p class="note">
+          平时保留完整水花。点击“喷水”后从无到有地涌出，水滴散落，最后恢复原来的水花造型。
+        </p>
+        <div class="divider"></div>
+        <span class="eyebrow">03 / 继续建模</span
+        ><button class="export" id="export">下载当前 GLB 模型 ↗</button>
+        <p class="note">可导入 Blender 继续编辑。包含分件、材质、摆尾，以及水柱形变与水滴动画。</p>
+        <a class="doc-link" href="README.md">建模说明与下一步 ↗</a>
+      </aside>
+    </main>
+    <script type="module" src="../../../scripts/whale-pet/3d/viewer.mjs"></script>
+  </body>
+</html>

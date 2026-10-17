@@ -1,0 +1,52 @@
+[
+  {
+    "name": "sogou-tai2",
+    "url": "https://www.sogou.com/antispider/?m=1&antip=web_sh2&from=%2Fweb%3Fquery%3D2691-4581%2520SCIE%26ie%3Dutf8&suuid=2cde4ab1-6c55-4e2c-82f5-cd26b0913e3f",
+    "bytes": 5597,
+    "file": "sogou-tai2.html",
+    "text": "搜狗搜索 返回首页>> IP：112.53.147.221 访问时间：2026.10.15 17:07:12 SourceVerifyCode：cd26b0913e3f From：www.sogou.com 此验证码用于确认这些请求是您的正常行为而不是自动程序发出的，需要您协助验证。 验证码： 提交 提交后没解决问题？欢迎 反馈 。 企业推广 关于搜狗 免责声明 意见反馈 © 2026 Sogou Inc. - 京ICP证050897号 - 京公网安备1100 00000025号"
+  },
+  {
+    "name": "acm-tors-about",
+    "url": "https://dl.acm.org/journal/tors/about",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "ieee-oldjcr",
+    "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/pubs/2024-jcr-results.pdf",
+    "bytes": 0,
+    "file": "ieee-oldjcr.html",
+    "text": ""
+  },
+  {
+    "name": "ieee-2025jcr",
+    "url": "https://www.ieee.org/content/dam/ieee-org/ieee/web/org/pubs/2025-jcr-results.pdf",
+    "bytes": 0,
+    "file": "ieee-2025jcr.html",
+    "text": ""
+  },
+  {
+    "name": "sogou-ieeexlsx",
+    "url": "https://www.sogou.com/web?query=IEEE%20%E6%9C%9F%E5%88%8A%E5%88%97%E8%A1%A8%20%E4%B8%8B%E8%BD%BD&ie=utf8",
+    "bytes": 422244,
+    "file": "sogou-ieeexlsx.html",
+    "text": "IEEE 期刊列表 下载 - 搜狗搜索 高级搜索 搜索关键词 * 请输入搜索关键词 拆分关键词 不拆分关键词 在指定站内搜索 搜索词位于 网页中任何地方 网页中任何地方 仅在标题中 仅在正文中 仅在网址中 需要搜索的文件格式 全部网页 全部网页 Microsoft Word (.doc) Microsoft Excel (.xls) Microsoft Powerpoint (.ppt) Adobe Acrobat PDF (.pdf) RTF (.rtf) 全部文档 搜索结果排序方式 按相关性排序 按时间排序 无障碍 设置 高级搜索 帮助 意见反馈 举报 AI 网页 图片 微信 视频 知乎 医疗 汉语 翻译 问问 百科 更多 资讯 知识 应用 全部 “ ”后面的文字被忽略，搜狗的查询限制在100个汉字以内。 相关推荐 ieee期刊官网 ieee期刊模板下载 ieee官网入口 ieee期刊网站 ieee期刊投稿 ieee期刊格式 ieee期刊查询 ieee官网登录 ieee论文下载官网 ieee期刊论文下载 ieee tte期刊 ieee期刊怎么找 ieee四区期刊 ieee期刊档次 ieee期刊名称 全部结果 全部结果 一天内 一周内 一月内 一年内 搜狗已为您找到约29,737条相关结果 相关推荐 ieee期刊官网 ieee期刊模板下载 ieee官网入口 ieee期刊网站 ieee期刊投稿 ieee期刊格式 ieee期刊查询 ieee官网登录 ieee论文下载官网 ieee期刊论文下载 ieee tte期刊 ieee期刊怎么找 ieee四区期刊 ieee期刊档次 ieee期刊名称 【免费】 IEEE期刊目录 - 下载 即用.zip资源-CSDN 下载 文档中详细列出了 IEEE 与IET两大机构共收录的173种 期刊 目录，覆盖电子电... 更多 下载 资源、学习资料请访问CSDN 下载 频道 CSDN https://download.csdn.net/d... 2026-03-10 推荐您搜索 IEEE 期刊列表 下载 的更多内容_CSDN技术社区 全球IEEE期刊 大全(综合整理,附原文论文 下载 地址)-CSDN博客 2020-03-25 1、 Industrial Electronics, IEEE Transactions on 2、IEEE transactions on information forensics and security 3、IEEE Transactions on Information Theory 4、Instrumentation & Measurement Magazine, IEEE 5、Instrumentation and Measurement, IEEE... 查看全部 CSDN https://blog.csdn.net/z... 2020-03-25 如何免费 下载 IEEE 的 期刊 杂志 _ ieee 期刊 下载 -CSDN博客 2020-06-17 推荐您搜索 大家还在搜 ieee期刊官网 ieee期刊模板下载 ieee期刊投稿 ieee论文下载官网 IEEE期刊官网 ieee期刊论文下载 ieee期刊网站 ieee期刊查询 ieee期刊格式 ieee论文免费下载 ieee官网入口 "
+  },
+  {
+    "name": "ras",
+    "url": "https://www.ieee-ras.org/publications",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "mjl-js",
+    "url": "https://mjl.clarivate.com/mjl/main.8762ce790d666e78.js",
+    "bytes": 1451047,
+    "file": "mjl-js.html",
+    "text": "(self.webpackChunkmjl_app=self.webpackChunkmjl_app||[]).push([[792],{5518:function(jt,$e,s){\"use strict\";var i=this&&this.__createBinding||(Object.create?function(l,v,h,Y){void 0===Y&&(Y=h);var J=Object.getOwnPropertyDescriptor(v,h);(!J||(\"get\"in J?!v.__esModule:J.writable||J.configurable))&&(J={enumerable:!0,get:function(){return v[h]}}),Object.defineProperty(l,Y,J)}:function(l,v,h,Y){void 0===Y&&(Y=h),l[Y]=v[h]}),o=this&&this.__exportStar||function(l,v){for(var h in l)\"default\"!==h&&!Object.prototype.hasOwnProperty.call(v,h)&&i(v,l,h)};Object.defineProperty($e,\"__esModule\",{value:!0}),o(s(9615),$e),o(s(1873),$e)},9615:(jt,$e)=>{\"use strict\";Object.defineProperty($e,\"__esModule\",{value:!0})},1873:function(jt,$e){\"use strict\";var s=this&&this.__awaiter||function(l,v,h,Y){return new(h||(h=Promise))(function(G,N){function d(Me){try{H(Y.next(Me))}catch(ge){N(ge)}}function xe(Me){try{H(Y.throw(Me))}catch(ge){N(ge)}}function H(Me){Me.done?G(Me.value):function J(G){return G instanceof h?G:new h(function(N){N(G)})}(Me.value).then(d,xe)}H((Y=Y.apply(l,v||[])).next())})},i=this&&this.__generator||function(l,v){var Y,J,G,N,h={label:0,sent:function(){if(1&G[0])throw G[1];return G[1]},trys:[],ops:[]};return N={next:d(0),throw:d(1),return:d(2)},\"function\"==typeof Symbol&&(N[Symbol.iterator]=function(){return this}),N;function d(H){return function(Me){return function xe(H){if(Y)throw new Typ"
+  },
+  {
+    "name": "ieee-cn",
+    "url": "https://cn.ieee.org/",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

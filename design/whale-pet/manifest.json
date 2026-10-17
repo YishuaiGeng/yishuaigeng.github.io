@@ -1,0 +1,153 @@
+{
+  "version": "0.2",
+  "name": "Whale Pet — original gloss",
+  "figma": {
+    "url": "https://www.figma.com/design/aWj8wKmVFVCfLjJfddQwgf",
+    "v02Synced": false
+  },
+  "reference": "reference/whale-original.png",
+  "material": "Editable vector contours with embedded raster textures; reconstructed SVG shadows",
+  "viewBox": [
+    0,
+    0,
+    1254,
+    1254
+  ],
+  "outputSize": [
+    512,
+    512
+  ],
+  "editableGroups": [
+    "body",
+    "tail",
+    "spout",
+    "eye",
+    "expression"
+  ],
+  "expressionScale": {
+    "happy": 1.6,
+    "thinking": 1.6,
+    "sleep": 1.6
+  },
+  "preview": "v02-glossy/comparison.html",
+  "characterSheet": "v02-glossy/whale-pet-character-sheet.png",
+  "contours": "v02-glossy/whale-pet-editable-contours.svg",
+  "originalArchive": "v02-glossy/whale-pet-glossy-v02.zip",
+  "scripts": "../../scripts/whale-pet/",
+  "runtimeManifest": "../../public/assets/img/whale-pet/manifest.json",
+  "states": {
+    "idle": {
+      "svg": {
+        "path": "v02-glossy/whale-pet-idle.svg",
+        "bytes": 598989,
+        "sha256": "b54a66b1c3ce1962886bf8a85303b451a6364464be6be4756c155e239b91d423"
+      },
+      "png": {
+        "path": "v02-glossy/whale-pet-idle.png",
+        "bytes": 116401,
+        "sha256": "94440b3cff05eb9cd6171f99e14fb17cb06acf08b4adfad5497cfd3f164fc7ca"
+      },
+      "webp": {
+        "url": "/assets/img/whale-pet/idle.webp",
+        "bytes": 81372,
+        "sha256": "0f58f16a6f12b8345a01bf213415eec134679abadee405b7136051ea0f2b7ab3"
+      },
+      "visiblePixelsAndAlphaMatch": true
+    },
+    "blink": {
+      "svg": {
+        "path": "v02-glossy/whale-pet-blink.svg",
+        "bytes": 582944,
+        "sha256": "b3821c4152e0cb0d1534eefe445c5c9b367c87e212e9b8c89d33d72548016a36"
+      },
+      "png": {
+        "path": "v02-glossy/whale-pet-blink.png",
+        "bytes": 113025,
+        "sha256": "66b0cb5aac8c61133da909bac0ad52bc070105f34d96c57ec1f5605403f7e1f5"
+      },
+      "webp": {
+        "url": "/assets/img/whale-pet/blink.webp",
+        "bytes": 79072,
+        "sha256": "b373c46b8292004798edf71cef0530a55b92893675d1e319e41222e8dfdafdf0"
+      },
+      "visiblePixelsAndAlphaMatch": true
+    },
+    "happy": {
+      "svg": {
+        "path": "v02-glossy/whale-pet-happy.svg",
+        "bytes": 583246,
+        "sha256": "bfbbb71a15db801618f9e364240f129eb52ab3dcdee44285f13c8b33075c5e17"
+      },
+      "png": {
+        "path": "v02-glossy/whale-pet-happy.png",
+        "bytes": 119098,
+        "sha256": "59e2a3563dcc1961d1a6823fbcae140b146d9ffe5300007c9aca094ccfddf70f"
+      },
+      "webp": {
+        "url": "/assets/img/whale-pet/happy.webp",
+        "bytes": 83630,
+        "sha256": "2c3d4d67c9b55686a72de56f5d03a2b74ea9c344903d74f1497dd4d11742f1f6"
+      },
+      "visiblePixelsAndAlphaMatch": true
+    },
+    "thinking": {
+      "svg": {
+        "path": "v02-glossy/whale-pet-thinking.svg",
+        "bytes": 599365,
+        "sha256": "621f2a5bc038025152c9138c8472e7d2311f7d71dc9d8e480e6050a702912acb"
+      },
+      "png": {
+        "path": "v02-glossy/whale-pet-thinking.png",
+        "bytes": 126172,
+        "sha256": "7a1a582f9076cf49ba1a26c2a2a7cca348a88efa89ac75fca639a6ad5a6add9e"
+      },
+      "webp": {
+        "url": "/assets/img/whale-pet/thinking.webp",
+        "bytes": 88164,
+        "sha256": "90e30008aec40165c2e4f4e21fdf3f97cf741e442a5f12b0576c9498681e5284"
+      },
+      "visiblePixelsAndAlphaMatch": true
+    },
+    "sleep": {
+      "svg": {
+        "path": "v02-glossy/whale-pet-sleep.svg",
+        "bytes": 583283,
+        "sha256": "64cdcc6039b94579246f9021d9d146b5e9bfb9695cc4847d3ffc986483620043"
+      },
+      "png": {
+        "path": "v02-glossy/whale-pet-sleep.png",
+        "bytes": 123023,
+        "sha256": "718a81731fb37b6e8fffae1664424e6e9b1f68e8dc663d28843149e4bd1c32c1"
+      },
+      "webp": {
+        "url": "/assets/img/whale-pet/sleep.webp",
+        "bytes": 86318,
+        "sha256": "2b8cb6cf85c8e16e1ac6b661f26e5432342e15d80d853fdffb00f65e76f3a36a"
+      },
+      "visiblePixelsAndAlphaMatch": true
+    },
+    "reading": {
+      "svg": {
+        "path": "v02-glossy/whale-pet-reading.svg",
+        "bytes": 599418,
+        "sha256": "20ebff294e9525dca90f8b7b53181b50aa63214a39bc1ce9a8d99c7265d132da"
+      },
+      "png": {
+        "path": "v02-glossy/whale-pet-reading.png",
+        "bytes": 120519,
+        "sha256": "b5697348d93b7dbe0ce46c96fbb9376914f66f6a1c94da097c6a1ba3b55974e4"
+      },
+      "webp": {
+        "url": "/assets/img/whale-pet/reading.webp",
+        "bytes": 84588,
+        "sha256": "ac5f4e42cc89bb2b811cce02302cea7e6fc0721de4cbbc7caa66faac52ffadf3"
+      },
+      "visiblePixelsAndAlphaMatch": true
+    }
+  },
+  "webExport": {
+    "pngBytes": 718238,
+    "webpBytes": 503144,
+    "reductionPercent": 29.9
+  }
+}

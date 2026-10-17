@@ -1,0 +1,4 @@
+# Keep downloaded research snapshots and design deliverables byte-for-byte
+# identical on Windows, macOS, and Linux (including source checksum files).
+files/** -text
+design/** -text

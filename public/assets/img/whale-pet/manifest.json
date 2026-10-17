@@ -1,0 +1,31 @@
+{
+  "version": "0.2",
+  "width": 512,
+  "height": 512,
+  "states": {
+    "idle": {
+      "webp": "/assets/img/whale-pet/idle.webp",
+      "png": "/assets/img/whale-pet/idle.png"
+    },
+    "blink": {
+      "webp": "/assets/img/whale-pet/blink.webp",
+      "png": "/assets/img/whale-pet/blink.png"
+    },
+    "happy": {
+      "webp": "/assets/img/whale-pet/happy.webp",
+      "png": "/assets/img/whale-pet/happy.png"
+    },
+    "thinking": {
+      "webp": "/assets/img/whale-pet/thinking.webp",
+      "png": "/assets/img/whale-pet/thinking.png"
+    },
+    "sleep": {
+      "webp": "/assets/img/whale-pet/sleep.webp",
+      "png": "/assets/img/whale-pet/sleep.png"
+    },
+    "reading": {
+      "webp": "/assets/img/whale-pet/reading.webp",
+      "png": "/assets/img/whale-pet/reading.png"
+    }
+  }
+}
