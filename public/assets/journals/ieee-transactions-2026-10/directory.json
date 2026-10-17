@@ -1,19 +1,25 @@
 {
-  "checked_on": "2026-10-15",
-  "scope": "IEEE Transactions 名称族，含 IEEE/ASME；主目录按 Crossref 2025/2026 记录筛选并合并 Networking 旧名。不是 IEEE 官方实时在刊数量认证。",
-  "index_note": "索引分类来自注明版本的二次数据快照；4 刊补查 LetPub。全部未完成 Clarivate MJL 实时核验。未匹配不能证明未收录。",
+  "catalogue_updated_on": "2026-10-17",
+  "scope": "IEEE、IEEE/ASME、IEEE Latin America 与 ACM Transactions 名称族；历史联合题名另列。主目录依据 2025/2026 出版元数据编制，不是出版社实时在刊总数认证。",
+  "index_note": "收录状态依据 2025/2026 二次资料，逐条保留来源与核对日期。待确认不等于未收录；当前状态以 Clarivate MJL 为准。",
   "sources": {
     "crossref": "https://api.crossref.org/journals?query=IEEE&rows=1000",
     "kbart_2023": "https://lib.qlu.edu.cn/2019/0304/c1252a122430/page.htm",
     "jcr_2025_secondary": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
-    "xr_2026_secondary": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+    "xr_2026_secondary": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv",
+    "acm_crossref": "https://api.crossref.org/journals?query=ACM&rows=1000"
   },
   "counts": {
-    "SCIE": 93,
-    "未核实": 9,
-    "ESCI": 10,
-    "SCIE + SSCI": 2,
-    "SSCI": 1
+    "IEEE": 115,
+    "ACM": 45,
+    "total": 160,
+    "index_status": {
+      "SCIE": 121,
+      "待确认": 14,
+      "ESCI": 22,
+      "SCIE + SSCI": 2,
+      "SSCI": 1
+    }
   },
   "journals": [
     {
@@ -30,10 +36,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Aerospace and Electronic Systems",
@@ -49,10 +57,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Affective Computing",
@@ -68,10 +78,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on AgriFood Electronics",
@@ -84,10 +96,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "recent_metadata_main_directory"
+      "index_status": "待确认",
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Antennas and Propagation",
@@ -103,10 +117,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Applied Superconductivity",
@@ -122,10 +138,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Artificial Intelligence",
@@ -138,10 +156,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "recent_metadata_main_directory"
+      "index_status": "待确认",
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Audio, Speech, and Language Processing",
@@ -157,10 +177,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Automatic Control",
@@ -176,10 +198,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Automation Science and Engineering",
@@ -195,10 +219,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Big Data",
@@ -214,10 +240,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Biomedical Circuits and Systems",
@@ -233,10 +261,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Biomedical Engineering",
@@ -252,10 +282,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Biometrics, Behavior, and Identity Science",
@@ -271,10 +303,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "ESCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Broadcasting",
@@ -290,10 +324,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Circuits and Systems II: Express Briefs",
@@ -309,10 +345,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Circuits and Systems I: Regular Papers",
@@ -328,10 +366,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Circuits and Systems for Artificial Intelligence",
@@ -344,10 +384,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "recent_metadata_main_directory"
+      "index_status": "待确认",
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Circuits and Systems for Video Technology",
@@ -363,10 +405,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Cloud Computing",
@@ -382,10 +426,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Cognitive Communications and Networking",
@@ -401,10 +447,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Cognitive and Developmental Systems",
@@ -420,10 +468,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Communications",
@@ -439,10 +489,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Components, Packaging and Manufacturing Technology",
@@ -458,10 +510,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Computational Biology and Bioinformatics",
@@ -477,10 +531,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Computational Imaging",
@@ -496,10 +552,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Computational Social Systems",
@@ -515,10 +573,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
@@ -534,10 +594,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Computers",
@@ -553,10 +615,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Consumer Electronics",
@@ -572,10 +636,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Control Systems Technology",
@@ -591,10 +657,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Control of Network Systems",
@@ -610,10 +678,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Cybernetics",
@@ -629,10 +699,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Dependable and Secure Computing",
@@ -648,10 +720,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Device and Materials Reliability",
@@ -667,10 +741,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Dielectrics and Electrical Insulation",
@@ -686,10 +762,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Education",
@@ -705,10 +783,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Electromagnetic Compatibility",
@@ -724,10 +804,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Electron Devices",
@@ -743,10 +825,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Emerging Topics in Computational Intelligence",
@@ -762,10 +846,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Emerging Topics in Computing",
@@ -781,10 +867,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Energy Conversion",
@@ -800,10 +888,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Energy Markets, Policy and Regulation",
@@ -818,10 +908,12 @@
       "index_sources": [
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "ESCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Engineering Management",
@@ -837,10 +929,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE + SSCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Evolutionary Computation",
@@ -856,10 +950,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Field Robotics",
@@ -872,10 +968,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "recent_metadata_main_directory"
+      "index_status": "待确认",
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Fuzzy Systems",
@@ -891,10 +989,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Games",
@@ -910,10 +1010,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Geoscience and Remote Sensing",
@@ -929,10 +1031,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Green Communications and Networking",
@@ -948,10 +1052,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Haptics",
@@ -967,10 +1073,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Human-Machine Systems",
@@ -986,10 +1094,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Image Processing",
@@ -1005,10 +1115,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Industrial Cyber-Physical Systems",
@@ -1023,10 +1135,12 @@
       "index_sources": [
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "ESCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Industrial Electronics",
@@ -1042,10 +1156,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Industrial Informatics",
@@ -1061,10 +1177,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Industry Applications",
@@ -1080,10 +1198,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Information Forensics and Security",
@@ -1099,10 +1219,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Information Theory",
@@ -1118,10 +1240,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Instrumentation and Measurement",
@@ -1137,10 +1261,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Intelligent Transportation Systems",
@@ -1156,10 +1282,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Intelligent Vehicles",
@@ -1174,10 +1302,12 @@
       "index_sources": [
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Knowledge and Data Engineering",
@@ -1193,10 +1323,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Learning Technologies",
@@ -1212,10 +1344,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE + SSCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Machine Learning in Communications and Networking",
@@ -1230,10 +1364,12 @@
       "index_sources": [
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "ESCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Magnetics",
@@ -1249,10 +1385,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Materials for Electron Devices",
@@ -1265,10 +1403,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "recent_metadata_main_directory"
+      "index_status": "待确认",
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Medical Imaging",
@@ -1284,10 +1424,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Medical Robotics and Bionics",
@@ -1304,12 +1446,14 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv",
         "https://www.letpub.com.cn/index.php?journalid=39840&page=journalapp&view=detail"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "secondary_live_index": "ESCI",
       "secondary_live_url": "https://www.letpub.com.cn/index.php?journalid=39840&page=journalapp&view=detail",
       "index_status": "ESCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Microwave Theory and Techniques",
@@ -1325,10 +1469,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Mobile Computing",
@@ -1344,10 +1490,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Molecular, Biological and Multi-Scale Communications",
@@ -1364,12 +1512,14 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv",
         "https://www.letpub.com.cn/index.php?journalid=39539&page=journalapp&view=detail"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "secondary_live_index": "ESCI",
       "secondary_live_url": "https://www.letpub.com.cn/index.php?journalid=39539&page=journalapp&view=detail",
       "index_status": "ESCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Multimedia",
@@ -1385,10 +1535,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on NanoBioscience",
@@ -1404,10 +1556,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Nanotechnology",
@@ -1423,10 +1577,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Network Science and Engineering",
@@ -1442,10 +1598,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Network and Service Management",
@@ -1461,10 +1619,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Networking",
@@ -1480,10 +1640,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Neural Networks and Learning Systems",
@@ -1499,10 +1661,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
@@ -1518,10 +1682,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Nuclear Science",
@@ -1537,10 +1703,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Parallel and Distributed Systems",
@@ -1556,10 +1724,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -1575,10 +1745,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Plasma Science",
@@ -1594,10 +1766,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Power Delivery",
@@ -1613,10 +1787,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Power Electronics",
@@ -1632,10 +1808,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Power Systems",
@@ -1651,10 +1829,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Privacy",
@@ -1667,10 +1847,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "recent_metadata_main_directory"
+      "index_status": "待确认",
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Professional Communication",
@@ -1686,10 +1868,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SSCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Quantum Engineering",
@@ -1706,12 +1890,14 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv",
         "https://www.letpub.com.cn/index.php?journalid=30159&page=journalapp&view=detail"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "secondary_live_index": "ESCI",
       "secondary_live_url": "https://www.letpub.com.cn/index.php?journalid=30159&page=journalapp&view=detail",
       "index_status": "ESCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Radar Systems",
@@ -1726,10 +1912,12 @@
       "index_sources": [
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "ESCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Radiation and Plasma Medical Sciences",
@@ -1746,12 +1934,14 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv",
         "https://www.letpub.com.cn/index.php?journalid=13782&page=journalapp&view=detail"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "secondary_live_index": "ESCI",
       "secondary_live_url": "https://www.letpub.com.cn/index.php?journalid=13782&page=journalapp&view=detail",
       "index_status": "ESCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Reliability",
@@ -1767,10 +1957,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Robot Learning",
@@ -1783,10 +1975,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "recent_metadata_main_directory"
+      "index_status": "待确认",
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Robotics",
@@ -1802,10 +1996,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Semiconductor Manufacturing",
@@ -1821,10 +2017,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Services Computing",
@@ -1840,10 +2038,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Signal Processing",
@@ -1859,10 +2059,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Signal and Information Processing over Networks",
@@ -1878,10 +2080,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Signal and Power Integrity",
@@ -1894,10 +2098,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "recent_metadata_main_directory"
+      "index_status": "待确认",
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Smart Grid",
@@ -1913,10 +2119,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Software Engineering",
@@ -1932,10 +2140,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Sustainable Computing",
@@ -1951,10 +2161,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Sustainable Energy",
@@ -1970,10 +2182,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
@@ -1989,10 +2203,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Technology and Society",
@@ -2007,10 +2223,12 @@
       "index_sources": [
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "ESCI",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Terahertz Science and Technology",
@@ -2026,10 +2244,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Transportation Electrification",
@@ -2045,10 +2265,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Ultrasonics",
@@ -2061,10 +2283,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "recent_metadata_main_directory"
+      "index_status": "待确认",
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control",
@@ -2080,10 +2304,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Vehicular Technology",
@@ -2099,10 +2325,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
@@ -2118,10 +2346,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Visualization and Computer Graphics",
@@ -2137,10 +2367,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Wireless Communications",
@@ -2156,10 +2388,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE/ASME Transactions on Mechatronics",
@@ -2175,9 +2409,986 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
+      "catalogue_group": "recent_metadata_main_directory",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
+    },
+    {
+      "title": "ACM Transactions on AI for Science",
+      "crossref_title": "ACM Transactions on AI for Science",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["3066-4438"],
+      "topic_zh": "科学人工智能",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/3066-4438",
+      "publisher_page": null,
+      "jcr_2025_snapshot": null,
+      "xr_2026_snapshot": null,
+      "index_status": "待确认",
+      "index_sources": [],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Accessible Computing",
+      "crossref_title": "ACM Transactions on Accessible Computing",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1936-7228", "1936-7236"],
+      "topic_zh": "无障碍计算",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1936-7236",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "ESCI",
+      "xr_2026_snapshot": "Web of Science (ESCI); Scopus",
+      "index_status": "ESCI",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Algorithms",
+      "crossref_title": "ACM Transactions on Algorithms",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1549-6325", "1549-6333"],
+      "topic_zh": "算法",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1549-6333",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Applied Perception",
+      "crossref_title": "ACM Transactions on Applied Perception",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1544-3558", "1544-3965"],
+      "topic_zh": "应用感知",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1544-3965",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Architecture and Code Optimization",
+      "crossref_title": "ACM Transactions on Architecture and Code Optimization",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1544-3566", "1544-3973"],
+      "topic_zh": "体系结构与代码优化",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1544-3973",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+      "crossref_title": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2375-4699", "2375-4702"],
+      "topic_zh": "亚洲与低资源语言处理",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2375-4702",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Autonomous and Adaptive Systems",
+      "crossref_title": "ACM Transactions on Autonomous and Adaptive Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1556-4665", "1556-4703"],
+      "topic_zh": "自主与自适应系统",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1556-4703",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Computation Theory",
+      "crossref_title": "ACM Transactions on Computation Theory",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1942-3454", "1942-3462"],
+      "topic_zh": "计算理论",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1942-3462",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "ESCI",
+      "xr_2026_snapshot": "Web of Science (ESCI); Scopus",
+      "index_status": "ESCI",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Computational Logic",
+      "crossref_title": "ACM Transactions on Computational Logic",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1529-3785", "1557-945X"],
+      "topic_zh": "计算逻辑",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1557-945X",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Computer Systems",
+      "crossref_title": "ACM Transactions on Computer Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["0734-2071", "1557-7333"],
+      "topic_zh": "计算机系统",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1557-7333",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Computer-Human Interaction",
+      "crossref_title": "ACM Transactions on Computer-Human Interaction",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1073-0516", "1557-7325"],
+      "topic_zh": "人机交互",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1557-7325",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Computing Education",
+      "crossref_title": "ACM Transactions on Computing Education",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1946-6226"],
+      "topic_zh": "计算教育",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1946-6226",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Computing for Healthcare",
+      "crossref_title": "ACM Transactions on Computing for Healthcare",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2691-1957", "2637-8051"],
+      "topic_zh": "医疗健康计算",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2637-8051",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "ESCI",
+      "xr_2026_snapshot": "Web of Science (ESCI); Scopus",
+      "index_status": "ESCI",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Cyber-Physical Systems",
+      "crossref_title": "ACM Transactions on Cyber-Physical Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2378-962X", "2378-9638"],
+      "topic_zh": "信息物理系统",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2378-9638",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "ESCI",
+      "xr_2026_snapshot": "Web of Science (ESCI); Scopus",
+      "index_status": "ESCI",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Database Systems",
+      "crossref_title": "ACM Transactions on Database Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["0362-5915", "1557-4644"],
+      "topic_zh": "数据库系统",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1557-4644",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Design Automation of Electronic Systems",
+      "crossref_title": "ACM Transactions on Design Automation of Electronic Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1084-4309", "1557-7309"],
+      "topic_zh": "电子系统设计自动化",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1557-7309",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Economics and Computation",
+      "crossref_title": "ACM Transactions on Economics and Computation",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2167-8375", "2167-8383"],
+      "topic_zh": "经济学与计算",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2167-8383",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "ESCI",
+      "xr_2026_snapshot": "Web of Science (ESCI); Scopus",
+      "index_status": "ESCI",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Embedded Computing Systems",
+      "crossref_title": "ACM Transactions on Embedded Computing Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1539-9087", "1558-3465"],
+      "topic_zh": "嵌入式计算系统",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1558-3465",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Evolutionary Learning and Optimization",
+      "crossref_title": "ACM Transactions on Evolutionary Learning and Optimization",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2688-299X", "2688-3007"],
+      "topic_zh": "进化学习与优化",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2688-3007",
+      "publisher_page": null,
+      "jcr_2025_snapshot": null,
+      "xr_2026_snapshot": null,
+      "index_status": "待确认",
+      "index_sources": [],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Graphics",
+      "crossref_title": "ACM Transactions on Graphics",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["0730-0301", "1557-7368"],
+      "topic_zh": "计算机图形学",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1557-7368",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Human-Robot Interaction",
+      "crossref_title": "ACM Transactions on Human-Robot Interaction",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2573-9522"],
+      "topic_zh": "人机协作与机器人交互",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2573-9522",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "ESCI",
+      "xr_2026_snapshot": "Web of Science (ESCI); Scopus",
+      "index_status": "ESCI",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Information Systems",
+      "crossref_title": "ACM Transactions on Information Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1046-8188", "1558-2868"],
+      "topic_zh": "信息系统与检索",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1558-2868",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Intelligent Systems and Technology",
+      "crossref_title": "ACM Transactions on Intelligent Systems and Technology",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2157-6904", "2157-6912"],
+      "topic_zh": "智能系统与技术",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2157-6912",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Interactive Intelligent Systems",
+      "crossref_title": "ACM Transactions on Interactive Intelligent Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2160-6455", "2160-6463"],
+      "topic_zh": "交互式智能系统",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2160-6463",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Internet Technology",
+      "crossref_title": "ACM Transactions on Internet Technology",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1533-5399", "1557-6051"],
+      "topic_zh": "互联网技术",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1557-6051",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Internet of Things",
+      "crossref_title": "ACM Transactions on Internet of Things",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2691-1914", "2577-6207"],
+      "topic_zh": "物联网",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2577-6207",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "ESCI",
+      "xr_2026_snapshot": "Web of Science (ESCI); Scopus",
+      "index_status": "ESCI",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Knowledge Discovery from Data",
+      "crossref_title": "ACM Transactions on Knowledge Discovery from Data",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1556-4681", "1556-472X"],
+      "topic_zh": "数据挖掘与知识发现",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1556-472X",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Management Information Systems",
+      "crossref_title": "ACM Transactions on Management Information Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2158-656X", "2158-6578"],
+      "topic_zh": "管理信息系统",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2158-6578",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "ESCI",
+      "xr_2026_snapshot": "Web of Science (ESCI); Scopus",
+      "index_status": "ESCI",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Mathematical Software",
+      "crossref_title": "ACM Transactions on Mathematical Software",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["0098-3500", "1557-7295"],
+      "topic_zh": "数学软件",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1557-7295",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Modeling and Computer Simulation",
+      "crossref_title": "ACM Transactions on Modeling and Computer Simulation",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1049-3301", "1558-1195"],
+      "topic_zh": "建模与计算机仿真",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1558-1195",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
+      "crossref_title": "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2376-3639", "2376-3647"],
+      "topic_zh": "计算系统建模与性能评价",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2376-3647",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "ESCI",
+      "xr_2026_snapshot": "Web of Science (ESCI); Scopus",
+      "index_status": "ESCI",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Multimedia Computing Communications and Applications",
+      "crossref_title": "ACM Transactions on Multimedia Computing Communications and Applications",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1551-6857", "1551-6865"],
+      "topic_zh": "多媒体计算、通信与应用",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1551-6865",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Parallel Computing",
+      "crossref_title": "ACM Transactions on Parallel Computing",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2329-4949", "2329-4957"],
+      "topic_zh": "并行计算",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2329-4957",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "ESCI",
+      "xr_2026_snapshot": "Web of Science (ESCI); Scopus",
+      "index_status": "ESCI",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Privacy and Security",
+      "crossref_title": "ACM Transactions on Privacy and Security",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2471-2566", "2471-2574"],
+      "topic_zh": "隐私与安全",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2471-2574",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Probabilistic Machine Learning",
+      "crossref_title": "ACM Transactions on Probabilistic Machine Learning",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2836-8924"],
+      "topic_zh": "概率机器学习",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2836-8924",
+      "publisher_page": null,
+      "jcr_2025_snapshot": null,
+      "xr_2026_snapshot": null,
+      "index_status": "待确认",
+      "index_sources": [],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Programming Languages and Systems",
+      "crossref_title": "ACM Transactions on Programming Languages and Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["0164-0925", "1558-4593"],
+      "topic_zh": "程序设计语言与系统",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1558-4593",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Quantum Computing",
+      "crossref_title": "ACM Transactions on Quantum Computing",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2643-6809", "2643-6817"],
+      "topic_zh": "量子计算",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2643-6817",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "ESCI",
+      "xr_2026_snapshot": "Web of Science (ESCI); Scopus",
+      "index_status": "ESCI",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Recommender Systems",
+      "crossref_title": "ACM Transactions on Recommender Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2770-6699"],
+      "topic_zh": "推荐系统",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2770-6699",
+      "publisher_page": null,
+      "jcr_2025_snapshot": null,
+      "xr_2026_snapshot": null,
+      "index_status": "待确认",
+      "index_sources": [],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Reconfigurable Technology and Systems",
+      "crossref_title": "ACM Transactions on Reconfigurable Technology and Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1936-7406", "1936-7414"],
+      "topic_zh": "可重构技术与系统",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1936-7414",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Sensor Networks",
+      "crossref_title": "ACM Transactions on Sensor Networks",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1550-4859", "1550-4867"],
+      "topic_zh": "传感器网络",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1550-4867",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Social Computing",
+      "crossref_title": "ACM Transactions on Social Computing",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2469-7818", "2469-7826"],
+      "topic_zh": "社会计算",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2469-7826",
+      "publisher_page": null,
+      "jcr_2025_snapshot": null,
+      "xr_2026_snapshot": null,
+      "index_status": "待确认",
+      "index_sources": [],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Software Engineering and Methodology",
+      "crossref_title": "ACM Transactions on Software Engineering and Methodology",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1049-331X", "1557-7392"],
+      "topic_zh": "软件工程与方法学",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1557-7392",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Spatial Algorithms and Systems",
+      "crossref_title": "ACM Transactions on Spatial Algorithms and Systems",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2374-0353", "2374-0361"],
+      "topic_zh": "空间算法与系统",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/2374-0361",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "ESCI",
+      "xr_2026_snapshot": "Web of Science (ESCI); Scopus",
+      "index_status": "ESCI",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on Storage",
+      "crossref_title": "ACM Transactions on Storage",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1553-3077", "1553-3093"],
+      "topic_zh": "存储系统",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1553-3093",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "recent_metadata_main_directory"
+    },
+    {
+      "title": "ACM Transactions on the Web",
+      "crossref_title": "ACM Transactions on the Web",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1559-1131", "1559-114X"],
+      "topic_zh": "Web 技术",
+      "latest_issue_year_in_crossref": 2026,
+      "metadata_url": "https://api.crossref.org/journals/1559-114X",
+      "publisher_page": null,
+      "jcr_2025_snapshot": "SCIE",
+      "xr_2026_snapshot": "Web of Science (SCIE); Scopus",
+      "index_status": "SCIE",
+      "index_sources": [
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+        "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+      ],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
       "catalogue_group": "recent_metadata_main_directory"
     }
   ],
@@ -2193,10 +3404,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Advanced Packaging",
@@ -2209,10 +3422,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Aerospace",
@@ -2225,10 +3440,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Aerospace and Navigational Electronics",
@@ -2241,10 +3458,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Applications and Industry",
@@ -2257,10 +3476,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Audio",
@@ -2273,10 +3494,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Audio, Speech, and Language Processing",
@@ -2292,10 +3515,12 @@
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Audio and Electroacoustics",
@@ -2308,10 +3533,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Autonomous Mental Development",
@@ -2324,10 +3551,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Bio-medical Electronics",
@@ -2340,10 +3569,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Broadcast and Television Receivers",
@@ -2356,10 +3587,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Cable Television",
@@ -2372,10 +3605,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Circuit Theory",
@@ -2388,10 +3623,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Circuits and Systems",
@@ -2404,10 +3641,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications",
@@ -2420,10 +3659,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Circuits and Systems II: Analog and Digital Signal Processing",
@@ -2436,10 +3677,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Communication Technology",
@@ -2452,10 +3695,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Communication and Electronics",
@@ -2468,10 +3713,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Communications Systems",
@@ -2484,10 +3731,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Component Parts",
@@ -2500,10 +3749,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Components, Hybrids, and Manufacturing Technology",
@@ -2516,10 +3767,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Components, Packaging, and Manufacturing Technology: Part A",
@@ -2532,10 +3785,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Components, Packaging, and Manufacturing Technology: Part B",
@@ -2548,10 +3803,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Components, Packaging, and Manufacturing Technology: Part C",
@@ -2564,10 +3821,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Components and Packaging Technologies",
@@ -2580,10 +3839,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Computational Intelligence and AI in Games",
@@ -2596,10 +3857,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Electrical Insulation",
@@ -2612,10 +3875,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Electronic Computers",
@@ -2628,10 +3893,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Electronics Packaging Manufacturing",
@@ -2644,10 +3911,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Engineering Writing and Speech",
@@ -2660,10 +3929,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Geoscience Electronics",
@@ -2676,10 +3947,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Human Factors in Electronics",
@@ -2692,10 +3965,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Industrial Electronics [May 1963]",
@@ -2708,10 +3983,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Industrial Electronics and Control Instrumentation",
@@ -2724,10 +4001,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Industry and General Applications",
@@ -2740,10 +4019,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Information Technology in Biomedicine",
@@ -2756,10 +4037,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Man-Machine Systems",
@@ -2772,10 +4055,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Manufacturing Technology",
@@ -2788,10 +4073,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Military Electronics",
@@ -2804,10 +4091,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Multi-Scale Computing Systems",
@@ -2820,10 +4109,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Neural Networks",
@@ -2836,10 +4127,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Parts, Hybrids, and Packaging",
@@ -2852,10 +4145,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Parts, Materials and Packaging",
@@ -2868,10 +4163,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Power Apparatus and Systems",
@@ -2884,10 +4181,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Product Engineering and Production",
@@ -2900,10 +4199,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Radio Frequency Interference",
@@ -2916,10 +4217,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Rehabilitation Engineering",
@@ -2932,10 +4235,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Robotics and Automation",
@@ -2948,10 +4253,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Semiconductor Technology Modeling and Simulation",
@@ -2964,10 +4271,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Sonics and Ultrasonics",
@@ -2980,10 +4289,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Space Electronics and Telemetry",
@@ -2996,10 +4307,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Speech and Audio Processing",
@@ -3012,10 +4325,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Systems, Man, and Cybernetics",
@@ -3028,10 +4343,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans",
@@ -3044,10 +4361,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)",
@@ -3060,10 +4379,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)",
@@ -3076,10 +4397,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Systems Science and Cybernetics",
@@ -3092,10 +4415,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Ultrasonics Engineering",
@@ -3108,10 +4433,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE Transactions on Vehicular Communications",
@@ -3124,10 +4451,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "index_status": "待确认",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
@@ -3142,10 +4471,12 @@
       "index_sources": [
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
@@ -3160,10 +4491,12 @@
       "index_sources": [
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
-      "catalogue_group": "legacy_or_archival_metadata"
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     },
     {
       "title": "IEEE/ACM Transactions on Networking",
@@ -3178,9 +4511,87 @@
       "index_sources": [
         "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv"
       ],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
       "index_status": "SCIE",
+      "catalogue_group": "legacy_or_archival_metadata",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
+    },
+    {
+      "title": "ACM Transactions on Asian Language Information Processing",
+      "crossref_title": "ACM Transactions on Asian Language Information Processing",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1530-0226", "1558-3430"],
+      "topic_zh": "",
+      "latest_issue_year_in_crossref": 2014,
+      "metadata_url": "https://api.crossref.org/journals/1558-3430",
+      "publisher_page": null,
+      "jcr_2025_snapshot": null,
+      "xr_2026_snapshot": null,
+      "index_status": "待确认",
+      "index_sources": [],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "legacy_or_archival_metadata"
+    },
+    {
+      "title": "ACM Transactions on Information and System Security",
+      "crossref_title": "ACM Transactions on Information and System Security",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1094-9224", "1557-7406"],
+      "topic_zh": "",
+      "latest_issue_year_in_crossref": 2016,
+      "metadata_url": "https://api.crossref.org/journals/1557-7406",
+      "publisher_page": null,
+      "jcr_2025_snapshot": null,
+      "xr_2026_snapshot": null,
+      "index_status": "待确认",
+      "index_sources": [],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "legacy_or_archival_metadata"
+    },
+    {
+      "title": "ACM Transactions on Speech and Language Processing",
+      "crossref_title": "ACM Transactions on Speech and Language Processing",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["1550-4875", "1550-4883"],
+      "topic_zh": "",
+      "latest_issue_year_in_crossref": 2013,
+      "metadata_url": "https://api.crossref.org/journals/1550-4883",
+      "publisher_page": null,
+      "jcr_2025_snapshot": null,
+      "xr_2026_snapshot": null,
+      "index_status": "待确认",
+      "index_sources": [],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
+      "catalogue_group": "legacy_or_archival_metadata"
+    },
+    {
+      "title": "ACM/IMS Transactions on Data Science",
+      "crossref_title": "ACM/IMS Transactions on Data Science",
+      "publisher_group": "ACM",
+      "publisher": "Association for Computing Machinery",
+      "issn": ["2577-3224", "2691-1922"],
+      "topic_zh": "",
+      "latest_issue_year_in_crossref": 2021,
+      "metadata_url": "https://api.crossref.org/journals/2577-3224",
+      "publisher_page": null,
+      "jcr_2025_snapshot": null,
+      "xr_2026_snapshot": null,
+      "index_status": "待确认",
+      "index_sources": [],
+      "index_checked_on": "2026-10-17",
+      "catalogue_updated_on": "2026-10-17",
+      "current_mjl_verified": false,
       "catalogue_group": "legacy_or_archival_metadata"
     }
   ],
@@ -3196,24 +4607,12 @@
       "jcr_2025_snapshot": null,
       "xr_2026_snapshot": null,
       "index_sources": [],
-      "checked_on": "2026-10-15",
       "current_mjl_verified": false,
-      "index_status": "未核实",
-      "catalogue_group": "future_metadata_2027"
-    }
-  ],
-  "acm_supplement": [
-    {
-      "title": "ACM Transactions on Recommender Systems",
-      "publisher": "Association for Computing Machinery",
-      "issn": ["2770-6699"],
-      "topic_zh": "推荐系统",
-      "index_status": "未核实",
-      "checked_on": "2026-10-15",
-      "metadata_url": "https://api.crossref.org/journals/2770-6699",
-      "current_mjl_verified": false,
-      "catalogue_group": "acm_supplement",
-      "note": "ACM 期刊，未计入 IEEE 主目录；未在本次两份索引快照中匹配，不等于未被收录。"
+      "index_status": "待确认",
+      "catalogue_group": "future_metadata_2027",
+      "publisher_group": "IEEE",
+      "index_checked_on": "2026-10-15",
+      "catalogue_updated_on": "2026-10-17"
     }
   ]
 }

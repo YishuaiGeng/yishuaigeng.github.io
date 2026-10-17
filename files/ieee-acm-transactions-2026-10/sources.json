@@ -1,0 +1,22 @@
+[
+  {
+    "name": "acm-crossref.json",
+    "url": "https://api.crossref.org/journals?query=ACM&rows=1000",
+    "bytes": 591081
+  },
+  {
+    "name": "acm-official.html",
+    "url": "https://www.acm.org/publications/journals",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "acm-dl.html",
+    "url": "https://dl.acm.org/journals",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "acm-crossref-transactions.json",
+    "url": "https://api.crossref.org/journals?query=ACM%20Transactions&rows=1000",
+    "bytes": 215772
+  }
+]
