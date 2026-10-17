@@ -2,12 +2,16 @@
   "catalogue_updated_on": "2026-10-17",
   "scope": "IEEE、IEEE/ASME、IEEE Latin America 与 ACM Transactions 名称族；历史联合题名另列。主目录依据 2025/2026 出版元数据编制，不是出版社实时在刊总数认证。",
   "index_note": "收录状态依据 2025/2026 二次资料，逐条保留来源与核对日期。待确认不等于未收录；当前状态以 Clarivate MJL 为准。",
+  "rating_note": "CCF：2026 年第七版；中科院：2025 年大类分区。仅为目录中标注 SCIE 的现刊填写已匹配评级，非 SCIE、收录待确认或未匹配评级的单元格留空。",
   "sources": {
     "crossref": "https://api.crossref.org/journals?query=IEEE&rows=1000",
     "kbart_2023": "https://lib.qlu.edu.cn/2019/0304/c1252a122430/page.htm",
     "jcr_2025_secondary": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
     "xr_2026_secondary": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv",
-    "acm_crossref": "https://api.crossref.org/journals?query=ACM&rows=1000"
+    "acm_crossref": "https://api.crossref.org/journals?query=ACM&rows=1000",
+    "ccf_2026_primary": "/assets/pdf/ccf-2026-v7.pdf",
+    "ccf_2026_secondary": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/CCF2026-UTF8.csv",
+    "cas_2025_secondary": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
   },
   "counts": {
     "IEEE": 115,
@@ -41,7 +45,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Latin America Transactions",
+      "cas_source_issn": "1548-0992/1548-0992"
     },
     {
       "title": "IEEE Transactions on Aerospace and Electronic Systems",
@@ -62,7 +77,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON AEROSPACE AND ELECTRONIC SYSTEMS",
+      "cas_source_issn": "0018-9251/1557-9603"
     },
     {
       "title": "IEEE Transactions on Affective Computing",
@@ -83,7 +109,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["人工智能"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Affective Computing"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Affective Computing",
+      "cas_source_issn": "1949-3045/1949-3045"
     },
     {
       "title": "IEEE Transactions on AgriFood Electronics",
@@ -101,7 +138,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Antennas and Propagation",
@@ -122,7 +170,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON ANTENNAS AND PROPAGATION",
+      "cas_source_issn": "0018-926X/1558-2221"
     },
     {
       "title": "IEEE Transactions on Applied Superconductivity",
@@ -143,7 +202,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "物理与天体物理",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY",
+      "cas_source_issn": "1051-8223/1558-2515"
     },
     {
       "title": "IEEE Transactions on Artificial Intelligence",
@@ -161,7 +231,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Audio, Speech, and Language Processing",
@@ -182,7 +263,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["人工智能"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE-ACM Transactions on Audio Speech and Language Processing"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE-ACM Transactions on Audio Speech and Language Processing",
+      "cas_source_issn": "2329-9290/2329-9304"
     },
     {
       "title": "IEEE Transactions on Automatic Control",
@@ -203,7 +295,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON AUTOMATIC CONTROL",
+      "cas_source_issn": "0018-9286/1558-2523"
     },
     {
       "title": "IEEE Transactions on Automation Science and Engineering",
@@ -224,7 +327,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["交叉/综合/新兴"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Automation Science and Engineering"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Automation Science and Engineering",
+      "cas_source_issn": "1545-5955/1558-3783"
     },
     {
       "title": "IEEE Transactions on Big Data",
@@ -245,7 +359,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "C",
+      "ccf_year": 2026,
+      "ccf_areas": ["交叉/综合/新兴"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Big Data"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Big Data",
+      "cas_source_issn": "2332-7790/2332-7790"
     },
     {
       "title": "IEEE Transactions on Biomedical Circuits and Systems",
@@ -266,7 +391,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "医学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Biomedical Circuits and Systems",
+      "cas_source_issn": "1932-4545/1940-9990"
     },
     {
       "title": "IEEE Transactions on Biomedical Engineering",
@@ -287,7 +423,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "医学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING",
+      "cas_source_issn": "0018-9294/1558-2531"
     },
     {
       "title": "IEEE Transactions on Biometrics, Behavior, and Identity Science",
@@ -308,7 +455,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Broadcasting",
@@ -329,7 +487,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON BROADCASTING",
+      "cas_source_issn": "0018-9316/1557-9611"
     },
     {
       "title": "IEEE Transactions on Circuits and Systems II: Express Briefs",
@@ -350,7 +519,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS II-EXPRESS BRIEFS",
+      "cas_source_issn": "1549-7747/1558-3791"
     },
     {
       "title": "IEEE Transactions on Circuits and Systems I: Regular Papers",
@@ -371,7 +551,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "C",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Circuits and Systems I-Regular Papers"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS I-REGULAR PAPERS",
+      "cas_source_issn": "1549-8328/1558-0806"
     },
     {
       "title": "IEEE Transactions on Circuits and Systems for Artificial Intelligence",
@@ -389,7 +580,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Circuits and Systems for Video Technology",
@@ -410,7 +612,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机图形学与多媒体"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Circuits and Systems for Video Technology"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY",
+      "cas_source_issn": "1051-8215/1558-2205"
     },
     {
       "title": "IEEE Transactions on Cloud Computing",
@@ -431,7 +644,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Cloud Computing"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Cloud Computing",
+      "cas_source_issn": "2168-7161/2168-7161"
     },
     {
       "title": "IEEE Transactions on Cognitive Communications and Networking",
@@ -452,7 +676,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Cognitive Communications and Networking",
+      "cas_source_issn": "2332-7731/2332-7731"
     },
     {
       "title": "IEEE Transactions on Cognitive and Developmental Systems",
@@ -473,7 +708,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Cognitive and Developmental Systems",
+      "cas_source_issn": "2379-8920/2379-8939"
     },
     {
       "title": "IEEE Transactions on Communications",
@@ -494,7 +740,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机网络"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Communications"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON COMMUNICATIONS",
+      "cas_source_issn": "0090-6778/1558-0857"
     },
     {
       "title": "IEEE Transactions on Components, Packaging and Manufacturing Technology",
@@ -515,7 +772,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+      "cas_source_issn": "2156-3950/2156-3985"
     },
     {
       "title": "IEEE Transactions on Computational Biology and Bioinformatics",
@@ -536,7 +804,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["交叉/综合/新兴"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE-ACM Transactions on Computational Biology and Bioinformatics"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "生物学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE-ACM Transactions on Computational Biology and Bioinformatics",
+      "cas_source_issn": "1545-5963/1557-9964"
     },
     {
       "title": "IEEE Transactions on Computational Imaging",
@@ -557,7 +836,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Computational Imaging",
+      "cas_source_issn": "2573-0436/2333-9403"
     },
     {
       "title": "IEEE Transactions on Computational Social Systems",
@@ -578,7 +868,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "C",
+      "ccf_year": 2026,
+      "ccf_areas": ["交叉/综合/新兴"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Computational Social Systems"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Computational Social Systems",
+      "cas_source_issn": "2329-924X/2329-924X"
     },
     {
       "title": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
@@ -599,7 +900,20 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": [
+        "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+      ],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON COMPUTER-AIDED DESIGN OF INTEGRATED CIRCUITS AND SYSTEMS",
+      "cas_source_issn": "0278-0070/1937-4151"
     },
     {
       "title": "IEEE Transactions on Computers",
@@ -620,7 +934,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Computers"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON COMPUTERS",
+      "cas_source_issn": "0018-9340/1557-9956"
     },
     {
       "title": "IEEE Transactions on Consumer Electronics",
@@ -641,7 +966,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON CONSUMER ELECTRONICS",
+      "cas_source_issn": "0098-3063/1558-4127"
     },
     {
       "title": "IEEE Transactions on Control Systems Technology",
@@ -662,7 +998,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON CONTROL SYSTEMS TECHNOLOGY",
+      "cas_source_issn": "1063-6536/1558-0865"
     },
     {
       "title": "IEEE Transactions on Control of Network Systems",
@@ -683,7 +1030,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Control of Network Systems",
+      "cas_source_issn": "2325-5870/2372-2533"
     },
     {
       "title": "IEEE Transactions on Cybernetics",
@@ -704,7 +1062,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["人工智能"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Cybernetics"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Cybernetics",
+      "cas_source_issn": "2168-2267/2168-2275"
     },
     {
       "title": "IEEE Transactions on Dependable and Secure Computing",
@@ -725,7 +1094,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["网络与信息安全"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Dependable and Secure Computing"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Dependable and Secure Computing",
+      "cas_source_issn": "1545-5971/1941-0018"
     },
     {
       "title": "IEEE Transactions on Device and Materials Reliability",
@@ -746,7 +1126,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON DEVICE AND MATERIALS RELIABILITY",
+      "cas_source_issn": "1530-4388/1558-2574"
     },
     {
       "title": "IEEE Transactions on Dielectrics and Electrical Insulation",
@@ -767,7 +1158,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON DIELECTRICS AND ELECTRICAL INSULATION",
+      "cas_source_issn": "1070-9878/1558-4135"
     },
     {
       "title": "IEEE Transactions on Education",
@@ -788,7 +1190,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "教育学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON EDUCATION",
+      "cas_source_issn": "0018-9359/1557-9638"
     },
     {
       "title": "IEEE Transactions on Electromagnetic Compatibility",
@@ -809,7 +1222,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON ELECTROMAGNETIC COMPATIBILITY",
+      "cas_source_issn": "0018-9375/1558-187X"
     },
     {
       "title": "IEEE Transactions on Electron Devices",
@@ -830,7 +1254,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON ELECTRON DEVICES",
+      "cas_source_issn": "0018-9383/1557-9646"
     },
     {
       "title": "IEEE Transactions on Emerging Topics in Computational Intelligence",
@@ -851,7 +1286,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+      "cas_source_issn": "2471-285X/2471-285X"
     },
     {
       "title": "IEEE Transactions on Emerging Topics in Computing",
@@ -872,7 +1318,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Emerging Topics in Computing",
+      "cas_source_issn": "2168-6750/2168-6750"
     },
     {
       "title": "IEEE Transactions on Energy Conversion",
@@ -893,7 +1350,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON ENERGY CONVERSION",
+      "cas_source_issn": "0885-8969/1558-0059"
     },
     {
       "title": "IEEE Transactions on Energy Markets, Policy and Regulation",
@@ -913,7 +1381,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Engineering Management",
@@ -934,7 +1413,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "管理学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON ENGINEERING MANAGEMENT",
+      "cas_source_issn": "0018-9391/1558-0040"
     },
     {
       "title": "IEEE Transactions on Evolutionary Computation",
@@ -955,7 +1445,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["人工智能"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Evolutionary Computation"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON EVOLUTIONARY COMPUTATION",
+      "cas_source_issn": "1089-778X/1941-0026"
     },
     {
       "title": "IEEE Transactions on Field Robotics",
@@ -973,7 +1474,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Fuzzy Systems",
@@ -994,7 +1506,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["人工智能"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Fuzzy Systems"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON FUZZY SYSTEMS",
+      "cas_source_issn": "1063-6706/1941-0034"
     },
     {
       "title": "IEEE Transactions on Games",
@@ -1015,7 +1538,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "C",
+      "ccf_year": 2026,
+      "ccf_areas": ["人工智能"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Games"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Games",
+      "cas_source_issn": "2475-1502/2475-1510"
     },
     {
       "title": "IEEE Transactions on Geoscience and Remote Sensing",
@@ -1036,7 +1570,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["交叉/综合/新兴"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Geoscience and Remote Sensing"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "地球科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING",
+      "cas_source_issn": "0196-2892/1558-0644"
     },
     {
       "title": "IEEE Transactions on Green Communications and Networking",
@@ -1057,7 +1602,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Green Communications and Networking",
+      "cas_source_issn": "2473-2400/2473-2400"
     },
     {
       "title": "IEEE Transactions on Haptics",
@@ -1078,7 +1634,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Haptics",
+      "cas_source_issn": "1939-1412/2329-4051"
     },
     {
       "title": "IEEE Transactions on Human-Machine Systems",
@@ -1099,7 +1666,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["人机交互与普适计算"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Human-Machine Systems"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Human-Machine Systems",
+      "cas_source_issn": "2168-2291/2168-2305"
     },
     {
       "title": "IEEE Transactions on Image Processing",
@@ -1120,7 +1698,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机图形学与多媒体"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Image Processing"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON IMAGE PROCESSING",
+      "cas_source_issn": "1057-7149/1941-0042"
     },
     {
       "title": "IEEE Transactions on Industrial Cyber-Physical Systems",
@@ -1140,7 +1729,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Industrial Electronics",
@@ -1161,7 +1761,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON INDUSTRIAL ELECTRONICS",
+      "cas_source_issn": "0278-0046/1557-9948"
     },
     {
       "title": "IEEE Transactions on Industrial Informatics",
@@ -1182,7 +1793,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "C",
+      "ccf_year": 2026,
+      "ccf_areas": ["交叉/综合/新兴"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Industrial Informatics"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Industrial Informatics",
+      "cas_source_issn": "1551-3203/1941-0050"
     },
     {
       "title": "IEEE Transactions on Industry Applications",
@@ -1203,7 +1825,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON INDUSTRY APPLICATIONS",
+      "cas_source_issn": "0093-9994/1939-9367"
     },
     {
       "title": "IEEE Transactions on Information Forensics and Security",
@@ -1224,7 +1857,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["网络与信息安全"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Information Forensics and Security"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Information Forensics and Security",
+      "cas_source_issn": "1556-6013/1556-6021"
     },
     {
       "title": "IEEE Transactions on Information Theory",
@@ -1245,7 +1889,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机科学理论"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Information Theory"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON INFORMATION THEORY",
+      "cas_source_issn": "0018-9448/1557-9654"
     },
     {
       "title": "IEEE Transactions on Instrumentation and Measurement",
@@ -1266,7 +1921,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON INSTRUMENTATION AND MEASUREMENT",
+      "cas_source_issn": "0018-9456/1557-9662"
     },
     {
       "title": "IEEE Transactions on Intelligent Transportation Systems",
@@ -1287,7 +1953,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["交叉/综合/新兴"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Intelligent Transportation Systems"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON INTELLIGENT TRANSPORTATION SYSTEMS",
+      "cas_source_issn": "1524-9050/1558-0016"
     },
     {
       "title": "IEEE Transactions on Intelligent Vehicles",
@@ -1307,7 +1984,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Intelligent Vehicles",
+      "cas_source_issn": "2379-8858/2379-8904"
     },
     {
       "title": "IEEE Transactions on Knowledge and Data Engineering",
@@ -1328,7 +2016,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["数据库/数据挖掘/内容检索"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Knowledge and Data Engineering"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING",
+      "cas_source_issn": "1041-4347/1558-2191"
     },
     {
       "title": "IEEE Transactions on Learning Technologies",
@@ -1349,7 +2048,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "教育学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Learning Technologies",
+      "cas_source_issn": "1939-1382/1939-1382"
     },
     {
       "title": "IEEE Transactions on Machine Learning in Communications and Networking",
@@ -1369,7 +2079,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Magnetics",
@@ -1390,7 +2111,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON MAGNETICS",
+      "cas_source_issn": "0018-9464/1941-0069"
     },
     {
       "title": "IEEE Transactions on Materials for Electron Devices",
@@ -1408,7 +2140,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Medical Imaging",
@@ -1429,7 +2172,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["交叉/综合/新兴"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Medical Imaging"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "医学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON MEDICAL IMAGING",
+      "cas_source_issn": "0278-0062/1558-254X"
     },
     {
       "title": "IEEE Transactions on Medical Robotics and Bionics",
@@ -1453,7 +2207,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Microwave Theory and Techniques",
@@ -1474,7 +2239,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON MICROWAVE THEORY AND TECHNIQUES",
+      "cas_source_issn": "0018-9480/1557-9670"
     },
     {
       "title": "IEEE Transactions on Mobile Computing",
@@ -1495,7 +2271,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机网络"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Mobile Computing"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON MOBILE COMPUTING",
+      "cas_source_issn": "1536-1233/1558-0660"
     },
     {
       "title": "IEEE Transactions on Molecular, Biological and Multi-Scale Communications",
@@ -1519,7 +2306,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Multimedia",
@@ -1540,7 +2338,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机图形学与多媒体"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Multimedia"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON MULTIMEDIA",
+      "cas_source_issn": "1520-9210/1941-0077"
     },
     {
       "title": "IEEE Transactions on NanoBioscience",
@@ -1561,7 +2370,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "生物学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON NANOBIOSCIENCE",
+      "cas_source_issn": "1536-1241/1558-2639"
     },
     {
       "title": "IEEE Transactions on Nanotechnology",
@@ -1582,7 +2402,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON NANOTECHNOLOGY",
+      "cas_source_issn": "1536-125X/1941-0085"
     },
     {
       "title": "IEEE Transactions on Network Science and Engineering",
@@ -1603,7 +2434,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Network Science and Engineering",
+      "cas_source_issn": "2327-4697/2327-4697"
     },
     {
       "title": "IEEE Transactions on Network and Service Management",
@@ -1624,7 +2466,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "C",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机网络"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Network and Service Management"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Network and Service Management",
+      "cas_source_issn": "1932-4537/1932-4537"
     },
     {
       "title": "IEEE Transactions on Networking",
@@ -1645,7 +2498,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机网络"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE-ACM Transactions on Networking"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE-ACM TRANSACTIONS ON NETWORKING",
+      "cas_source_issn": "1063-6692/1558-2566"
     },
     {
       "title": "IEEE Transactions on Neural Networks and Learning Systems",
@@ -1666,7 +2530,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["人工智能"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Neural Networks and learning systems"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Neural Networks and Learning Systems",
+      "cas_source_issn": "2162-237X/2162-2388"
     },
     {
       "title": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
@@ -1687,7 +2562,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "医学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON NEURAL SYSTEMS AND REHABILITATION ENGINEERING",
+      "cas_source_issn": "1534-4320/1558-0210"
     },
     {
       "title": "IEEE Transactions on Nuclear Science",
@@ -1708,7 +2594,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON NUCLEAR SCIENCE",
+      "cas_source_issn": "0018-9499/1558-1578"
     },
     {
       "title": "IEEE Transactions on Parallel and Distributed Systems",
@@ -1729,7 +2626,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Parallel and Distributed Systems"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON PARALLEL AND DISTRIBUTED SYSTEMS",
+      "cas_source_issn": "1045-9219/1558-2183"
     },
     {
       "title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -1750,7 +2658,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["人工智能"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Pattern Analysis and Machine Intelligence"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE",
+      "cas_source_issn": "0162-8828/1939-3539"
     },
     {
       "title": "IEEE Transactions on Plasma Science",
@@ -1771,7 +2690,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "物理与天体物理",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON PLASMA SCIENCE",
+      "cas_source_issn": "0093-3813/1939-9375"
     },
     {
       "title": "IEEE Transactions on Power Delivery",
@@ -1792,7 +2722,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON POWER DELIVERY",
+      "cas_source_issn": "0885-8977/1937-4208"
     },
     {
       "title": "IEEE Transactions on Power Electronics",
@@ -1813,7 +2754,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON POWER ELECTRONICS",
+      "cas_source_issn": "0885-8993/1941-0107"
     },
     {
       "title": "IEEE Transactions on Power Systems",
@@ -1834,7 +2786,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON POWER SYSTEMS",
+      "cas_source_issn": "0885-8950/1558-0679"
     },
     {
       "title": "IEEE Transactions on Privacy",
@@ -1852,7 +2815,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Professional Communication",
@@ -1873,7 +2847,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Quantum Engineering",
@@ -1897,7 +2882,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Radar Systems",
@@ -1917,7 +2913,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Radiation and Plasma Medical Sciences",
@@ -1941,7 +2948,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Reliability",
@@ -1962,7 +2980,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "C",
+      "ccf_year": 2026,
+      "ccf_areas": ["交叉/综合/新兴"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Reliability"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON RELIABILITY",
+      "cas_source_issn": "0018-9529/1558-1721"
     },
     {
       "title": "IEEE Transactions on Robot Learning",
@@ -1980,7 +3009,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Robotics",
@@ -2001,7 +3041,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["交叉/综合/新兴"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Robotics"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Robotics",
+      "cas_source_issn": "1552-3098/1941-0468"
     },
     {
       "title": "IEEE Transactions on Semiconductor Manufacturing",
@@ -2022,7 +3073,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON SEMICONDUCTOR MANUFACTURING",
+      "cas_source_issn": "0894-6507/1558-2345"
     },
     {
       "title": "IEEE Transactions on Services Computing",
@@ -2043,7 +3105,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["软件工程/系统软件/程序设计语言"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Services Computing"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Services Computing",
+      "cas_source_issn": "1939-1374/1939-1374"
     },
     {
       "title": "IEEE Transactions on Signal Processing",
@@ -2064,7 +3137,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON SIGNAL PROCESSING",
+      "cas_source_issn": "1053-587X/1941-0476"
     },
     {
       "title": "IEEE Transactions on Signal and Information Processing over Networks",
@@ -2085,7 +3169,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Signal and Information Processing over Networks",
+      "cas_source_issn": "2373-776X/2373-776X"
     },
     {
       "title": "IEEE Transactions on Signal and Power Integrity",
@@ -2103,7 +3198,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Smart Grid",
@@ -2124,7 +3230,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Smart Grid",
+      "cas_source_issn": "1949-3053/1949-3061"
     },
     {
       "title": "IEEE Transactions on Software Engineering",
@@ -2145,7 +3262,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["软件工程/系统软件/程序设计语言"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Software Engineering"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON SOFTWARE ENGINEERING",
+      "cas_source_issn": "0098-5589/1939-3520"
     },
     {
       "title": "IEEE Transactions on Sustainable Computing",
@@ -2166,7 +3294,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "C",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Sustainable Computing"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Sustainable Computing",
+      "cas_source_issn": "2377-3782/2377-3782"
     },
     {
       "title": "IEEE Transactions on Sustainable Energy",
@@ -2187,7 +3326,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Sustainable Energy",
+      "cas_source_issn": "1949-3029/1949-3037"
     },
     {
       "title": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
@@ -2208,7 +3358,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["人机交互与普适计算"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Systems Man Cybernetics-Systems"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Systems Man Cybernetics-Systems",
+      "cas_source_issn": "2168-2216/2168-2232"
     },
     {
       "title": "IEEE Transactions on Technology and Society",
@@ -2228,7 +3389,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Terahertz Science and Technology",
@@ -2249,7 +3421,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Terahertz Science and Technology",
+      "cas_source_issn": "2156-342X/2156-3446"
     },
     {
       "title": "IEEE Transactions on Transportation Electrification",
@@ -2270,7 +3453,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE Transactions on Transportation Electrification",
+      "cas_source_issn": "2332-7782/2332-7782"
     },
     {
       "title": "IEEE Transactions on Ultrasonics",
@@ -2288,7 +3482,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control",
@@ -2309,7 +3514,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON ULTRASONICS FERROELECTRICS AND FREQUENCY CONTROL",
+      "cas_source_issn": "0885-3010/1525-8955"
     },
     {
       "title": "IEEE Transactions on Vehicular Technology",
@@ -2330,7 +3546,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON VEHICULAR TECHNOLOGY",
+      "cas_source_issn": "0018-9545/1939-9359"
     },
     {
       "title": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
@@ -2351,7 +3578,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Very Large Scale Integration (VLSI) Systems"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON VERY LARGE SCALE INTEGRATION (VLSI) SYSTEMS",
+      "cas_source_issn": "1063-8210/1557-9999"
     },
     {
       "title": "IEEE Transactions on Visualization and Computer Graphics",
@@ -2372,7 +3610,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机图形学与多媒体"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Visualization and Computer Graphics"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS",
+      "cas_source_issn": "1077-2626/1941-0506"
     },
     {
       "title": "IEEE Transactions on Wireless Communications",
@@ -2393,7 +3642,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机网络"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["IEEE Transactions on Wireless Communications"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE TRANSACTIONS ON WIRELESS COMMUNICATIONS",
+      "cas_source_issn": "1536-1276/1558-2248"
     },
     {
       "title": "IEEE/ASME Transactions on Mechatronics",
@@ -2414,7 +3674,18 @@
       "catalogue_group": "recent_metadata_main_directory",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "工程技术",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "IEEE-ASME TRANSACTIONS ON MECHATRONICS",
+      "cas_source_issn": "1083-4435/1941-014X"
     },
     {
       "title": "ACM Transactions on AI for Science",
@@ -2433,7 +3704,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Accessible Computing",
@@ -2455,7 +3737,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Algorithms",
@@ -2477,7 +3770,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机科学理论"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Algorithms"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Algorithms",
+      "cas_source_issn": "1549-6325/1549-6333"
     },
     {
       "title": "ACM Transactions on Applied Perception",
@@ -2499,7 +3803,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["人工智能"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Applied Perception"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Applied Perception",
+      "cas_source_issn": "1544-3558/1544-3965"
     },
     {
       "title": "ACM Transactions on Architecture and Code Optimization",
@@ -2521,7 +3836,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Architecture and Code Optimization"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Architecture and Code Optimization",
+      "cas_source_issn": "1544-3566/1544-3973"
     },
     {
       "title": "ACM Transactions on Asian and Low-Resource Language Information Processing",
@@ -2543,7 +3869,20 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "C",
+      "ccf_year": 2026,
+      "ccf_areas": ["人工智能"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": [
+        "ACM Transactions on Asian and Low-Resource Language Information Processing"
+      ],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+      "cas_source_issn": "2375-4699/2375-4702"
     },
     {
       "title": "ACM Transactions on Autonomous and Adaptive Systems",
@@ -2565,7 +3904,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Autonomous and Adaptive Systems"],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Autonomous and Adaptive Systems",
+      "cas_source_issn": "1556-4665/1556-4703"
     },
     {
       "title": "ACM Transactions on Computation Theory",
@@ -2587,7 +3937,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Computational Logic",
@@ -2609,7 +3970,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机科学理论"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Computational Logic"],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "数学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Computational Logic",
+      "cas_source_issn": "1529-3785/1557-945X"
     },
     {
       "title": "ACM Transactions on Computer Systems",
@@ -2631,7 +4003,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Computer Systems"],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM TRANSACTIONS ON COMPUTER SYSTEMS",
+      "cas_source_issn": "0734-2071/1557-7333"
     },
     {
       "title": "ACM Transactions on Computer-Human Interaction",
@@ -2653,7 +4036,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["人机交互与普适计算"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Computer-Human Interaction"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Computer-Human Interaction",
+      "cas_source_issn": "1073-0516/1557-7325"
     },
     {
       "title": "ACM Transactions on Computing Education",
@@ -2675,7 +4069,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "C",
+      "ccf_year": 2026,
+      "ccf_areas": ["交叉/综合/新兴"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Computing Education"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "教育学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Computing Education",
+      "cas_source_issn": "1946-6226/1946-6226"
     },
     {
       "title": "ACM Transactions on Computing for Healthcare",
@@ -2697,7 +4102,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Cyber-Physical Systems",
@@ -2719,7 +4135,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Database Systems",
@@ -2741,7 +4168,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["数据库/数据挖掘/内容检索"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Database Systems"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM TRANSACTIONS ON DATABASE SYSTEMS",
+      "cas_source_issn": "0362-5915/1557-4644"
     },
     {
       "title": "ACM Transactions on Design Automation of Electronic Systems",
@@ -2763,7 +4201,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Design Automation of Electronic Systems"],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM TRANSACTIONS ON DESIGN AUTOMATION OF ELECTRONIC SYSTEMS",
+      "cas_source_issn": "1084-4309/1557-7309"
     },
     {
       "title": "ACM Transactions on Economics and Computation",
@@ -2785,7 +4234,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Embedded Computing Systems",
@@ -2807,7 +4267,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Embedded Computing Systems"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Embedded Computing Systems",
+      "cas_source_issn": "1539-9087/1558-3465"
     },
     {
       "title": "ACM Transactions on Evolutionary Learning and Optimization",
@@ -2826,7 +4297,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Graphics",
@@ -2848,7 +4330,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机图形学与多媒体"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Graphics"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM TRANSACTIONS ON GRAPHICS",
+      "cas_source_issn": "0730-0301/1557-7368"
     },
     {
       "title": "ACM Transactions on Human-Robot Interaction",
@@ -2870,7 +4363,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Information Systems",
@@ -2892,7 +4396,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["数据库/数据挖掘/内容检索"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Information Systems"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM TRANSACTIONS ON INFORMATION SYSTEMS",
+      "cas_source_issn": "1046-8188/1558-2868"
     },
     {
       "title": "ACM Transactions on Intelligent Systems and Technology",
@@ -2914,7 +4429,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "C",
+      "ccf_year": 2026,
+      "ccf_areas": ["数据库/数据挖掘/内容检索"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Intelligent Systems and Technology"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Intelligent Systems and Technology",
+      "cas_source_issn": "2157-6904/2157-6912"
     },
     {
       "title": "ACM Transactions on Interactive Intelligent Systems",
@@ -2936,7 +4462,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "C",
+      "ccf_year": 2026,
+      "ccf_areas": ["人工智能"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Interactive Intelligent Systems"],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Interactive Intelligent Systems",
+      "cas_source_issn": "2160-6455/2160-6463"
     },
     {
       "title": "ACM Transactions on Internet Technology",
@@ -2958,7 +4495,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机网络"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Internet Technology"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Internet Technology",
+      "cas_source_issn": "1533-5399/1557-6051"
     },
     {
       "title": "ACM Transactions on Internet of Things",
@@ -2980,7 +4528,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Knowledge Discovery from Data",
@@ -3002,7 +4561,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["数据库/数据挖掘/内容检索"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Knowledge Discovery from Data"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Knowledge Discovery from Data",
+      "cas_source_issn": "1556-4681/1556-472X"
     },
     {
       "title": "ACM Transactions on Management Information Systems",
@@ -3024,7 +4594,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Mathematical Software",
@@ -3046,7 +4627,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机科学理论"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Mathematical Software"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "数学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM TRANSACTIONS ON MATHEMATICAL SOFTWARE",
+      "cas_source_issn": "0098-3500/1557-7295"
     },
     {
       "title": "ACM Transactions on Modeling and Computer Simulation",
@@ -3068,7 +4660,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Modeling and Computer Simulation",
+      "cas_source_issn": "1049-3301/1558-1195"
     },
     {
       "title": "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
@@ -3090,7 +4693,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Multimedia Computing Communications and Applications",
@@ -3112,7 +4726,20 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机图形学与多媒体", "计算机网络"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": [
+        "ACM Transactions on Multimedia Computing Communications and Applications"
+      ],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Multimedia Computing Communications and Applications",
+      "cas_source_issn": "1551-6857/1551-6865"
     },
     {
       "title": "ACM Transactions on Parallel Computing",
@@ -3134,7 +4761,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Privacy and Security",
@@ -3156,7 +4794,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["网络与信息安全"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Privacy and Security"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Privacy and Security",
+      "cas_source_issn": "2471-2566/2471-2574"
     },
     {
       "title": "ACM Transactions on Probabilistic Machine Learning",
@@ -3175,7 +4824,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Programming Languages and Systems",
@@ -3197,7 +4857,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["软件工程/系统软件/程序设计语言"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Programming Languages and Systems"],
+      "cas_quartile": "2区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM TRANSACTIONS ON PROGRAMMING LANGUAGES AND SYSTEMS",
+      "cas_source_issn": "0164-0925/1558-4593"
     },
     {
       "title": "ACM Transactions on Quantum Computing",
@@ -3219,7 +4890,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Recommender Systems",
@@ -3238,7 +4920,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Reconfigurable Technology and Systems",
@@ -3260,7 +4953,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Reconfigurable Technology and Systems"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Reconfigurable Technology and Systems",
+      "cas_source_issn": "1936-7406/1936-7414"
     },
     {
       "title": "ACM Transactions on Sensor Networks",
@@ -3282,7 +4986,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机网络"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Sensor Networks"],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Sensor Networks",
+      "cas_source_issn": "1550-4859/1550-4867"
     },
     {
       "title": "ACM Transactions on Social Computing",
@@ -3301,7 +5016,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Software Engineering and Methodology",
@@ -3323,7 +5049,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["软件工程/系统软件/程序设计语言"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Software Engineering and Methodology"],
+      "cas_quartile": "1区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM TRANSACTIONS ON SOFTWARE ENGINEERING AND METHODOLOGY",
+      "cas_source_issn": "1049-331X/1557-7392"
     },
     {
       "title": "ACM Transactions on Spatial Algorithms and Systems",
@@ -3345,7 +5082,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Storage",
@@ -3367,7 +5115,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "A",
+      "ccf_year": 2026,
+      "ccf_areas": ["计算机体系结构/并行与分布计算/存储系统"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on Storage"],
+      "cas_quartile": "3区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on Storage",
+      "cas_source_issn": "1553-3077/1553-3093"
     },
     {
       "title": "ACM Transactions on the Web",
@@ -3389,7 +5148,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "recent_metadata_main_directory"
+      "catalogue_group": "recent_metadata_main_directory",
+      "ccf_rank": "B",
+      "ccf_year": 2026,
+      "ccf_areas": ["数据库/数据挖掘/内容检索"],
+      "ccf_source": "/assets/pdf/ccf-2026-v7.pdf",
+      "ccf_source_titles": ["ACM Transactions on the Web"],
+      "cas_quartile": "4区",
+      "cas_year": 2025,
+      "cas_category": "计算机科学",
+      "cas_source": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+      "cas_source_title": "ACM Transactions on the Web",
+      "cas_source_issn": "1559-1131/1559-114X"
     }
   ],
   "legacy": [
@@ -3409,7 +5179,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Advanced Packaging",
@@ -3427,7 +5208,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Aerospace",
@@ -3445,7 +5237,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Aerospace and Navigational Electronics",
@@ -3463,7 +5266,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Applications and Industry",
@@ -3481,7 +5295,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Audio",
@@ -3499,7 +5324,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Audio, Speech, and Language Processing",
@@ -3520,7 +5356,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Audio and Electroacoustics",
@@ -3538,7 +5385,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Autonomous Mental Development",
@@ -3556,7 +5414,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Bio-medical Electronics",
@@ -3574,7 +5443,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Broadcast and Television Receivers",
@@ -3592,7 +5472,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Cable Television",
@@ -3610,7 +5501,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Circuit Theory",
@@ -3628,7 +5530,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Circuits and Systems",
@@ -3646,7 +5559,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications",
@@ -3664,7 +5588,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Circuits and Systems II: Analog and Digital Signal Processing",
@@ -3682,7 +5617,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Communication Technology",
@@ -3700,7 +5646,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Communication and Electronics",
@@ -3718,7 +5675,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Communications Systems",
@@ -3736,7 +5704,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Component Parts",
@@ -3754,7 +5733,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Components, Hybrids, and Manufacturing Technology",
@@ -3772,7 +5762,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Components, Packaging, and Manufacturing Technology: Part A",
@@ -3790,7 +5791,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Components, Packaging, and Manufacturing Technology: Part B",
@@ -3808,7 +5820,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Components, Packaging, and Manufacturing Technology: Part C",
@@ -3826,7 +5849,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Components and Packaging Technologies",
@@ -3844,7 +5878,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Computational Intelligence and AI in Games",
@@ -3862,7 +5907,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Electrical Insulation",
@@ -3880,7 +5936,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Electronic Computers",
@@ -3898,7 +5965,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Electronics Packaging Manufacturing",
@@ -3916,7 +5994,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Engineering Writing and Speech",
@@ -3934,7 +6023,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Geoscience Electronics",
@@ -3952,7 +6052,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Human Factors in Electronics",
@@ -3970,7 +6081,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Industrial Electronics [May 1963]",
@@ -3988,7 +6110,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Industrial Electronics and Control Instrumentation",
@@ -4006,7 +6139,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Industry and General Applications",
@@ -4024,7 +6168,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Information Technology in Biomedicine",
@@ -4042,7 +6197,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Man-Machine Systems",
@@ -4060,7 +6226,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Manufacturing Technology",
@@ -4078,7 +6255,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Military Electronics",
@@ -4096,7 +6284,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Multi-Scale Computing Systems",
@@ -4114,7 +6313,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Neural Networks",
@@ -4132,7 +6342,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Parts, Hybrids, and Packaging",
@@ -4150,7 +6371,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Parts, Materials and Packaging",
@@ -4168,7 +6400,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Power Apparatus and Systems",
@@ -4186,7 +6429,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Product Engineering and Production",
@@ -4204,7 +6458,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Radio Frequency Interference",
@@ -4222,7 +6487,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Rehabilitation Engineering",
@@ -4240,7 +6516,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Robotics and Automation",
@@ -4258,7 +6545,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Semiconductor Technology Modeling and Simulation",
@@ -4276,7 +6574,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Sonics and Ultrasonics",
@@ -4294,7 +6603,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Space Electronics and Telemetry",
@@ -4312,7 +6632,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Speech and Audio Processing",
@@ -4330,7 +6661,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Systems, Man, and Cybernetics",
@@ -4348,7 +6690,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans",
@@ -4366,7 +6719,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)",
@@ -4384,7 +6748,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)",
@@ -4402,7 +6777,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Systems Science and Cybernetics",
@@ -4420,7 +6806,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Ultrasonics Engineering",
@@ -4438,7 +6835,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE Transactions on Vehicular Communications",
@@ -4456,7 +6864,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
@@ -4476,7 +6895,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
@@ -4496,7 +6926,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "IEEE/ACM Transactions on Networking",
@@ -4516,7 +6957,18 @@
       "catalogue_group": "legacy_or_archival_metadata",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Asian Language Information Processing",
@@ -4535,7 +6987,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "legacy_or_archival_metadata"
+      "catalogue_group": "legacy_or_archival_metadata",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Information and System Security",
@@ -4554,7 +7017,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "legacy_or_archival_metadata"
+      "catalogue_group": "legacy_or_archival_metadata",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM Transactions on Speech and Language Processing",
@@ -4573,7 +7047,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "legacy_or_archival_metadata"
+      "catalogue_group": "legacy_or_archival_metadata",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     },
     {
       "title": "ACM/IMS Transactions on Data Science",
@@ -4592,7 +7077,18 @@
       "index_checked_on": "2026-10-17",
       "catalogue_updated_on": "2026-10-17",
       "current_mjl_verified": false,
-      "catalogue_group": "legacy_or_archival_metadata"
+      "catalogue_group": "legacy_or_archival_metadata",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     }
   ],
   "future": [
@@ -4612,7 +7108,18 @@
       "catalogue_group": "future_metadata_2027",
       "publisher_group": "IEEE",
       "index_checked_on": "2026-10-15",
-      "catalogue_updated_on": "2026-10-17"
+      "catalogue_updated_on": "2026-10-17",
+      "ccf_rank": "",
+      "ccf_year": "",
+      "ccf_areas": [],
+      "ccf_source": "",
+      "ccf_source_titles": [],
+      "cas_quartile": "",
+      "cas_year": "",
+      "cas_category": "",
+      "cas_source": "",
+      "cas_source_title": "",
+      "cas_source_issn": ""
     }
   ]
 }

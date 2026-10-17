@@ -2,14 +2,14 @@
 title: 'IEEE / ACM Transactions 期刊目录'
 date: 2026-10-15
 lastmod: 2026-10-17
-description: 'IEEE 与 ACM Transactions 系列期刊目录：115 种 IEEE、45 种 ACM 期刊的研究方向、ISSN 与收录状态，附新兴方向期刊及历史刊名。'
-tags: [IEEE, ACM, Transactions, SCI, SCIE, ESCI, 投稿选刊]
+description: 'IEEE 与 ACM Transactions 系列期刊目录：115 种 IEEE、45 种 ACM 期刊的研究方向、ISSN、收录状态、CCF 2026 等级与中科院 2025 大类分区。'
+tags: [IEEE, ACM, Transactions, SCI, SCIE, ESCI, CCF, 中科院分区, 投稿选刊]
 categories: [投稿目录]
 toc: true
 pinned: true
 ---
 
-本目录汇总 **IEEE 与 ACM 的 Transactions 系列期刊**，按出版机构列出期刊全称、研究方向、ISSN 与收录状态。主目录共 **160 种**，另附人工智能等新兴方向期刊和历史刊名。
+本目录汇总 **IEEE 与 ACM 的 Transactions 系列期刊**，按出版机构列出期刊全称、研究方向、ISSN、收录状态、CCF 等级与中科院分区。主目录共 **160 种**，另附人工智能等新兴方向期刊和历史刊名。
 
 **更新日期：2026 年 10 月 17 日。** 目录覆盖已有出版登记的 Transactions 题名，包括 IEEE/ASME 联办期刊；历史 IEEE/ACM 联合题名在附录中保留，不重复计入主目录。Journal、Letters、Magazine 等其他系列期刊不在本目录范围内。
 
@@ -24,6 +24,8 @@ pinned: true
 | 合计 | **160** | Transactions 系列 |
 
 **收录标记：** SCIE 为自然科学引文索引扩展版；SSCI 为社会科学引文索引；ESCI 为新兴资源引文索引；“待确认”表示现有资料不足以确定其收录状态，不代表未被收录。收录标注依据 2025—2026 年资料，最新状态及覆盖年份以 [Clarivate Master Journal List](https://mjl.clarivate.com/home) 为准。拥有影响因子不等同于进入 SCIE。
+
+**评级口径：** CCF 采用 **2026 年第七版**的 A／B／C 类；中科院采用 **2025 年大类分区**（1—4 区）。未收录 SCIE、收录待确认或无对应评级的单元格留空；两列分别填写，不互相替代。更名期刊按对应的原题名匹配评级。
 
 ## IEEE Transactions 期刊目录
 
@@ -75,6 +77,8 @@ pinned: true
 
 - **刊名、ISSN 与出版机构：** [IEEE 出版登记](https://api.crossref.org/journals?query=IEEE&rows=1000)、[ACM 出版登记](https://api.crossref.org/journals?query=ACM&rows=1000)，以及[图书馆提供的 IEEE 题名表](https://lib.qlu.edu.cn/2019/0304/c1252a122430/page.htm)（2023 年版，用于刊名及沿革参照）。
 - **收录资料：** [JCR 2025 公开整理数据]({{JURL}})、[2026 年数据库标注资料]({{XURL}})。逐刊来源及日期保存在 JSON 中；这些资料不替代实时收录查询。
+- **CCF 等级：** [《中国计算机学会推荐国际学术会议和期刊目录》2026 年第七版]({{CCFURL}})。
+- **中科院分区：** [2025 年分区表公开整理数据]({{CASURL}})，采用大类分区；不与 JCR 的 Q1—Q4 分区混用。
 - **相关目录：** [论文投稿期刊与会议汇总：CCF 推荐目录](/blog/submission-venue-directory/)。
 
 主目录依据近期出版记录编制，数量不作为出版社官方实时在刊总数。研究方向为中文检索标签，完整征稿范围以各期刊官网为准。

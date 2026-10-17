@@ -1,6 +1,7 @@
 """Build the combined Transactions catalogue and its public article."""
 import csv
 import json
+import re
 from collections import Counter
 from pathlib import Path
 
@@ -10,6 +11,81 @@ OUT = ROOT / 'public/assets/journals/ieee-transactions-2026-10'
 DATE = '2026-10-17'
 base = json.loads((HERE / 'ieee-base.json').read_text(encoding='utf8'))
 acm_source = json.loads((HERE / 'acm-titles.json').read_text(encoding='utf8'))
+SOURCE_COMMIT = '4687a8f608f20aaf004299992f5d347dba009361'
+SOURCE_ROOT = f'https://github.com/hitfyd/ShowJCR/blob/{SOURCE_COMMIT}/中科院分区表及JCR原始数据文件'
+CCF_SOURCE = '/assets/pdf/ccf-2026-v7.pdf'
+CAS_SOURCE = f'{SOURCE_ROOT}/FQBJCR2025-UTF8.csv'
+
+
+def normalize(title):
+    return re.sub('[^a-z0-9]', '', title.lower().replace('&', 'and'))
+
+
+# The sources retain some earlier joint titles and index-specific spellings.
+RATING_ALIASES = {
+    normalize(current): normalize(source)
+    for current, source in [
+        ('IEEE Transactions on Networking', 'IEEE/ACM Transactions on Networking'),
+        ('IEEE Transactions on Computational Biology and Bioinformatics', 'IEEE/ACM Transactions on Computational Biology and Bioinformatics'),
+        ('IEEE Transactions on Audio Speech and Language Processing', 'IEEE/ACM Transactions on Audio Speech and Language Processing'),
+        ('IEEE Transactions on Systems, Man, and Cybernetics: Systems', 'IEEE Transactions on Systems Man Cybernetics-Systems'),
+        ('ACM Transactions on Quantum Computing', 'ACM Transactions in Quantum Computing'),
+    ]
+}
+
+
+def read_rows(path):
+    with path.open(encoding='utf-8-sig', newline='') as stream:
+        return list(csv.DictReader(stream))
+
+
+ccf_rows = [row for row in read_rows(HERE / 'CCF2026-UTF8.csv')
+            if '刊物' in row['CCF推荐类别（国际学术刊物/会议）']]
+cas_rows = read_rows(ROOT / 'files/ieee-transactions-2026-10/FQBJCR2025-UTF8.csv')
+
+
+def rating_matches(record, rows):
+    names = {normalize(record['title']), normalize(record.get('crossref_title', ''))}
+    names |= {RATING_ALIASES[name] for name in list(names) if name in RATING_ALIASES}
+    return [row for row in rows if normalize(row['Journal']) in names]
+
+
+def add_ratings(record, active=True):
+    record.update({
+        'ccf_rank': '', 'ccf_year': '', 'ccf_areas': [],
+        'ccf_source': '', 'ccf_source_titles': [],
+        'cas_quartile': '', 'cas_year': '', 'cas_category': '',
+        'cas_source': '', 'cas_source_title': '', 'cas_source_issn': '',
+    })
+    # Follow the requested display rule even if a non-SCIE journal has a CCF rank.
+    if not active or 'SCIE' not in record['index_status']:
+        return
+    ccf = rating_matches(record, ccf_rows)
+    if ccf:
+        ranks = {row['CCF推荐类型'].removesuffix('类') for row in ccf}
+        assert len(ranks) == 1 and ranks <= {'A', 'B', 'C'}, (record['title'], ranks)
+        assert all(row['年份'] == '2026' for row in ccf)
+        record.update({
+            'ccf_rank': ranks.pop(), 'ccf_year': 2026,
+            'ccf_areas': sorted({row['领域'] for row in ccf}),
+            'ccf_source': CCF_SOURCE,
+            'ccf_source_titles': sorted({row['Journal'] for row in ccf}),
+        })
+    cas = rating_matches(record, cas_rows)
+    if not cas:
+        identifiers = set(record['issn'])
+        cas = [row for row in cas_rows if identifiers.intersection(row['ISSN/EISSN'].split('/'))]
+    assert len(cas) <= 1, (record['title'], cas)
+    if cas and 'SCIE' in cas[0]['Web of Science']:
+        row = cas[0]
+        quartile = re.match(r'^([1-4])(?:\s|$)', row['大类分区'])
+        if quartile:
+            assert row['年份'] == '2025'
+            record.update({
+                'cas_quartile': f'{quartile[1]}区', 'cas_year': 2025,
+                'cas_category': row['大类'], 'cas_source': CAS_SOURCE,
+                'cas_source_title': row['Journal'], 'cas_source_issn': row['ISSN/EISSN'],
+            })
 
 topic_lines = '''
 AI for Science|科学人工智能
@@ -121,12 +197,20 @@ for record in acm_source:
 
 legacy += list(acm_legacy.values())
 all_journals = ieee + acm
+for record in all_journals:
+    add_ratings(record)
+for record in legacy + future:
+    add_ratings(record, active=False)
 watch = [record for record in all_journals if record['index_status'] in ['ESCI', '待确认']] + future
 payload = {
     'catalogue_updated_on': DATE,
     'scope': 'IEEE、IEEE/ASME、IEEE Latin America 与 ACM Transactions 名称族；历史联合题名另列。主目录依据 2025/2026 出版元数据编制，不是出版社实时在刊总数认证。',
     'index_note': '收录状态依据 2025/2026 二次资料，逐条保留来源与核对日期。待确认不等于未收录；当前状态以 Clarivate MJL 为准。',
-    'sources': {**base['sources'], 'acm_crossref': 'https://api.crossref.org/journals?query=ACM&rows=1000'},
+    'rating_note': 'CCF：2026 年第七版；中科院：2025 年大类分区。仅为目录中标注 SCIE 的现刊填写已匹配评级，非 SCIE、收录待确认或未匹配评级的单元格留空。',
+    'sources': {**base['sources'], 'acm_crossref': 'https://api.crossref.org/journals?query=ACM&rows=1000',
+                'ccf_2026_primary': CCF_SOURCE,
+                'ccf_2026_secondary': f'{SOURCE_ROOT}/CCF2026-UTF8.csv',
+                'cas_2025_secondary': CAS_SOURCE},
     'counts': {'IEEE': len(ieee), 'ACM': len(acm), 'total': len(all_journals), 'index_status': dict(Counter(record['index_status'] for record in all_journals))},
     'journals': all_journals, 'legacy': legacy, 'future': future,
 }
@@ -134,7 +218,10 @@ payload = {
 
 
 def write_csv(name, records):
-    fields = ['publisher_group', 'title', 'issn', 'topic_zh', 'index_status', 'jcr_2025_snapshot', 'xr_2026_snapshot', 'index_checked_on', 'catalogue_updated_on', 'current_mjl_verified', 'metadata_url', 'publisher_page', 'index_sources', 'catalogue_group']
+    fields = ['publisher_group', 'title', 'issn', 'topic_zh', 'index_status',
+              'ccf_rank', 'ccf_year', 'ccf_areas', 'ccf_source', 'ccf_source_titles',
+              'cas_quartile', 'cas_year', 'cas_category', 'cas_source', 'cas_source_title', 'cas_source_issn',
+              'jcr_2025_snapshot', 'xr_2026_snapshot', 'index_checked_on', 'catalogue_updated_on', 'current_mjl_verified', 'metadata_url', 'publisher_page', 'index_sources', 'catalogue_group']
     with (OUT / name).open('w', encoding='utf-8-sig', newline='') as stream:
         writer = csv.DictWriter(stream, fields, extrasaction='ignore')
         writer.writeheader()
@@ -150,10 +237,10 @@ write_csv('legacy.csv', legacy)
 
 
 def table(records):
-    lines = ['| 序号 | 期刊全称 | 研究方向 | ISSN | 收录状态 |', '|---|---|---|---|---|']
+    lines = ['| 序号 | 期刊全称 | 研究方向 | ISSN | 收录状态 | CCF 2026 | 中科院 2025 大类分区 |', '|---|---|---|---|---|---|---|']
     for i, record in enumerate(records, 1):
-        lines.append(f"| {i} | {record['title']} | {record['topic_zh']} | [{record['issn'][-1]}]({record['metadata_url']}) | {record['index_status']} |")
-    return '<div style="overflow-x: auto;">\n<div style="min-width: 52rem;">\n\n' + '\n'.join(lines) + '\n\n</div>\n</div>'
+        lines.append(f"| {i} | {record['title']} | {record['topic_zh']} | [{record['issn'][-1]}]({record['metadata_url']}) | {record['index_status']} | {record['ccf_rank']} | {record['cas_quartile']} |")
+    return '<div style="overflow-x: auto;">\n<div style="min-width: 68rem;">\n\n' + '\n'.join(lines) + '\n\n</div>\n</div>'
 
 
 legacy_table = ['| 出版机构 | 历史刊名 | ISSN |', '|---|---|---|']
@@ -184,6 +271,7 @@ replacements = {
     '{{IEEE_TABLE}}': table(ieee), '{{ACM_TABLE}}': table(acm),
     '{{FEATURED_TABLE}}': '\n'.join(featured_table), '{{LEGACY_TABLE}}': '\n'.join(legacy_table),
     '{{JURL}}': base['sources']['jcr_2025_secondary'], '{{XURL}}': base['sources']['xr_2026_secondary'],
+    '{{CCFURL}}': CCF_SOURCE, '{{CASURL}}': CAS_SOURCE,
 }
 for key, value in replacements.items():
     template = template.replace(key, value)
