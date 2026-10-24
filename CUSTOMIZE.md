@@ -363,7 +363,7 @@ Edit `src/data/papers.bib`. Standard BibTeX format with extra as-folio fields:
 }
 ```
 
-Set `site.publications.groupByType: true` to group both the publication page and home-page selections as **Pre-prints**, **Journal Articles**, and **Conference Papers**. Configure the order, headings, and empty-state messages in `site.publications.categories`. Each group retains newest-first ordering; empty categories are shown until a search is entered. Set the flag to `false` to restore year grouping on the publication page and a flat home-page list.
+Set `site.publications.groupByType: true` to group both the publication page and home-page selections as **Pre-prints**, **Conference Papers**, and **Journal Articles**. Configure the order, headings, and empty-state messages in `site.publications.categories`. Each group retains newest-first ordering; empty categories are shown until a search is entered. Set the flag to `false` to restore year grouping on the publication page and a flat home-page list.
 
 `@inproceedings` and `@conference` entries are conference papers. `@article` entries are journal articles unless the venue names arXiv, bioRxiv, medRxiv, or a preprint; other entries belong to Pre-prints. A published paper with an `arxiv` link stays in its journal or conference category. Use the standard BibTeX `note` field for a trailing publication note, for example `note = {(In Chinese)}`. Notes appear after the venue, year, and rankings on the publication list and details, and at the end of home-page selections.
 

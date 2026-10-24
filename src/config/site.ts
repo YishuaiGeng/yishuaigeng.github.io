@@ -519,14 +519,14 @@ export const site = {
     categories: [
       { id: 'preprints', title: 'Pre-prints', emptyMessage: 'No pre-prints at present.' },
       {
-        id: 'journals',
-        title: 'Journal Articles',
-        emptyMessage: 'No journal articles at present.',
-      },
-      {
         id: 'conferences',
         title: 'Conference Papers',
         emptyMessage: 'No conference papers at present.',
+      },
+      {
+        id: 'journals',
+        title: 'Journal Articles',
+        emptyMessage: 'No journal articles at present.',
       },
     ],
     /**
