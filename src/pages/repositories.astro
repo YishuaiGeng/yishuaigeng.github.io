@@ -2,9 +2,12 @@
 import EmptyState from '@components/EmptyState.astro';
 import { site } from '@config/site';
 import Page from '@layouts/Page.astro';
+import { withBase } from '@utils/base';
 import yaml from 'js-yaml';
 
 import reposRaw from '../data/repositories.yml?raw';
+
+if (!site.repositories.enabled) return Astro.redirect(withBase('/'));
 
 const reposData = yaml.load(reposRaw) as {
   github_users?: string[];

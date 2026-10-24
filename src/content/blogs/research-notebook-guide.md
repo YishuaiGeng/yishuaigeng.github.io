@@ -3,7 +3,7 @@ title: 'Research Notebook: How These Notes Are Organized'
 date: 2026-10-02
 description: 'A guide to the collections, tags, naming rules, and writing workflow used in this research notebook.'
 tags: [Research Workflow]
-categories: [Daily Notes]
+categories: []
 toc: true
 ---
 
@@ -19,9 +19,8 @@ can evolve with the research.
 | Paper Reading   | Reviews, comparisons, critiques, and links between papers                       |
 | Learning Notes  | Structured study notes on RAG, reinforcement learning, and new methods          |
 | Technical Notes | Implementations, reproducibility details, debugging, and engineering decisions  |
-| Daily Notes     | Weekly plans, short work logs, reflections, and ideas to revisit                |
 
-Each post should use one stable collection. Tags can connect a post to several topics, such as
+Choose a collection when a post fits one; general workflow notes may stay uncategorized. Tags can connect a post to several topics, such as
 `RAG`, `LLM Reasoning`, or `Research Workflow`.
 
 The [submission venue directory](/blog/submission-venue-directory/) starts with four CCF subject
@@ -34,7 +33,6 @@ paper-reading-<topic>.md
 learning-rag-<topic>.md
 learning-rl-<topic>.md
 technical-<topic>.md
-daily-<date>.md
 ```
 
 ## Writing Workflow

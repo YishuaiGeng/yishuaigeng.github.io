@@ -1,15 +1,18 @@
 ---
 import BibSearch from '@components/publications/BibSearch.tsx';
+import SubmissionTimeline from '@components/publications/submission-timeline/SubmissionTimeline.tsx';
 import { site } from '@config/site';
 import Page from '@layouts/Page.astro';
 import type { CoauthorMap } from '@utils/authors';
 import { withBase } from '@utils/base';
 import { getAuthors, getTitle, getVenue, parseBibtex } from '@utils/bibtex';
+import { parseSubmissionData } from '@utils/submissions';
 import yaml from 'js-yaml';
 
 import citationsRaw from '../../data/citations.yml?raw';
 import coauthorsRaw from '../../data/coauthors.yml?raw';
 import bibRaw from '../../data/papers.bib?raw';
+import submissions from '../../data/submissions/timeline.json';
 
 const entries = parseBibtex(bibRaw).sort((a, b) => {
   const yearA = parseInt(a.fields.year ?? '0', 10);
@@ -36,6 +39,8 @@ const citedPaperIds = new Set(
 const listedCitations = [...citedPaperIds].reduce((total, id) => total + (citations[id] ?? 0), 0);
 const totalCitations = citations.__profile_total ?? listedCitations;
 const scholarIcon = withBase('/assets/img/icons/google-scholar.svg');
+const timelineConfig = site.publications.submissionTimeline;
+const timelineData = parseSubmissionData(submissions);
 ---
 
 <Page title="Publications" description={`Publications by ${site.author.name}`}>
@@ -80,6 +85,16 @@ const scholarIcon = withBase('/assets/img/icons/google-scholar.svg');
     </header>
 
     <article>
+      {
+        timelineConfig.enabled && (
+          <SubmissionTimeline
+            client:load
+            data={timelineData}
+            config={timelineConfig}
+            allowEditing={import.meta.env.DEV && timelineConfig.localEditor}
+          />
+        )
+      }
       <BibSearch
         client:load
         entries={entries}

@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 
 import type { CoauthorMap } from '../../utils/authors';
 import { linkAuthors } from '../../utils/authors';
+import { withBase } from '../../utils/base';
 import type { BibEntry, PublicationCategory } from '../../utils/bibtex';
 import {
   getAuthors,
@@ -36,12 +37,14 @@ interface Props {
   entries: BibEntry[];
   /** Group by publication category instead of year. */
   groupByType?: boolean;
-  /** Show the decorative emoji configured for each category. */
+  /** Show the decorative emoji or image configured for each category. */
   showCategoryIcons?: boolean;
-  /** Ordered category headings, emoji, and empty-state messages from site config. */
+  /** Ordered category headings, icons, and empty-state messages from site config. */
   categories?: ReadonlyArray<{
     id: PublicationCategory;
     emoji?: string;
+    icon?: string;
+    iconDark?: string;
     title: string;
     emptyMessage: string;
   }>;
@@ -519,6 +522,8 @@ export function BibSearch({
       .map(([year, entries]) => ({
         id: String(year),
         emoji: '',
+        icon: '',
+        iconDark: '',
         title: String(year),
         entries,
         emptyMessage: '',
@@ -583,9 +588,34 @@ export function BibSearch({
         groups.map((group) => (
           <div key={group.id} data-publication-category={groupByType ? group.id : undefined}>
             <h2 className={groupByType ? 'publication-category heading-with-icon' : 'year'}>
-              {showCategoryIcons && group.emoji && (
+              {showCategoryIcons && (group.icon || group.emoji) && (
                 <span className="heading-emoji" aria-hidden="true">
-                  {group.emoji}
+                  {group.icon ? (
+                    <>
+                      <img
+                        src={withBase(group.icon)}
+                        alt=""
+                        width={28}
+                        height={28}
+                        className={
+                          group.iconDark
+                            ? 'publication-category-icon category-icon-light'
+                            : 'publication-category-icon'
+                        }
+                      />
+                      {group.iconDark && (
+                        <img
+                          src={withBase(group.iconDark)}
+                          alt=""
+                          width={28}
+                          height={28}
+                          className="publication-category-icon category-icon-dark"
+                        />
+                      )}
+                    </>
+                  ) : (
+                    group.emoji
+                  )}
                 </span>
               )}
               <span>{group.title}</span>

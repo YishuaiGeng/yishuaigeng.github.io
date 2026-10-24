@@ -363,13 +363,23 @@ Edit `src/data/papers.bib`. Standard BibTeX format with extra as-folio fields:
 }
 ```
 
-Set `site.publications.groupByType: true` to group both the publication page and home-page selections as **Pre-prints**, **Conference Papers**, and **Journal Articles**. Configure the order, headings, and empty-state messages in `site.publications.categories`. Each group retains newest-first ordering; empty categories are shown until a search is entered. Set the flag to `false` to restore year grouping on the publication page and a flat home-page list.
+Set `site.publications.groupByType: true` to group the Publications page as **Pre-prints**, **Conference Papers**, and **Journal Articles**. Configure the order, headings, and empty-state messages in `site.publications.categories`. Each group retains newest-first ordering; empty categories appear until a search is entered. Set the flag to `false` to restore year grouping.
 
-Set `site.publications.categoryIcons: true` to show the `emoji` configured for each category before its heading on both pages. The defaults are 🗂️ for Pre-prints, 🎤 for Conference Papers, and 📚 for Journal Articles. These decorative icons are hidden from screen readers. Set the flag to `false` to hide all category icons, or omit an individual category's `emoji` to hide just that icon.
+The About page always uses a flat, newest-first selected-publications list. `site.selectedPapers.includePreprints: false` excludes preprints even when their BibTeX entry has `selected = {true}`; the full Publications page still includes them.
+
+Set `site.publications.categoryIcons: true` to show each category's decorative `emoji` or `icon` image. Pre-prints use 🗂️, Conference Papers use Zotero's lectern icon, and Journal Articles use 📚. Optional `iconDark` supplies a dark-theme asset. Icons are hidden from screen readers. See `public/assets/img/icons/zotero/` for attribution and the icon license.
 
 `@inproceedings` and `@conference` entries are conference papers. `@article` entries are journal articles unless the venue names arXiv, bioRxiv, medRxiv, or a preprint; other entries belong to Pre-prints. A published paper with an `arxiv` link stays in its journal or conference category. Use the standard BibTeX `note` field for a trailing publication note, for example `note = {(In Chinese)}`. Notes appear after the venue, year, and rankings on the publication list and details, and at the end of home-page selections.
 
 BibTeX is parsed at build time — no runtime dependency.
+
+### Submission timeline
+
+`site.publications.submissionTimeline.enabled` displays a compact venue timeline above the bibliography. Data lives in `src/data/submissions/timeline.json`; see [the data guide](src/data/submissions/README.md) for the count definitions and publishing workflow. The supplied 2026 data is transcribed from the owner's confirmed reference.
+
+The header shows UTC+8, annual active/first-author/co-authored paper totals, a year selector, and a collapse control. Each date node shows its explicit **Deadline** or **Submitted** label, venue, total paper badge, and authorship breakdown. Dates are calendar dates, and venue editions may differ from the milestone year. No submission dates or review decisions are inferred. Phones use a vertical timeline; desktop milestones are spaced for readability, not duration. Busy years above `overviewThreshold` venue records add monthly paper counts, month filtering, and a List view. Header totals remain annual totals.
+
+During `yarn dev`, `localEditor: true` enables **Manage submissions**, including local browser drafts, validated JSON import/export, count/date editing, and deletion with undo. Replace the source dataset with the export and publish to update the public page. Production shows the viewer only. `initiallyExpanded`, `timeZoneLabel`, `locale`, `months`, `labels`, and `editor` control presentation and wording.
 
 ### Author highlighting and asset paths
 
@@ -632,6 +642,8 @@ github_repos:
   - username/repo-name
   - username/another-repo
 ```
+
+`site.repositories.enabled: false` hides the repository page, redirects direct visits to About, and excludes it from the sitemap and search index. Remove its item from `site.navbar.items` to hide navigation and command-palette links. The checked-in repository list is preserved.
 
 The page renders GitHub user stat cards and repo pins via `github-readme-stats` (image URLs, no API key required).
 

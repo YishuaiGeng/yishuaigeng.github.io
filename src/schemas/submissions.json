@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Submission venue timeline",
+  "type": "object",
+  "required": ["version", "entries"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "version": {
+      "const": 1
+    },
+    "entries": {
+      "type": "array",
+      "maxItems": 2000,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "venue",
+          "year",
+          "date",
+          "dateType",
+          "firstAuthor",
+          "coauthored",
+          "active"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]*$",
+            "maxLength": 100
+          },
+          "venue": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 1900,
+            "maximum": 2200
+          },
+          "date": {
+            "type": ["string", "null"],
+            "format": "date"
+          },
+          "dateType": {
+            "enum": ["deadline", "submitted"]
+          },
+          "firstAuthor": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000
+          },
+          "coauthored": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000
+          },
+          "active": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10000
+          }
+        }
+      }
+    }
+  }
+}

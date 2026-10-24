@@ -578,6 +578,21 @@
     line-height: 1;
   }
 
+  .publication-category-icon {
+    width: 1em;
+    height: 1em;
+    display: block;
+  }
+
+  .category-icon-dark,
+  [data-theme='dark'] .category-icon-light {
+    display: none;
+  }
+
+  [data-theme='dark'] .category-icon-dark {
+    display: block;
+  }
+
   /* ─── Bootstrap grid additions (col-sm-2, col-sm-10, row-cols) ───── */
   .col-sm-2 {
     flex: 0 0 auto;

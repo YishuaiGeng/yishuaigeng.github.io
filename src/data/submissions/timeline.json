@@ -1,0 +1,46 @@
+{
+  "$schema": "../../schemas/submissions.json",
+  "version": 1,
+  "entries": [
+    {
+      "id": "aaai-2027",
+      "venue": "AAAI 2027",
+      "year": 2026,
+      "date": "2026-07-29",
+      "dateType": "deadline",
+      "firstAuthor": 2,
+      "coauthored": 3,
+      "active": 5
+    },
+    {
+      "id": "iclr-2027",
+      "venue": "ICLR 2027",
+      "year": 2026,
+      "date": "2026-09-26",
+      "dateType": "deadline",
+      "firstAuthor": 1,
+      "coauthored": 3,
+      "active": 4
+    },
+    {
+      "id": "tkde-2026",
+      "venue": "TKDE",
+      "year": 2026,
+      "date": "2026-09-29",
+      "dateType": "submitted",
+      "firstAuthor": 0,
+      "coauthored": 1,
+      "active": 1
+    },
+    {
+      "id": "www-2027",
+      "venue": "WWW 2027",
+      "year": 2026,
+      "date": "2026-10-26",
+      "dateType": "deadline",
+      "firstAuthor": 1,
+      "coauthored": 0,
+      "active": 1
+    }
+  ]
+}

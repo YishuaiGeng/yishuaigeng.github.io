@@ -3,7 +3,7 @@ title: 'Weekly Notes: Reading, Experiments, and Open Questions'
 date: 2026-09-26
 description: 'A lightweight weekly record for plans, papers, experiments, decisions, and ideas to carry forward.'
 tags: [Research Workflow]
-categories: [Daily Notes]
+categories: []
 toc: true
 ---
 

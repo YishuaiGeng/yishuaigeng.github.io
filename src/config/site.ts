@@ -130,7 +130,6 @@ export const site = {
       { label: 'Blogs', href: '/blog/' },
       { label: 'Publications', href: '/publications/' },
       { label: 'Projects', href: '/projects/' },
-      { label: 'Repositories', href: '/repositories/' },
       { label: 'CV', href: '/cv/' },
     ] as NavItem[],
   },
@@ -253,11 +252,6 @@ export const site = {
         icon: 'code',
         description: 'Reproducible experiments, implementation details, and engineering decisions.',
       },
-      {
-        name: 'Daily Notes',
-        icon: 'pen',
-        description: 'Weekly plans, work logs, reflections, and ideas worth revisiting.',
-      },
     ] as Array<{
       name: string;
       icon: 'book' | 'learning' | 'code' | 'pen';
@@ -294,7 +288,6 @@ export const site = {
       'Paper Reading',
       'Learning Notes',
       'Technical Notes',
-      'Daily Notes',
     ] as string[],
     /**
      * External post sources (fetched at build time).
@@ -372,6 +365,8 @@ export const site = {
   selectedPapers: {
     /** Show selected publications section on the about page. */
     enabled: true,
+    /** Include preprints in the flat selected-publications list. */
+    includePreprints: false,
   },
 
   /** MapMyVisitors map and statistics, displayed at the bottom of the homepage. */
@@ -513,9 +508,72 @@ export const site = {
   // ─── Publications ─────────────────────────────────────────────────────────
 
   publications: {
-    /** Group the publication list and home-page selections by publication type instead of year. */
+    /** Public submission tracker above the bibliography; data lives in src/data/submissions/. */
+    submissionTimeline: {
+      enabled: true,
+      /** Open the timeline on first visit. */
+      initiallyExpanded: true,
+      /** Show monthly counts and view controls above this many venue milestones. */
+      overviewThreshold: 6,
+      /** Enable the browser editor during local development only. */
+      localEditor: true,
+      timeZoneLabel: 'UTC+8',
+      locale: 'en-US',
+      months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+      labels: {
+        title: 'Submission Timeline',
+        year: 'Submission year',
+        collapse: 'Collapse submission timeline',
+        expand: 'Expand submission timeline',
+        summary: '{active} active · {first} first-author · {co} co-authored',
+        firstAuthor: '{count} first-author',
+        coauthored: '{count} co-authored',
+        paper: '{count} paper',
+        papers: '{count} papers',
+        deadline: 'Deadline',
+        submitted: 'Submitted',
+        datePending: 'Date pending',
+        timeline: 'Timeline',
+        list: 'List',
+        view: 'Submission view',
+        overview: 'Papers by month',
+        allMonths: 'All months',
+        empty: 'No submission milestones in this view.',
+        scrollHint: 'Scroll horizontally for more venues.',
+        manage: 'Manage submissions',
+        localDraft: 'Local draft',
+        loading: 'Loading editor…',
+      },
+      editor: {
+        title: 'Manage submissions',
+        description:
+          'Edits are saved in this browser. Download timeline.json, replace src/data/submissions/timeline.json, and publish the site to update the public timeline.',
+        chooseMilestone: 'Select a venue milestone',
+        newMilestone: '＋ New venue milestone',
+        venue: 'Conference edition or journal',
+        year: 'Milestone year',
+        date: 'Milestone date (optional)',
+        dateType: 'Date label',
+        firstAuthor: 'First-author papers',
+        coauthored: 'Co-authored papers',
+        active: 'Active papers',
+        save: 'Save to browser',
+        remove: 'Delete milestone',
+        undo: 'Undo deletion',
+        download: 'Download JSON',
+        import: 'Import JSON',
+        reset: 'Reset local draft',
+        saved: 'Saved in this browser.',
+        imported: 'Imported into this browser. Public data changes after the file is published.',
+        resetDone: 'Local draft reset to the source dataset.',
+        removed: 'Milestone removed from the local draft.',
+        fileTooLarge: 'Choose a JSON file smaller than 2 MB.',
+        invalidImport: 'Could not import this file.',
+      },
+    },
+    /** Group the Publications page by publication type instead of year. */
     groupByType: true,
-    /** Show decorative emoji before publication category headings on both pages. */
+    /** Show decorative emoji or image icons before Publications category headings. */
     categoryIcons: true,
     /** Category order, emoji, headings, and messages shown when a category has no papers. */
     categories: [
@@ -527,7 +585,8 @@ export const site = {
       },
       {
         id: 'conferences',
-        emoji: '🎤',
+        icon: '/assets/img/icons/zotero/conference-paper.svg',
+        iconDark: '/assets/img/icons/zotero/conference-paper-dark.svg',
         title: 'Conference Papers',
         emptyMessage: 'No conference papers at present.',
       },
@@ -579,6 +638,8 @@ export const site = {
   // ─── Repositories ────────────────────────────────────────────────────────
 
   repositories: {
+    /** Enable the repository page; disabled pages redirect to About and leave the sitemap. */
+    enabled: false,
     /** Show GitHub user stats cards. */
     githubUsers: true,
     /** Show GitHub repository pin cards. */

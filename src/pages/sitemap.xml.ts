@@ -86,12 +86,6 @@ export async function GET(_ctx: APIContext): Promise<Response> {
       priority: 0.6,
     },
     {
-      url: loc('/repositories/'),
-      lastmod: gitLastmod('src/pages/repositories.astro'),
-      changefreq: 'monthly',
-      priority: 0.6,
-    },
-    {
       url: loc('/teaching/'),
       lastmod: gitLastmod('src/pages/teaching/index.astro'),
       changefreq: 'monthly',
@@ -110,6 +104,15 @@ export async function GET(_ctx: APIContext): Promise<Response> {
       priority: 0.5,
     },
   ];
+
+  if (site.repositories.enabled) {
+    staticUrls.push({
+      url: loc('/repositories/'),
+      lastmod: gitLastmod('src/pages/repositories.astro'),
+      changefreq: 'monthly',
+      priority: 0.6,
+    });
+  }
 
   if (site.blog.archive.enabled) {
     staticUrls.push({ url: loc('/blog/archives/'), changefreq: 'weekly', priority: 0.6 });
