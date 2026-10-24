@@ -515,16 +515,25 @@ export const site = {
   publications: {
     /** Group the publication list and home-page selections by publication type instead of year. */
     groupByType: true,
-    /** Category order, headings, and messages shown when a category has no papers. */
+    /** Show decorative emoji before publication category headings on both pages. */
+    categoryIcons: true,
+    /** Category order, emoji, headings, and messages shown when a category has no papers. */
     categories: [
-      { id: 'preprints', title: 'Pre-prints', emptyMessage: 'No pre-prints at present.' },
+      {
+        id: 'preprints',
+        emoji: '🗂️',
+        title: 'Pre-prints',
+        emptyMessage: 'No pre-prints at present.',
+      },
       {
         id: 'conferences',
+        emoji: '🎤',
         title: 'Conference Papers',
         emptyMessage: 'No conference papers at present.',
       },
       {
         id: 'journals',
+        emoji: '📚',
         title: 'Journal Articles',
         emptyMessage: 'No journal articles at present.',
       },

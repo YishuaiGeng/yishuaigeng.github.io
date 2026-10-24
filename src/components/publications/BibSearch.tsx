@@ -36,8 +36,15 @@ interface Props {
   entries: BibEntry[];
   /** Group by publication category instead of year. */
   groupByType?: boolean;
-  /** Ordered category headings and empty-state messages from site config. */
-  categories?: ReadonlyArray<{ id: PublicationCategory; title: string; emptyMessage: string }>;
+  /** Show the decorative emoji configured for each category. */
+  showCategoryIcons?: boolean;
+  /** Ordered category headings, emoji, and empty-state messages from site config. */
+  categories?: ReadonlyArray<{
+    id: PublicationCategory;
+    emoji?: string;
+    title: string;
+    emptyMessage: string;
+  }>;
   maxAuthorLimit?: number;
   showThumbnails?: boolean;
   /** Last name to italicise in author lists (case-insensitive). */
@@ -462,6 +469,7 @@ function PublicationEntry({
 export function BibSearch({
   entries,
   groupByType = false,
+  showCategoryIcons = false,
   categories = [],
   maxAuthorLimit = 3,
   showThumbnails = true,
@@ -510,6 +518,7 @@ export function BibSearch({
       .sort(([a], [b]) => b - a)
       .map(([year, entries]) => ({
         id: String(year),
+        emoji: '',
         title: String(year),
         entries,
         emptyMessage: '',
@@ -573,7 +582,14 @@ export function BibSearch({
       ) : (
         groups.map((group) => (
           <div key={group.id} data-publication-category={groupByType ? group.id : undefined}>
-            <h2 className={groupByType ? 'publication-category' : 'year'}>{group.title}</h2>
+            <h2 className={groupByType ? 'publication-category heading-with-icon' : 'year'}>
+              {showCategoryIcons && group.emoji && (
+                <span className="heading-emoji" aria-hidden="true">
+                  {group.emoji}
+                </span>
+              )}
+              <span>{group.title}</span>
+            </h2>
             {group.entries.length === 0 && (
               <p style={{ color: 'var(--global-text-color-light)' }}>{group.emptyMessage}</p>
             )}

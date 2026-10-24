@@ -51,7 +51,7 @@ const selectedPublicationGroups = site.publications.groupByType
       ...category,
       entries: selectedPapers.filter((entry) => getPublicationCategory(entry) === category.id),
     }))
-  : [{ id: 'all', title: '', emptyMessage: '', entries: selectedPapers }];
+  : [{ id: 'all', emoji: '', title: '', emptyMessage: '', entries: selectedPapers }];
 const authorLastName = (
   site.publications.authorLastName ??
   site.author.name.split(/\s+/).pop() ??
@@ -183,7 +183,16 @@ const renderedAnnouncements = await Promise.all(
             </h2>
             {selectedPublicationGroups.map((group) => (
               <div data-publication-category={group.id}>
-                {group.title && <h3 class="publication-category-heading">{group.title}</h3>}
+                {group.title && (
+                  <h3 class="publication-category-heading heading-with-icon">
+                    {site.publications.categoryIcons && group.emoji && (
+                      <span class="heading-emoji" aria-hidden="true">
+                        {group.emoji}
+                      </span>
+                    )}
+                    <span>{group.title}</span>
+                  </h3>
+                )}
                 {group.entries.length === 0 && (
                   <p class="publication-category-empty">{group.emptyMessage}</p>
                 )}
