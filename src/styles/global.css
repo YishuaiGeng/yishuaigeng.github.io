@@ -890,6 +890,14 @@
   .publications {
     margin-top: 2rem;
   }
+  .publications h2.publication-category {
+    color: var(--global-text-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 0.35rem;
+    margin: 2rem 0 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
   .publications h2.year {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);

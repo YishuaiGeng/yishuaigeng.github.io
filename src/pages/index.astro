@@ -4,7 +4,15 @@ import VisitorMap from '@components/about/VisitorMap.astro';
 import SocialLinks from '@components/SocialLinks.astro';
 import { site } from '@config/site';
 import Base from '@layouts/Base.astro';
-import { getAuthors, getBoolField, getTitle, getVenue, getYear, parseBibtex } from '@utils/bibtex';
+import {
+  getAuthors,
+  getBoolField,
+  getPublicationCategory,
+  getTitle,
+  getVenue,
+  getYear,
+  parseBibtex,
+} from '@utils/bibtex';
 import { getCollection, render } from 'astro:content';
 
 import AboutContent from '../data/about.mdx';
@@ -38,6 +46,12 @@ const selectedPapers = site.selectedPapers.enabled
       .filter((e) => getBoolField(e, 'selected'))
       .sort((a, b) => getYear(b) - getYear(a))
   : [];
+const selectedPublicationGroups = site.publications.groupByType
+  ? site.publications.categories.map((category) => ({
+      ...category,
+      entries: selectedPapers.filter((entry) => getPublicationCategory(entry) === category.id),
+    }))
+  : [{ id: 'all', title: '', emptyMessage: '', entries: selectedPapers }];
 const authorLastName = (
   site.publications.authorLastName ??
   site.author.name.split(/\s+/).pop() ??
@@ -167,68 +181,77 @@ const renderedAnnouncements = await Promise.all(
                 Selected Publications
               </a>
             </h2>
-            <ol class="m-0 list-none p-0">
-              {selectedPapers.map((entry) => {
-                const title = getTitle(entry);
-                const authors = getAuthors(entry);
-                const authorNames = authors ? authors.split(', ') : [];
-                const venue = getVenue(entry);
-                const year = getYear(entry);
-                const abbr = entry.fields.abbr;
-                const url =
-                  entry.fields.html ??
-                  (entry.fields.doi ? `https://doi.org/${entry.fields.doi}` : '');
-                const award = entry.fields.award;
-                return (
-                  <li class="mb-4 text-sm" style="line-height: 1.6;">
-                    {abbr && <span class="badge-abbr mr-2">{abbr}</span>}
-                    {url ? (
-                      <a
-                        href={url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style="color: var(--global-text-color); font-weight: 600; text-decoration: none;"
-                      >
-                        {title}
-                      </a>
-                    ) : (
-                      <strong style="color: var(--global-text-color);">{title}</strong>
-                    )}
-                    <br />
-                    <span style="color: var(--global-text-color-light);">
-                      {authorNames.map((author, index) => {
-                        const lastName = author.split(/\s+/).pop()?.toLowerCase() ?? '';
-                        return (
+            {selectedPublicationGroups.map((group) => (
+              <div data-publication-category={group.id}>
+                {group.title && <h3 class="publication-category-heading">{group.title}</h3>}
+                {group.entries.length === 0 && (
+                  <p class="publication-category-empty">{group.emptyMessage}</p>
+                )}
+                <ol class="m-0 list-none p-0">
+                  {group.entries.map((entry) => {
+                    const title = getTitle(entry);
+                    const authors = getAuthors(entry);
+                    const authorNames = authors ? authors.split(', ') : [];
+                    const venue = getVenue(entry);
+                    const year = getYear(entry);
+                    const abbr = entry.fields.abbr;
+                    const url =
+                      entry.fields.html ??
+                      (entry.fields.doi ? `https://doi.org/${entry.fields.doi}` : '');
+                    const award = entry.fields.award;
+                    return (
+                      <li class="mb-4 text-sm" style="line-height: 1.6;">
+                        {abbr && <span class="badge-abbr mr-2">{abbr}</span>}
+                        {url ? (
+                          <a
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style="color: var(--global-text-color); font-weight: 600; text-decoration: none;"
+                          >
+                            {title}
+                          </a>
+                        ) : (
+                          <strong style="color: var(--global-text-color);">{title}</strong>
+                        )}
+                        <br />
+                        <span style="color: var(--global-text-color-light);">
+                          {authorNames.map((author, index) => {
+                            const lastName = author.split(/\s+/).pop()?.toLowerCase() ?? '';
+                            return (
+                              <>
+                                {lastName === authorLastName ? (
+                                  <strong class="self-author">{author}</strong>
+                                ) : (
+                                  author
+                                )}
+                                {index < authorNames.length - 1 ? ', ' : ''}
+                              </>
+                            );
+                          })}
+                        </span>
+                        {(venue || year) && (
                           <>
-                            {lastName === authorLastName ? (
-                              <strong class="self-author">{author}</strong>
-                            ) : (
-                              author
-                            )}
-                            {index < authorNames.length - 1 ? ', ' : ''}
+                            {' · '}
+                            <em style="color: var(--global-text-color-light);">
+                              {venue}
+                              {venue && year ? ', ' : ''}
+                              {year || ''}
+                            </em>
                           </>
-                        );
-                      })}
-                    </span>
-                    {(venue || year) && (
-                      <>
-                        {' · '}
-                        <em style="color: var(--global-text-color-light);">
-                          {venue}
-                          {venue && year ? ', ' : ''}
-                          {year || ''}
-                        </em>
-                      </>
-                    )}
-                    {award && (
-                      <span class="badge-abbr ml-2" style="background-color: #f59e0b;">
-                        {entry.fields.award_name ?? '🏆'}
-                      </span>
-                    )}
-                  </li>
-                );
-              })}
-            </ol>
+                        )}
+                        {award && (
+                          <span class="badge-abbr ml-2" style="background-color: #f59e0b;">
+                            {entry.fields.award_name ?? '🏆'}
+                          </span>
+                        )}
+                        {entry.fields.note && <> {entry.fields.note}</>}
+                      </li>
+                    );
+                  })}
+                </ol>
+              </div>
+            ))}
             <p class="mt-2 text-sm">
               <a
                 href={`${site.base}/publications/`}
@@ -283,6 +306,18 @@ const renderedAnnouncements = await Promise.all(
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
+  }
+
+  .publication-category-heading {
+    color: var(--global-text-color);
+    margin: 1.25rem 0 0.75rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+
+  .publication-category-empty {
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
   }
 
   .home-list-date {

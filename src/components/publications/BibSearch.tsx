@@ -2,11 +2,12 @@ import { useMemo, useState } from 'react';
 
 import type { CoauthorMap } from '../../utils/authors';
 import { linkAuthors } from '../../utils/authors';
-import type { BibEntry } from '../../utils/bibtex';
+import type { BibEntry, PublicationCategory } from '../../utils/bibtex';
 import {
   getAuthors,
   getBoolField,
   getCleanBibtex,
+  getPublicationCategory,
   getTitle,
   getVenue,
   getYear,
@@ -33,6 +34,10 @@ interface BadgeConfig {
 
 interface Props {
   entries: BibEntry[];
+  /** Group by publication category instead of year. */
+  groupByType?: boolean;
+  /** Ordered category headings and empty-state messages from site config. */
+  categories?: ReadonlyArray<{ id: PublicationCategory; title: string; emptyMessage: string }>;
   maxAuthorLimit?: number;
   showThumbnails?: boolean;
   /** Last name to italicise in author lists (case-insensitive). */
@@ -249,6 +254,7 @@ function PublicationEntry({
                   ))}
                 </span>
               )}
+              {entry.fields.note && <> {entry.fields.note}</>}
             </div>
           )}
 
@@ -455,6 +461,8 @@ function PublicationEntry({
 
 export function BibSearch({
   entries,
+  groupByType = false,
+  categories = [],
   maxAuthorLimit = 3,
   showThumbnails = true,
   authorLastName = '',
@@ -483,17 +491,30 @@ export function BibSearch({
     });
   }, [entries, query]);
 
-  const byYear = useMemo(() => {
+  const groups = useMemo(() => {
+    if (groupByType) {
+      return categories
+        .map((category) => ({
+          ...category,
+          entries: filtered.filter((entry) => getPublicationCategory(entry) === category.id),
+        }))
+        .filter((group) => !query.trim() || group.entries.length > 0);
+    }
     const map = new Map<number, BibEntry[]>();
     for (const entry of filtered) {
       const year = getYear(entry);
       if (!map.has(year)) map.set(year, []);
       map.get(year)!.push(entry);
     }
-    return map;
-  }, [filtered]);
-
-  const years = useMemo(() => [...byYear.keys()].sort((a, b) => b - a), [byYear]);
+    return [...map.entries()]
+      .sort(([a], [b]) => b - a)
+      .map(([year, entries]) => ({
+        id: String(year),
+        title: String(year),
+        entries,
+        emptyMessage: '',
+      }));
+  }, [filtered, groupByType, categories, query]);
 
   return (
     <div className="publications">
@@ -544,17 +565,20 @@ export function BibSearch({
         </div>
       </div>
 
-      {/* Publications grouped by year */}
+      {/* Publications grouped by type or year */}
       {filtered.length === 0 ? (
         <p style={{ color: 'var(--global-text-color-light)' }}>
           {labels.noResults ?? 'No publications match your search.'}
         </p>
       ) : (
-        years.map((year) => (
-          <div key={year}>
-            <h2 className="year">{year}</h2>
+        groups.map((group) => (
+          <div key={group.id} data-publication-category={groupByType ? group.id : undefined}>
+            <h2 className={groupByType ? 'publication-category' : 'year'}>{group.title}</h2>
+            {group.entries.length === 0 && (
+              <p style={{ color: 'var(--global-text-color-light)' }}>{group.emptyMessage}</p>
+            )}
             <ol className="bibliography">
-              {byYear.get(year)!.map((entry) => (
+              {group.entries.map((entry) => (
                 <PublicationEntry
                   key={entry.key}
                   entry={entry}

@@ -513,6 +513,22 @@ export const site = {
   // ─── Publications ─────────────────────────────────────────────────────────
 
   publications: {
+    /** Group the publication list and home-page selections by publication type instead of year. */
+    groupByType: true,
+    /** Category order, headings, and messages shown when a category has no papers. */
+    categories: [
+      { id: 'preprints', title: 'Pre-prints', emptyMessage: 'No pre-prints at present.' },
+      {
+        id: 'journals',
+        title: 'Journal Articles',
+        emptyMessage: 'No journal articles at present.',
+      },
+      {
+        id: 'conferences',
+        title: 'Conference Papers',
+        emptyMessage: 'No conference papers at present.',
+      },
+    ],
     /**
      * Show badges for individual publication entries.
      * Can be disabled globally here; also toggleable per entry in BibTeX.

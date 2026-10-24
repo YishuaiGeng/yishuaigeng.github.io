@@ -118,6 +118,17 @@ export function getYear(entry: BibEntry): number {
   return parseInt(entry.fields.year ?? '0', 10);
 }
 
+export type PublicationCategory = 'preprints' | 'journals' | 'conferences';
+
+/** Classify by the publication venue; an arXiv link alone does not imply a preprint. */
+export function getPublicationCategory(entry: BibEntry): PublicationCategory {
+  if (entry.type === 'inproceedings' || entry.type === 'conference') return 'conferences';
+  if (entry.type === 'article' && !/arxiv|biorxiv|medrxiv|preprint/i.test(getVenue(entry))) {
+    return 'journals';
+  }
+  return 'preprints';
+}
+
 /** Get formatted authors string: "First Last, First Last, ..." */
 export function getAuthors(entry: BibEntry): string {
   const raw = entry.fields.author ?? '';

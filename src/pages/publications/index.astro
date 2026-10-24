@@ -83,6 +83,8 @@ const scholarIcon = withBase('/assets/img/icons/google-scholar.svg');
       <BibSearch
         client:load
         entries={entries}
+        groupByType={site.publications.groupByType}
+        categories={site.publications.categories}
         maxAuthorLimit={maxAuthorLimit}
         showThumbnails={showThumbnails}
         authorLastName={authorLastName}
