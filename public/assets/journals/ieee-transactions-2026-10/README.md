@@ -1,6 +1,6 @@
 # IEEE / ACM Transactions journal directory
 
-Updated: 2026-10-17.
+Updated: 2026-10-25 (Xinrui divisions added; indexing evidence retains its original dates).
 
 | File             | Contents                                                                         |
 | ---------------- | -------------------------------------------------------------------------------- |
@@ -13,9 +13,11 @@ Updated: 2026-10-17.
 
 CSV files use UTF-8 with a BOM. Chinese subject labels support topic browsing; official journal scopes take precedence.
 
-Ratings use CCF 2026 (7th edition, A/B/C) and CAS 2025 broad-category divisions (1区–4区). They are stored separately as `ccf_rank` and `cas_quartile`, with edition years and matching source titles. CAS divisions are not JCR quartiles. Per the directory's display rule, both rating fields remain empty for non-SCIE or unconfirmed journals, even if a CCF listing exists; missing ratings and historical/future titles are also left empty.
+Ratings use CCF 2026 (7th edition, A/B/C), CAS 2025 broad-category divisions, and Xinrui 2026 broad-category divisions (1区–4区). They are stored separately as `ccf_rank`, `cas_quartile`, and `xinrui_quartile`, with edition years and matching source titles. CAS and Xinrui divisions are distinct from JCR quartiles; Xinrui 2026 must not be relabeled as CAS 2026. CCF and CAS retain the directory's existing SCIE-only display rule. Xinrui is matched independently against its own dataset and includes covered ESCI/SSCI journals. Missing ratings and historical/future titles remain empty.
 
-The CCF source is `/assets/pdf/ccf-2026-v7.pdf`, cross-checked against `CCF2026-UTF8.csv`; CAS divisions use `FQBJCR2025-UTF8.csv`. The CSV sources are public secondary datasets from the pinned ShowJCR commit below. Exact source links and the matched CAS broad category are retained in `directory.json`.
+The CCF source is `/assets/pdf/ccf-2026-v7.pdf`, cross-checked against `CCF2026-UTF8.csv`; CAS divisions use `FQBJCR2025-UTF8.csv`; Xinrui divisions use the `大类新锐分区` field of `XR2026-UTF8.csv`. The CSV sources are public secondary datasets from the pinned ShowJCR commit below. Exact source links, matched titles, ISSNs, and broad categories are retained in the CSV files and `directory.json`. `xinrui_checked_on` records the Xinrui verification date separately from indexing checks.
+
+Regenerate the article and downloads with `python3 files/ieee-acm-transactions-2026-10/update_directory.py`, then format the generated Markdown and JSON with the repository's Yarn/Prettier tooling. The article source is `files/ieee-acm-transactions-2026-10/article-template.md`; ranking data snapshots are versioned under `files/`.
 
 Titles and identifiers are based on publisher-deposited Crossref metadata, with the 2023 IEEE title list as an additional identity reference. The main directory covers recent publication records and is not an official certification of the publishers' current journal counts. Historical joint IEEE/ACM titles are retained in the legacy appendix without being counted again in the ACM main directory.
 

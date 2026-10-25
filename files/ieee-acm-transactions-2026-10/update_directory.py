@@ -8,13 +8,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 OUT = ROOT / 'public/assets/journals/ieee-transactions-2026-10'
-DATE = '2026-10-17'
+DATE = '2026-10-25'
+ACM_INDEX_DATE = '2026-10-17'
 base = json.loads((HERE / 'ieee-base.json').read_text(encoding='utf8'))
 acm_source = json.loads((HERE / 'acm-titles.json').read_text(encoding='utf8'))
 SOURCE_COMMIT = '4687a8f608f20aaf004299992f5d347dba009361'
 SOURCE_ROOT = f'https://github.com/hitfyd/ShowJCR/blob/{SOURCE_COMMIT}/中科院分区表及JCR原始数据文件'
 CCF_SOURCE = '/assets/pdf/ccf-2026-v7.pdf'
 CAS_SOURCE = f'{SOURCE_ROOT}/FQBJCR2025-UTF8.csv'
+XINRUI_SOURCE = f'{SOURCE_ROOT}/XR2026-UTF8.csv'
 
 
 def normalize(title):
@@ -42,6 +44,7 @@ def read_rows(path):
 ccf_rows = [row for row in read_rows(HERE / 'CCF2026-UTF8.csv')
             if '刊物' in row['CCF推荐类别（国际学术刊物/会议）']]
 cas_rows = read_rows(ROOT / 'files/ieee-transactions-2026-10/FQBJCR2025-UTF8.csv')
+xinrui_rows = read_rows(ROOT / 'files/ieee-transactions-2026-10/XR2026-UTF8.csv')
 
 
 def rating_matches(record, rows):
@@ -56,9 +59,36 @@ def add_ratings(record, active=True):
         'ccf_source': '', 'ccf_source_titles': [],
         'cas_quartile': '', 'cas_year': '', 'cas_category': '',
         'cas_source': '', 'cas_source_title': '', 'cas_source_issn': '',
+        'xinrui_quartile': '', 'xinrui_year': '', 'xinrui_category': '',
+        'xinrui_source': '', 'xinrui_source_title': '', 'xinrui_source_issn': '',
+        'xinrui_checked_on': '',
     })
-    # Follow the requested display rule even if a non-SCIE journal has a CCF rank.
-    if not active or 'SCIE' not in record['index_status']:
+    if not active:
+        return
+    # Xinrui also covers ESCI/SSCI titles; match its own source independently.
+    xinrui = rating_matches(record, xinrui_rows)
+    if not xinrui:
+        identifiers = set(record['issn'])
+        xinrui = [row for row in xinrui_rows
+                  if identifiers.intersection({row['ISSN'], row['EISSN']})]
+    assert len(xinrui) <= 1, (record['title'], xinrui)
+    if xinrui:
+        row = xinrui[0]
+        division = re.fullmatch(r'([1-4])\s*区', row['大类新锐分区'].strip())
+        if division:
+            assert row['年份'] == '2026'
+            # The matched catalogue titles each have one broad category.
+            assert not row['大类2新锐分区'].strip(), record['title']
+            record.update({
+                'xinrui_quartile': f'{division[1]}区', 'xinrui_year': 2026,
+                'xinrui_category': row['大类中文名'], 'xinrui_source': XINRUI_SOURCE,
+                'xinrui_source_title': row['Journal'],
+                'xinrui_source_issn': '/'.join(dict.fromkeys(
+                    value for value in [row['ISSN'], row['EISSN']] if value and value != 'N/A')),
+                'xinrui_checked_on': DATE,
+            })
+    # Preserve the existing SCIE-only display rule for CCF and CAS.
+    if 'SCIE' not in record['index_status']:
         return
     ccf = rating_matches(record, ccf_rows)
     if ccf:
@@ -180,7 +210,7 @@ for record in acm_source:
         'xr_2026_snapshot': xr['数据库'] if xr else None,
         'index_status': status,
         'index_sources': ([base['sources']['jcr_2025_secondary']] if jcr else []) + ([base['sources']['xr_2026_secondary']] if xr else []),
-        'index_checked_on': DATE,
+        'index_checked_on': ACM_INDEX_DATE,
         'catalogue_updated_on': DATE,
         'current_mjl_verified': False,
         'catalogue_group': 'recent_metadata_main_directory' if recent else 'legacy_or_archival_metadata',
@@ -206,11 +236,12 @@ payload = {
     'catalogue_updated_on': DATE,
     'scope': 'IEEE、IEEE/ASME、IEEE Latin America 与 ACM Transactions 名称族；历史联合题名另列。主目录依据 2025/2026 出版元数据编制，不是出版社实时在刊总数认证。',
     'index_note': '收录状态依据 2025/2026 二次资料，逐条保留来源与核对日期。待确认不等于未收录；当前状态以 Clarivate MJL 为准。',
-    'rating_note': 'CCF：2026 年第七版；中科院：2025 年大类分区。仅为目录中标注 SCIE 的现刊填写已匹配评级，非 SCIE、收录待确认或未匹配评级的单元格留空。',
+    'rating_note': 'CCF：2026 年第七版；中科院：2025 年大类分区；新锐：2026 年大类分区。CCF 与中科院维持仅为标注 SCIE 的现刊填写已匹配评级的口径；新锐按其自身数据匹配，也包括部分 ESCI、SSCI 期刊。无对应评级的单元格留空，三列独立填写。',
     'sources': {**base['sources'], 'acm_crossref': 'https://api.crossref.org/journals?query=ACM&rows=1000',
                 'ccf_2026_primary': CCF_SOURCE,
                 'ccf_2026_secondary': f'{SOURCE_ROOT}/CCF2026-UTF8.csv',
-                'cas_2025_secondary': CAS_SOURCE},
+                'cas_2025_secondary': CAS_SOURCE,
+                'xinrui_2026_secondary': XINRUI_SOURCE},
     'counts': {'IEEE': len(ieee), 'ACM': len(acm), 'total': len(all_journals), 'index_status': dict(Counter(record['index_status'] for record in all_journals))},
     'journals': all_journals, 'legacy': legacy, 'future': future,
 }
@@ -221,6 +252,7 @@ def write_csv(name, records):
     fields = ['publisher_group', 'title', 'issn', 'topic_zh', 'index_status',
               'ccf_rank', 'ccf_year', 'ccf_areas', 'ccf_source', 'ccf_source_titles',
               'cas_quartile', 'cas_year', 'cas_category', 'cas_source', 'cas_source_title', 'cas_source_issn',
+              'xinrui_quartile', 'xinrui_year', 'xinrui_category', 'xinrui_source', 'xinrui_source_title', 'xinrui_source_issn', 'xinrui_checked_on',
               'jcr_2025_snapshot', 'xr_2026_snapshot', 'index_checked_on', 'catalogue_updated_on', 'current_mjl_verified', 'metadata_url', 'publisher_page', 'index_sources', 'catalogue_group']
     with (OUT / name).open('w', encoding='utf-8-sig', newline='') as stream:
         writer = csv.DictWriter(stream, fields, extrasaction='ignore')
@@ -237,10 +269,10 @@ write_csv('legacy.csv', legacy)
 
 
 def table(records):
-    lines = ['| 序号 | 期刊全称 | 研究方向 | ISSN | 收录状态 | CCF 2026 | 中科院 2025 大类分区 |', '|---|---|---|---|---|---|---|']
+    lines = ['| 序号 | 期刊全称 | 研究方向 | ISSN | 收录状态 | CCF 2026 | 中科院 2025 大类分区 | 新锐 2026 大类分区 |', '|---|---|---|---|---|---|---|---|']
     for i, record in enumerate(records, 1):
-        lines.append(f"| {i} | {record['title']} | {record['topic_zh']} | [{record['issn'][-1]}]({record['metadata_url']}) | {record['index_status']} | {record['ccf_rank']} | {record['cas_quartile']} |")
-    return '<div style="overflow-x: auto;">\n<div style="min-width: 68rem;">\n\n' + '\n'.join(lines) + '\n\n</div>\n</div>'
+        lines.append(f"| {i} | {record['title']} | {record['topic_zh']} | [{record['issn'][-1]}]({record['metadata_url']}) | {record['index_status']} | {record['ccf_rank']} | {record['cas_quartile']} | {record['xinrui_quartile']} |")
+    return '<div style="overflow-x: auto;">\n<div style="min-width: 78rem;">\n\n' + '\n'.join(lines) + '\n\n</div>\n</div>'
 
 
 legacy_table = ['| 出版机构 | 历史刊名 | ISSN |', '|---|---|---|']
