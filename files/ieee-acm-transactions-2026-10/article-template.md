@@ -15,6 +15,8 @@ pinned: true
 
 [完整目录 CSV](/assets/journals/ieee-transactions-2026-10/directory.csv) · [IEEE 目录 CSV](/assets/journals/ieee-transactions-2026-10/ieee.csv) · [ACM 目录 CSV](/assets/journals/ieee-transactions-2026-10/acm.csv) · [新刊及 ESCI 目录 CSV](/assets/journals/ieee-transactions-2026-10/watchlist.csv) · [目录 JSON](/assets/journals/ieee-transactions-2026-10/directory.json)
 
+按神经符号推理、求解器反馈与推荐系统选择具体期刊，见 [投稿路线图](/blog/research-submission-roadmap/)，包含适配条件、JCR 学科分区及首投/备选规划。
+
 ## 目录概览
 
 | 出版机构 | 期刊数量 | 主要领域 |

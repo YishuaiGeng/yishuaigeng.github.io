@@ -1,0 +1,74 @@
+# kind|abbreviation|group|role|scope_status|scope_url|fit
+journal|AIJ|logic|成熟后冲刺|verified|https://aij.ijcai.org/call-for-papers/|完整的知识表示与神经符号方法；需要对较广 AI 社群有价值的进展。
+journal|JAIR|logic|主线池|verified|https://jair.org/index.php/jair/about|逻辑推理、约束处理与学习结合的完整研究；强调方法、分析与可复现证据。
+journal|TPLP|logic|专业池|verified|https://logicprogramming.org/tplp/scope-and-submission/|ASP/逻辑程序生成、语义保真、程序修复与学习；逻辑程序本身应是贡献中心。
+journal|JAR|logic|主线池|verified|https://link.springer.com/journal/10817/aims-and-scope|自动推理、证明/反例反馈、学习引导证明搜索；不能只有自然语言答题分数。
+journal|Constraints|logic|专业池|verified|https://link.springer.com/journal/10601/aims-and-scope|约束建模、获取、解释与修复；需体现约束技术的进展。
+journal|TOCL|logic|条件池|scope_pending|https://dl.acm.org/journal/tocl/about|形式语义、计算逻辑、证明性质与复杂度贡献强时考虑；最新官网范围需复核。
+journal|IJAR|logic|条件池|verified|https://shop.elsevier.com/journals/international-journal-of-approximate-reasoning/0888-613X|不确定性、近似推理、默认推理、论证与矛盾容忍；确定性 solver 流程不自动适配。
+journal|KBS|logic|主线池|verified|https://shop.elsevier.com/journals/knowledge-based-systems/0950-7051|知识/规则驱动的智能方法与推荐系统；逻辑一致性、知识融合及评分不平衡均可形成问题。
+journal|INS|logic|主线池|verified|https://shop.elsevier.com/journals/information-sciences/0020-0255|信息与知识工程、智能系统方法；适合有机制解释和跨设置验证的推理或推荐工作。
+journal|ESWA|logic|应用池|verified|https://shop.elsevier.com/journals/expert-systems-with-applications/0957-4174|智能系统的设计、验证与应用；突出实际问题、方法增量及系统性评价。
+journal|APIN|logic|应用池|verified|https://link.springer.com/journal/10489/aims-and-scope|复杂实际问题中的知识推理、学习、优化与规划；既有技术换场景不足以支撑贡献。
+journal|ML|learning|条件池|verified|https://link.springer.com/journal/10994/aims-and-scope|学习算法、反馈训练、泛化与数据效率；仅测试时重试不能写成学习贡献。
+journal|NN|learning|条件池|verified|https://shop.elsevier.com/journals/neural-networks/0893-6080|神经学习应是论文中心；约束进入训练或可推广表示学习机制比单一应用组合更合题。
+journal|Neurocomputing|learning|方法池|verified|https://shop.elsevier.com/journals/neurocomputing/0925-2312|自编码器/神经学习机制、鲁棒性和效率；需要超越堆层与模块拼接。
+journal|TNNLS|learning|成熟后冲刺|verified|https://cis.ieee.org/publications/t-neural-networks-and-learning-systems|新的神经学习算法、结构或理论；推荐/逻辑任务是验证场景，学习贡献须成立。
+journal|TETCI|learning|条件池|verified|https://cis.ieee.org/publications/t-emerging-topics-in-ci|有明确新兴计算智能议题时考虑；普通 AE 或 LLM 加 solver 不能仅凭“新兴”二字适配。
+journal|TIST|learning|条件池|scope_pending|https://dl.acm.org/journal/tist/about|可迁移智能技术与系统性实证；推理、推荐均可进一步比对近期文章与官网范围。
+journal|TAI|learning|观察池|verified|https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence|AI 理论、方法与应用；分区/SCIE 在指定快照未核实，不能按 Trans 名称推断。
+journal|TACL|learning|条件池|verified|https://transacl.org/index.php/tacl/about|自然语言到逻辑、量词/否定/歧义与语义保真；须有计算语言学或 NLP 贡献。
+journal|TMLR|learning|条件池|verified|https://jmlr.org/tmlr/|有严谨学习贡献的反馈训练与泛化分析；先核 overlap policy，不当作已发表会议稿的常规扩展刊。
+journal|ASOC|learning|方法池|verified|https://shop.elsevier.com/journals/applied-soft-computing/1568-4946|软计算处理缺失、噪声、不确定性与多目标问题；推荐实验需支撑对应主张。
+journal|IPM|recommendation|主线池|verified|https://shop.elsevier.com/journals/information-processing-and-management/0306-4573|个性化信息访问与推荐；评分预测可投，但要解释信息处理问题和实际效用。
+journal|TOIS|recommendation|成熟后冲刺|scope_pending|https://dl.acm.org/journal/tois/about|信息访问、检索与推荐的强方法或评价贡献；最新官网范围需复核。
+journal|TKDE|recommendation|成熟后冲刺|verified|https://www.computer.org/digital-library/journals/tk/cfp-ieee-transactions-on-knowledge-data-engineering|推荐的数据/知识建模、图谱、可扩展性与工程方法；纯神经网络结构贡献需谨慎。
+journal|TKDD|recommendation|条件池|scope_pending|https://dl.acm.org/journal/tkdd/about|有一般数据挖掘价值的表征、图学习、偏差或评价研究；最新官网范围需复核。
+journal|TORS|recommendation|专业池|verified|https://www.acm.org/media-center/2022/march/tors-launch|直接面向推荐算法、体验、影响与价值；CCF C 与索引/分区分别核验。
+journal|DKE|recommendation|条件池|verified|https://shop.elsevier.com/journals/data-and-knowledge-engineering/0169-023X|知识表示、获取、维护或融合主导的 KG 推荐、约束知识系统；不能只接一个 KG embedding。
+journal|DSS|recommendation|条件池|verified|https://shop.elsevier.com/journals/decision-support-systems/0167-9236|推荐如何改善决策、系统使用和影响；只有 RMSE 提升不足以支持决策贡献。
+journal|UMUAI|recommendation|条件池|verified|https://link.springer.com/journal/11257/aims-and-scope|用户偏好建模、适配、可控/可解释推荐；用户层面主张需相应证据。
+journal|FCS|recommendation|方法池|verified|https://link.springer.com/journal/11704/aims-and-scope|方法与实验完整的计算机研究；推理和推荐均需比对近期编辑领域。
+journal|DMKD|recommendation|条件池|verified|https://link.springer.com/journal/10618/aims-and-scope|可推广的数据挖掘、偏差、规则发现或评价方法；单一推荐结构微调的普适价值偏弱。
+journal|WWW|recommendation|条件池|verified|https://link.springer.com/journal/11280/aims-and-scope|Web 信息系统、推荐、Web 知识融合；这是 Springer 期刊，与 WWW 会议不同。
+journal|KAIS|recommendation|条件池|verified|https://link.springer.com/journal/10115/aims-and-scope|知识/信息系统、数据挖掘、学习与推理；围绕可复用方法或系统推进定位。
+journal|CSUR|special|综述池|scope_pending|https://dl.acm.org/journal/csur/about|综述选题先核最新政策；需要系统检索、分类、比较与综合判断，不能只是论文列表。
+journal|AIR|special|综述及综合池|verified|https://link.springer.com/journal/10462/aims-and-scope|综述、教程、批判性评价与研究报告；并非只收综述，稿件类型需按当期政策核验。
+journal|IF|special|条件池|verified|https://shop.elsevier.com/journals/information-fusion/1566-2535|多源/多层信息融合是主要贡献时考虑；仅组合 LLM 与 solver 不自动构成信息融合研究。
+conference|KR|phd|主线池|verified|https://kr.org/KR2026/call_main_track.html|知识/逻辑表示、非单调推理、ASP、约束、解释与学习推理整合。
+conference|ECAI|phd|主线池|verified|https://ecai2025.org/call-for-papers/|较完整的约束与神经符号 AI 方法；须有清楚贡献和可复现实验。
+conference|IJCAI|phd|主线池|verified|https://2025.ijcai.org/call-for-papers-main-track/|有一般 AI 意义的推理、训练、知识与学习方法；按新版目录为 B。
+conference|CP|phd|专业池|verified|https://cp2026.a4cp.org/cfp.html|自动约束建模、获取、解释与反馈；区分对 CP 的方法推进和使用 CP 的应用。
+conference|SAT|phd|专业池|verified|https://satisfiability.org/SAT26/|SAT/SMT/MaxSAT、编码、证书与 solver 方法；需明确 Boolean/satisfiability 联系。
+conference|CADE|phd|专业池|scope_pending|https://www.cadeinc.org/|自动推理、证明搜索与工具方法；独立年份 CFP 需复核，不把 IJCAR 直接归作 CADE。
+conference|ICLP|phd|专业池|verified|https://iclp25.demacs.unical.it/calls/main-track|ASP、逻辑程序与神经模型结合、生成/验证/修复；regular 与 TPLP 的出版联动须核。
+conference|IJCAR|phd|专业池|verified|https://merz.gitlabpages.inria.fr/2024-ijcar/post/call-for-papers/|自动/交互推理、学习引导证明、形式工具；CCF 本版未匹配，不继承 CADE 的 B。
+conference|AAMAS|phd|条件池|verified|https://aamas2025.org/index.php/conference/calls/call-for-papers/|确有 agent 决策、规划、约束遵循或多智能体问题；普通单轮逻辑题不自动适配。
+conference|AAAI|phd|成熟后冲刺|verified|https://aaai.org/conference/aaai/aaai-26/main-technical-track-call/|有显著方法贡献和广泛 AI 价值的神经符号推理。
+conference|ACL|phd|条件冲刺|verified|https://2026.aclweb.org/calls/main_conference_papers/|语言语义、形式化、逻辑推理与可靠评测；区分 main 与 Findings。
+conference|EMNLP|phd|条件池|verified|https://2025.emnlp.org/calls/main_conference_papers/|语言到逻辑、语义保真、LLM 推理与反馈实证；区分 main 与 Findings。
+conference|COLM|phd|条件池|verified|https://colm.cc/Conferences/2026/CallForPapers|语言模型训练、推理/搜索与工具协同；本版 CCF 未匹配。
+conference|ICLR|phd|成熟后冲刺|verified|https://iclr.cc/Conferences/2026/CallForPapers|可泛化学习、神经符号结构、反馈训练与严谨评价。
+conference|ICML|phd|成熟后冲刺|verified|https://icml.cc/Conferences/2026/CallForPapers|核心是学习机制、数据效率、泛化或理论，而非单纯 solver 系统。
+conference|NeurIPS|phd|成熟后冲刺|verified|https://neurips.cc/Conferences/2026/CallForPapers|可推广推理、学习与优化方法，或有深度的局限与评价分析。
+conference|RecSys|recommendation|主线池|verified|https://recsys.acm.org/recsys26/call/|最直接的推荐社群；算法、评分/排序评价、用户及系统价值均应与主张对齐。
+conference|CIKM|recommendation|主线池|verified|https://www.cikm2025.org/calls/full-research-papers|推荐、知识管理、图谱与表示学习；问题意识和严谨实证需同时成立。
+conference|WSDM|recommendation|主线池|verified|https://wsdm-conference.org/2026/index.php/call-for-papers/|Web 搜索/挖掘、推荐与用户建模；明确数据及信息服务的意义。
+conference|ICDM|recommendation|条件池|verified|https://www3.cs.stonybrook.edu/~icdm2025/cfp.html|推荐研究形成可推广的数据挖掘、偏差、图学习或效率技术。
+conference|DASFAA|recommendation|条件池|verified|https://dasfaa2026.github.io/calls/research-papers.html|数据库应用、知识/图数据、推荐与可扩展系统。
+conference|PAKDD|recommendation|方法池|verified|https://www.pakdd2026.org/call-for-paper-main|稀疏/长尾、表征与知识发现；研究问题、对比和统计证据需扎实。
+conference|ECIR|recommendation|方法池|verified|https://ecir2026.eu/calls/call-for-full-papers|推荐与个性化信息访问、评价和复现；本表按 full research 稿规划。
+conference|WISE|recommendation|条件池|verified|https://conferences.sigappfr.org/wise2026/call-for-papers/|Web 平台与信息系统中的推荐/知识应用；须有新的理论或实证结果。
+conference|SIGIR|recommendation|成熟后冲刺|verified|https://sigir2026.org/en-AU/pages/submissions/full-papers-track|对信息检索/访问有重要推进的推荐方法、理论或评价研究。
+conference|KDD|recommendation|成熟后冲刺|verified|https://kdd2026.kdd.org/research-track-call-for-papers/|具有较广数据科学价值的推荐、偏差、泛化或规模化方法。
+conference|WWW|recommendation|成熟后冲刺|verified|https://www2026.thewebconf.org/calls/research-tracks.html|必须回答明确 Web 问题；仅使用 Web 数据集/API 不等于符合范围。
+conference|UMAP|recommendation|专业池|verified|https://www.um.org/umap2026/call-for-full-short-papers/|用户/偏好建模、适配、交互及人本推荐；CCF 本版未匹配。
+conference|NAACL|adjacent|扩展观察|scope_pending|https://naacl.org/|语言与语义贡献成立时扩展，按当届主会 CFP 另核。
+conference|COLING|adjacent|扩展观察|scope_pending|https://aclanthology.org/venues/coling/|计算语言学贡献成立时扩展；此链接为官方文集索引，当届 CFP 须另核。
+conference|UAI|adjacent|扩展观察|scope_pending|https://www.auai.org/|概率、不确定性或因果推断成为核心时再考虑。
+conference|AISTATS|adjacent|扩展观察|scope_pending|https://aistats.org/|统计学习、估计或泛化分析成为核心时再考虑。
+conference|SDM|adjacent|扩展观察|scope_pending|https://www.siam.org/conferences-events/|数据挖掘方法形成一般贡献时另核当届 CFP。
+conference|ECML-PKDD|adjacent|扩展观察|scope_pending|https://ecmlpkdd.org/|学习/知识发现贡献成立时另核当届轨道与评测要求。
+conference|ILP|adjacent|扩展观察|scope_pending|https://logicprogramming.org/|逻辑/关系学习贡献成立时查当届 ILP CFP。
+conference|ISWC|adjacent|扩展观察|scope_pending|https://swsa.semanticweb.org/|知识图谱、语义 Web 与知识工程是核心问题时扩展。
+conference|ESWC|adjacent|扩展观察|scope_pending|https://www.eswc-conferences.org/|语义 Web、KG 与知识获取/推理贡献成立时扩展。

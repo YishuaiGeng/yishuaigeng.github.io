@@ -1,6 +1,7 @@
 ---
 title: 'Research Notebook: How These Notes Are Organized'
 date: 2026-10-02
+lastmod: 2026-10-25
 description: 'A guide to the collections, tags, naming rules, and writing workflow used in this research notebook.'
 tags: [Research Workflow]
 categories: []
@@ -25,6 +26,10 @@ Choose a collection when a post fits one; general workflow notes may stay uncate
 
 The [submission venue directory](/blog/submission-venue-directory/) starts with four CCF subject
 areas and keeps journal partitions separate by scheme and year.
+
+The [research submission roadmap](/blog/research-submission-roadmap/) turns those directories into
+manuscript routes for neuro-symbolic reasoning, solver feedback and recommender systems, with a
+downloadable venue pool and separate CCF, CAS, Xinrui and JCR labels.
 
 ## File Naming
 

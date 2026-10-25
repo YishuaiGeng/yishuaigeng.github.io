@@ -4790,10 +4790,13 @@
     "id": "journal-the-web-conference",
     "kind": "journal",
     "abbreviation": "WWW",
-    "name": "The Web Conference",
+    "name": "World Wide Web",
     "aliases": [],
     "publisher": "Springer",
-    "sourceUrls": ["https://dblp.org/db/journals/www/index.html"],
+    "sourceUrls": [
+      "https://link.springer.com/journal/11280",
+      "https://dblp.org/db/journals/www/index.html"
+    ],
     "ccf": [
       {
         "area": "cross",
@@ -4804,7 +4807,7 @@
       }
     ],
     "rankings": [],
-    "notes": "原文列于 B 类期刊表，链接指向 WWW 期刊，但全称写为 The Web Conference，疑有误；此条目与 A 类 WWW 会议不同。"
+    "notes": ""
   },
   {
     "id": "journal-frontiers-of-computer-science",

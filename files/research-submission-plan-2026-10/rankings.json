@@ -1,0 +1,4198 @@
+{
+  "checked_on": "2026-10-25",
+  "research_questions": [
+    "本地CCF2026与官方第七版正式版是否一致？",
+    "按ISSN匹配的CAS2025/Xinrui2026等级是否存在同名或历史题名误配？",
+    "哪些分区和当前索引状态仍缺少证据？"
+  ],
+  "method": "Independent methodology audit. Official CCF PDF downloaded and text-diffed against local PDF; local CAS/Xinrui rows selected using ISSN with title/alias checks. No website or source snapshot edited.",
+  "ccf_edition": {
+    "year": 2026,
+    "edition": 7,
+    "published_on": "2026-03-31",
+    "official_revision": "2026-04-09",
+    "landing_url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+    "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+    "local_pdf_sha256": "cdd80a6670b43d213c58976745edc82809f4e1b7c3251370430c43dd696158a6",
+    "official_pdf_sha256": "271b630b576bf8a4f802e767f5694caded93680e22b3a19bef7902591c45c1d3",
+    "text_diff": "Only extracted-text change: p68 journal WWW full title The Web Conference -> World Wide Web. All audited ranks unchanged.",
+    "critical_confirmations": [
+      {
+        "venue": "ICLR",
+        "rank": "A",
+        "page": 57
+      },
+      {
+        "venue": "IJCAI",
+        "rank": "B",
+        "page": 58
+      },
+      {
+        "venue": "TIST",
+        "rank": "C",
+        "page": 34
+      },
+      {
+        "venue": "TORS",
+        "rank": "C",
+        "page": 34
+      }
+    ],
+    "stale_html_warning": "AI category HTML currently accessible through text reader retains IJCAI A and no ICLR; explicit 2026 official PDF governs edition-labelled claims. Do not relabel old HTML as 2026."
+  },
+  "ranking_sources": {
+    "cas_2025": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv",
+    "xinrui_2026": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv",
+    "ccf_secondary": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/CCF2026-UTF8.csv",
+    "jcr_2025": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv"
+  },
+  "summary": {
+    "candidates": 36,
+    "cas_matched": 33,
+    "xinrui_matched": 33,
+    "ccf_matched": 28,
+    "unmatched_cas_xinrui": [
+      "TAI",
+      "TORS",
+      "TMLR"
+    ],
+    "second_broad_categories": 0,
+    "jcr_matched": 33,
+    "jcr_any_q1": [
+      "TPLP",
+      "TOCL",
+      "KBS",
+      "INS",
+      "ESWA",
+      "ASOC",
+      "NN",
+      "Neurocomputing",
+      "TNNLS",
+      "TIST",
+      "TACL",
+      "IPM",
+      "TOIS",
+      "TKDE",
+      "TKDD",
+      "DSS",
+      "FCS",
+      "DMKD",
+      "WWW",
+      "CSUR",
+      "AIR",
+      "IF"
+    ]
+  },
+  "venues": [
+    {
+      "abbreviation": "AIJ",
+      "name": "Artificial Intelligence",
+      "aliases": [
+        "AI",
+        "Artificial Intelligence Journal"
+      ],
+      "issns": [
+        "0004-3702",
+        "1872-7921"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "A",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            51
+          ],
+          "source_title": "Artificial Intelligence",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "ARTIFICIAL INTELLIGENCE",
+          "source_issn": "0004-3702/1872-7921",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 2,
+              "raw_division": "2 [122/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "ARTIFICIAL INTELLIGENCE",
+          "source_issn": "0004-3702",
+          "source_eissn": "1872-7921",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 2,
+              "raw_division": "2 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [
+        "必须按 ISSN 0004-3702/1872-7921 匹配 Elsevier 的 Artificial Intelligence；同名 MDPI Artificial Intelligence（2673-2688）是另一刊。"
+      ],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "ARTIFICIAL INTELLIGENCE",
+          "source_issn": "0004-3702",
+          "source_eissn": "1872-7921",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "4.7",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q2",
+              "rank": "74/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": false,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "JAIR",
+      "name": "Journal of Artificial Intelligence Research",
+      "aliases": [],
+      "issns": [
+        "1076-9757",
+        "1943-5037"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            53
+          ],
+          "source_title": "Journal of Artificial Intelligence Research",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "JOURNAL OF ARTIFICIAL INTELLIGENCE RESEARCH",
+          "source_issn": "1076-9757/1943-5037",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 3,
+              "raw_division": "3 [223/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "JOURNAL OF ARTIFICIAL INTELLIGENCE RESEARCH",
+          "source_issn": "1076-9757",
+          "source_eissn": "1943-5037",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 3,
+              "raw_division": "3 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "JOURNAL OF ARTIFICIAL INTELLIGENCE RESEARCH",
+          "source_issn": "1076-9757",
+          "source_eissn": "1943-5037",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "4",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q2",
+              "rank": "91/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": false,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "TPLP",
+      "name": "Theory and Practice of Logic Programming",
+      "aliases": [],
+      "issns": [
+        "1471-0684",
+        "1475-3081"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "软件工程/系统软件/程序设计语言",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            26
+          ],
+          "source_title": "Theory and Practice of Logic Programming",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "THEORY AND PRACTICE OF LOGIC PROGRAMMING",
+          "source_issn": "1471-0684/1475-3081",
+          "broad_categories": [
+            {
+              "name": "数学",
+              "division": 2,
+              "raw_division": "2 [127/815]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "THEORY AND PRACTICE OF LOGIC PROGRAMMING",
+          "source_issn": "1471-0684",
+          "source_eissn": "1475-3081",
+          "broad_categories": [
+            {
+              "name": "数学",
+              "english_name": "Mathematics",
+              "division": 2,
+              "raw_division": "2 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "THEORY AND PRACTICE OF LOGIC PROGRAMMING",
+          "source_issn": "1471-0684",
+          "source_eissn": "1475-3081",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "1.3",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+              "quartile": "Q4",
+              "rank": "103/128",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, THEORY & METHODS",
+              "quartile": "Q3",
+              "rank": "92/146",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            },
+            {
+              "category": "LOGIC",
+              "quartile": "Q1",
+              "rank": "1/27",
+              "source_category_field": "Category_3",
+              "source_quartile_field": "IF Quartile(2025)_3"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "JAR",
+      "name": "Journal of Automated Reasoning",
+      "aliases": [],
+      "issns": [
+        "0168-7433",
+        "1573-0670"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            53
+          ],
+          "source_title": "Journal of Automated Reasoning",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "JOURNAL OF AUTOMATED REASONING",
+          "source_issn": "0168-7433/1573-0670",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 3,
+              "raw_division": "3 [170/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "JOURNAL OF AUTOMATED REASONING",
+          "source_issn": "0168-7433",
+          "source_eissn": "1573-0670",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 2,
+              "raw_division": "2 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "JOURNAL OF AUTOMATED REASONING",
+          "source_issn": "0168-7433",
+          "source_eissn": "1573-0670",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "0.7",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q4",
+              "rank": "199/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": false,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "Constraints",
+      "name": "Constraints",
+      "aliases": [],
+      "issns": [
+        "1383-7133",
+        "1572-9354"
+      ],
+      "ccf_2026": [],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "CONSTRAINTS",
+          "source_issn": "1383-7133/1572-9354",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 4,
+              "raw_division": "4 [446/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "CONSTRAINTS",
+          "source_issn": "1383-7133",
+          "source_eissn": "1572-9354",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 4,
+              "raw_division": "4 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [
+        "未在已核实的 CCF2026 第七版期刊名单匹配；不等同于未被SCIE收录，也不直接代表学术质量。"
+      ],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "CONSTRAINTS",
+          "source_issn": "1383-7133",
+          "source_eissn": "1572-9354",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "1.3",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q4",
+              "rank": "173/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, THEORY & METHODS",
+              "quartile": "Q3",
+              "rank": "92/146",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            }
+          ],
+          "has_any_q1": false,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "TOCL",
+      "name": "ACM Transactions on Computational Logic",
+      "aliases": [],
+      "issns": [
+        "1529-3785",
+        "1557-945X"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "计算机科学理论",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            39
+          ],
+          "source_title": "ACM Transactions on Computational Logic",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "ACM Transactions on Computational Logic",
+          "source_issn": "1529-3785/1557-945X",
+          "broad_categories": [
+            {
+              "name": "数学",
+              "division": 4,
+              "raw_division": "4 [349/815]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "ACM Transactions on Computational Logic",
+          "source_issn": "1529-3785",
+          "source_eissn": "1557-945X",
+          "broad_categories": [
+            {
+              "name": "数学",
+              "english_name": "Mathematics",
+              "division": 3,
+              "raw_division": "3 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "ACM Transactions on Computational Logic",
+          "source_issn": "1529-3785",
+          "source_eissn": "1557-945X",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "1.1",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, THEORY & METHODS",
+              "quartile": "Q3",
+              "rank": "99/146",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "LOGIC",
+              "quartile": "Q1",
+              "rank": "2/27",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "IJAR",
+      "name": "International Journal of Approximate Reasoning",
+      "aliases": [],
+      "issns": [
+        "0888-613X",
+        "1873-4731"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            52
+          ],
+          "source_title": "International Journal of Approximate Reasoning",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
+          "source_issn": "0888-613X/1873-4731",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 3,
+              "raw_division": "3 [229/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
+          "source_issn": "0888-613X",
+          "source_eissn": "1873-4731",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 3,
+              "raw_division": "3 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "INTERNATIONAL JOURNAL OF APPROXIMATE REASONING",
+          "source_issn": "0888-613X",
+          "source_eissn": "1873-4731",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "2.8",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q3",
+              "rank": "126/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": false,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "KBS",
+      "name": "Knowledge-Based Systems",
+      "aliases": [],
+      "issns": [
+        "0950-7051",
+        "1872-7409"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            55
+          ],
+          "source_title": "Knowledge-Based Systems",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "KNOWLEDGE-BASED SYSTEMS",
+          "source_issn": "0950-7051/1872-7409",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 1,
+              "raw_division": "1 [51/758]",
+              "top": true
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "KNOWLEDGE-BASED SYSTEMS",
+          "source_issn": "0950-7051",
+          "source_eissn": "1872-7409",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 1,
+              "raw_division": "1 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "KNOWLEDGE-BASED SYSTEMS",
+          "source_issn": "0950-7051",
+          "source_eissn": "1872-7409",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "8",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q1",
+              "rank": "34/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "INS",
+      "name": "Information Sciences",
+      "aliases": [
+        "ISCI",
+        "Information Sciences"
+      ],
+      "issns": [
+        "0020-0255",
+        "1872-6291"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "数据库/数据挖掘/内容检索",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            33
+          ],
+          "source_title": "Information Sciences",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "INFORMATION SCIENCES",
+          "source_issn": "0020-0255/1872-6291",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 2,
+              "raw_division": "2 [81/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIESuppressed",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "INFORMATION SCIENCES",
+          "source_issn": "0020-0255",
+          "source_eissn": "1872-6291",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 1,
+              "raw_division": "1 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIESuppressed",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [
+        "CAS2025 的索引原始字段为 SCIESuppressed；XR2026 写 Web of Science (SCIE); Scopus。原始标签应保留，不宜把 Suppressed 自动解释成当前剔除 SCIE。"
+      ],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "INFORMATION SCIENCES",
+          "source_issn": "0020-0255",
+          "source_eissn": "1872-6291",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "6",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "quartile": "Q1",
+              "rank": "49/266",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "ESWA",
+      "name": "Expert Systems with Applications",
+      "aliases": [
+        "ESA"
+      ],
+      "issns": [
+        "0957-4174",
+        "1873-6793"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            54
+          ],
+          "source_title": "Expert Systems with Applications",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "EXPERT SYSTEMS WITH APPLICATIONS",
+          "source_issn": "0957-4174/1873-6793",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 1,
+              "raw_division": "1 [42/758]",
+              "top": true
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "EXPERT SYSTEMS WITH APPLICATIONS",
+          "source_issn": "0957-4174",
+          "source_eissn": "1873-6793",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 1,
+              "raw_division": "1 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "EXPERT SYSTEMS WITH APPLICATIONS",
+          "source_issn": "0957-4174",
+          "source_eissn": "1873-6793",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "9.4",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q1",
+              "rank": "28/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+              "quartile": "Q1",
+              "rank": "22/369",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            },
+            {
+              "category": "OPERATIONS RESEARCH & MANAGEMENT SCIENCE",
+              "quartile": "Q1",
+              "rank": "6/109",
+              "source_category_field": "Category_3",
+              "source_quartile_field": "IF Quartile(2025)_3"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "ASOC",
+      "name": "Applied Soft Computing",
+      "aliases": [
+        "ASC"
+      ],
+      "issns": [
+        "1568-4946",
+        "1872-9681"
+      ],
+      "ccf_2026": [],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "APPLIED SOFT COMPUTING",
+          "source_issn": "1568-4946/1872-9681",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 2,
+              "raw_division": "2 [60/758]",
+              "top": true
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "APPLIED SOFT COMPUTING",
+          "source_issn": "1568-4946",
+          "source_eissn": "1872-9681",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 2,
+              "raw_division": "2 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [
+        "未在已核实的 CCF2026 第七版期刊名单匹配；不等同于未被SCIE收录，也不直接代表学术质量。"
+      ],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "APPLIED SOFT COMPUTING",
+          "source_issn": "1568-4946",
+          "source_eissn": "1872-9681",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "7.8",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q1",
+              "rank": "35/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS",
+              "quartile": "Q1",
+              "rank": "25/185",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "APIN",
+      "name": "Applied Intelligence",
+      "aliases": [],
+      "issns": [
+        "0924-669X",
+        "1573-7497"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            54
+          ],
+          "source_title": "Applied Intelligence",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "APPLIED INTELLIGENCE",
+          "source_issn": "0924-669X/1573-7497",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 3,
+              "raw_division": "3 [289/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "APPLIED INTELLIGENCE",
+          "source_issn": "0924-669X",
+          "source_eissn": "1573-7497",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 3,
+              "raw_division": "3 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "APPLIED INTELLIGENCE",
+          "source_issn": "0924-669X",
+          "source_eissn": "1573-7497",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "3.5",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q2",
+              "rank": "102/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": false,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "ML",
+      "name": "Machine Learning",
+      "aliases": [],
+      "issns": [
+        "0885-6125",
+        "1573-0565"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            53
+          ],
+          "source_title": "Machine Learning",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "MACHINE LEARNING",
+          "source_issn": "0885-6125/1573-0565",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 4,
+              "raw_division": "4 [325/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "MACHINE LEARNING",
+          "source_issn": "0885-6125",
+          "source_eissn": "1573-0565",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 3,
+              "raw_division": "3 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "MACHINE LEARNING",
+          "source_issn": "0885-6125",
+          "source_eissn": "1573-0565",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "4.9",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q2",
+              "rank": "69/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": false,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "NN",
+      "name": "Neural Networks",
+      "aliases": [],
+      "issns": [
+        "0893-6080",
+        "1879-2782"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            53
+          ],
+          "source_title": "Neural Networks",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "NEURAL NETWORKS",
+          "source_issn": "0893-6080/1879-2782",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 2,
+              "raw_division": "2 [61/758]",
+              "top": true
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "NEURAL NETWORKS",
+          "source_issn": "0893-6080",
+          "source_eissn": "1879-2782",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 2,
+              "raw_division": "2 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "NEURAL NETWORKS",
+          "source_issn": "0893-6080",
+          "source_eissn": "1879-2782",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "7.2",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q1",
+              "rank": "41/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "NEUROSCIENCES",
+              "quartile": "Q1",
+              "rank": "37/330",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "Neurocomputing",
+      "name": "Neurocomputing",
+      "aliases": [
+        "NEUCOM"
+      ],
+      "issns": [
+        "0925-2312",
+        "1872-8286"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            56
+          ],
+          "source_title": "Neurocomputing",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "NEUROCOMPUTING",
+          "source_issn": "0925-2312/1872-8286",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 2,
+              "raw_division": "2 [127/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "NEUROCOMPUTING",
+          "source_issn": "0925-2312",
+          "source_eissn": "1872-8286",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 2,
+              "raw_division": "2 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "NEUROCOMPUTING",
+          "source_issn": "0925-2312",
+          "source_eissn": "1872-8286",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "6.7",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q1",
+              "rank": "43/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "TNNLS",
+      "name": "IEEE Transactions on Neural Networks and Learning Systems",
+      "aliases": [
+        "IEEE TNNLS"
+      ],
+      "issns": [
+        "2162-237X",
+        "2162-2388"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            52
+          ],
+          "source_title": "IEEE Transactions on Neural Networks and learning systems",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "IEEE Transactions on Neural Networks and Learning Systems",
+          "source_issn": "2162-237X/2162-2388",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 1,
+              "raw_division": "1 [36/758]",
+              "top": true
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "IEEE Transactions on Neural Networks and Learning Systems",
+          "source_issn": "2162-237X",
+          "source_eissn": "2162-2388",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 2,
+              "raw_division": "2 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [
+        "前身 IEEE Transactions on Neural Networks（1045-9227/1941-0093，档案至2011）应视为历史题名，不直接拿前身ISSN匹配现刊分区。"
+      ],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "IEEE Transactions on Neural Networks and Learning Systems",
+          "source_issn": "2162-237X",
+          "source_eissn": "2162-2388",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "9.7",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q1",
+              "rank": "25/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, HARDWARE & ARCHITECTURE",
+              "quartile": "Q1",
+              "rank": "2/60",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            },
+            {
+              "category": "COMPUTER SCIENCE, THEORY & METHODS",
+              "quartile": "Q1",
+              "rank": "8/146",
+              "source_category_field": "Category_3",
+              "source_quartile_field": "IF Quartile(2025)_3"
+            },
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+              "quartile": "Q1",
+              "rank": "21/369",
+              "source_category_field": "Category_4",
+              "source_quartile_field": "IF Quartile(2025)_4"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "TETCI",
+      "name": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+      "aliases": [],
+      "issns": [
+        "2471-285X"
+      ],
+      "ccf_2026": [],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+          "source_issn": "2471-285X/2471-285X",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 2,
+              "raw_division": "2 [141/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+          "source_issn": "2471-285X",
+          "source_eissn": "2471-285X",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 2,
+              "raw_division": "2 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [
+        "未在已核实的 CCF2026 第七版期刊名单匹配；不等同于未被SCIE收录，也不直接代表学术质量。"
+      ],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+          "source_issn": "2471-285X",
+          "source_eissn": "2471-285X",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "6",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q2",
+              "rank": "57/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": false,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "TIST",
+      "name": "ACM Transactions on Intelligent Systems and Technology",
+      "aliases": [
+        "ACM TIST"
+      ],
+      "issns": [
+        "2157-6904",
+        "2157-6912"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "数据库/数据挖掘/内容检索",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            34
+          ],
+          "source_title": "ACM Transactions on Intelligent Systems and Technology",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "ACM Transactions on Intelligent Systems and Technology",
+          "source_issn": "2157-6904/2157-6912",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 3,
+              "raw_division": "3 [230/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "ACM Transactions on Intelligent Systems and Technology",
+          "source_issn": "2157-6904",
+          "source_eissn": "2157-6912",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 2,
+              "raw_division": "2 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "ACM Transactions on Intelligent Systems and Technology",
+          "source_issn": "2157-6904",
+          "source_eissn": "2157-6912",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "10.7",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q1",
+              "rank": "21/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "quartile": "Q1",
+              "rank": "9/266",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "TAI",
+      "name": "IEEE Transactions on Artificial Intelligence",
+      "aliases": [
+        "IEEE TAI"
+      ],
+      "issns": [
+        "2691-4581"
+      ],
+      "ccf_2026": [],
+      "cas_2025": [],
+      "xinrui_2026": [],
+      "indexing": {
+        "label": "Scopus（出版社CiteScore图）；SCIE待核",
+        "scopus_evidence": "publisher CiteScore 6.4 image",
+        "source_url": "https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence",
+        "metric_image_url": "https://cis.ieee.org/images/files/Publications/impact-scores/TAI-Impact_Score_2025.jpg",
+        "current_mjl_verified": false,
+        "evidence_status": "publisher evidence; no SCIE assertion"
+      },
+      "notes": [
+        "CAS2025 与 Xinrui2026 本地快照均未按刊名或 ISSN 匹配，不填分区；分区缺失不能证明当前未被 SCIE/ESCI/Scopus 收录。",
+        "未在已核实的 CCF2026 第七版期刊名单匹配；不等同于未被SCIE收录，也不直接代表学术质量。"
+      ],
+      "jcr_2025": []
+    },
+    {
+      "abbreviation": "TACL",
+      "name": "Transactions of the Association for Computational Linguistics",
+      "aliases": [
+        "Transactions of the ACL"
+      ],
+      "issns": [
+        "2307-387X"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            53
+          ],
+          "source_title": "Transactions of the Association for Computational Linguistics",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "Transactions of the Association for Computational Linguistics",
+          "source_issn": "2307-387X/2307-387X",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 2,
+              "raw_division": "2 [103/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SSCI;AHCISCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "Transactions of the Association for Computational Linguistics",
+          "source_issn": "-",
+          "source_eissn": "2307-387X",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 1,
+              "raw_division": "1 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE, SSCI, AHCI); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE / SSCI / AHCI；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE, SSCI, AHCI); Scopus",
+        "cas2025_raw": "SSCI;AHCISCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "Transactions of the Association for Computational Linguistics",
+          "source_issn": "N/A",
+          "source_eissn": "2307-387X",
+          "index_raw": "SCIE, AHCI, SSCI",
+          "impact_factor_raw": "11.7",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q1",
+              "rank": "15/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "LANGUAGE & LINGUISTICS",
+              "quartile": "N/A",
+              "rank": "N/A",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            },
+            {
+              "category": "LINGUISTICS",
+              "quartile": "Q1",
+              "rank": "2/312",
+              "source_category_field": "Category_3",
+              "source_quartile_field": "IF Quartile(2025)_3"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "TMLR",
+      "name": "Transactions on Machine Learning Research",
+      "aliases": [],
+      "issns": [
+        "2835-8856"
+      ],
+      "ccf_2026": [],
+      "cas_2025": [],
+      "xinrui_2026": [],
+      "indexing": {
+        "label": "ISSN Portal列Scopus；SCIE待核",
+        "source_url": "https://portal.issn.org/resource/ISSN/2835-8856",
+        "publisher_url": "https://jmlr.org/tmlr/",
+        "current_mjl_verified": false,
+        "evidence_status": "ISSN Portal indexing list; no SCIE assertion"
+      },
+      "notes": [
+        "CAS2025 与 Xinrui2026 本地快照均未按刊名或 ISSN 匹配，不填分区；分区缺失不能证明当前未被 SCIE/ESCI/Scopus 收录。",
+        "未在已核实的 CCF2026 第七版期刊名单匹配；不等同于未被SCIE收录，也不直接代表学术质量。"
+      ],
+      "jcr_2025": []
+    },
+    {
+      "abbreviation": "IPM",
+      "name": "Information Processing & Management",
+      "aliases": [],
+      "issns": [
+        "0306-4573",
+        "1873-5371"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "数据库/数据挖掘/内容检索",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            33
+          ],
+          "source_title": "Information Processing & Management",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "INFORMATION PROCESSING & MANAGEMENT",
+          "source_issn": "0306-4573/1873-5371",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 1,
+              "raw_division": "1 [26/758]",
+              "top": true
+            }
+          ],
+          "index_raw": "SSCI;SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "INFORMATION PROCESSING & MANAGEMENT",
+          "source_issn": "0306-4573",
+          "source_eissn": "1873-5371",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 1,
+              "raw_division": "1 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE, SSCI); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE / SSCI；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE, SSCI); Scopus",
+        "cas2025_raw": "SSCI;SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "INFORMATION PROCESSING & MANAGEMENT",
+          "source_issn": "0306-4573",
+          "source_eissn": "1873-5371",
+          "index_raw": "SCIE, SSCI",
+          "impact_factor_raw": "8.1",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "quartile": "Q1",
+              "rank": "18/266",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "INFORMATION SCIENCE & LIBRARY SCIENCE",
+              "quartile": "Q1",
+              "rank": "10/172",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "TOIS",
+      "name": "ACM Transactions on Information Systems",
+      "aliases": [],
+      "issns": [
+        "1046-8188",
+        "1558-2868"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "A",
+          "area": "数据库/数据挖掘/内容检索",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            32
+          ],
+          "source_title": "ACM Transactions on Information Systems",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "ACM TRANSACTIONS ON INFORMATION SYSTEMS",
+          "source_issn": "1046-8188/1558-2868",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 2,
+              "raw_division": "2 [58/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "ACM TRANSACTIONS ON INFORMATION SYSTEMS",
+          "source_issn": "1046-8188",
+          "source_eissn": "1558-2868",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 1,
+              "raw_division": "1 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "ACM TRANSACTIONS ON INFORMATION SYSTEMS",
+          "source_issn": "1046-8188",
+          "source_eissn": "1558-2868",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "11.2",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "quartile": "Q1",
+              "rank": "7/266",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "TKDE",
+      "name": "IEEE Transactions on Knowledge and Data Engineering",
+      "aliases": [],
+      "issns": [
+        "1041-4347",
+        "1558-2191"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "A",
+          "area": "数据库/数据挖掘/内容检索",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            32
+          ],
+          "source_title": "IEEE Transactions on Knowledge and Data Engineering",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING",
+          "source_issn": "1041-4347/1558-2191",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 1,
+              "raw_division": "1 [43/758]",
+              "top": true
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING",
+          "source_issn": "1041-4347",
+          "source_eissn": "1558-2191",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 2,
+              "raw_division": "2 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING",
+          "source_issn": "1041-4347",
+          "source_eissn": "1558-2191",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "11.6",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q1",
+              "rank": "16/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "quartile": "Q1",
+              "rank": "6/266",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            },
+            {
+              "category": "ENGINEERING, ELECTRICAL & ELECTRONIC",
+              "quartile": "Q1",
+              "rank": "12/369",
+              "source_category_field": "Category_3",
+              "source_quartile_field": "IF Quartile(2025)_3"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "TKDD",
+      "name": "ACM Transactions on Knowledge Discovery from Data",
+      "aliases": [],
+      "issns": [
+        "1556-4681",
+        "1556-472X"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "数据库/数据挖掘/内容检索",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            33
+          ],
+          "source_title": "ACM Transactions on Knowledge Discovery from Data",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "ACM Transactions on Knowledge Discovery from Data",
+          "source_issn": "1556-4681/1556-472X",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 3,
+              "raw_division": "3 [187/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "ACM Transactions on Knowledge Discovery from Data",
+          "source_issn": "1556-4681",
+          "source_eissn": "1556-472X",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 3,
+              "raw_division": "3 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "ACM Transactions on Knowledge Discovery from Data",
+          "source_issn": "1556-4681",
+          "source_eissn": "1556-472X",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "6.9",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "quartile": "Q1",
+              "rank": "34/266",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+              "quartile": "Q1",
+              "rank": "8/128",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "TORS",
+      "name": "ACM Transactions on Recommender Systems",
+      "aliases": [],
+      "issns": [
+        "2770-6699"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "数据库/数据挖掘/内容检索",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            34
+          ],
+          "source_title": "ACM Transactions on Recommender Systems",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [],
+      "xinrui_2026": [],
+      "indexing": {
+        "label": "当前SCIE/ESCI/Scopus待核",
+        "current_mjl_verified": false,
+        "source_url": "https://portal.issn.org/resource/ISSN/2770-6699",
+        "evidence_status": "ISSN and publication identity confirmed; current indexing unresolved"
+      },
+      "notes": [
+        "CAS2025 与 Xinrui2026 本地快照均未按刊名或 ISSN 匹配，不填分区；分区缺失不能证明当前未被 SCIE/ESCI/Scopus 收录。"
+      ],
+      "jcr_2025": []
+    },
+    {
+      "abbreviation": "DKE",
+      "name": "Data & Knowledge Engineering",
+      "aliases": [],
+      "issns": [
+        "0169-023X",
+        "1872-6933"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            33,
+            52
+          ],
+          "source_title": "Data & Knowledge Engineering",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        },
+        {
+          "rank": "B",
+          "area": "数据库/数据挖掘/内容检索",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            33,
+            52
+          ],
+          "source_title": "Data & Knowledge Engineering",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "DATA & KNOWLEDGE ENGINEERING",
+          "source_issn": "0169-023X/1872-6933",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 3,
+              "raw_division": "3 [183/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "DATA & KNOWLEDGE ENGINEERING",
+          "source_issn": "0169-023X",
+          "source_eissn": "1872-6933",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 3,
+              "raw_division": "3 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "DATA & KNOWLEDGE ENGINEERING",
+          "source_issn": "0169-023X",
+          "source_eissn": "1872-6933",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "3.9",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q2",
+              "rank": "94/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "quartile": "Q2",
+              "rank": "107/266",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            }
+          ],
+          "has_any_q1": false,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "DSS",
+      "name": "Decision Support Systems",
+      "aliases": [],
+      "issns": [
+        "0167-9236",
+        "1873-5797"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "人工智能",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            54
+          ],
+          "source_title": "Decision Support Systems",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "DECISION SUPPORT SYSTEMS",
+          "source_issn": "0167-9236/1873-5797",
+          "broad_categories": [
+            {
+              "name": "管理学",
+              "division": 2,
+              "raw_division": "2 [63/1025]",
+              "top": true
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "DECISION SUPPORT SYSTEMS",
+          "source_issn": "0167-9236",
+          "source_eissn": "1873-5797",
+          "broad_categories": [
+            {
+              "name": "管理学",
+              "english_name": "Management Science",
+              "division": 1,
+              "raw_division": "1 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "DECISION SUPPORT SYSTEMS",
+          "source_issn": "0167-9236",
+          "source_eissn": "1873-5797",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "7.5",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q1",
+              "rank": "39/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "quartile": "Q1",
+              "rank": "24/266",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            },
+            {
+              "category": "OPERATIONS RESEARCH & MANAGEMENT SCIENCE",
+              "quartile": "Q1",
+              "rank": "10/109",
+              "source_category_field": "Category_3",
+              "source_quartile_field": "IF Quartile(2025)_3"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "UMUAI",
+      "name": "User Modeling and User-Adapted Interaction",
+      "aliases": [],
+      "issns": [
+        "0924-1868",
+        "1573-1391"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "人机交互与普适计算",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            62
+          ],
+          "source_title": "User Modeling and User-Adapted Interaction",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "USER MODELING AND USER-ADAPTED INTERACTION",
+          "source_issn": "0924-1868/1573-1391",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 2,
+              "raw_division": "2 [131/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "USER MODELING AND USER-ADAPTED INTERACTION",
+          "source_issn": "0924-1868",
+          "source_eissn": "1573-1391",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 2,
+              "raw_division": "2 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "USER MODELING AND USER-ADAPTED INTERACTION",
+          "source_issn": "0924-1868",
+          "source_eissn": "1573-1391",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "4.5",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, CYBERNETICS",
+              "quartile": "Q2",
+              "rank": "10/34",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": false,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "FCS",
+      "name": "Frontiers of Computer Science",
+      "aliases": [],
+      "issns": [
+        "2095-2228",
+        "2095-2236"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "交叉/综合/新兴",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            68
+          ],
+          "source_title": "Frontiers of Computer Science",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "Frontiers of Computer Science",
+          "source_issn": "2095-2228/2095-2236",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 2,
+              "raw_division": "2 [152/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "Frontiers of Computer Science",
+          "source_issn": "2095-2228",
+          "source_eissn": "2095-2236",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 2,
+              "raw_division": "2 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "Frontiers of Computer Science",
+          "source_issn": "2095-2228",
+          "source_eissn": "2095-2236",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "7.3",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "quartile": "Q1",
+              "rank": "27/266",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+              "quartile": "Q1",
+              "rank": "6/128",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            },
+            {
+              "category": "COMPUTER SCIENCE, THEORY & METHODS",
+              "quartile": "Q1",
+              "rank": "12/146",
+              "source_category_field": "Category_3",
+              "source_quartile_field": "IF Quartile(2025)_3"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "DMKD",
+      "name": "Data Mining and Knowledge Discovery",
+      "aliases": [],
+      "issns": [
+        "1384-5810",
+        "1573-756X"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "数据库/数据挖掘/内容检索",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            33
+          ],
+          "source_title": "Data Mining and Knowledge Discovery",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "DATA MINING AND KNOWLEDGE DISCOVERY",
+          "source_issn": "1384-5810/1573-756X",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 3,
+              "raw_division": "3 [253/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "DATA MINING AND KNOWLEDGE DISCOVERY",
+          "source_issn": "1384-5810",
+          "source_eissn": "1573-756X",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 3,
+              "raw_division": "3 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "DATA MINING AND KNOWLEDGE DISCOVERY",
+          "source_issn": "1384-5810",
+          "source_eissn": "1573-756X",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "5.5",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q2",
+              "rank": "60/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "quartile": "Q1",
+              "rank": "55/266",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "WWW",
+      "name": "World Wide Web",
+      "aliases": [
+        "World Wide Web-Internet and Web Information Systems",
+        "World Wide Web: Internet and Web Information Systems"
+      ],
+      "issns": [
+        "1386-145X",
+        "1573-1413"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "交叉/综合/新兴",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            68
+          ],
+          "source_title": "World Wide Web-Internet and Web Information Systems",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "WORLD WIDE WEB-INTERNET AND WEB INFORMATION SYSTEMS",
+          "source_issn": "1386-145X/1573-1413",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 4,
+              "raw_division": "4 [371/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "WORLD WIDE WEB-INTERNET AND WEB INFORMATION SYSTEMS",
+          "source_issn": "1386-145X",
+          "source_eissn": "1573-1413",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 3,
+              "raw_division": "3 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [
+        "CCF2026 第七版 4月9日正式勘误已把 p68 B类期刊表中的 The Web Conference 改为 World Wide Web；WWW 期刊与 A类 The Web Conference 会议应分开。当前期刊官网主标题 World Wide Web，副标题 Internet and Web Information Systems。"
+      ],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "WORLD WIDE WEB-INTERNET AND WEB INFORMATION SYSTEMS",
+          "source_issn": "1386-145X",
+          "source_eissn": "1573-1413",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "4.5",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "quartile": "Q2",
+              "rank": "91/266",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, SOFTWARE ENGINEERING",
+              "quartile": "Q1",
+              "rank": "30/128",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "KAIS",
+      "name": "Knowledge and Information Systems",
+      "aliases": [],
+      "issns": [
+        "0219-1377",
+        "0219-3116"
+      ],
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "数据库/数据挖掘/内容检索",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "pages": [
+            33
+          ],
+          "source_title": "Knowledge and Information Systems",
+          "verified_against_official_pdf": true,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+        }
+      ],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "KNOWLEDGE AND INFORMATION SYSTEMS",
+          "source_issn": "0219-1377/0219-3116",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 4,
+              "raw_division": "4 [362/758]",
+              "top": false
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "KNOWLEDGE AND INFORMATION SYSTEMS",
+          "source_issn": "0219-1377",
+          "source_eissn": "0219-3116",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 3,
+              "raw_division": "3 区",
+              "top": false
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "KNOWLEDGE AND INFORMATION SYSTEMS",
+          "source_issn": "0219-1377",
+          "source_eissn": "0219-3116",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "3.6",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q2",
+              "rank": "99/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, INFORMATION SYSTEMS",
+              "quartile": "Q2",
+              "rank": "115/266",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            }
+          ],
+          "has_any_q1": false,
+          "all_categories_q1": false,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "CSUR",
+      "name": "ACM Computing Surveys",
+      "aliases": [
+        "ACM CSUR",
+        "Computing Surveys"
+      ],
+      "issns": [
+        "0360-0300",
+        "1557-7341"
+      ],
+      "ccf_2026": [],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "ACM COMPUTING SURVEYS",
+          "source_issn": "0360-0300/1557-7341",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 1,
+              "raw_division": "1 [4/758]",
+              "top": true
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "ACM COMPUTING SURVEYS",
+          "source_issn": "0360-0300",
+          "source_eissn": "1557-7341",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 1,
+              "raw_division": "1 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [
+        "未在已核实的 CCF2026 第七版期刊名单匹配；不等同于未被SCIE收录，也不直接代表学术质量。"
+      ],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "ACM COMPUTING SURVEYS",
+          "source_issn": "0360-0300",
+          "source_eissn": "1557-7341",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "30.4",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, THEORY & METHODS",
+              "quartile": "Q1",
+              "rank": "1/146",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "AIR",
+      "name": "Artificial Intelligence Review",
+      "aliases": [],
+      "issns": [
+        "0269-2821",
+        "1573-7462"
+      ],
+      "ccf_2026": [],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "ARTIFICIAL INTELLIGENCE REVIEW",
+          "source_issn": "0269-2821/1573-7462",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 1,
+              "raw_division": "1 [49/758]",
+              "top": true
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "ARTIFICIAL INTELLIGENCE REVIEW",
+          "source_issn": "0269-2821",
+          "source_eissn": "1573-7462",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 1,
+              "raw_division": "1 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [
+        "未在已核实的 CCF2026 第七版期刊名单匹配；不等同于未被SCIE收录，也不直接代表学术质量。"
+      ],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "ARTIFICIAL INTELLIGENCE REVIEW",
+          "source_issn": "0269-2821",
+          "source_eissn": "1573-7462",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "18.8",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q1",
+              "rank": "6/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    },
+    {
+      "abbreviation": "IF",
+      "name": "Information Fusion",
+      "aliases": [],
+      "issns": [
+        "1566-2535",
+        "1872-6305"
+      ],
+      "ccf_2026": [],
+      "cas_2025": [
+        {
+          "year": 2025,
+          "source_title": "Information Fusion",
+          "source_issn": "1566-2535/1872-6305",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "division": 1,
+              "raw_division": "1 [11/758]",
+              "top": true
+            }
+          ],
+          "index_raw": "SCIE",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/FQBJCR2025-UTF8.csv"
+        }
+      ],
+      "xinrui_2026": [
+        {
+          "year": 2026,
+          "source_title": "Information Fusion",
+          "source_issn": "1566-2535",
+          "source_eissn": "1872-6305",
+          "broad_categories": [
+            {
+              "name": "计算机科学",
+              "english_name": "Computer Science",
+              "division": 1,
+              "raw_division": "1 区",
+              "top": true
+            }
+          ],
+          "index_raw": "Web of Science (SCIE); Scopus",
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/XR2026-UTF8.csv"
+        }
+      ],
+      "indexing": {
+        "label": "SCIE；Scopus（XR2026快照）",
+        "xr2026_raw": "Web of Science (SCIE); Scopus",
+        "cas2025_raw": "SCIE",
+        "current_mjl_verified": false,
+        "evidence_status": "local secondary snapshot; not current MJL audit"
+      },
+      "notes": [
+        "未在已核实的 CCF2026 第七版期刊名单匹配；不等同于未被SCIE收录，也不直接代表学术质量。"
+      ],
+      "jcr_2025": [
+        {
+          "source_filename": "JCR2025-UTF8.csv",
+          "source_year_label": 2025,
+          "metric_year_from_column_label": 2025,
+          "report_release_year": 2026,
+          "edition_year_status": "已据固定来源README、Clarivate当前2026版统计及出版社指标年份交叉核对：2025指标，2026发布。",
+          "source_title": "Information Fusion",
+          "source_issn": "1566-2535",
+          "source_eissn": "1872-6305",
+          "index_raw": "SCIE",
+          "impact_factor_raw": "17.4",
+          "categories": [
+            {
+              "category": "COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE",
+              "quartile": "Q1",
+              "rank": "7/210",
+              "source_category_field": "Category_1",
+              "source_quartile_field": "IF Quartile(2025)_1"
+            },
+            {
+              "category": "COMPUTER SCIENCE, THEORY & METHODS",
+              "quartile": "Q1",
+              "rank": "4/146",
+              "source_category_field": "Category_2",
+              "source_quartile_field": "IF Quartile(2025)_2"
+            }
+          ],
+          "has_any_q1": true,
+          "all_categories_q1": true,
+          "source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/中科院分区表及JCR原始数据文件/JCR2025-UTF8.csv",
+          "metric_year": 2025,
+          "release_date": "2026-06-17",
+          "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md"
+        }
+      ]
+    }
+  ],
+  "conferences": [
+    {
+      "abbreviation": "KR",
+      "aliases": [],
+      "name": "International Conference on Principles of Knowledge Representation and Reasoning",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 58,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "AAAI",
+      "aliases": [],
+      "name": "AAAI Conference on Artificial Intelligence",
+      "ccf_2026": [
+        {
+          "rank": "A",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 57,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "IJCAI",
+      "aliases": [],
+      "name": "International Joint Conference on Artificial Intelligence",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 58,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "ICLR",
+      "aliases": [],
+      "name": "International Conference on Learning Representations",
+      "ccf_2026": [
+        {
+          "rank": "A",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 57,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "NeurIPS",
+      "aliases": [],
+      "name": "Conference on Neural Information Processing Systems",
+      "ccf_2026": [
+        {
+          "rank": "A",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 57,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "ICML",
+      "aliases": [],
+      "name": "International Conference on Machine Learning",
+      "ccf_2026": [
+        {
+          "rank": "A",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 57,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "ACL",
+      "aliases": [],
+      "name": "Annual Meeting of the Association for Computational Linguistics",
+      "ccf_2026": [
+        {
+          "rank": "A",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 57,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "EMNLP",
+      "aliases": [],
+      "name": "Conference on Empirical Methods in Natural Language Processing",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 58,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "NAACL",
+      "aliases": [],
+      "name": "North American Chapter of the Association for Computational Linguistics",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 58,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "COLING",
+      "aliases": [],
+      "name": "International Conference on Computational Linguistics",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 58,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "UAI",
+      "aliases": [],
+      "name": "Conference on Uncertainty in Artificial Intelligence",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 58,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "AISTATS",
+      "aliases": [],
+      "name": "International Conference on Artificial Intelligence and Statistics",
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 59,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "RecSys",
+      "aliases": [],
+      "name": "ACM Conference on Recommender Systems",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 36,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "SIGIR",
+      "aliases": [],
+      "name": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "ccf_2026": [
+        {
+          "rank": "A",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 35,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "WWW",
+      "aliases": [],
+      "name": "The Web Conference",
+      "ccf_2026": [
+        {
+          "rank": "A",
+          "area": "cross",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 70,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": [
+        "此项是 The Web Conference，A类、p70；与World Wide Web期刊（Springer、B类、p68）分开。"
+      ]
+    },
+    {
+      "abbreviation": "KDD",
+      "aliases": [
+        "SIGKDD"
+      ],
+      "name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "ccf_2026": [
+        {
+          "rank": "A",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 35,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "WSDM",
+      "aliases": [],
+      "name": "ACM International Conference on Web Search and Data Mining",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 36,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "CIKM",
+      "aliases": [],
+      "name": "ACM International Conference on Information and Knowledge Management",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 36,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "ICDM",
+      "aliases": [],
+      "name": "IEEE International Conference on Data Mining",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 36,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "SDM",
+      "aliases": [],
+      "name": "SIAM International Conference on Data Mining",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 36,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "ECML-PKDD",
+      "aliases": [],
+      "name": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 36,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "COLM",
+      "aliases": [],
+      "name": "Conference on Language Modeling",
+      "ccf_2026": [],
+      "notes": [
+        "未在已核实的2026第七版正式PDF中匹配；不据此断言其他年度/机构标准的等级。"
+      ]
+    },
+    {
+      "abbreviation": "ICLP",
+      "aliases": [],
+      "name": "International Conference on Logic Programming",
+      "ccf_2026": [],
+      "notes": [
+        "未在已核实的2026第七版正式PDF中匹配；不据此断言其他年度/机构标准的等级。"
+      ]
+    },
+    {
+      "abbreviation": "CP",
+      "aliases": [],
+      "name": "International Conference on Principles and Practice of Constraint Programming",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "software",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 28,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "SAT",
+      "aliases": [],
+      "name": "International Conference on Theory and Applications of Satisfiability Testing",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "theory",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 42,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "CADE",
+      "aliases": [],
+      "name": "Conference on Automated Deduction",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "theory",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 42,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": [
+        "官方PDF p42 仅列 CADE = Conference on Automated Deduction；本地CSV把IJCAR并入全称的写法与新版PDF不符，不沿用。"
+      ]
+    },
+    {
+      "abbreviation": "IJCAR",
+      "aliases": [],
+      "name": "International Joint Conference on Automated Reasoning",
+      "ccf_2026": [],
+      "notes": [
+        "未在已核实的2026第七版正式PDF中匹配；不据此断言其他年度/机构标准的等级。",
+        "与CADE是不同会议；不可从本地CSV的合并全称继承CADE B类。"
+      ]
+    },
+    {
+      "abbreviation": "ECAI",
+      "aliases": [],
+      "name": "European Conference on Artificial Intelligence",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 58,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "AAMAS",
+      "aliases": [],
+      "name": "International Joint Conference on Autonomous Agents and Multi-agent Systems",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 58,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "ILP",
+      "aliases": [],
+      "name": "International Conference on Inductive Logic Programming",
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "ai",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 60,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "DASFAA",
+      "aliases": [],
+      "name": "International Conference on Database Systems for Advanced Applications",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 36,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "PAKDD",
+      "aliases": [],
+      "name": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 37,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "ECIR",
+      "aliases": [],
+      "name": "European Conference on Information Retrieval",
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 37,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "WISE",
+      "aliases": [],
+      "name": "Web Information Systems Engineering Conference",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 36,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "abbreviation": "UMAP",
+      "aliases": [],
+      "name": "ACM Conference on User Modeling, Adaptation and Personalization",
+      "ccf_2026": [],
+      "notes": [
+        "未在已核实的2026第七版正式PDF中匹配；不据此断言其他年度/机构标准的等级。"
+      ]
+    },
+    {
+      "abbreviation": "ISWC",
+      "aliases": [],
+      "name": "International Semantic Web Conference",
+      "ccf_2026": [
+        {
+          "rank": "B",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 36,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": [
+        "官方CCF PDF p36 原文题名写 IEEE International Semantic Web Conference；规范常用名为 International Semantic Web Conference，不应把会议误作IEEE独办。"
+      ],
+      "ccf_source_title": "IEEE International Semantic Web Conference"
+    },
+    {
+      "abbreviation": "ESWC",
+      "aliases": [],
+      "name": "Extended Semantic Web Conference",
+      "ccf_2026": [
+        {
+          "rank": "C",
+          "area": "data",
+          "year": 2026,
+          "edition": 7,
+          "official_revision": "2026-04-09",
+          "page": 37,
+          "source_url": "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F",
+          "verified_against_official_pdf": true
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "conference_audit_note": "CCF2026 official Apr9 PDF governs; local CCF CSV CADE/IJCAR combined title is stale. ICLP, IJCAR, UMAP, COLM are unmatched in this edition.",
+  "jcr_year_caution": "该固定CSV以2025指标年命名；来源README明确2026-06-17发布。应写JCR2025指标（2026发布），不可写2025发布/2024指标。完整保留多学科Q，含N/A，不静默选最佳。",
+  "jcr_edition": {
+    "source_year_label": 2025,
+    "metric_year": 2025,
+    "report_release_year": 2026,
+    "release_date": "2026-06-17",
+    "release_date_source_type": "pinned secondary dataset README",
+    "release_date_source_url": "https://github.com/hitfyd/ShowJCR/blob/4687a8f608f20aaf004299992f5d347dba009361/README.md",
+    "official_current_edition_evidence_url": "https://clarivate.com/academia-government/scientific-and-academic-research/research-funding-analytics/journal-citation-reports/",
+    "official_current_edition_evidence": "The 2026 release of Journal Citation Reports includes: 22,643 journals. This equals local CSV row count 22643.",
+    "publisher_crosscheck": "Springer World Wide Web currently displays Journal Impact Factor 4.5 (2025), identical to IF(2025)=4.5 in CSV.",
+    "display_label": "JCR 2025指标（2026发布）",
+    "raw_fields": [
+      "IF(2025)",
+      "Category_1..6",
+      "IF Quartile(2025)_1..6",
+      "IF Rank(2025)_1..6"
+    ],
+    "selection_policy": "Preserve all subject category quartiles, including N/A. has_any_q1 is an explicit aggregate flag, not replacement of full array. No best-quartile-only display."
+  }
+}
